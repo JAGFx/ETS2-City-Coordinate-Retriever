@@ -1,17 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Configuration;
-using System.Globalization;
 using System.IO;
+using System.Runtime.InteropServices;
+using System.Threading;
 using System.Windows.Forms;
-using System.Xml;
 using InputManager;
-using System.Windows.Forms;
 
 namespace ets2_city_coordinate_retriever
 {
@@ -87,6 +80,7 @@ Once the operation is complete, all coordinates will be stored in:
                             }
                             int keyPressTime = (int) (50*sleepMultiplier);
 
+                            // Need to be on US keyboard layout !
                             Keyboard.KeyPress(Keys.Oemtilde);
                             Thread.Sleep((int)(500 * sleepMultiplier));
                             Keyboard.KeyPress(Keys.Back);
@@ -115,7 +109,7 @@ Once the operation is complete, all coordinates will be stored in:
                                 else if (CityCharacters.Contains(index.ToString().ToUpper()))
                                 {
                                     Keyboard.KeyPress(
-                                        (Keys) System.Enum.Parse(typeof (Keys), index.ToString().ToUpper()));
+                                        (Keys) Enum.Parse(typeof (Keys), index.ToString().ToUpper()));
                                     Thread.Sleep(keyPressTime);
                                 }
                             }
@@ -142,7 +136,7 @@ Once the operation is complete, all coordinates will be stored in:
                                 else if (CityCharacters.Contains(index.ToString().ToUpper()))
                                 {
                                     Keyboard.KeyPress(
-                                        (Keys)System.Enum.Parse(typeof(Keys), index.ToString().ToUpper()));
+                                        (Keys)Enum.Parse(typeof(Keys), index.ToString().ToUpper()));
                                     Thread.Sleep(keyPressTime);
                                 }
                             }
