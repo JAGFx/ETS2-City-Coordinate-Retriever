@@ -1,0 +1,8 @@
+The following cities need to be edited manually:
+Brest (FR). The teleporter sends it to Brest (BY).
+Bordeaux (FR). The teleporter goes to Bor (CZ), cannot find it and chooses Bordeaux.
+San Sebastian/Donestia (ES). For some reason, it chooses Douglas over San Sebastian/Donestia.
+Haparanda (S). It also has Aranda de Duero as a value.
+Turku (FI). It also has Ulm.
+Timisoara (RO). It is missing.
+All countries from Going East are missing too (Whoops, my bad)

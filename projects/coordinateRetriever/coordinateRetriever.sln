@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ets2-city-coordinate-retriever", "ets2-city-coordinate-retriever.csproj", "{5043794E-21C6-4BA1-9EEA-0040620433E3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logToCoordinate", "..\logToCoordinate\logToCoordinate.csproj", "{56DD72ED-FAD2-44C1-8FA8-581799D009F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coordinateRetriever", "coordinateRetriever.csproj", "{5043794E-21C6-4BA1-9EEA-0040620433E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
