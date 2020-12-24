@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .big_bag_seed {
- cargo: "cargo.big_bag_seed"
-}
-}

@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .potahydro {
- cargo: "cargo.potahydro"
-}
-}

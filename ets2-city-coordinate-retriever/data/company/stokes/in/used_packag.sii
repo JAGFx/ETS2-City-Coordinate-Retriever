@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .used_packag {
- cargo: "cargo.used_packag"
-}
-}

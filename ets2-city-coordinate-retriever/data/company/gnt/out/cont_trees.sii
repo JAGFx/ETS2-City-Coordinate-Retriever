@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .cont_trees {
- cargo: "cargo.cont_trees"
-}
-}

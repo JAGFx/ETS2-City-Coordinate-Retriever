@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .motor_oil_c {
- cargo: "cargo.motor_oil_c"
-}
-}

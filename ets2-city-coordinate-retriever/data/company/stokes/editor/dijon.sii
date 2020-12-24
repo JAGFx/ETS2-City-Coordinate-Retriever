@@ -1,7 +1,0 @@
-SiiNunit
-{
-company_def : .dijon {
- city: dijon
- prefab: 31
-}
-}

@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .sandwch_pnls {
- cargo: "cargo.sandwch_pnls"
-}
-}

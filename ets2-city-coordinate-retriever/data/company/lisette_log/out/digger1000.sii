@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .digger1000 {
- cargo: "cargo.digger1000"
-}
-}

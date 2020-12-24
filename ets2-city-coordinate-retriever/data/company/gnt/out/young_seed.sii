@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .young_seed {
- cargo: "cargo.young_seed"
-}
-}

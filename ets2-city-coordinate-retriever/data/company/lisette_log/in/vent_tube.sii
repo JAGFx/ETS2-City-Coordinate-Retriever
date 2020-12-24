@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .vent_tube {
- cargo: "cargo.vent_tube"
-}
-}

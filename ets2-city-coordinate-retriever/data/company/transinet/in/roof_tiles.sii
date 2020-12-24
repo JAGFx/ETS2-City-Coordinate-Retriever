@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .roof_tiles {
- cargo: "cargo.roof_tiles"
-}
-}

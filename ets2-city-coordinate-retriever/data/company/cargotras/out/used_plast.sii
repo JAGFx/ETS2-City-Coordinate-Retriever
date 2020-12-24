@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .used_plast {
- cargo: "cargo.used_plast"
-}
-}

@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .chem_sorbent {
- cargo: "cargo.chem_sorbent"
-}
-}

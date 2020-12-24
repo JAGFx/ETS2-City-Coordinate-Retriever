@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .precast_strs {
- cargo: "cargo.precast_strs"
-}
-}

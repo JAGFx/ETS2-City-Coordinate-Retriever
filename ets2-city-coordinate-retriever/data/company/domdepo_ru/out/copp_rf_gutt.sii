@@ -1,6 +1,0 @@
-SiiNunit
-{
-cargo_def : .copp_rf_gutt {
- cargo: "cargo.copp_rf_gutt"
-}
-}
