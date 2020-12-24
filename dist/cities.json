@@ -526,7 +526,7 @@
   },
   "frankfurt": {
     "gameName": "frankfurt",
-    "realName": "Frankfurt am Main",
+    "realName": "Frankfurt",
     "country": "germany",
     "companies": {
       "kaarfor": {
@@ -815,7 +815,7 @@
   },
   "klagenfurt": {
     "gameName": "klagenfurt",
-    "realName": "Klagenfurt am Wörthersee",
+    "realName": "Klagenfurt",
     "country": "austria",
     "companies": {
       "eurogoodies": {
@@ -1227,7 +1227,7 @@
   },
   "newcastle": {
     "gameName": "newcastle",
-    "realName": "Newcastle-upon-Tyne",
+    "realName": "Newcastle",
     "country": "uk",
     "companies": {
       "eurogoodies": {

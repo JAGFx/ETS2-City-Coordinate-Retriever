@@ -1,15 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Runtime.InteropServices;
+using System.Text.RegularExpressions;
 using jsonGenerator.Classes;
-using System.Configuration;
 using Newtonsoft.Json;
-using Formatting = System.Xml.Formatting;
 
 namespace jsonGenerator {
-    
     class Program {
+        private const string PATTERN_CITY_NAME         = @"city_data\s*:\s*city\.(\w+)";
+        private const string PATTERN_CITY_REAL_NAME    = "\\s*\\t*city_name\\s*:\\s*\\\"([-\\w\\s]+)\\\"";
+        private const string PATTERN_CITY_COUNTRY      = "\\s*\\t*country\\s*:\\s*([-\\w\\s]+)";
+        private const string PATTERN_COMPANY_NAME      = @"company_permanent\s*:\s*company\.permanent\.(\w+)";
+        private const string PATTERN_COMPANY_REAL_NAME = "\\s*\\t*name\\s*:\\s*\\\"([-\\w\\s]+)\\\"";
+
         [ DllImport( "kernel32.dll", ExactSpelling = true ) ]
         public static extern IntPtr GetConsoleWindow();
 
@@ -33,7 +38,7 @@ namespace jsonGenerator {
             string inputFile     = ConfigurationManager.AppSettings[ "InputFile" ];
 
             var cityDictionary = new Dictionary< string, IJsonable >();
-            
+
             // ---- Parse SCS files
             string[ ] citiesFiles    = Directory.GetFiles( cityDirectory );
             int       numberOfCities = citiesFiles.Length;
@@ -41,27 +46,15 @@ namespace jsonGenerator {
             for ( var i = 0; i < numberOfCities; i++ ) {
                 var readCity = new StreamReader( citiesFiles[ i ] );
                 try {
-                    var cityName = "";
+                    string? cityName = null;
+                    string  line;
 
-                    string line;
                     while ( ( line = readCity.ReadLine() ) != null ) {
+                        string? currentCityName = MatchAndGetValue( PATTERN_CITY_NAME, line.Trim() );
 
-                        if ( line.Trim().StartsWith( "city_data: city." )
-                             || line.Trim().StartsWith( "city_data:city." )
-                             || line.Trim().StartsWith( "city_data : city." ) ) {
-                            
-                            cityName = line.Replace( "city_data: city.", "" )
-                                           .Replace( "city_data:city.",   "" )
-                                           .Replace( "city_data : city.", "" );
-                            if ( cityName.Contains( "{" ) ) {
-                                cityName = cityName.Remove( cityName.IndexOf( "{" ) );
-                            }
-
-                            cityName = cityName.Trim();
-                            cityName.Replace( " ", "" );
-
+                        if ( !string.IsNullOrEmpty( currentCityName ) ) {
                             var city = new City {
-                                gameName = cityName,
+                                gameName = currentCityName,
                                 realName = "",
                                 country  = "",
                                 x        = "0",
@@ -69,31 +62,24 @@ namespace jsonGenerator {
                                 z        = "0"
                             };
 
-                            cityDictionary.Add( cityName, city );
+                            cityDictionary.Add( currentCityName, city );
+                            cityName = currentCityName;
                         }
 
-                        if ( cityName.Length > 0 && cityDictionary.ContainsKey( cityName ) ) {
+                        // Console.WriteLine( cityName);
+
+                        if ( !string.IsNullOrEmpty( cityName ) && cityDictionary.ContainsKey( cityName ) ) {
                             var city = (City) cityDictionary[ cityName ];
 
                             //Check real city name
-                            if ( line.TrimStart().StartsWith( "city_name:" ) ) {
-                                int nameIndex = line.IndexOf( "\"" );
-                                string cityRealName = line.Substring( nameIndex + 1,
-                                                                      line.IndexOf( "\"", nameIndex + 1 )
-                                                                      - nameIndex
-                                                                      - 1 );
-
+                            string? cityRealName = MatchAndGetValue( PATTERN_CITY_REAL_NAME, line.Trim() );
+                            if ( !string.IsNullOrEmpty( cityRealName ) )
                                 city.realName = cityRealName;
-                            }
 
                             //Check country
-                            if ( line.TrimStart().StartsWith( "country:" ) ) {
-                                string country =
-                                    line.Trim().Replace( "country: ", "" ).Replace( "country:", "" ).Trim();
-
-
+                            string? country = MatchAndGetValue( PATTERN_CITY_COUNTRY, line.Trim() );
+                            if ( !string.IsNullOrEmpty( country ) )
                                 city.country = country;
-                            }
 
                             UpdateCompaniesOfCity( ref companies, ref city );
                         }
@@ -142,6 +128,7 @@ namespace jsonGenerator {
             var       read        = new StreamReader( inputFile );
             string    output      = read.ReadToEnd();
             string[ ] outputArray = output.Split( new string[ ] { Environment.NewLine }, StringSplitOptions.None );
+            
             read.Close();
 
             //Set previous location for double (non-existent) locations check
@@ -174,11 +161,11 @@ namespace jsonGenerator {
                         // var listViewItem = new ListViewItem( city.gameName );
 
                         // if ( cityPosX    == previousX
-                             // && cityPosY == previousY
-                             // && cityPosZ == previousZ ) {
-                            // listViewItem.ForeColor = Color.Red;
+                        // && cityPosY == previousY
+                        // && cityPosZ == previousZ ) {
+                        // listViewItem.ForeColor = Color.Red;
                         // } else {
-                            // listViewItem.Checked = true;
+                        // listViewItem.Checked = true;
                         // }
 
                         // listViewItem.SubItems.Add( city.realName );
@@ -198,7 +185,7 @@ namespace jsonGenerator {
                 }
             }
 
-            Console.WriteLine( "Read: "
+            Console.WriteLine( "[Cities] Read: "
                                + numberOfCities
                                + " | In list: "
                                + cityDictionary.Count );
@@ -256,31 +243,40 @@ namespace jsonGenerator {
                     while ( ( line = readCompany.ReadLine() ) != null ) {
                         // Console.WriteLine( line.Trim() );
 
-                        if ( line.Trim().StartsWith( "company_permanent: company.permanent." )
-                             || line.Trim().StartsWith( "company_permanent:company.permanent." )
-                             || line.Trim().StartsWith( "company_permanent : company.permanent." ) ) {
-                            companyGameName = line.Replace( "company_permanent: company.permanent.", "" )
-                                                  .Replace( "company_permanent:company.permanent.",   "" )
-                                                  .Replace( "company_permanent : company.permanent.", "" );
+                        string? currentCompanyGameName = MatchAndGetValue( PATTERN_COMPANY_NAME, line.Trim() );
+                        // if ( line.Trim().StartsWith( "company_permanent: company.permanent." )
+                        // || line.Trim().StartsWith( "company_permanent:company.permanent." )
+                        // || line.Trim().StartsWith( "company_permanent : company.permanent." ) ) {
+                        if ( !string.IsNullOrEmpty( currentCompanyGameName ) ) {
+                            // companyGameName = line.Replace( "company_permanent: company.permanent.", "" )
+                            // .Replace( "company_permanent:company.permanent.",   "" )
+                            // .Replace( "company_permanent : company.permanent.", "" );
 
-                            if ( companyGameName.Contains( "{" ) )
-                                companyGameName = companyGameName.Remove( companyGameName.IndexOf( "{" ) );
+                            // if ( companyGameName.Contains( "{" ) )
+                            // companyGameName = companyGameName.Remove( companyGameName.IndexOf( "{" ) );
 
-                            companyGameName = companyGameName.Trim();
-                            companyGameName.Replace( " ", "" );
+                            // companyGameName = companyGameName.Trim();
+                            // companyGameName.Replace( " ", "" );
+                            companyGameName = currentCompanyGameName;
                         } else {
                             //Check real city name
-                            if ( line.TrimStart().StartsWith( "name:" ) ) {
-                                int nameIndex = line.IndexOf( "\"" );
-                                companyRealName = line.Substring( nameIndex + 1,
-                                                                  line.IndexOf( "\"", nameIndex + 1 )
-                                                                  - nameIndex
-                                                                  - 1 );
-                            }
+                            string? currentCompanyRealName = MatchAndGetValue( PATTERN_COMPANY_REAL_NAME, line.Trim() );
+                            if ( !string.IsNullOrEmpty( currentCompanyRealName ) ) 
+                                companyRealName = currentCompanyRealName;
+                            
+                            // if ( line.TrimStart().StartsWith( "name:" ) ) {
+                            // int nameIndex = line.IndexOf( "\"" );
+                            // companyRealName = line.Substring( nameIndex + 1,
+                            // line.IndexOf( "\"", nameIndex + 1 )
+                            // - nameIndex
+                            // - 1 );
+                            // }
                         }
 
-                        if ( companyGameName.Length    > 0
-                             && companyRealName.Length > 0
+                        // Console.WriteLine( currentCompanyGameName );
+
+                        if ( !string.IsNullOrEmpty( companyGameName )
+                             && !string.IsNullOrEmpty( companyRealName )
                              && !companiesDictionary.ContainsKey( companyGameName ) ) {
                             var company = new Company() {
                                 gameName = companyGameName,
@@ -296,21 +292,12 @@ namespace jsonGenerator {
                 }
             }
 
-            Console.WriteLine( "Read: "
+            Console.WriteLine( "[Companies] Read: "
                                + numberOfCompanies
                                + " | In list: "
                                + companiesDictionary.Count );
 
             return companiesDictionary;
-        }
-
-        private static void GenerateJson( ref Dictionary< string, IJsonable > dictionary, string output ) {
-            // string outputFile     = ConfigurationManager.AppSettings[ "OutputFile" ];
-            string json  = JsonConvert.SerializeObject( dictionary, (Newtonsoft.Json.Formatting) Formatting.Indented );
-            var    write = new StreamWriter( output );
-
-            write.Write( json );
-            write.Close();
         }
 
         private static void UpdateCompaniesOfCity( ref Dictionary< string, IJsonable > companies, ref City city ) {
@@ -327,11 +314,34 @@ namespace jsonGenerator {
 
                 string companyCityPath = companyCities + "\\" + city.gameName + ".sii";
 
-                if ( Directory.Exists( companyCities ) && File.Exists( companyCityPath ) ) {
+                if ( Directory.Exists( companyCities )
+                     && File.Exists( companyCityPath )
+                     && companies.ContainsKey( company ) ) {
                     // ... if a list of cities exist
                     city.addCompany( (Company) companies[ company ] );
                 }
             }
+        }
+
+        // ---
+
+        private static void GenerateJson( ref Dictionary< string, IJsonable > dictionary, string output ) {
+            // string outputFile     = ConfigurationManager.AppSettings[ "OutputFile" ];
+            string json  = JsonConvert.SerializeObject( dictionary, (Formatting) System.Xml.Formatting.Indented );
+            var    write = new StreamWriter( output );
+
+            write.Write( json );
+            write.Close();
+        }
+
+        private static string? MatchAndGetValue( string pattern, string input ) {
+            var r = new Regex( pattern, RegexOptions.IgnoreCase );
+
+            if ( !r.IsMatch( input ) ) return null;
+
+            Match m = r.Match( input );
+
+            return m.Groups[ 1 ].Value;
         }
     }
 }
