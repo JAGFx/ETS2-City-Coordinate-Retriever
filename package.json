@@ -1,0 +1,22 @@
+{
+  "name": "ets2-city-coordinate-retriever",
+  "version": "0.3.0",
+  "description": "Grab the coordinates for each city and turn them into usable JSON. Also contains premade JSON files.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JAGFx/ETS2-City-Coordinate-Retriever.git"
+  },
+  "author": "Emmanuel SMITH <het@hemmanuel-smith.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JAGFx/ETS2-City-Coordinate-Retriever/issues"
+  },
+  "homepage": "https://github.com/JAGFx/ETS2-City-Coordinate-Retriever#readme"
+}
