@@ -1,0 +1,1840 @@
+{
+  "aberdeen": {
+    "gameName": "aberdeen",
+    "realName": "Aberdeen",
+    "country": "uk",
+    "companies": {
+      "nbfc": {
+        "gameName": "nbfc",
+        "realName": "NBFC"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-38846.7",
+    "y": "144",
+    "z": "-55270.3"
+  },
+  "amsterdam": {
+    "gameName": "amsterdam",
+    "realName": "Amsterdam",
+    "country": "netherlands",
+    "companies": {
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "-18562",
+    "y": "105.766",
+    "z": "-11736.2"
+  },
+  "berlin": {
+    "gameName": "berlin",
+    "realName": "Berlin",
+    "country": "germany",
+    "companies": {
+      "bcp": {
+        "gameName": "bcp",
+        "realName": "BCP"
+      },
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "nbfc": {
+        "gameName": "nbfc",
+        "realName": "NBFC"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      }
+    },
+    "x": "10183.1",
+    "y": "101.914",
+    "z": "-10001.2"
+  },
+  "bern": {
+    "gameName": "bern",
+    "realName": "Bern",
+    "country": "switzerland",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      }
+    },
+    "x": "-12730.8",
+    "y": "101.68",
+    "z": "20130.1"
+  },
+  "birmingham": {
+    "gameName": "birmingham",
+    "realName": "Birmingham",
+    "country": "uk",
+    "companies": {
+      "bcp": {
+        "gameName": "bcp",
+        "realName": "BCP"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-45951.1",
+    "y": "109.57",
+    "z": "-20423"
+  },
+  "bratislava": {
+    "gameName": "bratislava",
+    "realName": "Bratislava",
+    "country": "slovakia",
+    "companies": {
+      "bcp": {
+        "gameName": "bcp",
+        "realName": "BCP"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      },
+      "wgcc": {
+        "gameName": "wgcc",
+        "realName": "WGCC"
+      }
+    },
+    "x": "24823.3",
+    "y": "125.129",
+    "z": "14831"
+  },
+  "bremen": {
+    "gameName": "bremen",
+    "realName": "Bremen",
+    "country": "germany",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "fcp": {
+        "gameName": "fcp",
+        "realName": "FCP"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      }
+    },
+    "x": "-4545.41",
+    "y": "54.4922",
+    "z": "-14326.1"
+  },
+  "brno": {
+    "gameName": "brno",
+    "realName": "Brno",
+    "country": "czech",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "22273.8",
+    "y": "64.8086",
+    "z": "8964.95"
+  },
+  "brussel": {
+    "gameName": "brussel",
+    "realName": "Brussel",
+    "country": "belgium",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "fcp": {
+        "gameName": "fcp",
+        "realName": "FCP"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      }
+    },
+    "x": "-21576",
+    "y": "99.3594",
+    "z": "-3235.03"
+  },
+  "calais": {
+    "gameName": "calais",
+    "realName": "Calais",
+    "country": "france",
+    "companies": {
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "nbfc": {
+        "gameName": "nbfc",
+        "realName": "NBFC"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      }
+    },
+    "x": "-30340.4",
+    "y": "92.2344",
+    "z": "-4985.64"
+  },
+  "cambridge": {
+    "gameName": "cambridge",
+    "realName": "Cambridge",
+    "country": "uk",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      }
+    },
+    "x": "-36822.7",
+    "y": "171.199",
+    "z": "-16119.4"
+  },
+  "cardiff": {
+    "gameName": "cardiff",
+    "realName": "Cardiff",
+    "country": "uk",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      }
+    },
+    "x": "-54005.3",
+    "y": "171.398",
+    "z": "-14698.4"
+  },
+  "carlisle": {
+    "gameName": "carlisle",
+    "realName": "Carlisle",
+    "country": "uk",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "-45889.2",
+    "y": "153",
+    "z": "-39573.5"
+  },
+  "dijon": {
+    "gameName": "dijon",
+    "realName": "Dijon",
+    "country": "france",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      }
+    },
+    "x": "-22470",
+    "y": "97.3984",
+    "z": "16655.5"
+  },
+  "dortmund": {
+    "gameName": "dortmund",
+    "realName": "Dortmund",
+    "country": "germany",
+    "companies": {
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-8265.61",
+    "y": "97.7539",
+    "z": "-4710.5"
+  },
+  "dover": {
+    "gameName": "dover",
+    "realName": "Dover",
+    "country": "uk",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      }
+    },
+    "x": "-33321.9",
+    "y": "99.3984",
+    "z": "-7884.36"
+  },
+  "dresden": {
+    "gameName": "dresden",
+    "realName": "Dresden",
+    "country": "germany",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      }
+    },
+    "x": "12376.4",
+    "y": "121.258",
+    "z": "-1794.43"
+  },
+  "duisburg": {
+    "gameName": "duisburg",
+    "realName": "Duisburg",
+    "country": "germany",
+    "companies": {
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "nbfc": {
+        "gameName": "nbfc",
+        "realName": "NBFC"
+      }
+    },
+    "x": "-13113.6",
+    "y": "50",
+    "z": "-6358.37"
+  },
+  "dusseldorf": {
+    "gameName": "dusseldorf",
+    "realName": "Düsseldorf",
+    "country": "germany",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "fcp": {
+        "gameName": "fcp",
+        "realName": "FCP"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      }
+    },
+    "x": "-13377.2",
+    "y": "97.9297",
+    "z": "-4399.6"
+  },
+  "edinburgh": {
+    "gameName": "edinburgh",
+    "realName": "Edinburgh",
+    "country": "uk",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      }
+    },
+    "x": "-44900.7",
+    "y": "139",
+    "z": "-47219.7"
+  },
+  "erfurt": {
+    "gameName": "erfurt",
+    "realName": "Erfurt",
+    "country": "germany",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      }
+    },
+    "x": "2672.14",
+    "y": "101.691",
+    "z": "-1697.82"
+  },
+  "europoort": {
+    "gameName": "europoort",
+    "realName": "Europoort",
+    "country": "netherlands",
+    "companies": {},
+    "x": "2672.14",
+    "y": "101.691",
+    "z": "-1697.82"
+  },
+  "felixstowe": {
+    "gameName": "felixstowe",
+    "realName": "Felixstowe",
+    "country": "uk",
+    "companies": {
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-31664.6",
+    "y": "101.398",
+    "z": "-13837.2"
+  },
+  "frankfurt": {
+    "gameName": "frankfurt",
+    "realName": "Frankfurt am Main",
+    "country": "germany",
+    "companies": {
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      },
+      "wgcc": {
+        "gameName": "wgcc",
+        "realName": "WGCC"
+      }
+    },
+    "x": "-5833.34",
+    "y": "115.316",
+    "z": "2851.86"
+  },
+  "geneve": {
+    "gameName": "geneve",
+    "realName": "Genève",
+    "country": "switzerland",
+    "companies": {
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-18099.1",
+    "y": "101.68",
+    "z": "23717"
+  },
+  "glasgow": {
+    "gameName": "glasgow",
+    "realName": "Glasgow",
+    "country": "uk",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "itcc": {
+        "gameName": "itcc",
+        "realName": "ITCC"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "wgcc": {
+        "gameName": "wgcc",
+        "realName": "WGCC"
+      }
+    },
+    "x": "-50384.7",
+    "y": "139",
+    "z": "-48471.6"
+  },
+  "graz": {
+    "gameName": "graz",
+    "realName": "Graz",
+    "country": "austria",
+    "companies": {
+      "fcp": {
+        "gameName": "fcp",
+        "realName": "FCP"
+      },
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "18216.5",
+    "y": "83.0938",
+    "z": "20552.7"
+  },
+  "grimsby": {
+    "gameName": "grimsby",
+    "realName": "Grimsby",
+    "country": "uk",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      },
+      "wgcc": {
+        "gameName": "wgcc",
+        "realName": "WGCC"
+      }
+    },
+    "x": "-36117.9",
+    "y": "124.66",
+    "z": "-26575.2"
+  },
+  "groningen": {
+    "gameName": "groningen",
+    "realName": "Groningen",
+    "country": "netherlands",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      }
+    },
+    "x": "-12437.6",
+    "y": "68.8711",
+    "z": "-15468.7"
+  },
+  "hamburg": {
+    "gameName": "hamburg",
+    "realName": "Hamburg",
+    "country": "germany",
+    "companies": {
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      }
+    },
+    "x": "-1076.72",
+    "y": "54.0156",
+    "z": "-16388.2"
+  },
+  "hannover": {
+    "gameName": "hannover",
+    "realName": "Hannover",
+    "country": "germany",
+    "companies": {
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "scania_dlr": {
+        "gameName": "scania_dlr",
+        "realName": "Scania dealer"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-1928.93",
+    "y": "59.168",
+    "z": "-8916.4"
+  },
+  "harwich": {
+    "gameName": "harwich",
+    "realName": "Harwich",
+    "country": "uk",
+    "companies": {},
+    "x": "-1928.93",
+    "y": "59.168",
+    "z": "-8916.4"
+  },
+  "hull": {
+    "gameName": "hull",
+    "realName": "Hull",
+    "country": "uk",
+    "companies": {},
+    "x": "-1928.93",
+    "y": "59.168",
+    "z": "-8916.4"
+  },
+  "ijmuiden": {
+    "gameName": "ijmuiden",
+    "realName": "IJmuiden",
+    "country": "netherlands",
+    "companies": {},
+    "x": "-1928.93",
+    "y": "59.168",
+    "z": "-8916.4"
+  },
+  "innsbruck": {
+    "gameName": "innsbruck",
+    "realName": "Innsbruck",
+    "country": "austria",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "2250.09",
+    "y": "67.0859",
+    "z": "19214.1"
+  },
+  "kassel": {
+    "gameName": "kassel",
+    "realName": "Kassel",
+    "country": "germany",
+    "companies": {
+      "bcp": {
+        "gameName": "bcp",
+        "realName": "BCP"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      }
+    },
+    "x": "-3031.32",
+    "y": "85.293",
+    "z": "-3898.7"
+  },
+  "kiel": {
+    "gameName": "kiel",
+    "realName": "Kiel",
+    "country": "germany",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      }
+    },
+    "x": "188.074",
+    "y": "55.832",
+    "z": "-20900.7"
+  },
+  "klagenfurt": {
+    "gameName": "klagenfurt",
+    "realName": "Klagenfurt am Wörthersee",
+    "country": "austria",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "13841.3",
+    "y": "52.7617",
+    "z": "23052.6"
+  },
+  "koln": {
+    "gameName": "koln",
+    "realName": "Köln",
+    "country": "germany",
+    "companies": {
+      "itcc": {
+        "gameName": "itcc",
+        "realName": "ITCC"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      }
+    },
+    "x": "-13150.8",
+    "y": "97.9297",
+    "z": "-2732.75"
+  },
+  "leipzig": {
+    "gameName": "leipzig",
+    "realName": "Leipzig",
+    "country": "germany",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "fcp": {
+        "gameName": "fcp",
+        "realName": "FCP"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "7249.13",
+    "y": "101.914",
+    "z": "-2983.83"
+  },
+  "liege": {
+    "gameName": "liege",
+    "realName": "Liège",
+    "country": "belgium",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "itcc": {
+        "gameName": "itcc",
+        "realName": "ITCC"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-17181.5",
+    "y": "108.012",
+    "z": "-1231.25"
+  },
+  "lille": {
+    "gameName": "lille",
+    "realName": "Lille",
+    "country": "france",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "-26539.4",
+    "y": "92.6211",
+    "z": "-2460.28"
+  },
+  "linz": {
+    "gameName": "linz",
+    "realName": "Linz",
+    "country": "austria",
+    "companies": {
+      "itcc": {
+        "gameName": "itcc",
+        "realName": "ITCC"
+      },
+      "nbfc": {
+        "gameName": "nbfc",
+        "realName": "NBFC"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      }
+    },
+    "x": "13665.7",
+    "y": "115.418",
+    "z": "13754.6"
+  },
+  "liverpool": {
+    "gameName": "liverpool",
+    "realName": "Liverpool",
+    "country": "uk",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "nbfc": {
+        "gameName": "nbfc",
+        "realName": "NBFC"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "-48871.7",
+    "y": "146.066",
+    "z": "-29091.8"
+  },
+  "london": {
+    "gameName": "london",
+    "realName": "London",
+    "country": "uk",
+    "companies": {
+      "nbfc": {
+        "gameName": "nbfc",
+        "realName": "NBFC"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "volvo_dlr": {
+        "gameName": "volvo_dlr",
+        "realName": "Volvo dealer"
+      }
+    },
+    "x": "-39546.9",
+    "y": "171.398",
+    "z": "-11564.2"
+  },
+  "luxembourg": {
+    "gameName": "luxembourg",
+    "realName": "Luxembourg",
+    "country": "luxembourg",
+    "companies": {
+      "itcc": {
+        "gameName": "itcc",
+        "realName": "ITCC"
+      },
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      },
+      "volvo_dlr": {
+        "gameName": "volvo_dlr",
+        "realName": "Volvo dealer"
+      }
+    },
+    "x": "-16134.2",
+    "y": "152.621",
+    "z": "4382.97"
+  },
+  "lyon": {
+    "gameName": "lyon",
+    "realName": "Lyon",
+    "country": "france",
+    "companies": {
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "-23869.8",
+    "y": "139.359",
+    "z": "25892.3"
+  },
+  "magdeburg": {
+    "gameName": "magdeburg",
+    "realName": "Magdeburg",
+    "country": "germany",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      }
+    },
+    "x": "4427",
+    "y": "76.3984",
+    "z": "-7822.45"
+  },
+  "manchester": {
+    "gameName": "manchester",
+    "realName": "Manchester",
+    "country": "uk",
+    "companies": {
+      "fcp": {
+        "gameName": "fcp",
+        "realName": "FCP"
+      },
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "scania_dlr": {
+        "gameName": "scania_dlr",
+        "realName": "Scania dealer"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      },
+      "wgcc": {
+        "gameName": "wgcc",
+        "realName": "WGCC"
+      }
+    },
+    "x": "-45548.7",
+    "y": "108.711",
+    "z": "-27815"
+  },
+  "mannheim": {
+    "gameName": "mannheim",
+    "realName": "Mannheim",
+    "country": "germany",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      }
+    },
+    "x": "-7722.87",
+    "y": "88",
+    "z": "6165.95"
+  },
+  "metz": {
+    "gameName": "metz",
+    "realName": "Metz",
+    "country": "france",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-16294.5",
+    "y": "104.516",
+    "z": "7463.71"
+  },
+  "milano": {
+    "gameName": "milano",
+    "realName": "Milano",
+    "country": "italy",
+    "companies": {
+      "aci": {
+        "gameName": "aci",
+        "realName": "ACI SRL"
+      },
+      "cargotras": {
+        "gameName": "cargotras",
+        "realName": "Cargotras"
+      },
+      "cesare_smar": {
+        "gameName": "cesare_smar",
+        "realName": "Cesare Supermercato"
+      },
+      "ika_bohag": {
+        "gameName": "ika_bohag",
+        "realName": "Ika Bohag"
+      },
+      "libellula": {
+        "gameName": "libellula",
+        "realName": "Libellula"
+      },
+      "scania_dlr": {
+        "gameName": "scania_dlr",
+        "realName": "Scania dealer"
+      },
+      "spinelli": {
+        "gameName": "spinelli",
+        "realName": "Spinelli"
+      },
+      "tesore_gust": {
+        "gameName": "tesore_gust",
+        "realName": "Tesoro Gustoso"
+      }
+    },
+    "x": "-16294.5",
+    "y": "104.516",
+    "z": "7463.71"
+  },
+  "munchen": {
+    "gameName": "munchen",
+    "realName": "München",
+    "country": "germany",
+    "companies": {
+      "bcp": {
+        "gameName": "bcp",
+        "realName": "BCP"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "wgcc": {
+        "gameName": "wgcc",
+        "realName": "WGCC"
+      }
+    },
+    "x": "3234.12",
+    "y": "89.7188",
+    "z": "14470"
+  },
+  "newcastle": {
+    "gameName": "newcastle",
+    "realName": "Newcastle-upon-Tyne",
+    "country": "uk",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      }
+    },
+    "x": "-39778",
+    "y": "139",
+    "z": "-38787.7"
+  },
+  "nurnberg": {
+    "gameName": "nurnberg",
+    "realName": "Nürnberg",
+    "country": "germany",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "2478.23",
+    "y": "104.715",
+    "z": "6375.89"
+  },
+  "osnabruck": {
+    "gameName": "osnabruck",
+    "realName": "Osnabrück",
+    "country": "germany",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      }
+    },
+    "x": "-7745.48",
+    "y": "101.094",
+    "z": "-9613.47"
+  },
+  "paris": {
+    "gameName": "paris",
+    "realName": "Paris",
+    "country": "france",
+    "companies": {
+      "batisse_hs": {
+        "gameName": "batisse_hs",
+        "realName": "Bâtisse"
+      },
+      "bhv": {
+        "gameName": "bhv",
+        "realName": "BHV"
+      },
+      "fle": {
+        "gameName": "fle",
+        "realName": "FLE"
+      },
+      "ika_bohag": {
+        "gameName": "ika_bohag",
+        "realName": "Ika Bohag"
+      },
+      "lisette_log": {
+        "gameName": "lisette_log",
+        "realName": "Lisette Logistics"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      },
+      "voitureux": {
+        "gameName": "voitureux",
+        "realName": "Voitureux"
+      }
+    },
+    "x": "-30427.3",
+    "y": "68.5",
+    "z": "6886.2"
+  },
+  "plymouth": {
+    "gameName": "plymouth",
+    "realName": "Plymouth",
+    "country": "uk",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "-60041.4",
+    "y": "101.398",
+    "z": "-7882.32"
+  },
+  "poznan": {
+    "gameName": "poznan",
+    "realName": "Poznań",
+    "country": "poland",
+    "companies": {
+      "fcp": {
+        "gameName": "fcp",
+        "realName": "FCP"
+      },
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "22863.4",
+    "y": "46.5508",
+    "z": "-9112.2"
+  },
+  "prague": {
+    "gameName": "prague",
+    "realName": "Praha",
+    "country": "czech",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "skoda": {
+        "gameName": "skoda",
+        "realName": "Scout"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      }
+    },
+    "x": "14299.7",
+    "y": "142.715",
+    "z": "3978.97"
+  },
+  "reims": {
+    "gameName": "reims",
+    "realName": "Reims",
+    "country": "france",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      }
+    },
+    "x": "-24054.8",
+    "y": "96.3086",
+    "z": "5680.14"
+  },
+  "rostock": {
+    "gameName": "rostock",
+    "realName": "Rostock",
+    "country": "germany",
+    "companies": {
+      "itcc": {
+        "gameName": "itcc",
+        "realName": "ITCC"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "tradeaux": {
+        "gameName": "tradeaux",
+        "realName": "Tradeaux"
+      }
+    },
+    "x": "6490.95",
+    "y": "58.4961",
+    "z": "-18588.9"
+  },
+  "rotterdam": {
+    "gameName": "rotterdam",
+    "realName": "Rotterdam",
+    "country": "netherlands",
+    "companies": {
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      },
+      "wgcc": {
+        "gameName": "wgcc",
+        "realName": "WGCC"
+      }
+    },
+    "x": "-20006",
+    "y": "104.746",
+    "z": "-8985.8"
+  },
+  "salzburg": {
+    "gameName": "salzburg",
+    "realName": "Salzburg",
+    "country": "austria",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "sanbuilders": {
+        "gameName": "sanbuilders",
+        "realName": "Sanbuilders"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      }
+    },
+    "x": "9075.84",
+    "y": "110.809",
+    "z": "16564.5"
+  },
+  "sheffield": {
+    "gameName": "sheffield",
+    "realName": "Sheffield",
+    "country": "uk",
+    "companies": {
+      "itcc": {
+        "gameName": "itcc",
+        "realName": "ITCC"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      }
+    },
+    "x": "-42688.8",
+    "y": "103.512",
+    "z": "-26687.6"
+  },
+  "southampton": {
+    "gameName": "southampton",
+    "realName": "Southampton",
+    "country": "uk",
+    "companies": {
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-46338.7",
+    "y": "111.398",
+    "z": "-7523.25"
+  },
+  "strasbourg": {
+    "gameName": "strasbourg",
+    "realName": "Strasbourg",
+    "country": "france",
+    "companies": {
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      },
+      "wgcc": {
+        "gameName": "wgcc",
+        "realName": "WGCC"
+      }
+    },
+    "x": "-10786.9",
+    "y": "100",
+    "z": "11198.7"
+  },
+  "stuttgart": {
+    "gameName": "stuttgart",
+    "realName": "Stuttgart",
+    "country": "germany",
+    "companies": {
+      "bcp": {
+        "gameName": "bcp",
+        "realName": "BCP"
+      },
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-4957.84",
+    "y": "101.973",
+    "z": "10047"
+  },
+  "swansea": {
+    "gameName": "swansea",
+    "realName": "Swansea",
+    "country": "uk",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "-56896",
+    "y": "71.3984",
+    "z": "-16881.9"
+  },
+  "szczecin": {
+    "gameName": "szczecin",
+    "realName": "Szczecin",
+    "country": "poland",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "itcc": {
+        "gameName": "itcc",
+        "realName": "ITCC"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      }
+    },
+    "x": "15052.7",
+    "y": "96.5508",
+    "z": "-15049.8"
+  },
+  "torino": {
+    "gameName": "torino",
+    "realName": "Torino",
+    "country": "italy",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "fcp": {
+        "gameName": "fcp",
+        "realName": "FCP"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "transinet": {
+        "gameName": "transinet",
+        "realName": "TransiNet"
+      }
+    },
+    "x": "-12697.3",
+    "y": "89.9023",
+    "z": "30932"
+  },
+  "travemunde": {
+    "gameName": "travemunde",
+    "realName": "Travemünde",
+    "country": "germany",
+    "companies": {
+      "polarislines": {
+        "gameName": "polarislines",
+        "realName": "Polarislines"
+      }
+    },
+    "x": "3190.74",
+    "y": "59.1172",
+    "z": "-18196"
+  },
+  "venezia": {
+    "gameName": "venezia",
+    "realName": "Venezia",
+    "country": "italy",
+    "companies": {
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "lkwlog": {
+        "gameName": "lkwlog",
+        "realName": "LkwLog GmbH"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      }
+    },
+    "x": "5089.88",
+    "y": "77.8789",
+    "z": "30078.9"
+  },
+  "verona": {
+    "gameName": "verona",
+    "realName": "Verona",
+    "country": "italy",
+    "companies": {
+      "bcp": {
+        "gameName": "bcp",
+        "realName": "BCP"
+      },
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "kaarfor": {
+        "gameName": "kaarfor",
+        "realName": "Kaarfor"
+      },
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      }
+    },
+    "x": "39.1094",
+    "y": "78.4023",
+    "z": "29453.3"
+  },
+  "wien": {
+    "gameName": "wien",
+    "realName": "Wien",
+    "country": "austria",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "sellplan": {
+        "gameName": "sellplan",
+        "realName": "SellPlan"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      }
+    },
+    "x": "21298.3",
+    "y": "114.809",
+    "z": "14215.5"
+  },
+  "wroclaw": {
+    "gameName": "wroclaw",
+    "realName": "Wrocław",
+    "country": "poland",
+    "companies": {
+      "euroacres": {
+        "gameName": "euroacres",
+        "realName": "EuroAcres"
+      },
+      "eurogoodies": {
+        "gameName": "eurogoodies",
+        "realName": "EuroGoodies"
+      },
+      "quarry": {
+        "gameName": "quarry",
+        "realName": "Steinbruch"
+      },
+      "trameri": {
+        "gameName": "trameri",
+        "realName": "Trameri"
+      }
+    },
+    "x": "23502.9",
+    "y": "120.508",
+    "z": "-1950.98"
+  },
+  "zurich": {
+    "gameName": "zurich",
+    "realName": "Zürich",
+    "country": "switzerland",
+    "companies": {
+      "posped": {
+        "gameName": "posped",
+        "realName": "Posped"
+      },
+      "stokes": {
+        "gameName": "stokes",
+        "realName": "Stokes"
+      },
+      "tree_et": {
+        "gameName": "tree_et",
+        "realName": "Tree-ET"
+      }
+    },
+    "x": "-8473.81",
+    "y": "101.953",
+    "z": "17968.5"
+  }
+}

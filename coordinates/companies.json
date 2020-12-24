@@ -1,0 +1,214 @@
+{
+  "aci": {
+    "gameName": "aci",
+    "realName": "ACI SRL"
+  },
+  "batisse_hs": {
+    "gameName": "batisse_hs",
+    "realName": "Bâtisse"
+  },
+  "bcp": {
+    "gameName": "bcp",
+    "realName": "BCP"
+  },
+  "bhv": {
+    "gameName": "bhv",
+    "realName": "BHV"
+  },
+  "cargotras": {
+    "gameName": "cargotras",
+    "realName": "Cargotras"
+  },
+  "cemelt_fla": {
+    "gameName": "cemelt_fla",
+    "realName": "Cemeltex"
+  },
+  "cemelt_fl_ru": {
+    "gameName": "cemelt_fl_ru",
+    "realName": "Цемелтекс"
+  },
+  "cesare_smar": {
+    "gameName": "cesare_smar",
+    "realName": "Cesare Supermercato"
+  },
+  "cnp": {
+    "gameName": "cnp",
+    "realName": "CNP"
+  },
+  "cont_port": {
+    "gameName": "cont_port",
+    "realName": "Container port"
+  },
+  "domdepo": {
+    "gameName": "domdepo",
+    "realName": "DomDepo"
+  },
+  "domdepo_ru": {
+    "gameName": "domdepo_ru",
+    "realName": "ДомДепо"
+  },
+  "eolo_lines": {
+    "gameName": "eolo_lines",
+    "realName": "Eolo Lines"
+  },
+  "euroacres": {
+    "gameName": "euroacres",
+    "realName": "EuroAcres"
+  },
+  "eurogoodies": {
+    "gameName": "eurogoodies",
+    "realName": "EuroGoodies"
+  },
+  "fcp": {
+    "gameName": "fcp",
+    "realName": "FCP"
+  },
+  "fle": {
+    "gameName": "fle",
+    "realName": "FLE"
+  },
+  "gnt": {
+    "gameName": "gnt",
+    "realName": "GNT"
+  },
+  "ika_bohag": {
+    "gameName": "ika_bohag",
+    "realName": "Ika Bohag"
+  },
+  "itcc": {
+    "gameName": "itcc",
+    "realName": "ITCC"
+  },
+  "kaarfor": {
+    "gameName": "kaarfor",
+    "realName": "Kaarfor"
+  },
+  "libellula": {
+    "gameName": "libellula",
+    "realName": "Libellula"
+  },
+  "lisette_log": {
+    "gameName": "lisette_log",
+    "realName": "Lisette Logistics"
+  },
+  "lkwlog": {
+    "gameName": "lkwlog",
+    "realName": "LkwLog GmbH"
+  },
+  "marina_fr": {
+    "gameName": "marina_fr",
+    "realName": "Marina"
+  },
+  "marina_it": {
+    "gameName": "marina_it",
+    "realName": "Marina"
+  },
+  "nbfc": {
+    "gameName": "nbfc",
+    "realName": "NBFC"
+  },
+  "ns_chem": {
+    "gameName": "ns_chem",
+    "realName": "NS Chemicals"
+  },
+  "ns_oil": {
+    "gameName": "ns_oil",
+    "realName": "NS Oil"
+  },
+  "nucleon": {
+    "gameName": "nucleon",
+    "realName": "Nucléon"
+  },
+  "polarislines": {
+    "gameName": "polarislines",
+    "realName": "Polarislines"
+  },
+  "posped": {
+    "gameName": "posped",
+    "realName": "Posped"
+  },
+  "quarry": {
+    "gameName": "quarry",
+    "realName": "Steinbruch"
+  },
+  "radus": {
+    "gameName": "radus",
+    "realName": "Radus"
+  },
+  "radus_ru": {
+    "gameName": "radus_ru",
+    "realName": "Радус"
+  },
+  "renar": {
+    "gameName": "renar",
+    "realName": "Renar Logistik"
+  },
+  "renat": {
+    "gameName": "renat",
+    "realName": "Renat"
+  },
+  "sanbuilders": {
+    "gameName": "sanbuilders",
+    "realName": "Sanbuilders"
+  },
+  "scania_dlr": {
+    "gameName": "scania_dlr",
+    "realName": "Scania dealer"
+  },
+  "sellplan": {
+    "gameName": "sellplan",
+    "realName": "SellPlan"
+  },
+  "skoda": {
+    "gameName": "skoda",
+    "realName": "Scout"
+  },
+  "spinelli": {
+    "gameName": "spinelli",
+    "realName": "Spinelli"
+  },
+  "stokes": {
+    "gameName": "stokes",
+    "realName": "Stokes"
+  },
+  "subse": {
+    "gameName": "subse",
+    "realName": "Subse"
+  },
+  "tesore_gust": {
+    "gameName": "tesore_gust",
+    "realName": "Tesoro Gustoso"
+  },
+  "tradeaux": {
+    "gameName": "tradeaux",
+    "realName": "Tradeaux"
+  },
+  "trameri": {
+    "gameName": "trameri",
+    "realName": "Trameri"
+  },
+  "transinet": {
+    "gameName": "transinet",
+    "realName": "TransiNet"
+  },
+  "tree_et": {
+    "gameName": "tree_et",
+    "realName": "Tree-ET"
+  },
+  "vitas_pwr": {
+    "gameName": "vitas_pwr",
+    "realName": "Vitas Power"
+  },
+  "voitureux": {
+    "gameName": "voitureux",
+    "realName": "Voitureux"
+  },
+  "volvo_dlr": {
+    "gameName": "volvo_dlr",
+    "realName": "Volvo dealer"
+  },
+  "wgcc": {
+    "gameName": "wgcc",
+    "realName": "WGCC"
+  }
+}
