@@ -1,0 +1,28 @@
+{
+  "citiesList": [
+    {
+      "gameName": "suoyarvi",
+      "realName": "Suoyarvi",
+      "country": "russia",
+      "x": "62996.3",
+      "y": "88.9297",
+      "z": "-73603.1"
+    },
+    {
+      "gameName": "sortavala",
+      "realName": "Sortavala",
+      "country": "russia",
+      "x": "58195",
+      "y": "124.492",
+      "z": "-66991.9"
+    },
+    {
+      "gameName": "priozersk",
+      "realName": "Priozersk",
+      "country": "russia",
+      "x": "56641.7",
+      "y": "135.543",
+      "z": "-63444.7"
+    }
+  ]
+}

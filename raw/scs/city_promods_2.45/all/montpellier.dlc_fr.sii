@@ -1,0 +1,55 @@
+city_data: city.montpellier
+{
+	city_name: "Montpellier"
+	city_name_localized: "@@montpellier@@"
+	country: france
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -27
+	map_x_offsets[]: -28
+	map_x_offsets[]: -25
+	map_x_offsets[]: -27
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -47
+	map_y_offsets[]: -34
+	map_y_offsets[]: -26
+	map_y_offsets[]: -27
+
+	license_plate[]: .montpellier.lp.car
+	license_plate[]: .montpellier.lp.truck
+	license_plate[]: .montpellier.lp.trailer
+}
+
+license_plate_data : .montpellier.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/34.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .montpellier.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/34.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .montpellier.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/34.mat color=FFFFFFFF width=15 height=32></align>"
+}

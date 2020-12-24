@@ -1,0 +1,26 @@
+city_data: city.newport
+{
+	city_name: "Newport"
+	short_city_name: "Newport"
+	city_name_uppercase: "NEWPORT"
+	country: oregon
+
+    map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -40
+	map_x_offsets[]: -60
+	map_x_offsets[]: -197
+	map_x_offsets[]: -150
+	map_x_offsets[]: -50
+	map_x_offsets[]: -85
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -121
+	map_y_offsets[]: -49
+	map_y_offsets[]: -23
+	map_y_offsets[]: -12
+  
+}

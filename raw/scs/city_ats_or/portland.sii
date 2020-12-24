@@ -1,0 +1,28 @@
+city_data: city.portland
+{
+	city_name: "Portland"
+	short_city_name: "Portland"
+	city_name_uppercase: "PORTLAND"
+	country: oregon
+
+    map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -40
+	map_x_offsets[]: -60
+	map_x_offsets[]: -197
+	map_x_offsets[]: -150
+	map_x_offsets[]: 0
+	map_x_offsets[]: -89
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -121
+	map_y_offsets[]: -49
+	map_y_offsets[]: -45
+	map_y_offsets[]: -12
+  
+  vehicle_brands[]: "kenworth"
+  
+}

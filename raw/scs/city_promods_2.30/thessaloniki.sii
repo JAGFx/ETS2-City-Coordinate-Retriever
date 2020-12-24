@@ -1,0 +1,119 @@
+﻿city_data: city.thessaloniki
+{
+	city_name: "Θεσσαλονίκη (Thessaloniki)"
+	short_city_name: "Θεσσαλονίκη"
+	city_name_uppercase: "ΘEΣΣΑΛONΊKΗ (THESSALONIKI)"
+	country: greece
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"mercedes"
+
+	truck_lp_template[]:"01-3222"
+
+	truck_lp_def0[]:"NX"
+
+	truck_lp_def1[]:"A"
+	truck_lp_def1[]:"B"
+	truck_lp_def1[]:"E"
+	truck_lp_def1[]:"Z"
+	truck_lp_def1[]:"H"
+	truck_lp_def1[]:"I"
+	truck_lp_def1[]:"K"
+	truck_lp_def1[]:"M"
+	truck_lp_def1[]:"N"
+	truck_lp_def1[]:"O"
+	truck_lp_def1[]:"P"
+	truck_lp_def1[]:"T"
+	truck_lp_def1[]:"Y"
+	truck_lp_def1[]:"X"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	truck_lp_def3[]:"1"
+	truck_lp_def3[]:"2"
+	truck_lp_def3[]:"3"
+	truck_lp_def3[]:"4"
+	truck_lp_def3[]:"5"
+	truck_lp_def3[]:"6"
+	truck_lp_def3[]:"7"
+	truck_lp_def3[]:"8"
+	truck_lp_def3[]:"9"
+
+	ai_lp_template[]:"01-3222"
+
+	ai_lp_def0[]:"NA"
+	ai_lp_def0[]:"NB"
+	ai_lp_def0[]:"NE"
+	ai_lp_def0[]:"NZ"
+	ai_lp_def0[]:"NH"
+	ai_lp_def0[]:"NI"
+	ai_lp_def0[]:"NK"
+	ai_lp_def0[]:"NM"
+	ai_lp_def0[]:"NN"
+	ai_lp_def0[]:"NO"
+	ai_lp_def0[]:"NP"
+	ai_lp_def0[]:"NT"
+	ai_lp_def0[]:"NY"
+
+	ai_lp_def1[]:"A"
+	ai_lp_def1[]:"B"
+	ai_lp_def1[]:"E"
+	ai_lp_def1[]:"Z"
+	ai_lp_def1[]:"H"
+	ai_lp_def1[]:"I"
+	ai_lp_def1[]:"K"
+	ai_lp_def1[]:"M"
+	ai_lp_def1[]:"N"
+	ai_lp_def1[]:"O"
+	ai_lp_def1[]:"P"
+	ai_lp_def1[]:"T"
+	ai_lp_def1[]:"Y"
+	ai_lp_def1[]:"X"
+
+	ai_lp_def2[]:"0"
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+
+	ai_lp_def3[]:"1"
+	ai_lp_def3[]:"2"
+	ai_lp_def3[]:"3"
+	ai_lp_def3[]:"4"
+	ai_lp_def3[]:"5"
+	ai_lp_def3[]:"6"
+	ai_lp_def3[]:"7"
+	ai_lp_def3[]:"8"
+	ai_lp_def3[]:"9"
+}

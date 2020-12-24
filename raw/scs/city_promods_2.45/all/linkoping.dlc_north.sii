@@ -1,0 +1,26 @@
+city_data: city.linkoping
+{
+	city_name: "Linköping"
+	city_name_localized: "@@linkoping@@"
+	country: sweden
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -45
+	map_x_offsets[]: -45
+	map_x_offsets[]: -40
+	map_x_offsets[]: -44
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -124
+	map_y_offsets[]: -79
+	map_y_offsets[]: -38
+	map_y_offsets[]: -27
+
+	vehicle_brands[]:"man"
+}

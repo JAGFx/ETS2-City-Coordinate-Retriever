@@ -1,0 +1,51 @@
+﻿city_data: city.selfoss
+{
+	city_name: "Selfoss"
+	city_name_localized: "@@selfoss@@"
+	country: iceland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.7  // city zoom for world map
+	city_pin_scale_factor[]: 0.7  // closest zoom for world map
+	city_pin_scale_factor[]: 0.6  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	license_plate[]: .selfoss.lp.truck
+	license_plate[]: .selfoss.lp.trailer
+}
+
+license_plate_data : .selfoss.lp.truck
+{
+	type: truck
+
+@include "city_lp_is_truck.sui"
+}
+
+license_plate_data : .selfoss.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_is_trailer.sui"
+}

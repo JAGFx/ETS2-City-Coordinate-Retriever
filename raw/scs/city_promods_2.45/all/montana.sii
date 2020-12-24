@@ -1,0 +1,186 @@
+city_data: city.montana
+{
+	city_name: "Монтана"
+	city_name_localized: "@@montana@@"
+	country: bulgaria
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	license_plate[]: .montana.lp.car
+	license_plate[]: .montana.lp.truck
+	license_plate[]: .montana.lp.trailer
+}
+
+license_plate_data : .montana.lp.car
+{
+	type: car
+
+	templates[]:"0 1222 3"  # No zero for first numeral
+	templates[]:"0 2122 3"
+	templates[]:"0 2212 3"
+	templates[]:"0 2221 3"
+
+	def0[]:"M "  # Montana
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+#	def3[]:"AA"
+#	def3[]:"AB"
+#	def3[]:"AC"
+	def3[]:"AX"  # First with Euroband
+	def3[]:"AM"
+	def3[]:"AH"
+	def3[]:"AK"
+	def3[]:"AP"
+	def3[]:"AT"
+	def3[]:"BA"
+	def3[]:"BB"
+	def3[]:"BC"
+	def3[]:"BX"
+	def3[]:"BK"
+	def3[]:"BM"
+	def3[]:"BH"
+	def3[]:"BP"
+	def3[]:"BT"  # Latest issued January 2020
+}
+
+license_plate_data : .montana.lp.truck
+{
+	type: truck
+
+	templates[]:"0 1222 3"  # No zero for first numeral
+	templates[]:"0 2122 3"
+	templates[]:"0 2212 3"
+	templates[]:"0 2221 3"
+
+	def0[]:"M "  # Montana
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+##	def3[]:"AA"
+##	def3[]:"AB"
+##	def3[]:"AC"
+#	def3[]:"AX"  # First with Euroband
+#	def3[]:"AM"
+#	def3[]:"AH"
+#	def3[]:"AK"
+#	def3[]:"AP"
+	def3[]:"AT"
+	def3[]:"BA"
+	def3[]:"BB"
+	def3[]:"BC"
+	def3[]:"BX"
+	def3[]:"BK"
+	def3[]:"BM"
+	def3[]:"BH"
+	def3[]:"BP"
+	def3[]:"BT"  # Latest issued January 2020
+}
+
+license_plate_data : .montana.lp.trailer
+{
+	type: trailer
+
+	templates[]:"0 1222 3"  # No zero for first numeral
+	templates[]:"0 2122 3"
+	templates[]:"0 2212 3"
+	templates[]:"0 2221 3"
+
+	def0[]:"M "  # Montana
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+#	def3[]:"EB"
+	def3[]:"EE"  # First with Euroband
+	def3[]:"EX"  # Latest issued January 2020
+#	def3[]:"EK"
+#	def3[]:"EM"
+#	def3[]:"EH"
+#	def3[]:"EP"
+#	def3[]:"EC"
+#	def3[]:"ET"
+#	def3[]:"EA"
+}

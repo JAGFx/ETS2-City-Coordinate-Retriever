@@ -1,0 +1,160 @@
+city_data: city.trondheim
+{
+	city_name: "Trondheim"
+	city_name_localized: "@@trondheim@@"
+	country: norway
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -21
+	map_x_offsets[]: -20
+	map_x_offsets[]: -19
+	map_x_offsets[]: -20
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -66
+	map_y_offsets[]: -52
+	map_y_offsets[]: -29
+	map_y_offsets[]: -28
+
+	vehicle_brands[]:"daf"
+
+	license_plate[]: .trondheim.lp.car
+	license_plate[]: .trondheim.lp.truck
+	license_plate[]: .trondheim.lp.trailer
+}
+
+license_plate_data : .trondheim.lp.car
+{
+	type: car
+
+	templates[]:"0 12222"
+
+#	def0[]:"FP"  # Trondheim
+#	def0[]:"NW"
+	def0[]:"VD"
+	def0[]:"VE"
+	def0[]:"VF"
+	def0[]:"VH"
+	def0[]:"VJ"
+#	def0[]:"VK"
+#	def0[]:"VL"
+#	def0[]:"VN"
+#	def0[]:"VP"
+#	def0[]:"VR"
+	def0[]:"VS"  # Støren/Trondheim
+
+	def0[]:"XN"  # Stjørdal
+#	def0[]:"XP"
+#	def0[]:"YW"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+}
+
+license_plate_data : .trondheim.lp.truck
+{
+	type: truck
+
+	templates[]:"0 12222"
+
+#	def0[]:"FP"  # Trondheim
+#	def0[]:"NW"
+#	def0[]:"VD"
+#	def0[]:"VE"
+	def0[]:"VF"
+	def0[]:"VH"
+	def0[]:"VJ"
+#	def0[]:"VK"
+#	def0[]:"VL"
+#	def0[]:"VN"
+#	def0[]:"VP"
+#	def0[]:"VR"
+#	def0[]:"VS"  # Støren/Trondheim
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+}
+
+license_plate_data : .trondheim.lp.trailer
+{
+	type: trailer
+
+	templates[]:"0 1222"
+
+#	def0[]:"FP"  # Trondheim
+	def0[]:"NW"
+#	def0[]:"VD"
+#	def0[]:"VE"
+#	def0[]:"VF"
+#	def0[]:"VH"
+#	def0[]:"VJ"
+#	def0[]:"VK"
+#	def0[]:"VL"
+#	def0[]:"VN"
+#	def0[]:"VP"
+#	def0[]:"VR"
+	def0[]:"VS"  # Støren/Trondheim
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+}

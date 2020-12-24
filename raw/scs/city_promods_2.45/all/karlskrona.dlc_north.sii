@@ -1,0 +1,24 @@
+city_data: city.karlskrona
+{
+	city_name: "Karlskrona"
+	city_name_localized: "@@karlskrona@@"
+	country: sweden
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -50
+	map_x_offsets[]: -63
+	map_x_offsets[]: -65
+	map_x_offsets[]: -46
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -82
+	map_y_offsets[]: -49
+	map_y_offsets[]: -39
+	map_y_offsets[]: -26
+}

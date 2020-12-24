@@ -1,0 +1,30 @@
+
+city_data: city.elko
+{
+	city_name: "Elko"
+	short_city_name: "Elko"
+	city_name_uppercase: "ELKO"
+	country: nevada
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -21
+	map_x_offsets[]: -19
+	map_x_offsets[]: -20
+	map_x_offsets[]: -18
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -63
+	map_y_offsets[]: -47
+	map_y_offsets[]: -29
+	map_y_offsets[]: -28
+
+
+	vehicle_brands[]: "kenworth"
+}
+

@@ -1,0 +1,489 @@
+city_data: city.przemysl
+{
+	city_name: "Przemyśl"
+	city_name_localized: "@@przemysl@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -10
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -10
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]:"iveco"
+
+	license_plate[]: .przemysl.lp.car
+	license_plate[]: .przemysl.lp.truck
+	license_plate[]: .przemysl.lp.trailer
+	license_plate[]: .przemysl.lp.police
+}
+
+license_plate_data : .przemysl.lp.car
+{
+	type: car
+
+	# Two letter powiat codes
+	templates[]:"RP50444"    # I    some before EU stars
+	templates[]:"RP50444"    # I    some before EU stars
+	templates[]:"RP50444"    # I    some before EU stars
+	templates[]:"RP50444"    # I    some before EU stars
+
+	# Three letter powiat codes
+#	templates[]:"RPR52444"   # I    before EU stars
+	templates[]:"RPR54423"   # II   some before EU stars
+	templates[]:"RPR51444"   # VII
+
+##	def0[]:"00"  # Partially used for double-row plates
+#	def0[]:"01"
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"
+#	def0[]:"06"
+##	def0[]:"07"  # Partially used for double-row plates
+#	def0[]:"08"
+#	def0[]:"09"
+#	def0[]:"10"
+#	def0[]:"11"
+#	def0[]:"12"
+##	def0[]:"13"  # Partially used for double-row plates
+#	def0[]:"14"
+#	def0[]:"15"
+#	def0[]:"16"
+#	def0[]:"17"
+#	def0[]:"18"  # Most before EU stars
+	def0[]:"19"
+	def0[]:"20"
+	def0[]:"21"
+	def0[]:"22"
+	def0[]:"23"
+	def0[]:"24"
+	def0[]:"25"
+#	def0[]:"26"  # Partially used for double-row plates
+	def0[]:"27"
+	def0[]:"28"
+	def0[]:"29"
+	def0[]:"30"
+	def0[]:"31"
+	def0[]:"32"
+	def0[]:"33"
+	def0[]:"34"
+	def0[]:"35"
+	def0[]:"36"
+	def0[]:"37"
+	def0[]:"38"
+	def0[]:"39"
+	def0[]:"40"
+	def0[]:"41"
+	def0[]:"42"
+	def0[]:"43"
+	def0[]:"44"
+	def0[]:"45"
+	def0[]:"46"
+	def0[]:"47"
+	def0[]:"48"
+	def0[]:"49"
+	def0[]:"50"
+	def0[]:"51"
+	def0[]:"52"
+	def0[]:"53"
+	def0[]:"54"
+	def0[]:"55"
+	def0[]:"56"
+	def0[]:"57"
+	def0[]:"58"
+	def0[]:"59"
+	def0[]:"60"
+	def0[]:"61"
+	def0[]:"62"
+	def0[]:"63"
+	def0[]:"64"
+	def0[]:"65"
+#	def0[]:"66"  # Partially used for double-row plates
+	def0[]:"67"
+	def0[]:"68"
+	def0[]:"69"
+	def0[]:"70"
+	def0[]:"71"
+	def0[]:"72"
+	def0[]:"73"
+	def0[]:"74"
+	def0[]:"75"
+	def0[]:"76"
+	def0[]:"77"
+	def0[]:"78"
+	def0[]:"79"
+	def0[]:"80"
+	def0[]:"81"
+	def0[]:"82"
+	def0[]:"83"
+	def0[]:"84"
+	def0[]:"85"
+	def0[]:"86"
+	def0[]:"87"
+	def0[]:"88"  # "RP" I latest issued (October 2019)
+#	def0[]:"89"  # Future
+
+	def1[]:"00"
+	def1[]:"01"
+	def1[]:"02"
+	def1[]:"03"
+	def1[]:"04"
+	def1[]:"05"
+	def1[]:"06"
+	def1[]:"07"
+	def1[]:"08"
+	def1[]:"09"
+	def1[]:"10"
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"
+	def1[]:"14"
+	def1[]:"15"
+	def1[]:"16"
+	def1[]:"17"
+	def1[]:"18"
+	def1[]:"19"
+	def1[]:"20"
+	def1[]:"21"
+	def1[]:"22"
+	def1[]:"23"
+	def1[]:"24"
+	def1[]:"25"
+	def1[]:"26"
+	def1[]:"27"
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"
+	def1[]:"33"
+	def1[]:"34"
+	def1[]:"35"  # "RPR" VII latest issued (October 2019)
+#	def1[]:"36"  # Future
+
+#	def2[]:"A"  # Before EU stars
+	def2[]:"C"  # Some before EU stars
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+#	def2[]:"P"  # Used for "RPR" trailers
+#	def2[]:"R"  # Used for "RPR" mopeds
+	def2[]:"S"
+#	def2[]:"T"  # Used for "RPR" tractors
+	def2[]:"U"
+#	def2[]:"V"  # Used for "RPR" motorcycles
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+
+	def3[]:"A"
+	def3[]:"C"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"P"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"W"
+	def3[]:"X"
+	def3[]:"Y"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .przemysl.lp.truck
+{
+	type: truck
+
+	# Two letter powiat codes
+	templates[]:"RP50444"   # I    some before EU stars
+	templates[]:"RP50444"   # I    some before EU stars
+	templates[]:"RP50444"   # I    some before EU stars
+	templates[]:"RP5144"    # I
+
+##	def0[]:"00"  # Partially used for double-row plates
+#	def0[]:"01"
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"
+#	def0[]:"06"
+##	def0[]:"07"  # Partially used for double-row plates
+#	def0[]:"08"
+#	def0[]:"09"
+#	def0[]:"10"
+#	def0[]:"11"
+#	def0[]:"12"
+##	def0[]:"13"  # Partially used for double-row plates
+#	def0[]:"14"
+#	def0[]:"15"
+#	def0[]:"16"
+#	def0[]:"17"
+#	def0[]:"18"  # Most before EU stars
+#	def0[]:"19"
+#	def0[]:"20"
+#	def0[]:"21"
+#	def0[]:"22"
+#	def0[]:"23"
+#	def0[]:"24"
+#	def0[]:"25"
+##	def0[]:"26"  # Partially used for double-row plates
+#	def0[]:"27"
+#	def0[]:"28"
+#	def0[]:"29"
+#	def0[]:"30"
+#	def0[]:"31"
+#	def0[]:"32"
+#	def0[]:"33"
+#	def0[]:"34"
+#	def0[]:"35"
+#	def0[]:"36"
+#	def0[]:"37"
+#	def0[]:"38"
+#	def0[]:"39"
+#	def0[]:"40"
+#	def0[]:"41"
+#	def0[]:"42"
+#	def0[]:"43"
+#	def0[]:"44"
+#	def0[]:"45"
+#	def0[]:"46"
+#	def0[]:"47"
+#	def0[]:"48"
+#	def0[]:"49"
+#	def0[]:"50"
+#	def0[]:"51"
+#	def0[]:"52"
+#	def0[]:"53"
+#	def0[]:"54"
+#	def0[]:"55"
+#	def0[]:"56"
+#	def0[]:"57"
+#	def0[]:"58"
+#	def0[]:"59"
+#	def0[]:"60"
+#	def0[]:"61"
+#	def0[]:"62"
+#	def0[]:"63"
+#	def0[]:"64"
+#	def0[]:"65"
+##	def0[]:"66"  # Partially used for double-row plates
+#	def0[]:"67"
+#	def0[]:"68"
+#	def0[]:"69"
+#	def0[]:"70"
+#	def0[]:"71"
+#	def0[]:"72"
+#	def0[]:"73"
+#	def0[]:"74"
+#	def0[]:"75"
+#	def0[]:"76"
+#	def0[]:"77"
+#	def0[]:"78"
+#	def0[]:"79"
+#	def0[]:"80"
+#	def0[]:"81"
+#	def0[]:"82"
+#	def0[]:"83"
+#	def0[]:"84"
+	def0[]:"85"
+	def0[]:"86"
+	def0[]:"87"
+
+	def1[]:"880"
+	def1[]:"881"
+	def1[]:"882"
+	def1[]:"883"  # "RP" I latest issued (October 2019)
+#	def1[]:"884"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .przemysl.lp.trailer
+{
+	type: trailer
+
+	# Two letter powiat codes
+	templates[]:"RP5044P"   # II   some before EU stars
+	templates[]:"RP5044P"   # II   some before EU stars
+	templates[]:"RP5044P"   # II   some before EU stars
+	templates[]:"RP514P"    # II
+
+#	def0[]:"00"
+#	def0[]:"01"
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"  # Most before EU stars
+	def0[]:"06"
+	def0[]:"07"
+	def0[]:"08"
+	def0[]:"09"
+	def0[]:"10"
+	def0[]:"11"
+	def0[]:"12"
+	def0[]:"13"
+	def0[]:"14"
+	def0[]:"15"
+	def0[]:"16"
+	def0[]:"17"
+	def0[]:"18"
+	def0[]:"19"
+	def0[]:"20"
+	def0[]:"21"
+	def0[]:"22"
+
+	def1[]:"230"
+	def1[]:"231"
+	def1[]:"232"
+	def1[]:"233"
+	def1[]:"234"
+	def1[]:"235"
+	def1[]:"236"
+	def1[]:"237"
+	def1[]:"238"
+	def1[]:"239"
+	def1[]:"240"
+	def1[]:"241"
+	def1[]:"242"
+	def1[]:"243"
+	def1[]:"244"
+	def1[]:"245"
+	def1[]:"246"
+	def1[]:"247"
+	def1[]:"248"
+	def1[]:"249"
+	def1[]:"250"
+	def1[]:"251"
+	def1[]:"252"
+	def1[]:"253"
+	def1[]:"254"
+	def1[]:"255"
+	def1[]:"256"
+	def1[]:"257"  # "RP" II latest issued (October 2019)
+#	def1[]:"258"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .przemysl.lp.police
+{
+	type: police
+
+	# K = Podkarpackie Voivodeship Headquarters
+	templates[]:"HPK51222"
+#	templates[]:"HPK51222"
+#	templates[]:"HPK51222"
+#	templates[]:"HPK51222"
+#	templates[]:"HPK52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

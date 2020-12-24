@@ -1,0 +1,24 @@
+city_data: city.vancouver
+{
+	city_name: "Vancouver"
+	city_name_localized: "@@vancouver@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: 288
+	map_x_offsets[]: 41
+	map_x_offsets[]: -24
+	map_x_offsets[]: -43
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -19
+	map_y_offsets[]: -24
+	map_y_offsets[]: -34
+	map_y_offsets[]: 1
+}

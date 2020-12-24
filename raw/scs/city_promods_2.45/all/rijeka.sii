@@ -1,0 +1,218 @@
+city_data: city.rijeka
+{
+	city_name: "Rijeka"
+	city_name_localized: "@@rijeka@@"
+	country: croatia
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"renault"
+
+	license_plate[]: .rijeka.lp.car
+	license_plate[]: .rijeka.lp.truck
+	license_plate[]: .rijeka.lp.trailer
+	license_plate[]: .rijeka.lp.police
+}
+
+license_plate_data : .rijeka.lp.car
+{
+	type: car
+
+	templates[]:"01333-2"
+	templates[]:"01333-22"
+	templates[]:"013333-2"
+	templates[]:"013333-22"
+
+	def0[]:"RI"  # Rijeka
+	def0[]:"RI"
+	def0[]:"RI"
+	def0[]:"RI"
+	def0[]:"RI"
+	def0[]:"RI"
+	def0[]:"RI"
+	def0[]:"RI"
+	def0[]:"RI"
+	def0[]:"RI"
+	def0[]:"PU"  # Pula
+	def0[]:"DE"  # Delnice
+	def0[]:"KA"  # Karlovac
+	def0[]:"OG"  # Ogulin
+	def0[]:"GS"  # Gospić
+
+	def1[]:"<offset hshift=1 vshift=-3><img src=/material/ui/lp/croatia/hr.mat color=FFFFFFFF><offset hshift=1 vshift=3>"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"Z"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+}
+
+license_plate_data : .rijeka.lp.truck
+{
+	type: truck
+
+	templates[]:"01333-2"
+	templates[]:"01333-22"
+	templates[]:"013333-2"
+	templates[]:"013333-22"
+
+	def0[]:"RI"  # Rijeka
+
+	def1[]:"<offset hshift=1 vshift=-3><img src=/material/ui/lp/croatia/hr.mat color=FFFFFFFF><offset hshift=1 vshift=3>"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"Z"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+}
+
+license_plate_data : .rijeka.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01333-2"
+	templates[]:"01333-22"
+	templates[]:"013333-2"
+	templates[]:"013333-22"
+
+	def0[]:"RI"  # Rijeka
+
+	def1[]:"<offset hshift=1 vshift=-3><img src=/material/ui/lp/croatia/hr.mat color=FFFFFFFF><offset hshift=1 vshift=3>"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"Z"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+}
+
+license_plate_data : .rijeka.lp.police
+{
+	type: police
+
+	background_front: "police_front"
+	background_rear: "police_rear"
+
+	templates[]:"0132225"
+
+	def0[]:"<align left=-15><color value=FF834820>"
+
+	def1[]:"090"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"<offset hshift=2 vshift=-3><img src=/material/ui/lp/croatia/hr.mat color=FFFFFFFF><offset hshift=2 vshift=3>"
+
+	def5[]:"</align>"
+}

@@ -1,0 +1,24 @@
+city_data: city.uppsala
+{
+	city_name: "Uppsala"
+	city_name_localized: "@@uppsala@@"
+	country: sweden
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -42
+	map_x_offsets[]: -42
+	map_x_offsets[]: -37
+	map_x_offsets[]: -35
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -99
+	map_y_offsets[]: -56
+	map_y_offsets[]: -40
+	map_y_offsets[]: -27
+}

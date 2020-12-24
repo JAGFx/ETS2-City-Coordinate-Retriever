@@ -1,0 +1,2 @@
+	# Current year (2020) German license plate safety inspection sticker
+	def5[]:"<offset hshift=-16 vshift=-16><img src=/material/ui/lp/germany/h_ral5015_$SIDE$.mat color=FFFFFFFF><offset hshift=-1 vshift=4>"

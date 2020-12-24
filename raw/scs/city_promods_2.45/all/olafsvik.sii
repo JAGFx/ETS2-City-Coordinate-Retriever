@@ -1,0 +1,41 @@
+﻿city_data: city.olafsvik
+{
+	city_name: "Ólafsvík"
+	city_name_localized: "@@olafsvik@@"
+	country: iceland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	license_plate[]: .olafsvik.lp.truck
+	license_plate[]: .olafsvik.lp.trailer
+}
+
+license_plate_data : .olafsvik.lp.truck
+{
+	type: truck
+
+@include "city_lp_is_truck.sui"
+}
+
+license_plate_data : .olafsvik.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_is_trailer.sui"
+}

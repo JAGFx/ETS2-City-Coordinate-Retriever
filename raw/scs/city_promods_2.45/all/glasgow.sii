@@ -1,0 +1,165 @@
+city_data: city.glasgow
+{
+	city_name: "Glasgow"
+	city_name_localized: "@@glasgow@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 53
+	map_x_offsets[]: -30
+	map_x_offsets[]: -45
+	map_x_offsets[]: -41
+	map_x_offsets[]: -36
+	map_x_offsets[]: -36
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -35
+	map_y_offsets[]: -76
+	map_y_offsets[]: -44
+	map_y_offsets[]: -30
+	map_y_offsets[]: -27
+
+	vehicle_brands[]:"daf"
+
+	license_plate[]: .glasgow.lp.car
+	license_plate[]: .glasgow.lp.truck
+	license_plate[]: .glasgow.lp.trailer
+}
+
+license_plate_data : .glasgow.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Scotland, Glasgow
+	def0[]:"SA"
+	def0[]:"SB"
+	def0[]:"SC"
+	def0[]:"SD"
+	def0[]:"SE"
+	def0[]:"SF"
+	def0[]:"SG"
+	def0[]:"SH"
+	def0[]:"SJ"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .glasgow.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Scotland, Glasgow
+	def0[]:"SA"
+	def0[]:"SB"
+	def0[]:"SC"
+	def0[]:"SD"
+	def0[]:"SE"
+	def0[]:"SF"
+	def0[]:"SG"
+	def0[]:"SH"
+	def0[]:"SJ"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .glasgow.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Scotland, Glasgow
+	def0[]:"SA"
+	def0[]:"SB"
+	def0[]:"SC"
+	def0[]:"SD"
+	def0[]:"SE"
+	def0[]:"SF"
+	def0[]:"SG"
+	def0[]:"SH"
+	def0[]:"SJ"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

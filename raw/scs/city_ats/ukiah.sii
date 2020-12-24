@@ -1,0 +1,28 @@
+
+city_data: city.ukiah
+{
+	city_name: "Ukiah"
+	short_city_name: "Ukiah"
+	city_name_uppercase: "UKIAH"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -44
+	map_x_offsets[]: -41
+	map_x_offsets[]: -39
+	map_x_offsets[]: -36
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: 20
+	map_y_offsets[]: -104
+	map_y_offsets[]: -47
+	map_y_offsets[]: -26
+	map_y_offsets[]: -28
+
+}
+

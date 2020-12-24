@@ -1,0 +1,282 @@
+city_data: city.hannover
+{
+	city_name: "Hannover"
+	city_name_localized: "@@hannover@@"
+	country: germany
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -40
+	map_x_offsets[]: -36
+	map_x_offsets[]: -43
+	map_x_offsets[]: -40
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -54
+	map_y_offsets[]: -30
+	map_y_offsets[]: -12
+	map_y_offsets[]: 2
+
+	vehicle_brands[]:"scania"
+
+	license_plate[]: .hannover.lp.car
+	license_plate[]: .hannover.lp.truck
+	license_plate[]: .hannover.lp.trailer
+	license_plate[]: .hannover.lp.police
+}
+
+license_plate_data : .hannover.lp.car
+{
+	type: car
+
+	# One or two character location code
+	templates[]:"051 3444"  # Group e
+	templates[]:"051 3444"
+	templates[]:"051 3444"
+	templates[]:"051 3444"
+	templates[]:"051 344"   # Group c
+	templates[]:"051 344"
+	templates[]:"051 344"
+	templates[]:"051 344"
+	templates[]:"051 34"    # Group b - Rare
+	templates[]:"051 3"     # Group b - Very rare
+	templates[]:"052 3444"  # Group d
+	templates[]:"052 3444"
+	templates[]:"052 3444"
+	templates[]:"052 3444"
+	templates[]:"052 344"   # Group a
+	templates[]:"052 344"
+	templates[]:"052 344"
+	templates[]:"052 344"
+	templates[]:"052 34"    # Group a - Rare
+	templates[]:"052 3"     # Group a - Very rare
+
+	def0[]:"H<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_nieder.mat color=FFFFFFFF>"    # Hannover (Hanover), Niedersachsen
+
+@include "/def/city/lp_de_two_letter_combinations_1.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+#	def2[]:"J"  # (no longer issued)
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+#	def2[]:"P"  # (used by police)
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_current.sui"
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .hannover.lp.truck
+{
+	type: truck
+
+	templates[]:"051 3444"
+	templates[]:"051 344"
+	templates[]:"052 3444"
+#	templates[]:"052 344"
+
+	def0[]:"H<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_nieder.mat color=FFFFFFFF>"    # Hannover (Hanover), Niedersachsen
+
+@include "/def/city/lp_de_two_letter_combinations_1.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+#	def2[]:"J"  # (no longer issued)
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+#	def2[]:"P"  # (used by police)
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .hannover.lp.trailer
+{
+	type: trailer
+
+	templates[]:"051 3444"
+	templates[]:"051 344"
+	templates[]:"052 3444"
+#	templates[]:"052 344"
+
+	def0[]:"H<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_nieder.mat color=FFFFFFFF>"    # Hannover (Hanover), Niedersachsen
+
+@include "/def/city/lp_de_two_letter_combinations_1.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+#	def2[]:"J"  # (no longer issued)
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+#	def2[]:"P"  # (used by police)
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .hannover.lp.police
+{
+	type: police
+
+	templates[]:"05PD 3444"
+	templates[]:"05PD 344"
+	templates[]:"152 3444"
+	templates[]:"152 344"
+
+	def0[]:"H<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_nieder.mat color=FFFFFFFF>"    # Hannover (Hanover), Niedersachsen
+
+	def1[]:"H<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_nieder.mat color=FFFFFFFF>"    # Hannover (Hanover), Niedersachsen
+
+	def2[]:"PI"
+	def2[]:"P"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_current.sui"
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}

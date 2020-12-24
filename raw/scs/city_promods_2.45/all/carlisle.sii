@@ -1,0 +1,161 @@
+﻿city_data: city.carlisle
+{
+	city_name: "Carlisle"
+	city_name_localized: "@@carlisle@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -24
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -31
+	map_x_offsets[]: -45
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 14
+	map_y_offsets[]: 0
+	map_y_offsets[]: 4
+	map_y_offsets[]: 13
+	map_y_offsets[]: 7
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	license_plate[]: .carlisle.lp.car
+	license_plate[]: .carlisle.lp.truck
+	license_plate[]: .carlisle.lp.trailer
+}
+
+license_plate_data : .carlisle.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Preston, Carlisle
+	def0[]:"PU"
+	def0[]:"PV"
+	def0[]:"PW"
+	def0[]:"PX"
+	def0[]:"PY"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .carlisle.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Preston, Carlisle
+	def0[]:"PU"
+	def0[]:"PV"
+	def0[]:"PW"
+	def0[]:"PX"
+	def0[]:"PY"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .carlisle.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Preston, Carlisle
+	def0[]:"PU"
+	def0[]:"PV"
+	def0[]:"PW"
+	def0[]:"PX"
+	def0[]:"PY"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

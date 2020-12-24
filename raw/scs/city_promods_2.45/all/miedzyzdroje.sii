@@ -1,0 +1,413 @@
+city_data: city.miedzyzdroje
+{
+	city_name: "Międzyzdroje"
+	city_name_localized: "@@miedzyzdroje@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	license_plate[]: .miedzyzdroje.lp.car
+	license_plate[]: .miedzyzdroje.lp.truck
+	license_plate[]: .miedzyzdroje.lp.trailer
+	license_plate[]: .miedzyzdroje.lp.police
+}
+
+license_plate_data : .miedzyzdroje.lp.car
+{
+	type: car
+
+	# Three letter powiat codes
+#	templates[]:"ZKA50444"   # I    most before EU stars
+	templates[]:"ZKA51444"   # VII
+
+#	def0[]:"A"
+#	def0[]:"C"
+#	def0[]:"E"
+#	def0[]:"F"
+#	def0[]:"G"
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+#	def0[]:"L"
+##	def0[]:"M"  # Used for motorcycles
+#	def0[]:"N"
+##	def0[]:"P"  # Used for trailers
+##	def0[]:"R"  # Used for mopeds
+#	def0[]:"S"
+##	def0[]:"T"  # Used for tractors
+#	def0[]:"U"
+#	def0[]:"V"
+#	def0[]:"W"
+#	def0[]:"X"
+#	def0[]:"Y"
+
+	def1[]:"00"
+#	def1[]:"01"  # Partially used for double-row plates
+	def1[]:"02"
+	def1[]:"03"
+	def1[]:"04"
+	def1[]:"05"
+#	def1[]:"06"  # Partially used for double-row plates
+	def1[]:"07"
+	def1[]:"08"
+	def1[]:"09"
+	def1[]:"10"
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"
+	def1[]:"14"
+	def1[]:"15"
+	def1[]:"16"
+	def1[]:"17"
+	def1[]:"18"
+	def1[]:"19"
+	def1[]:"20"
+	def1[]:"21"
+	def1[]:"22"
+	def1[]:"23"
+	def1[]:"24"
+	def1[]:"25"
+	def1[]:"26"
+	def1[]:"27"
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"
+	def1[]:"33"
+	def1[]:"34"  # "ZKA" VII latest issued (September 2019)
+#	def1[]:"35"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .miedzyzdroje.lp.truck
+{
+	type: truck
+
+	# Three letter powiat codes
+#	templates[]:"ZKA50444"   # I    most before EU stars
+	templates[]:"ZKA51444"   # VII
+	templates[]:"ZKA51444"   # VII
+	templates[]:"ZKA51444"   # VII
+	templates[]:"ZKA5244"    # VII
+
+#	def0[]:"A"
+#	def0[]:"C"
+#	def0[]:"E"
+#	def0[]:"F"
+#	def0[]:"G"
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+#	def0[]:"L"
+##	def0[]:"M"  # Used for motorcycles
+#	def0[]:"N"
+##	def0[]:"P"  # Used for trailers
+##	def0[]:"R"  # Used for mopeds
+#	def0[]:"S"
+##	def0[]:"T"  # Used for tractors
+#	def0[]:"U"
+#	def0[]:"V"
+#	def0[]:"W"
+#	def0[]:"X"
+#	def0[]:"Y"
+
+#	def1[]:"00"
+##	def1[]:"01"  # Partially used for double-row plates
+#	def1[]:"02"
+#	def1[]:"03"
+#	def1[]:"04"
+#	def1[]:"05"
+##	def1[]:"06"  # Partially used for double-row plates
+#	def1[]:"07"
+#	def1[]:"08"
+#	def1[]:"09"
+#	def1[]:"10"
+#	def1[]:"11"
+#	def1[]:"12"
+#	def1[]:"13"
+#	def1[]:"14"
+#	def1[]:"15"
+#	def1[]:"16"
+#	def1[]:"17"
+#	def1[]:"18"
+#	def1[]:"19"
+#	def1[]:"20"
+#	def1[]:"21"
+#	def1[]:"22"
+#	def1[]:"23"
+#	def1[]:"24"
+#	def1[]:"25"
+#	def1[]:"26"
+#	def1[]:"27"
+#	def1[]:"28"
+#	def1[]:"29"
+#	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"
+	def1[]:"33"
+
+	def2[]:"340"
+	def2[]:"341"
+	def2[]:"342"
+	def2[]:"343"  # "ZKA" VII latest issued (September 2019)
+#	def2[]:"344"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .miedzyzdroje.lp.trailer
+{
+	type: trailer
+
+	# Three letter powiat codes
+	templates[]:"ZKA5P04"    # I    most before EU stars
+	templates[]:"ZKA5441"    # II
+	templates[]:"ZKA5441"    # II
+	templates[]:"ZKA5441"    # II
+	templates[]:"ZKA5342"    # II
+
+#	def0[]:"00"
+#	def0[]:"01"
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+##	def0[]:"05"  # Used for double-row plates
+##	def0[]:"06"  # Used for double-row plates
+##	def0[]:"07"  # Used for double-row plates
+##	def0[]:"08"  # Used for double-row plates
+##	def0[]:"09"  # Used for double-row plates
+##	def0[]:"10"  # Used for double-row plates
+##	def0[]:"11"  # Used for double-row plates
+##	def0[]:"12"  # Used for double-row plates
+##	def0[]:"13"  # Used for double-row plates
+##	def0[]:"14"  # Used for double-row plates
+##	def0[]:"15"  # Used for double-row plates
+##	def0[]:"16"  # Used for double-row plates
+##	def0[]:"17"  # Used for double-row plates
+##	def0[]:"18"  # Used for double-row plates
+##	def0[]:"19"  # Used for double-row plates
+##	def0[]:"20"  # Used for double-row plates
+##	def0[]:"21"  # Used for double-row plates
+##	def0[]:"22"  # Used for double-row plates
+##	def0[]:"23"  # Used for double-row plates
+##	def0[]:"24"  # Used for double-row plates
+#	def0[]:"25"
+#	def0[]:"26"
+#	def0[]:"27"
+#	def0[]:"28"
+#	def0[]:"29"
+#	def0[]:"30"
+#	def0[]:"31"
+##	def0[]:"32"  # Partially used for double-row plates
+##	def0[]:"33"  # Used for double-row plates
+##	def0[]:"34"  # Used for double-row plates
+#	def0[]:"35"
+#	def0[]:"36"
+#	def0[]:"37"
+#	def0[]:"38"
+#	def0[]:"39"
+#	def0[]:"40"
+#	def0[]:"41"
+#	def0[]:"42"
+#	def0[]:"43"
+#	def0[]:"44"
+#	def0[]:"45"
+#	def0[]:"46"
+##	def0[]:"47"  # Partially used for double-row plates
+##	def0[]:"48"  # Used for double-row plates
+##	def0[]:"49"  # Used for double-row plates
+##	def0[]:"50"  # Used for double-row plates
+##	def0[]:"51"  # Used for double-row plates
+##	def0[]:"52"  # Partially used for double-row plates
+#	def0[]:"53"
+#	def0[]:"54"
+#	def0[]:"55"
+#	def0[]:"56"
+#	def0[]:"57"
+#	def0[]:"58"
+#	def0[]:"59"
+#	def0[]:"60"
+#	def0[]:"61"
+##	def0[]:"62"  # Partially used for double-row plates
+##	def0[]:"63"  # Used for double-row plates
+##	def0[]:"64"  # Used for double-row plates
+#	def0[]:"65"
+#	def0[]:"66"
+#	def0[]:"67"
+#	def0[]:"68"
+#	def0[]:"69"
+#	def0[]:"70"
+#	def0[]:"71"
+##	def0[]:"72"  # Partially used for double-row plates
+##	def0[]:"73"  # Used for double-row plates
+##	def0[]:"74"  # Used for double-row plates
+#	def0[]:"75"
+#	def0[]:"76"
+#	def0[]:"77"
+#	def0[]:"78"
+#	def0[]:"79"
+#	def0[]:"80"
+#	def0[]:"81"
+#	def0[]:"82"
+#	def0[]:"83"
+#	def0[]:"84"
+#	def0[]:"85"
+#	def0[]:"86"
+#	def0[]:"87"
+#	def0[]:"88"
+#	def0[]:"89"
+#	def0[]:"90"
+#	def0[]:"91"
+#	def0[]:"92"
+#	def0[]:"93"
+#	def0[]:"94"
+##	def0[]:"95"  # Used for double-row plates
+##	def0[]:"96"  # Used for double-row plates, most before EU stars
+	def0[]:"97"  # Partially used for double-row plates
+	def0[]:"98"
+	def0[]:"99"
+
+	def1[]:"AA"
+	def1[]:"AC"
+	def1[]:"AE"
+	def1[]:"AF"
+	def1[]:"AG"
+	def1[]:"AH"
+	def1[]:"AJ"
+	def1[]:"AK"
+	def1[]:"AL"
+	def1[]:"AM"
+	def1[]:"AN"
+	def1[]:"AP"
+	def1[]:"AR"
+	def1[]:"AS"
+	def1[]:"AT"
+	def1[]:"AU"
+	def1[]:"AV"
+	def1[]:"AW"
+	def1[]:"AX"
+	def1[]:"AY"
+#	def1[]:"CA"  # Partially used for cars
+	def1[]:"CC"
+	def1[]:"CE"
+	def1[]:"CF"
+	def1[]:"CG"
+	def1[]:"CH"
+	def1[]:"CJ"
+
+	def2[]:"CK"  # "ZKA" II latest issued (September 2019)
+#	def2[]:"CL"  # Future
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"  # "ZKA" II latest issued (September 2019)
+#	def3[]:"7"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .miedzyzdroje.lp.police
+{
+	type: police
+
+	# W = West Pomeranian (Zachodniopomorskie) Voivodeship Headquarters
+	templates[]:"HPW51222"
+#	templates[]:"HPW51222"
+#	templates[]:"HPW51222"
+#	templates[]:"HPW51222"
+#	templates[]:"HPW52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

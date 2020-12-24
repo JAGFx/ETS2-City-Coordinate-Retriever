@@ -1,0 +1,29 @@
+﻿
+city_data: city.mikolajki
+{
+	city_name: "Mikołajki"
+	short_city_name: "Mikołajki"
+	city_name_uppercase: "MIKOŁAJKI"
+	country: poland
+
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+}
+

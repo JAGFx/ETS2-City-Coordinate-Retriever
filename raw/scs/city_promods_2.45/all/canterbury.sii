@@ -1,0 +1,188 @@
+city_data: city.canterbury
+{
+	city_name: "Canterbury"
+	city_name_localized: "@@canterbury@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0 // close zoom for minimap
+	map_x_offsets[]: 0 // far zoom for monimap
+	map_x_offsets[]: 0 // city zoom for world map
+	map_x_offsets[]: 10 // closest zoom for world map
+	map_x_offsets[]: 10 // middle zoom for world map
+	map_x_offsets[]: 10 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 3
+	map_y_offsets[]: 2
+	map_y_offsets[]: 2
+	map_y_offsets[]: 0
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.6  // middle zoom for world map
+	city_pin_scale_factor[]: 0.4  // whole world map zoom
+
+	license_plate[]: .canterbury.lp.car
+	license_plate[]: .canterbury.lp.truck
+	license_plate[]: .canterbury.lp.trailer
+}
+
+license_plate_data : .canterbury.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Garden of England, Maidstone
+	def0[]:"GA"
+	def0[]:"GB"
+	def0[]:"GC"
+	def0[]:"GD"
+	def0[]:"GE"
+	def0[]:"GF"
+	def0[]:"GG"
+	def0[]:"GH"
+	def0[]:"GJ"
+	def0[]:"GK"
+	def0[]:"GL"
+	def0[]:"GM"
+	def0[]:"GN"
+#	def0[]:"GO"  # Reserved for select issue
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .canterbury.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Garden of England, Maidstone
+	def0[]:"GA"
+	def0[]:"GB"
+	def0[]:"GC"
+	def0[]:"GD"
+	def0[]:"GE"
+	def0[]:"GF"
+	def0[]:"GG"
+	def0[]:"GH"
+	def0[]:"GJ"
+	def0[]:"GK"
+	def0[]:"GL"
+	def0[]:"GM"
+	def0[]:"GN"
+#	def0[]:"GO"  # Reserved for select issue
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .canterbury.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Garden of England, Maidstone
+	def0[]:"GA"
+	def0[]:"GB"
+	def0[]:"GC"
+	def0[]:"GD"
+	def0[]:"GE"
+	def0[]:"GF"
+	def0[]:"GG"
+	def0[]:"GH"
+	def0[]:"GJ"
+	def0[]:"GK"
+	def0[]:"GL"
+	def0[]:"GM"
+	def0[]:"GN"
+#	def0[]:"GO"  # Reserved for select issue
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

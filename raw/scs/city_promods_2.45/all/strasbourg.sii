@@ -1,0 +1,57 @@
+city_data: city.strasbourg
+{
+	city_name: "Strasbourg"
+	city_name_localized: "@@strasbourg@@"
+	country: france
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -50
+	map_x_offsets[]: -70
+	map_x_offsets[]: -10
+	map_x_offsets[]: -15
+	map_x_offsets[]: -35
+	map_x_offsets[]: -75
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 60
+	map_y_offsets[]: 0
+	map_y_offsets[]: 80
+	map_y_offsets[]: 5
+	map_y_offsets[]: -10
+	map_y_offsets[]: -15
+
+	vehicle_brands[]:"scania"
+
+	license_plate[]: .strasbourg.lp.car
+	license_plate[]: .strasbourg.lp.truck
+	license_plate[]: .strasbourg.lp.trailer
+}
+
+license_plate_data : .strasbourg.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/67.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .strasbourg.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/67.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .strasbourg.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/67.mat color=FFFFFFFF width=15 height=32></align>"
+}

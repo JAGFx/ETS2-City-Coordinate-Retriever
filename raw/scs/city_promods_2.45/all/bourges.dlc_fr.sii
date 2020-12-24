@@ -1,0 +1,70 @@
+city_data: city.bourges
+{
+	city_name: "Bourges"
+	city_name_localized: "@@bourges@@"
+	country: france
+
+	## City pin and name scale factor sets size of city pin and name text on UI map.
+	## Valid values: (0;2> default value 1.0. Default pin size on UI map 24px X 24px.
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -27
+	map_x_offsets[]: -28
+	map_x_offsets[]: -25
+	map_x_offsets[]: -27
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -20
+	map_y_offsets[]: -47
+	map_y_offsets[]: -34
+	map_y_offsets[]: -26
+	map_y_offsets[]: -20
+
+	vehicle_brands[]:"renault"
+
+	license_plate[]: .bourges.lp.car
+	license_plate[]: .bourges.lp.truck
+	license_plate[]: .bourges.lp.trailer
+}
+
+license_plate_data : .bourges.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/18.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .bourges.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/18.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .bourges.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/18.mat color=FFFFFFFF width=15 height=32></align>"
+}

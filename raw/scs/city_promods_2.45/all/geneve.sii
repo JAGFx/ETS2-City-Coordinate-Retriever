@@ -1,0 +1,147 @@
+city_data: city.geneve
+{
+	city_name: "Genève"
+	city_name_localized: "@@geneve@@"
+	country: switzerland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 10
+	map_x_offsets[]: -10
+	map_x_offsets[]: -33
+	map_x_offsets[]: -26
+	map_x_offsets[]: -31
+	map_x_offsets[]: -34
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -85
+	map_y_offsets[]: 5
+	map_y_offsets[]: -80
+	map_y_offsets[]: -58
+	map_y_offsets[]: -28
+	map_y_offsets[]: -28
+
+	vehicle_brands[]:"mercedes"
+
+	license_plate[]: .geneve.lp.car
+	license_plate[]: .geneve.lp.truck
+	license_plate[]: .geneve.lp.trailer
+}
+
+license_plate_data : .geneve.lp.car
+{
+	type: car
+
+	templates[]: "1.233 3334"
+	templates[]: "1.233 3334"
+	templates[]: "1.233 3334"
+	templates[]: "1.233 3334"
+	templates[]: "1.233334"
+	templates[]: "1.233334"
+	templates[]: "1.23334"
+	templates[]: "1.2334"
+
+	def1[]:"<offset vshift=-4><align left=122><img src=/material/ui/lp/switzerland/$SIDE$_ge.mat color=FFFFFFFF></align><ret><align left=-13>GE"
+	def1[]:"<offset vshift=-4><align left=122><img src=/material/ui/lp/switzerland/$SIDE$_ge.mat color=FFFFFFFF></align><ret><align left=-13>GE"
+	def1[]:"<offset vshift=-4><align left=122><img src=/material/ui/lp/switzerland/$SIDE$_ge.mat color=FFFFFFFF></align><ret><align left=-13>GE"
+	def1[]:"<offset vshift=-4><align left=122><img src=/material/ui/lp/switzerland/$SIDE$_ge.mat color=FFFFFFFF></align><ret><align left=-13>GE"
+	def1[]:"<offset vshift=-4><align left=122><img src=/material/ui/lp/switzerland/$SIDE$_vd.mat color=FFFFFFFF></align><ret><align left=-13>VD"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"</align>"
+}
+
+license_plate_data : .geneve.lp.truck
+{
+	type: truck
+
+	templates[]: "1.233 3334"
+#	templates[]: "1.233 3334"
+#	templates[]: "1.233334"
+#	templates[]: "1.233334"
+#	templates[]: "1.23334"
+#	templates[]: "1.2334"
+
+	def1[]:"<offset vshift=-4><align left=122><img src=/material/ui/lp/switzerland/$SIDE$_ge.mat color=FFFFFFFF></align><ret><align left=-13>GE"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"</align>"
+}
+
+license_plate_data : .geneve.lp.trailer
+{
+	type: trailer
+
+	templates[]: "1.233 3334"
+#	templates[]: "1.233 3334"
+#	templates[]: "1.233334"
+#	templates[]: "1.233334"
+#	templates[]: "1.23334"
+#	templates[]: "1.2334"
+
+	def1[]:"<offset vshift=-4><align left=122><img src=/material/ui/lp/switzerland/$SIDE$_ge.mat color=FFFFFFFF></align><ret><align left=-13>GE"
+
+	def2[]:"1"
+#	def2[]:"2"
+#	def2[]:"3"
+#	def2[]:"4"
+#	def2[]:"5"
+#	def2[]:"6"
+#	def2[]:"7"
+#	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"</align>"
+}

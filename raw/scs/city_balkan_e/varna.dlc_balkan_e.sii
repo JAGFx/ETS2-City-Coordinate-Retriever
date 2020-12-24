@@ -1,0 +1,25 @@
+
+city_data : city.varna
+{
+	city_name: "Варна"
+	city_name_localized: "@@varna@@"
+	country: bulgaria
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -7
+	map_x_offsets[]: -5
+	map_x_offsets[]: 4
+	map_x_offsets[]: 6
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -23
+	map_y_offsets[]: -14
+	map_y_offsets[]: -5
+	map_y_offsets[]: -8
+}

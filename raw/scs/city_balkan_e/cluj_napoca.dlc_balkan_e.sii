@@ -1,0 +1,27 @@
+
+city_data : city.cluj_napoca
+{
+	city_name: "Cluj-Napoca"
+	city_name_localized: "@@cluj_napoca@@"
+	country: romania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 158
+	map_x_offsets[]: 28
+	map_x_offsets[]: -40
+	map_x_offsets[]: -51
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -35
+	map_y_offsets[]: -36
+	map_y_offsets[]: -30
+	map_y_offsets[]: -28
+
+	vehicle_brands[]: "man"
+}

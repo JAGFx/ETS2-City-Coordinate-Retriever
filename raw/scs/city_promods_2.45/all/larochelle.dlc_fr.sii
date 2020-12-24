@@ -1,0 +1,65 @@
+city_data: city.larochelle
+{
+	city_name: "La Rochelle"
+	city_name_localized: "@@la_rochelle@@"
+	country: france
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -27
+	map_x_offsets[]: -28
+	map_x_offsets[]: -25
+	map_x_offsets[]: -27
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -20
+	map_y_offsets[]: -47
+	map_y_offsets[]: -34
+	map_y_offsets[]: -26
+	map_y_offsets[]: -20
+
+	license_plate[]: .larochelle.lp.car
+	license_plate[]: .larochelle.lp.truck
+	license_plate[]: .larochelle.lp.trailer
+}
+
+license_plate_data : .larochelle.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/17.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .larochelle.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/17.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .larochelle.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/17.mat color=FFFFFFFF width=15 height=32></align>"
+}

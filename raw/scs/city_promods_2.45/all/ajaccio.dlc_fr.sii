@@ -1,0 +1,58 @@
+
+city_data : city.ajaccio
+{
+	city_name: "Ajaccio"
+	city_name_localized: "@@ajaccio@@"
+	country: france
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -178
+	map_x_offsets[]: -120
+	map_x_offsets[]: -76
+	map_x_offsets[]: -71
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 7
+	map_y_offsets[]: -11
+	map_y_offsets[]: -13
+	map_y_offsets[]: -10
+
+	vehicle_brands[]: "man"
+
+	license_plate[]: .ajaccio.lp.car
+	license_plate[]: .ajaccio.lp.truck
+	license_plate[]: .ajaccio.lp.trailer
+}
+
+license_plate_data : .ajaccio.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/2a.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .ajaccio.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/2a.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .ajaccio.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/2a.mat color=FFFFFFFF width=15 height=32></align>"
+}

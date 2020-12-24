@@ -1,0 +1,28 @@
+
+city_data: city.carlsbad
+{
+	city_name: "Carlsbad"
+	short_city_name: "Carlsbad"
+	city_name_uppercase: "CARLSBAD"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -44
+	map_x_offsets[]: -38
+	map_x_offsets[]: -42
+	map_x_offsets[]: -39
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -60
+	map_y_offsets[]: -38
+	map_y_offsets[]: -30
+	map_y_offsets[]: -28
+
+}
+

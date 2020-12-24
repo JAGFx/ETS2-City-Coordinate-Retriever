@@ -1,0 +1,550 @@
+city_data: city.bydgoszcz
+{
+	city_name: "Bydgoszcz"
+	city_name_localized: "@@bydgoszcz@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	vehicle_brands[]:"man"
+
+	license_plate[]: .bydgoszcz.lp.car
+	license_plate[]: .bydgoszcz.lp.truck
+	license_plate[]: .bydgoszcz.lp.trailer
+	license_plate[]: .bydgoszcz.lp.police
+}
+
+license_plate_data : .bydgoszcz.lp.car
+{
+	type: car
+
+	# Two letter powiat codes
+#	templates[]:"CB544444"   # I    before EU stars
+	templates[]:"CB544442"   # II   some before EU stars
+	templates[]:"CB54440"    # III
+	templates[]:"CB54440"    # III
+	templates[]:"CB54440"    # III
+	templates[]:"CB54440"    # III
+
+	# Three letter powiat codes
+#	templates[]:"CBY52444"   # I    before EU stars
+#	templates[]:"CBY54422"   # II   most before EU stars
+	templates[]:"CBY53244"   # III
+	templates[]:"CBY54423"   # IV
+	templates[]:"CBY52244"   # VI
+	templates[]:"CBY514444"  # VII
+	templates[]:"CBY51444F"  # VIII
+	templates[]:"CBY51444L"  # VIII
+
+	def0[]:"AA"
+	def0[]:"AC"
+	def0[]:"AE"
+	def0[]:"AF"
+	def0[]:"AG"
+	def0[]:"AH"
+	def0[]:"AJ"
+	def0[]:"AK"
+	def0[]:"AL"
+	def0[]:"AM"
+	def0[]:"AN"
+	def0[]:"AP"
+	def0[]:"AR"
+	def0[]:"AS"
+	def0[]:"AT"
+	def0[]:"AU"
+	def0[]:"AV"
+	def0[]:"AW"
+	def0[]:"AX"
+	def0[]:"AY"
+	def0[]:"CA"
+	def0[]:"CC"
+	def0[]:"CE"
+	def0[]:"CF"
+	def0[]:"CG"
+	def0[]:"CH"
+	def0[]:"CJ"
+	def0[]:"CK"
+	def0[]:"CL"
+	def0[]:"CM"
+	def0[]:"CN"
+	def0[]:"CP"
+	def0[]:"CR"
+	def0[]:"CS"
+	def0[]:"CT"
+	def0[]:"CU"
+	def0[]:"CV"
+	def0[]:"CW"
+	def0[]:"CX"
+	def0[]:"CY"
+	def0[]:"EA"
+	def0[]:"EC"
+	def0[]:"EE"
+	def0[]:"EF"
+	def0[]:"EG"
+	def0[]:"EH"
+	def0[]:"EJ"
+	def0[]:"EK"
+	def0[]:"EL"
+	def0[]:"EM"
+	def0[]:"EN"
+	def0[]:"EP"
+	def0[]:"ER"
+	def0[]:"ES"
+	def0[]:"ET"
+	def0[]:"EU"
+	def0[]:"EV"
+	def0[]:"EW"
+	def0[]:"EX"
+	def0[]:"EY"
+	def0[]:"FA"
+	def0[]:"FC"
+	def0[]:"FE"
+	def0[]:"FF"
+	def0[]:"FG"
+	def0[]:"FH"
+	def0[]:"FJ"
+	def0[]:"FK"
+	def0[]:"FL"
+	def0[]:"FM"
+	def0[]:"FN"
+	def0[]:"FP"
+	def0[]:"FR"
+	def0[]:"FS"
+	def0[]:"FT"
+	def0[]:"FU"
+	def0[]:"FV"
+	def0[]:"FW"
+	def0[]:"FX"
+	def0[]:"FY"
+	def0[]:"GA"
+	def0[]:"GC"
+	def0[]:"GE"
+	def0[]:"GF"
+	def0[]:"GG"
+	def0[]:"GH"
+	def0[]:"GJ"
+	def0[]:"GK"
+	def0[]:"GL"
+	def0[]:"GM"
+	def0[]:"GN"
+	def0[]:"GP"
+	def0[]:"GR"
+	def0[]:"GS"
+	def0[]:"GT"
+	def0[]:"GU"
+	def0[]:"GV"
+	def0[]:"GW"
+	def0[]:"GX"
+	def0[]:"GY"
+	def0[]:"HA"
+	def0[]:"HC"
+	def0[]:"HE"
+	def0[]:"HF"
+	def0[]:"HG"
+	def0[]:"HH"
+	def0[]:"HJ"
+	def0[]:"HK"
+	def0[]:"HL"
+	def0[]:"HM"
+	def0[]:"HN"
+	def0[]:"HP"
+	def0[]:"HR"
+	def0[]:"HS"
+	def0[]:"HT"
+	def0[]:"HU"
+	def0[]:"HV"
+	def0[]:"HW"
+	def0[]:"HX"
+	def0[]:"HY"
+	def0[]:"JA"
+	def0[]:"JC"
+	def0[]:"JE"
+	def0[]:"JF"
+	def0[]:"JG"
+	def0[]:"JH"
+	def0[]:"JJ"
+	def0[]:"JK"
+	def0[]:"JL"
+	def0[]:"JM"
+	def0[]:"JN"
+	def0[]:"JP"
+	def0[]:"JR"
+	def0[]:"JS"
+	def0[]:"JT"
+	def0[]:"JU"
+	def0[]:"JV"
+	def0[]:"JW"
+	def0[]:"JX"
+	def0[]:"JY"
+	def0[]:"KA"
+	def0[]:"KC"
+	def0[]:"KE"
+	def0[]:"KF"
+	def0[]:"KG"
+	def0[]:"KH"
+	def0[]:"KJ"
+	def0[]:"KK"
+	def0[]:"KL"
+	def0[]:"KM"
+	def0[]:"KN"
+	def0[]:"KP"  # "CB" III latest issued (October 2019)
+#	def0[]:"KR"  # Future
+
+	def1[]:"0"  # def1 used for "CBY" VII and VIII
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+#	def1[]:"6"
+
+#	def2[]:"A"  # Used for "CBY" trailers, tractors, and mopeds
+	def2[]:"C"
+#	def2[]:"E"  # Used for "CBY" trailers, motorcycles, tractors, and mopeds
+	def2[]:"F"
+	def2[]:"G"
+#	def2[]:"H"  # Used for "CBY" trailers, motorcycles, tractors, and mopeds
+	def2[]:"J"
+	def2[]:"K"
+#	def2[]:"L"  # Used for "CBY" mopeds
+#	def2[]:"M"  # Used for "CBY" motorcycles
+#	def2[]:"N"  # Used for "CBY" tractors
+#	def2[]:"P"  # Used for "CBY" trailers, motorcycles, tractors, and mopeds
+#	def2[]:"R"  # Used for "CBY" trailers
+	def2[]:"S"
+	def2[]:"T"
+#	def2[]:"U"  # Used for "CBY" trailers, motorcycles, tractors, and mopeds
+#	def2[]:"V"  # Used for "CBY" trailers, motorcycles, tractors, and mopeds
+#	def2[]:"W"  # Used for "CBY" trailers, motorcycles, tractors, and mopeds
+#	def2[]:"X"  # Used for "CB" double-row plates, "CBY" motorcycles, "CBY" tractors, and "CBY" mopeds
+#	def2[]:"Y"  # Used for "CBY" trailers, motorcycles, tractors, and mopeds
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .bydgoszcz.lp.truck
+{
+	type: truck
+
+	# Two letter powiat codes
+#	templates[]:"CB544444"   # I    before EU stars
+#	templates[]:"CB544440"   # II   some before EU stars
+	templates[]:"CB54441"    # III
+
+##	def0[]:"A"
+##	def0[]:"C"
+##	def0[]:"E"
+##	def0[]:"F"
+##	def0[]:"G"  # Most before EU stars
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+#	def0[]:"L"
+#	def0[]:"M"
+#	def0[]:"N"
+#	def0[]:"P"
+#	def0[]:"R"
+#	def0[]:"S"
+#	def0[]:"T"
+#	def0[]:"U"
+#	def0[]:"V"
+##	def0[]:"X"  # Used for double-row plates
+#	def0[]:"Y"
+#	def0[]:"W"
+
+#	def1[]:"AA"
+#	def1[]:"AC"
+#	def1[]:"AE"
+#	def1[]:"AF"
+#	def1[]:"AG"
+#	def1[]:"AH"
+#	def1[]:"AJ"
+#	def1[]:"AK"
+#	def1[]:"AL"
+#	def1[]:"AM"
+#	def1[]:"AN"
+#	def1[]:"AP"
+#	def1[]:"AR"
+#	def1[]:"AS"
+#	def1[]:"AT"
+#	def1[]:"AU"
+#	def1[]:"AV"
+#	def1[]:"AW"
+#	def1[]:"AX"
+#	def1[]:"AY"
+#	def1[]:"CA"
+#	def1[]:"CC"
+#	def1[]:"CE"
+#	def1[]:"CF"
+#	def1[]:"CG"
+#	def1[]:"CH"
+#	def1[]:"CJ"
+#	def1[]:"CK"
+#	def1[]:"CL"
+#	def1[]:"CM"
+#	def1[]:"CN"
+#	def1[]:"CP"
+#	def1[]:"CR"
+#	def1[]:"CS"
+#	def1[]:"CT"
+#	def1[]:"CU"
+#	def1[]:"CV"
+#	def1[]:"CW"
+#	def1[]:"CX"
+#	def1[]:"CY"
+#	def1[]:"EA"
+#	def1[]:"EC"
+#	def1[]:"EE"
+#	def1[]:"EF"
+#	def1[]:"EG"
+#	def1[]:"EH"
+#	def1[]:"EJ"
+#	def1[]:"EK"
+#	def1[]:"EL"
+#	def1[]:"EM"
+#	def1[]:"EN"
+#	def1[]:"EP"
+#	def1[]:"ER"
+#	def1[]:"ES"
+#	def1[]:"ET"
+#	def1[]:"EU"
+#	def1[]:"EV"
+#	def1[]:"EW"
+#	def1[]:"EX"
+#	def1[]:"EY"
+#	def1[]:"FA"
+#	def1[]:"FC"
+#	def1[]:"FE"
+#	def1[]:"FF"
+#	def1[]:"FG"
+#	def1[]:"FH"
+#	def1[]:"FJ"
+#	def1[]:"FK"
+#	def1[]:"FL"
+#	def1[]:"FM"
+#	def1[]:"FN"
+#	def1[]:"FP"
+#	def1[]:"FR"
+#	def1[]:"FS"
+#	def1[]:"FT"
+#	def1[]:"FU"
+#	def1[]:"FV"
+#	def1[]:"FW"
+#	def1[]:"FX"
+#	def1[]:"FY"
+#	def1[]:"GA"
+#	def1[]:"GC"
+#	def1[]:"GE"
+#	def1[]:"GF"
+#	def1[]:"GG"
+#	def1[]:"GH"
+#	def1[]:"GJ"
+#	def1[]:"GK"
+#	def1[]:"GL"
+#	def1[]:"GM"
+#	def1[]:"GN"
+#	def1[]:"GP"
+#	def1[]:"GR"
+#	def1[]:"GS"
+#	def1[]:"GT"
+#	def1[]:"GU"
+#	def1[]:"GV"
+#	def1[]:"GW"
+#	def1[]:"GX"
+#	def1[]:"GY"
+#	def1[]:"HA"
+#	def1[]:"HC"
+#	def1[]:"HE"
+#	def1[]:"HF"
+#	def1[]:"HG"
+#	def1[]:"HH"
+#	def1[]:"HJ"
+#	def1[]:"HK"
+#	def1[]:"HL"
+#	def1[]:"HM"
+#	def1[]:"HN"
+#	def1[]:"HP"
+#	def1[]:"HR"
+#	def1[]:"HS"
+#	def1[]:"HT"
+#	def1[]:"HU"
+#	def1[]:"HV"
+#	def1[]:"HW"
+#	def1[]:"HX"
+#	def1[]:"HY"
+#	def1[]:"JA"
+#	def1[]:"JC"
+#	def1[]:"JE"
+#	def1[]:"JF"
+#	def1[]:"JG"
+#	def1[]:"JH"
+#	def1[]:"JJ"
+#	def1[]:"JK"
+#	def1[]:"JL"
+#	def1[]:"JM"
+#	def1[]:"JN"
+#	def1[]:"JP"
+#	def1[]:"JR"
+#	def1[]:"JS"
+#	def1[]:"JT"
+#	def1[]:"JU"
+#	def1[]:"JV"
+#	def1[]:"JW"
+#	def1[]:"JX"
+#	def1[]:"JY"
+#	def1[]:"KA"
+#	def1[]:"KC"
+#	def1[]:"KE"
+#	def1[]:"KF"
+#	def1[]:"KG"
+#	def1[]:"KH"
+#	def1[]:"KJ"
+#	def1[]:"KK"
+	def1[]:"KL"
+	def1[]:"KM"
+	def1[]:"KN"
+	def1[]:"KP"  # "CB" III latest issued (October 2019)
+#	def1[]:"KR"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .bydgoszcz.lp.trailer
+{
+	type: trailer
+
+	# Two letter powiat codes
+	templates[]:"CB50444"    # I    some before EU stars
+
+##	def0[]:"80"
+##	def0[]:"81"
+##	def0[]:"82"
+##	def0[]:"83"  # Most before EU stars
+#	def0[]:"84"
+#	def0[]:"85"
+#	def0[]:"86"
+#	def0[]:"87"
+#	def0[]:"88"
+#	def0[]:"89"
+#	def0[]:"90"
+#	def0[]:"91"
+	def0[]:"92"
+	def0[]:"93"
+	def0[]:"94"
+#	def0[]:"95"  # Used for double-row plates
+#	def0[]:"96"  # Used for double-row plates
+	def0[]:"97"  # "CB" I latest issued (October 2019)
+#	def0[]:"98"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .bydgoszcz.lp.police
+{
+	type: police
+
+	# C = Kuyavian-Pomerania (Kujawsko-Pomorskie) Voivodeship Headquarters
+	templates[]:"HPC51222"
+#	templates[]:"HPC51222"
+#	templates[]:"HPC51222"
+#	templates[]:"HPC51222"
+#	templates[]:"HPC52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

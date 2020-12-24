@@ -1,0 +1,24 @@
+city_data: city.colville
+{
+	city_name: "Colville"
+	city_name_localized: "@@colville@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: 72
+	map_x_offsets[]: 49
+	map_x_offsets[]: 14
+	map_x_offsets[]: 7
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 10
+	map_y_offsets[]: 0
+	map_y_offsets[]: -16
+	map_y_offsets[]: -10
+}

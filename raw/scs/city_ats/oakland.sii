@@ -1,0 +1,28 @@
+
+city_data: city.oakland
+{
+	city_name: "Oakland"
+	short_city_name: "Oakland"
+	city_name_uppercase: "OAKLAND"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -38
+	map_x_offsets[]: -38
+	map_x_offsets[]: -38
+	map_x_offsets[]: -48
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 140
+	map_y_offsets[]: 62
+	map_y_offsets[]: 26
+	map_y_offsets[]: 6
+
+}
+

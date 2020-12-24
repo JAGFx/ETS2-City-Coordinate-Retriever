@@ -1,0 +1,28 @@
+
+city_data: city.sacramento
+{
+	city_name: "Sacramento"
+	short_city_name: "Sacramento"
+	city_name_uppercase: "SACRAMENTO"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -64
+	map_x_offsets[]: -54
+	map_x_offsets[]: -38
+	map_x_offsets[]: -28
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -204
+	map_y_offsets[]: -90
+	map_y_offsets[]: -37
+	map_y_offsets[]: -26
+
+}
+

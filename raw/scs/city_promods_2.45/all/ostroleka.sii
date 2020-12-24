@@ -1,0 +1,497 @@
+city_data: city.ostroleka
+{
+	city_name: "Ostrołęka"
+	city_name_localized: "@@ostroleka@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	license_plate[]: .ostroleka.lp.car
+	license_plate[]: .ostroleka.lp.truck
+	license_plate[]: .ostroleka.lp.trailer
+	license_plate[]: .ostroleka.lp.police
+}
+
+license_plate_data : .ostroleka.lp.car
+{
+	type: car
+
+	# Two letter powiat codes
+	templates[]:"WO50444"    # I    some before EU stars
+	templates[]:"WO50444"    # I    some before EU stars
+	templates[]:"WO50444"    # I    some before EU stars
+	templates[]:"WO50444"    # I    some before EU stars
+
+	# Three letter powiat codes
+#	templates[]:"WOS52444"   # I    before EU stars
+	templates[]:"WOS53244"   # III  most before EU stars
+	templates[]:"WOS51444"   # VII
+
+##	def0[]:"00"  # Partially used for double-row plates
+#	def0[]:"01"
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"
+#	def0[]:"06"
+#	def0[]:"07"
+##	def0[]:"08"  # Partially used for double-row plates
+#	def0[]:"09"
+##	def0[]:"10"  # Partially used for double-row plates
+#	def0[]:"11"
+#	def0[]:"12"
+#	def0[]:"13"
+#	def0[]:"14"
+##	def0[]:"15"  # Partially used for double-row plates
+#	def0[]:"16"
+#	def0[]:"17"  # Most before EU stars
+##	def0[]:"18"  # Partially used for double-row plates
+	def0[]:"19"
+#	def0[]:"20"  # Partially used for double-row plates
+	def0[]:"21"
+#	def0[]:"22"  # Partially used for double-row plates
+	def0[]:"23"
+	def0[]:"24"
+#	def0[]:"25"  # Partially used for double-row plates
+#	def0[]:"26"  # Partially used for double-row plates
+	def0[]:"27"
+#	def0[]:"28"  # Partially used for double-row plates
+	def0[]:"29"
+#	def0[]:"30"  # Partially used for double-row plates
+	def0[]:"31"
+#	def0[]:"32"  # Partially used for double-row plates
+	def0[]:"33"
+	def0[]:"34"
+	def0[]:"35"
+	def0[]:"36"
+	def0[]:"37"
+#	def0[]:"38"  # Partially used for double-row plates
+	def0[]:"39"
+	def0[]:"40"
+	def0[]:"41"
+	def0[]:"42"
+	def0[]:"43"
+	def0[]:"44"
+	def0[]:"45"
+	def0[]:"46"
+#	def0[]:"47"  # Partially used for double-row plates
+	def0[]:"48"
+	def0[]:"49"
+#	def0[]:"50"  # Partially used for double-row plates
+	def0[]:"51"
+	def0[]:"52"
+	def0[]:"53"
+#	def0[]:"54"  # Partially used for double-row plates
+	def0[]:"55"
+	def0[]:"56"
+	def0[]:"57"
+	def0[]:"58"
+	def0[]:"59"
+	def0[]:"60"
+	def0[]:"61"
+	def0[]:"62"
+	def0[]:"63"
+	def0[]:"64"
+	def0[]:"65"
+	def0[]:"66"
+	def0[]:"67"
+	def0[]:"68"  # "WO" I latest issued (September 2019)
+#	def0[]:"69"  # Future
+
+	def1[]:"00"
+	def1[]:"01"
+	def1[]:"02"
+	def1[]:"03"
+	def1[]:"04"
+	def1[]:"05"
+	def1[]:"06"
+	def1[]:"07"
+	def1[]:"08"
+	def1[]:"09"
+	def1[]:"10"
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"
+	def1[]:"14"
+	def1[]:"15"
+	def1[]:"16"
+	def1[]:"17"
+	def1[]:"18"
+	def1[]:"19"
+	def1[]:"20"
+	def1[]:"21"
+	def1[]:"22"
+	def1[]:"23"
+	def1[]:"24"
+	def1[]:"25"
+	def1[]:"26"
+	def1[]:"27"
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"
+	def1[]:"33"
+	def1[]:"34"
+	def1[]:"35"
+	def1[]:"36"
+	def1[]:"37"
+	def1[]:"38"
+	def1[]:"39"
+	def1[]:"40"
+	def1[]:"41"
+	def1[]:"42"
+	def1[]:"43"
+	def1[]:"44"
+	def1[]:"45"
+	def1[]:"46"
+	def1[]:"47"
+	def1[]:"48"
+	def1[]:"49"
+	def1[]:"50"
+	def1[]:"51"
+	def1[]:"52"
+	def1[]:"53"
+	def1[]:"54"
+	def1[]:"55"
+	def1[]:"56"
+	def1[]:"57"
+	def1[]:"58"
+	def1[]:"59"
+	def1[]:"60"
+	def1[]:"61"
+	def1[]:"62"
+	def1[]:"63"
+	def1[]:"64"
+	def1[]:"65"
+	def1[]:"66"
+	def1[]:"67"
+	def1[]:"68"
+	def1[]:"69"
+	def1[]:"70"
+	def1[]:"71"
+	def1[]:"72"
+	def1[]:"73"
+	def1[]:"74"
+	def1[]:"75"
+	def1[]:"76"
+	def1[]:"77"  # "WOS" VII latest issued (October 2019)
+#	def1[]:"78"  # Future
+
+#	def2[]:"A"
+##	def2[]:"C"  # Used for "WOS" trailers
+##	def2[]:"E"  # Used for "WOS" motorcycles and tractors
+##	def2[]:"F"  # Used for "WOS" motorcycles and tractors
+#	def2[]:"G"
+#	def2[]:"H"
+#	def2[]:"J"
+#	def2[]:"K"
+#	def2[]:"L"
+##	def2[]:"M"  # Used for "WOS" mopeds
+#	def2[]:"N"
+#	def2[]:"P"
+#	def2[]:"R"
+#	def2[]:"S"  # Before EU stars
+	def2[]:"T"
+#	def2[]:"U"
+#	def2[]:"V"
+#	def2[]:"W"
+#	def2[]:"X"
+#	def2[]:"Y"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .ostroleka.lp.truck
+{
+	type: truck
+
+	# Two letter powiat codes
+	templates[]:"WO50444"    # I    some before EU stars
+	templates[]:"WO50444"    # I    some before EU stars
+	templates[]:"WO50444"    # I    some before EU stars
+	templates[]:"WO5144"     # I
+
+##	def0[]:"00"  # Partially used for double-row plates
+#	def0[]:"01"
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"
+#	def0[]:"06"
+#	def0[]:"07"
+##	def0[]:"08"  # Partially used for double-row plates
+#	def0[]:"09"
+##	def0[]:"10"  # Partially used for double-row plates
+#	def0[]:"11"
+#	def0[]:"12"
+#	def0[]:"13"
+#	def0[]:"14"
+##	def0[]:"15"  # Partially used for double-row plates
+#	def0[]:"16"
+#	def0[]:"17"  # Most before EU stars
+##	def0[]:"18"  # Partially used for double-row plates
+#	def0[]:"19"
+##	def0[]:"20"  # Partially used for double-row plates
+#	def0[]:"21"
+##	def0[]:"22"  # Partially used for double-row plates
+#	def0[]:"23"
+#	def0[]:"24"
+##	def0[]:"25"  # Partially used for double-row plates
+##	def0[]:"26"  # Partially used for double-row plates
+#	def0[]:"27"
+##	def0[]:"28"  # Partially used for double-row plates
+#	def0[]:"29"
+##	def0[]:"30"  # Partially used for double-row plates
+#	def0[]:"31"
+##	def0[]:"32"  # Partially used for double-row plates
+#	def0[]:"33"
+#	def0[]:"34"
+#	def0[]:"35"
+#	def0[]:"36"
+#	def0[]:"37"
+##	def0[]:"38"  # Partially used for double-row plates
+#	def0[]:"39"
+#	def0[]:"40"
+#	def0[]:"41"
+#	def0[]:"42"
+#	def0[]:"43"
+#	def0[]:"44"
+#	def0[]:"45"
+#	def0[]:"46"
+##	def0[]:"47"  # Partially used for double-row plates
+#	def0[]:"48"
+#	def0[]:"49"
+##	def0[]:"50"  # Partially used for double-row plates
+#	def0[]:"51"
+#	def0[]:"52"
+#	def0[]:"53"
+##	def0[]:"54"  # Partially used for double-row plates
+#	def0[]:"55"
+#	def0[]:"56"
+#	def0[]:"57"
+#	def0[]:"58"
+#	def0[]:"59"
+#	def0[]:"60"
+#	def0[]:"61"
+#	def0[]:"62"
+#	def0[]:"63"
+#	def0[]:"64"
+	def0[]:"65"
+	def0[]:"66"
+	def0[]:"67"
+
+	def1[]:"680"
+	def1[]:"681"
+	def1[]:"682"
+	def1[]:"683"
+	def1[]:"684"
+	def1[]:"685"
+	def1[]:"686"
+	def1[]:"687"  # "WO" I latest issued (September 2019)
+#	def1[]:"688"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .ostroleka.lp.trailer
+{
+	type: trailer
+
+	# Two letter powiat codes
+#	templates[]:"WO50441"    # II
+	templates[]:"WO53442"    # II   some before EU stars
+
+	def2[]:"A"
+
+#	def3[]:"00"
+#	def3[]:"01"
+#	def3[]:"02"
+#	def3[]:"03"
+#	def3[]:"04"
+##	def3[]:"05"  # Used for double-row plates
+##	def3[]:"06"  # Used for double-row plates
+##	def3[]:"07"  # Used for double-row plates
+#	def3[]:"08"
+#	def3[]:"09"
+#	def3[]:"10"
+#	def3[]:"11"
+#	def3[]:"12"
+#	def3[]:"13"  # Before EU stars
+#	def3[]:"14"  # Some before EU stars
+#	def3[]:"15"
+#	def3[]:"16"
+#	def3[]:"17"
+#	def3[]:"18"
+#	def3[]:"19"
+#	def3[]:"20"
+#	def3[]:"21"
+#	def3[]:"22"
+##	def3[]:"23"  # Partially used for double-row plates
+#	def3[]:"24"
+#	def3[]:"25"
+#	def3[]:"26"
+#	def3[]:"27"
+#	def3[]:"28"
+#	def3[]:"29"
+#	def3[]:"30"
+#	def3[]:"31"
+#	def3[]:"32"
+##	def3[]:"33"  # Partially used for double-row plates
+#	def3[]:"34"
+#	def3[]:"35"
+	def3[]:"36"
+	def3[]:"37"
+	def3[]:"38"
+	def3[]:"39"
+	def3[]:"40"
+	def3[]:"41"
+	def3[]:"42"
+	def3[]:"43"
+	def3[]:"44"
+	def3[]:"45"
+	def3[]:"46"
+	def3[]:"47"
+	def3[]:"48"
+	def3[]:"49"
+	def3[]:"50"
+	def3[]:"51"
+	def3[]:"52"
+	def3[]:"53"
+	def3[]:"54"
+	def3[]:"55"
+	def3[]:"56"
+	def3[]:"57"
+	def3[]:"58"
+	def3[]:"59"
+	def3[]:"60"
+	def3[]:"61"
+	def3[]:"62"
+	def3[]:"63"
+	def3[]:"64"
+	def3[]:"65"
+	def3[]:"66"  # "WO" II latest issued (September 2019)
+#	def3[]:"67"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .ostroleka.lp.police
+{
+	type: police
+
+	# H = Masovian (Mazowieckie) Provincial Headquarters
+	templates[]:"HPH51222"
+#	templates[]:"HPH51222"
+#	templates[]:"HPH51222"
+#	templates[]:"HPH51222"
+#	templates[]:"HPH52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

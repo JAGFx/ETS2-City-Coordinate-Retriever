@@ -1,0 +1,25 @@
+
+city_data : city.targu_mures
+{
+	city_name: "Târgu Mureș"
+	city_name_localized: "@@targu_mures@@"
+	country: romania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 91
+	map_x_offsets[]: -62
+	map_x_offsets[]: -55
+	map_x_offsets[]: -49
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 123
+	map_y_offsets[]: 50
+	map_y_offsets[]: 10
+	map_y_offsets[]: 6
+}

@@ -1,0 +1,28 @@
+{
+  "citiesList": [
+    {
+      "gameName": "kanazawa",
+      "realName": "金沢",
+      "country": "ishikawa",
+      "x": "388096",
+      "y": "56.1563",
+      "z": "75805.9"
+    },
+    {
+      "gameName": "takayama",
+      "realName": "高山",
+      "country": "gifu",
+      "x": "392314",
+      "y": "64.7383",
+      "z": "77814.2"
+    },
+    {
+      "gameName": "toyama",
+      "realName": "富山",
+      "country": "toyama",
+      "x": "392045",
+      "y": "55.2344",
+      "z": "74084.9"
+    }
+  ]
+}

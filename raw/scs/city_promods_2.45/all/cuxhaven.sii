@@ -1,0 +1,286 @@
+﻿city_data: city.cuxhaven
+{
+	city_name: "Cuxhaven"
+	city_name_localized: "@@cuxhaven@@"
+	country: germany
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20 // close zoom for minimap
+	map_x_offsets[]: -20 // far zoom for monimap
+	map_x_offsets[]: -20 // city zoom for world map
+	map_x_offsets[]: -20 // closest zoom for world map
+	map_x_offsets[]: -20 // middle zoom for world map
+	map_x_offsets[]: -5 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -15
+	map_y_offsets[]: 25
+	map_y_offsets[]: 25
+	map_y_offsets[]: -5
+	map_y_offsets[]: -5
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.6  // middle zoom for world map
+	city_pin_scale_factor[]: 0.0  // whole world map zoom
+
+	vehicle_brands[]:"renault"
+
+	license_plate[]: .cuxhaven.lp.car
+	license_plate[]: .cuxhaven.lp.truck
+	license_plate[]: .cuxhaven.lp.trailer
+	license_plate[]: .cuxhaven.lp.police
+}
+
+license_plate_data : .cuxhaven.lp.car
+{
+	type: car
+
+	# Three character location code
+	templates[]:"150 344"   # Group c
+	templates[]:"150 344"
+	templates[]:"150 344"
+	templates[]:"150 344"
+	templates[]:"150 34"    # Group b - Rare
+	templates[]:"150 3"     # Group b - Very rare
+	templates[]:"152 3444"  # Group d
+	templates[]:"152 3444"
+	templates[]:"152 3444"
+	templates[]:"152 3444"
+	templates[]:"152 344"   # Group a
+	templates[]:"152 344"
+	templates[]:"152 344"
+	templates[]:"152 344"
+	templates[]:"152 34"    # Group a - Rare
+	templates[]:"152 3"     # Group a - Very rare
+
+	def1[]:"CUX<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_nieder.mat color=FFFFFFFF>"  # Cuxhaven, Niedersachsen
+
+@include "/def/city/lp_de_two_letter_combinations_0.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+#	def2[]:"P"  # (used by police)
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_current.sui"
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .cuxhaven.lp.truck
+{
+	type: truck
+
+#	templates[]:"150 344"
+	templates[]:"152 3444"
+#	templates[]:"152 344"
+
+	def1[]:"CUX<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_nieder.mat color=FFFFFFFF>"  # Cuxhaven, Niedersachsen
+
+@include "/def/city/lp_de_two_letter_combinations_0.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+#	def2[]:"P"  # (used by police)
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .cuxhaven.lp.trailer
+{
+	type: trailer
+
+#	templates[]:"150 344"
+	templates[]:"152 3444"
+#	templates[]:"152 344"
+
+	def1[]:"CUX<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_nieder.mat color=FFFFFFFF>"  # Cuxhaven, Niedersachsen
+
+@include "/def/city/lp_de_two_letter_combinations_0.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+#	def2[]:"P"  # (used by police)
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .cuxhaven.lp.police
+{
+	type: police
+
+	templates[]:"05PD 3444"
+	templates[]:"05PD 344"
+#	templates[]:"152 3444"
+	templates[]:"152 344"
+
+	def0[]:"OL<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_nieder.mat color=FFFFFFFF>"   # Oldenburg (Oldb), Niedersachsen
+
+	def1[]:"CUX<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_nieder.mat color=FFFFFFFF>"  # Cuxhaven, Niedersachsen
+
+	def2[]:"PI"
+	def2[]:"P"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_current.sui"
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}

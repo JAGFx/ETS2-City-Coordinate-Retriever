@@ -1,0 +1,27 @@
+city_data: city.tacoma
+{
+	city_name: "Tacoma"
+	city_name_localized: "@@tacoma@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: 171
+	map_x_offsets[]: 59
+	map_x_offsets[]: -15
+	map_x_offsets[]: -21
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 140
+	map_y_offsets[]: 47
+	map_y_offsets[]: 14
+	map_y_offsets[]: 4
+
+	vehicle_brands[]: "peterbilt"
+
+}

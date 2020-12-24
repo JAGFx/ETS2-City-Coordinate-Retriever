@@ -1,0 +1,26 @@
+city_data: city.goteborg
+{
+	city_name: "Göteborg"
+	city_name_localized: "@@goteborg@@"
+	country: sweden
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -45
+	map_x_offsets[]: -43
+	map_x_offsets[]: -37
+	map_x_offsets[]: -42
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -129
+	map_y_offsets[]: -57
+	map_y_offsets[]: -33
+	map_y_offsets[]: -26
+
+	vehicle_brands[]:"volvo"
+}

@@ -1,0 +1,24 @@
+city_data: city.jonkoping
+{
+	city_name: "Jönköping"
+	city_name_localized: "@@jonkoping@@"
+	country: sweden
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -48
+	map_x_offsets[]: -38
+	map_x_offsets[]: -43
+	map_x_offsets[]: -47
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 15
+	map_y_offsets[]: 6
+	map_y_offsets[]: 3
+	map_y_offsets[]: 5
+}

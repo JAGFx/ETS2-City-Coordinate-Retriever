@@ -1,0 +1,26 @@
+city_data: city.holbrook
+{
+	city_name: "Holbrook"
+	short_city_name: "Holbrook"
+	city_name_uppercase: "HOLBROOK"
+	country: arizona
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0 // close zoom for minimap
+	map_x_offsets[]: -3 // far zoom for monimap
+	map_x_offsets[]: -46 // city zoom for world map
+	map_x_offsets[]: -42 // closest zoom for world map
+	map_x_offsets[]: -41 // middle zoom for world map
+	map_x_offsets[]: -40 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -60
+	map_y_offsets[]: -38
+	map_y_offsets[]: -30
+	map_y_offsets[]: -28
+  
+}

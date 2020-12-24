@@ -1,0 +1,29 @@
+
+city_data: city.las_vegas
+{
+	city_name: "Las Vegas"
+	short_city_name: "Las Vegas"
+	city_name_uppercase: "LAS VEGAS"
+	country: nevada
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -49
+	map_x_offsets[]: -58
+	map_x_offsets[]: -43
+	map_x_offsets[]: -43
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -59
+	map_y_offsets[]: -41
+	map_y_offsets[]: -25
+	map_y_offsets[]: -28
+
+	vehicle_brands[]: "volvo"
+}
+

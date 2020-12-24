@@ -1,0 +1,28 @@
+
+city_data: city.redding
+{
+	city_name: "Redding"
+	short_city_name: "Redding"
+	city_name_uppercase: "REDDING"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -44
+	map_x_offsets[]: -41
+	map_x_offsets[]: -39
+	map_x_offsets[]: -36
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: 20
+	map_y_offsets[]: -104
+	map_y_offsets[]: -47
+	map_y_offsets[]: -26
+	map_y_offsets[]: -28
+
+}
+

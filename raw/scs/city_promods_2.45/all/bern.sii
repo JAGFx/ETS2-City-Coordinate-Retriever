@@ -1,0 +1,143 @@
+city_data: city.bern
+{
+	city_name: "Bern"
+	city_name_localized: "@@bern@@"
+	country: switzerland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: 20
+	map_x_offsets[]: -24
+	map_x_offsets[]: -21
+	map_x_offsets[]: -21
+	map_x_offsets[]: -22
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -40
+	map_y_offsets[]: -20
+	map_y_offsets[]: 22
+	map_y_offsets[]: 12
+	map_y_offsets[]: -11
+	map_y_offsets[]: -26
+
+	vehicle_brands[]:"mercedes"
+
+	license_plate[]: .bern.lp.car
+	license_plate[]: .bern.lp.truck
+	license_plate[]: .bern.lp.trailer
+}
+
+license_plate_data : .bern.lp.car
+{
+	type: car
+
+	templates[]: "1.233 3334"
+	templates[]: "1.233 3334"
+	templates[]: "1.233 3334"
+	templates[]: "1.233 3334"
+	templates[]: "1.233334"
+	templates[]: "1.233334"
+	templates[]: "1.23334"
+	templates[]: "1.2334"
+
+	def1[]:"<offset vshift=-4><align left=122><img src=/material/ui/lp/switzerland/$SIDE$_be.mat color=FFFFFFFF></align><ret><align left=-13>BE"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"</align>"
+}
+
+license_plate_data : .bern.lp.truck
+{
+	type: truck
+
+	templates[]: "1.233 3334"
+#	templates[]: "1.233 3334"
+#	templates[]: "1.233334"
+#	templates[]: "1.233334"
+#	templates[]: "1.23334"
+#	templates[]: "1.2334"
+
+	def1[]:"<offset vshift=-4><align left=122><img src=/material/ui/lp/switzerland/$SIDE$_be.mat color=FFFFFFFF></align><ret><align left=-13>BE"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"</align>"
+}
+
+license_plate_data : .bern.lp.trailer
+{
+	type: trailer
+
+	templates[]: "1.233 3334"
+#	templates[]: "1.233 3334"
+#	templates[]: "1.233334"
+#	templates[]: "1.233334"
+#	templates[]: "1.23334"
+#	templates[]: "1.2334"
+
+	def1[]:"<offset vshift=-4><align left=122><img src=/material/ui/lp/switzerland/$SIDE$_be.mat color=FFFFFFFF></align><ret><align left=-13>BE"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"</align>"
+}

@@ -1,0 +1,1773 @@
+city_data: city.czluchow
+{
+	city_name: "Człuchów"
+	city_name_localized: "@@czluchow@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	license_plate[]: .czluchow.lp.car
+	license_plate[]: .czluchow.lp.truck
+	license_plate[]: .czluchow.lp.trailer
+	license_plate[]: .czluchow.lp.police
+}
+
+license_plate_data : .czluchow.lp.car
+{
+	type: car
+
+	# Three letter powiat codes
+#	templates[]:"GCZ50444"   # I    before EU stars
+	templates[]:"GCZ5441"    # II   some before EU stars
+	templates[]:"GCZ5244"    # VI
+	templates[]:"GCZ5244"    # VI
+	templates[]:"GCZ5244"    # VI
+	templates[]:"GCZ5244"    # VI
+
+#	def0[]:"A"
+##	def0[]:"C"  # Used for trailers
+##	def0[]:"E"  # Used for motorcycles and tractors
+##	def0[]:"F"  # Partially used for motorcycles and tractors
+##	def0[]:"G"  # Partially used for mopeds
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+#	def0[]:"L"
+#	def0[]:"M"
+#	def0[]:"N"
+#	def0[]:"P"
+#	def0[]:"R"
+#	def0[]:"S"
+#	def0[]:"T"
+#	def0[]:"U"
+#	def0[]:"V"
+#	def0[]:"W"
+#	def0[]:"X"
+##	def0[]:"Y"  # Used for trailers
+
+#	def1[]:"AA"
+#	def1[]:"AC"
+#	def1[]:"AE"
+#	def1[]:"AF"
+#	def1[]:"AG"
+#	def1[]:"AH"
+#	def1[]:"AJ"
+#	def1[]:"AK"
+#	def1[]:"AL"
+#	def1[]:"AM"
+#	def1[]:"AN"
+#	def1[]:"AP"
+#	def1[]:"AR"
+#	def1[]:"AS"
+#	def1[]:"AT"
+#	def1[]:"AU"
+#	def1[]:"AV"
+#	def1[]:"AW"
+#	def1[]:"AX"
+#	def1[]:"AY"
+#	def1[]:"CA"
+#	def1[]:"CC"
+#	def1[]:"CE"
+#	def1[]:"CF"
+#	def1[]:"CG"  # Before EU stars
+	def1[]:"CH"
+	def1[]:"CJ"
+	def1[]:"CK"
+	def1[]:"CL"
+	def1[]:"CM"
+	def1[]:"CN"
+	def1[]:"CP"
+	def1[]:"CR"
+	def1[]:"CS"
+#	def1[]:"CT"  # Used for mopeds
+	def1[]:"CU"
+	def1[]:"CV"
+	def1[]:"CW"
+	def1[]:"CX"
+	def1[]:"CY"
+	def1[]:"EA"
+	def1[]:"EC"
+	def1[]:"EE"
+	def1[]:"EF"
+	def1[]:"EG"
+	def1[]:"EH"
+	def1[]:"EJ"
+	def1[]:"EK"
+#	def1[]:"EL"  # Used for mopeds
+	def1[]:"EM"
+	def1[]:"EN"
+	def1[]:"EP"
+	def1[]:"ER"
+	def1[]:"ES"
+	def1[]:"ET"
+	def1[]:"EU"
+	def1[]:"EV"
+	def1[]:"EW"
+	def1[]:"EX"
+	def1[]:"EY"
+	def1[]:"FA"
+	def1[]:"FC"
+#	def1[]:"FE"  # Used for motorcycles and tractors
+	def1[]:"FF"
+	def1[]:"FG"
+	def1[]:"FH"
+#	def1[]:"FJ"  # Used for mopeds
+	def1[]:"FK"
+	def1[]:"FL"
+	def1[]:"FM"
+	def1[]:"FN"
+	def1[]:"FP"
+	def1[]:"FR"
+	def1[]:"FS"
+#	def1[]:"FT"  # Used for motorcycles and tractors
+#	def1[]:"FU"  # Used for mopeds
+	def1[]:"FV"
+	def1[]:"FW"
+	def1[]:"FX"
+	def1[]:"FY"
+	def1[]:"GA"
+	def1[]:"GC"
+	def1[]:"GE"
+#	def1[]:"GF"  # Used for trailers
+	def1[]:"GG"
+	def1[]:"GH"
+	def1[]:"GJ"
+	def1[]:"GK"
+	def1[]:"GL"
+	def1[]:"GM"
+	def1[]:"GN"
+	def1[]:"GP"
+#	def1[]:"GR"  # Used for mopeds
+	def1[]:"GS"
+	def1[]:"GT"
+	def1[]:"GU"
+	def1[]:"GV"
+	def1[]:"GW"
+	def1[]:"GX"
+#	def1[]:"GY"  # Used for trailers
+	def1[]:"HA"
+	def1[]:"HC"
+	def1[]:"HE"
+	def1[]:"HF"
+#	def1[]:"HG"  # Used for mopeds
+	def1[]:"HH"
+	def1[]:"HJ"
+	def1[]:"HK"
+	def1[]:"HL"
+	def1[]:"HM"
+	def1[]:"HN"
+	def1[]:"HP"
+	def1[]:"HR"
+	def1[]:"HS"
+#	def1[]:"HT"  # Used for motorcycles and tractors
+#	def1[]:"HU"  # Used for mopeds
+	def1[]:"HV"
+	def1[]:"HW"
+#	def1[]:"HX"  # Used for trailers
+#	def1[]:"HY"  # Used for trailers
+	def1[]:"JA"
+	def1[]:"JC"
+	def1[]:"JE"
+	def1[]:"JF"
+#	def1[]:"JG"  # Used for mopeds
+	def1[]:"JH"
+	def1[]:"JJ"
+	def1[]:"JK"
+	def1[]:"JL"
+	def1[]:"JM"
+	def1[]:"JN"
+	def1[]:"JP"
+	def1[]:"JR"
+	def1[]:"JS"
+#	def1[]:"JT"  # Used for motorcycles and tractors
+#	def1[]:"JU"  # Used for mopeds
+	def1[]:"JV"
+	def1[]:"JW"
+#	def1[]:"JX"  # Used for trailers
+#	def1[]:"JY"  # Used for trailers
+	def1[]:"KA"
+	def1[]:"KC"
+	def1[]:"KE"
+	def1[]:"KF"
+	def1[]:"KG"
+	def1[]:"KH"
+	def1[]:"KJ"
+	def1[]:"KK"
+	def1[]:"KL"
+	def1[]:"KM"
+	def1[]:"KN"
+	def1[]:"KP"
+	def1[]:"KR"
+	def1[]:"KS"
+	def1[]:"KT"
+#	def1[]:"KU"  # Used for mopeds
+	def1[]:"KV"
+#	def1[]:"KW"  # Used for motorcycles and tractors
+	def1[]:"KX"
+#	def1[]:"KY"  # Used for trailers
+	def1[]:"LA"
+	def1[]:"LC"
+	def1[]:"LE"
+	def1[]:"LF"
+	def1[]:"LG"
+	def1[]:"LH"
+	def1[]:"LJ"
+	def1[]:"LK"
+	def1[]:"LL"
+	def1[]:"LM"
+	def1[]:"LN"
+	def1[]:"LP"
+	def1[]:"LR"
+	def1[]:"LS"
+#	def1[]:"LT"  # Used for motorcycles and tractors
+#	def1[]:"LU"  # Used for mopeds
+#	def1[]:"LV"  # Used for mopeds
+#	def1[]:"LW"  # Used for trailers
+#	def1[]:"LX"  # Used for trailers
+#	def1[]:"LY"  # Used for trailers
+	def1[]:"MA"
+	def1[]:"MC"
+	def1[]:"ME"
+	def1[]:"MF"
+	def1[]:"MG"
+	def1[]:"MH"
+	def1[]:"MJ"
+	def1[]:"MK"
+	def1[]:"ML"
+	def1[]:"MM"
+	def1[]:"MN"
+	def1[]:"MP"
+	def1[]:"MR"
+	def1[]:"MS"
+	def1[]:"MT"
+#	def1[]:"MU"  # Used for mopeds
+	def1[]:"MV"
+#	def1[]:"MW"  # Used for motorcycles and tractors
+#	def1[]:"MX"  # Used for trailers
+#	def1[]:"MY"  # Used for motorcycles and tractors
+	def1[]:"NA"
+	def1[]:"NC"
+	def1[]:"NE"
+	def1[]:"NF"
+	def1[]:"NG"
+	def1[]:"NH"
+	def1[]:"NJ"
+	def1[]:"NK"
+	def1[]:"NL"
+	def1[]:"NM"
+	def1[]:"NN"
+	def1[]:"NP"
+	def1[]:"NR"
+	def1[]:"NS"
+#	def1[]:"NT"  # Used for mopeds
+#	def1[]:"NU"  # Used for mopeds
+#	def1[]:"NV"  # Used for motorcycles and tractors
+#	def1[]:"NW"  # Used for motorcycles and tractors
+#	def1[]:"NX"  # Used for trailers
+#	def1[]:"NY"  # Used for trailers
+	def1[]:"PA"
+	def1[]:"PC"
+	def1[]:"PE"
+	def1[]:"PF"
+	def1[]:"PG"
+	def1[]:"PH"
+	def1[]:"PJ"
+	def1[]:"PK"
+	def1[]:"PL"
+	def1[]:"PM"
+	def1[]:"PN"
+	def1[]:"PP"
+	def1[]:"PR"
+	def1[]:"PS"
+	def1[]:"PT"
+#	def1[]:"PU"  # Used for mopeds
+#	def1[]:"PV"  # Used for trailers
+	def1[]:"PW"
+#	def1[]:"PX"  # Used for trailers
+#	def1[]:"PY"  # Used for motorcycles and tractors
+	def1[]:"RA"
+	def1[]:"RC"
+	def1[]:"RE"
+	def1[]:"RF"
+	def1[]:"RG"
+	def1[]:"RH"
+	def1[]:"RJ"
+	def1[]:"RK"
+	def1[]:"RL"
+	def1[]:"RM"
+	def1[]:"RN"
+	def1[]:"RP"
+	def1[]:"RR"
+	def1[]:"RS"
+	def1[]:"RT"
+	def1[]:"RU"
+#	def1[]:"RV"  # Used for motorcycles and tractors
+#	def1[]:"RW"  # Used for trailers
+#	def1[]:"RX"  # Used for mopeds
+#	def1[]:"RY"  # Used for motorcycles and tractors
+	def1[]:"SA"
+	def1[]:"SC"
+	def1[]:"SE"
+	def1[]:"SF"
+	def1[]:"SG"
+	def1[]:"SH"
+	def1[]:"SJ"
+	def1[]:"SK"
+	def1[]:"SL"
+	def1[]:"SM"
+	def1[]:"SN"
+	def1[]:"SP"
+	def1[]:"SR"
+	def1[]:"SS"
+	def1[]:"ST"
+	def1[]:"SU"
+#	def1[]:"SV"  # Used for motorcycles and tractors
+#	def1[]:"SW"  # Used for trailers
+#	def1[]:"SX"  # Used for mopeds
+#	def1[]:"SY"  # Used for trailers
+	def1[]:"TA"
+	def1[]:"TC"
+	def1[]:"TE"
+	def1[]:"TF"
+	def1[]:"TG"
+	def1[]:"TH"
+	def1[]:"TJ"
+	def1[]:"TK"
+	def1[]:"TL"
+	def1[]:"TM"
+	def1[]:"TN"
+	def1[]:"TP"
+	def1[]:"TR"
+	def1[]:"TS"
+	def1[]:"TT"
+#	def1[]:"TU"  # Used for mopeds
+	def1[]:"TV"
+	def1[]:"TW"
+#	def1[]:"TX"  # Used for motorcycles and tractors
+#	def1[]:"TY"  # Used for trailers
+#	def1[]:"UA"  # Used for mopeds
+	def1[]:"UC"
+	def1[]:"UE"
+	def1[]:"UF"
+	def1[]:"UG"
+	def1[]:"UH"
+#	def1[]:"UJ"  # Used for motorcycles and tractors
+	def1[]:"UK"
+	def1[]:"UL"
+	def1[]:"UM"
+	def1[]:"UN"
+	def1[]:"UP"
+	def1[]:"UR"
+	def1[]:"US"
+	def1[]:"UT"
+	def1[]:"UU"
+	def1[]:"UV"
+#	def1[]:"UW"  # Used for mopeds
+#	def1[]:"UX"  # Used for trailers
+#	def1[]:"UY"  # Used for trailers
+	def1[]:"WA"
+	def1[]:"WC"
+	def1[]:"WE"
+	def1[]:"WF"
+	def1[]:"WG"
+	def1[]:"WH"
+	def1[]:"WJ"
+	def1[]:"WK"
+	def1[]:"WL"
+	def1[]:"WM"
+	def1[]:"WN"
+	def1[]:"WP"
+	def1[]:"WR"
+	def1[]:"WS"
+	def1[]:"WT"
+	def1[]:"WU"
+#	def1[]:"WV"  # Used for motorcycles and tractors
+	def1[]:"WW"
+#	def1[]:"WX"  # Used for trailers
+#	def1[]:"WY"  # Used for motorcycles and tractors
+	def1[]:"VA"
+	def1[]:"VC"
+	def1[]:"VE"
+	def1[]:"VF"
+	def1[]:"VG"
+	def1[]:"VH"
+	def1[]:"VJ"
+	def1[]:"VK"
+	def1[]:"VL"
+	def1[]:"VM"
+	def1[]:"VN"
+	def1[]:"VP"
+	def1[]:"VR"
+	def1[]:"VS"
+#	def1[]:"VT"  # Used for motorcycles and tractors
+#	def1[]:"VU"  # Used for trailers
+	def1[]:"VV"
+#	def1[]:"VW"  # Used for trailers
+#	def1[]:"VX"  # Used for mopeds
+#	def1[]:"VY"  # Used for trailers
+#	def1[]:"YA"  # Used for mopeds
+	def1[]:"YC"
+	def1[]:"YE"
+	def1[]:"YF"
+	def1[]:"YG"
+	def1[]:"YH"
+	def1[]:"YJ"
+	def1[]:"YK"
+	def1[]:"YL"
+	def1[]:"YM"
+	def1[]:"YN"
+	def1[]:"YP"
+	def1[]:"YR"
+	def1[]:"YS"
+	def1[]:"YT"
+#	def1[]:"YU"  # Used for motorcycles and tractors
+	def1[]:"YV"
+	def1[]:"YW"
+#	def1[]:"YX"  # Used for trailers
+	def1[]:"YY"
+	def1[]:"XA"
+	def1[]:"XC"
+	def1[]:"XE"
+	def1[]:"XF"
+	def1[]:"XG"
+	def1[]:"XH"
+	def1[]:"XJ"
+	def1[]:"XK"
+	def1[]:"XL"
+	def1[]:"XM"
+	def1[]:"XN"
+	def1[]:"XP"
+	def1[]:"XR"
+#	def1[]:"XS"  # Used for trailers
+#	def1[]:"XT"  # Used for mopeds
+	def1[]:"XU"
+	def1[]:"XV"
+#	def1[]:"XW"  # Used for motorcycles and tractors
+	def1[]:"XX"
+#	def1[]:"XY"  # Used for trailers
+
+	def2[]:"AA"
+	def2[]:"AC"
+	def2[]:"AE"
+	def2[]:"AF"
+	def2[]:"AG"
+	def2[]:"AH"
+	def2[]:"AJ"
+	def2[]:"AK"
+	def2[]:"AL"
+	def2[]:"AM"
+	def2[]:"AN"
+	def2[]:"AP"
+	def2[]:"AR"
+	def2[]:"AS"
+	def2[]:"AT"
+#	def2[]:"AU"  # Used for motorcycles and tractors
+#	def2[]:"AV"  # Used for motorcycles and tractors
+#	def2[]:"AW"  # Used for mopeds
+#	def2[]:"AX"  # Used for motorcycles and tractors
+#	def2[]:"AY"  # Used for trailers
+	def2[]:"CA"
+	def2[]:"CC"
+	def2[]:"CE"
+	def2[]:"CF"
+	def2[]:"CG"
+	def2[]:"CH"
+	def2[]:"CJ"
+	def2[]:"CK"
+#	def2[]:"CL"  # Partially used for double-row plates
+	def2[]:"CM"
+	def2[]:"CN"
+	def2[]:"CP"
+	def2[]:"CR"
+	def2[]:"CS"
+#	def2[]:"CT"  # Used for mopeds
+#	def2[]:"CU"  # Used for motorcycles and tractors
+#	def2[]:"CV"  # Used for mopeds
+#	def2[]:"CW"  # Used for trailers
+#	def2[]:"CX"  # Used for motorcycles and tractors
+#	def2[]:"CY"  # Used for trailers
+	def2[]:"EA"
+	def2[]:"EC"
+	def2[]:"EE"
+	def2[]:"EF"
+	def2[]:"EG"
+	def2[]:"EH"
+	def2[]:"EJ"
+	def2[]:"EK"
+	def2[]:"EL"
+	def2[]:"EM"
+	def2[]:"EN"
+	def2[]:"EP"
+	def2[]:"ER"
+	def2[]:"ES"
+#	def2[]:"ET"  # Used for trailers
+#	def2[]:"EU"  # Used for motorcycles and tractors
+#	def2[]:"EV"  # Used for trailers
+	def2[]:"EW"
+#	def2[]:"EX"  # Used for mopeds
+#	def2[]:"EY"  # Used for trailers
+#	def2[]:"FA"  # Partially used for double-row plates
+	def2[]:"FC"
+	def2[]:"FE"
+	def2[]:"FF"
+	def2[]:"FG"
+	def2[]:"FH"
+	def2[]:"FJ"
+	def2[]:"FK"
+	def2[]:"FL"
+	def2[]:"FM"
+	def2[]:"FN"
+	def2[]:"FP"
+	def2[]:"FR"
+	def2[]:"FS"
+	def2[]:"FT"
+#	def2[]:"FU"  # Partially used for double-row plates
+#	def2[]:"FV"  # Used for trailers
+	def2[]:"FW"
+#	def2[]:"FX"  # Used for trailers
+#	def2[]:"FY"  # Used for motorcycles and tractors
+	def2[]:"GA"
+	def2[]:"GC"
+	def2[]:"GE"
+	def2[]:"GF"
+	def2[]:"GG"
+	def2[]:"GH"
+	def2[]:"GJ"
+	def2[]:"GK"
+	def2[]:"GL"
+	def2[]:"GM"
+	def2[]:"GN"
+#	def2[]:"GP"  # Partially used for double-row plates
+	def2[]:"GR"
+	def2[]:"GS"
+	def2[]:"GT"
+#	def2[]:"GU"  # Used for mopeds
+#	def2[]:"GV"  # Used for mopeds
+#	def2[]:"GW"  # Used for trailers
+#	def2[]:"GX"  # Used for motorcycles and tractors
+#	def2[]:"GY"  # Used for motorcycles and tractors
+	def2[]:"HA"
+	def2[]:"HC"
+	def2[]:"HE"
+	def2[]:"HF"
+	def2[]:"HG"
+	def2[]:"HH"
+	def2[]:"HJ"
+	def2[]:"HK"
+	def2[]:"HL"
+	def2[]:"HM"
+	def2[]:"HN"
+	def2[]:"HP"
+	def2[]:"HR"
+	def2[]:"HS"
+	def2[]:"HT"
+	def2[]:"HU"
+#	def2[]:"HV"  # Used for mopeds
+#	def2[]:"HW"  # Used for motorcycles and tractors
+#	def2[]:"HX"  # Used for trailers
+#	def2[]:"HY"  # Used for motorcycles and tractors
+	def2[]:"JA"
+	def2[]:"JC"
+	def2[]:"JE"
+	def2[]:"JF"
+	def2[]:"JG"
+	def2[]:"JH"
+	def2[]:"JJ"
+	def2[]:"JK"
+	def2[]:"JL"
+	def2[]:"JM"
+	def2[]:"JN"
+	def2[]:"JP"
+	def2[]:"JR"
+	def2[]:"JS"
+	def2[]:"JT"
+	def2[]:"JU"
+#	def2[]:"JV"  # Used for trailers
+	def2[]:"JW"
+#	def2[]:"JX"  # Used for motorcycles and tractors
+#	def2[]:"JY"  # Used for trailers
+#	def2[]:"KA"  # Partially used for double-row plates
+	def2[]:"KC"
+	def2[]:"KE"
+	def2[]:"KF"
+	def2[]:"KG"
+	def2[]:"KH"
+	def2[]:"KJ"
+	def2[]:"KK"
+	def2[]:"KL"
+	def2[]:"KM"
+	def2[]:"KN"
+	def2[]:"KP"
+	def2[]:"KR"
+	def2[]:"KS"
+	def2[]:"KT"
+	def2[]:"KU"
+#	def2[]:"KV"  # Used for trailers
+#	def2[]:"KW"  # Used for trailers
+#	def2[]:"KX"  # Used for motorcycles and tractors
+#	def2[]:"KY"  # Used for motorcycles and tractors
+	def2[]:"LA"
+	def2[]:"LC"
+	def2[]:"LE"
+#	def2[]:"LF"  # Used for motorcycles and tractors
+	def2[]:"LG"
+	def2[]:"LH"
+	def2[]:"LJ"
+	def2[]:"LK"
+	def2[]:"LL"
+	def2[]:"LM"
+	def2[]:"LN"
+	def2[]:"LP"
+	def2[]:"LR"
+	def2[]:"LS"
+	def2[]:"LT"
+	def2[]:"LU"
+#	def2[]:"LV"  # Used for trailers
+	def2[]:"LW"
+#	def2[]:"LX"  # Used for trailers
+#	def2[]:"LY"  # Used for mopeds
+#	def2[]:"MA"  # Used for motorcycles and tractors
+#	def2[]:"MC"  # Used for trailers
+#	def2[]:"ME"  # Partially used for double-row plates
+	def2[]:"MF"
+	def2[]:"MG"
+	def2[]:"MH"
+	def2[]:"MJ"
+	def2[]:"MK"
+	def2[]:"ML"
+	def2[]:"MM"
+	def2[]:"MN"
+	def2[]:"MP"
+	def2[]:"MR"
+	def2[]:"MS"
+	def2[]:"MT"
+	def2[]:"MU"
+#	def2[]:"MV"  # Used for mopeds
+	def2[]:"MW"
+#	def2[]:"MX"  # Used for motorcycles and tractors
+#	def2[]:"MY"  # Used for trailers
+#	def2[]:"NA"  # Used for motorcycles and tractors
+#	def2[]:"NC"  # Used for trailers
+	def2[]:"NE"
+	def2[]:"NF"
+	def2[]:"NG"
+	def2[]:"NH"
+	def2[]:"NJ"
+	def2[]:"NK"
+	def2[]:"NL"
+	def2[]:"NM"
+	def2[]:"NN"
+	def2[]:"NP"
+	def2[]:"NR"
+	def2[]:"NS"
+	def2[]:"NT"
+	def2[]:"NU"
+#	def2[]:"NV"  # Used for trailers
+	def2[]:"NW"
+#	def2[]:"NX"  # Used for motorcycles and tractors
+#	def2[]:"NY"  # Used for double-row plates
+	def2[]:"PA"
+	def2[]:"PC"
+	def2[]:"PE"
+	def2[]:"PF"
+	def2[]:"PG"
+	def2[]:"PH"
+	def2[]:"PJ"
+	def2[]:"PK"
+	def2[]:"PL"
+	def2[]:"PM"
+	def2[]:"PN"
+	def2[]:"PP"
+	def2[]:"PR"
+	def2[]:"PS"
+	def2[]:"PT"
+	def2[]:"PU"
+#	def2[]:"PV"  # Used for mopeds
+	def2[]:"PW"
+#	def2[]:"PX"  # Used for motorcycles and tractors
+#	def2[]:"PY"  # Used for trailers
+	def2[]:"RA"
+	def2[]:"RC"
+	def2[]:"RE"
+	def2[]:"RF"
+#	def2[]:"RG"  # Partially used for trailers and double-row plates
+	def2[]:"RH"
+	def2[]:"RJ"
+	def2[]:"RK"
+	def2[]:"RL"
+	def2[]:"RM"
+	def2[]:"RN"
+	def2[]:"RP"
+	def2[]:"RR"
+	def2[]:"RS"
+	def2[]:"RT"
+#	def2[]:"RU"  # Used for trailers
+#	def2[]:"RV"
+#	def2[]:"RW"  # Used for motorcycles and tractors
+#	def2[]:"RX"  # Used for trailers
+#	def2[]:"RY"  # Used for motorcycles and tractors
+	def2[]:"SA"
+	def2[]:"SC"  # "GCZ" VI latest issued (October 2019)
+#	def2[]:"SE"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .czluchow.lp.truck
+{
+	type: truck
+
+	# Three letter powiat codes
+#	templates[]:"GCZ50444"   # I    before EU stars
+#	templates[]:"GCZ5441"    # II   some before EU stars
+	templates[]:"GCZ5244"    # VI
+
+#	def0[]:"A"
+##	def0[]:"C"  # Used for trailers
+##	def0[]:"E"  # Used for motorcycles and tractors
+##	def0[]:"F"  # Partially used for motorcycles and tractors
+##	def0[]:"G"  # Partially used for mopeds
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+#	def0[]:"L"
+#	def0[]:"M"
+#	def0[]:"N"
+#	def0[]:"P"
+#	def0[]:"R"
+#	def0[]:"S"
+#	def0[]:"T"
+#	def0[]:"U"
+#	def0[]:"V"
+#	def0[]:"W"
+#	def0[]:"X"
+##	def0[]:"Y"  # Used for trailers
+
+#	def1[]:"AA"
+#	def1[]:"AC"
+#	def1[]:"AE"
+#	def1[]:"AF"
+#	def1[]:"AG"
+#	def1[]:"AH"
+#	def1[]:"AJ"
+#	def1[]:"AK"
+#	def1[]:"AL"
+#	def1[]:"AM"
+#	def1[]:"AN"
+#	def1[]:"AP"
+#	def1[]:"AR"
+#	def1[]:"AS"
+#	def1[]:"AT"
+#	def1[]:"AU"
+#	def1[]:"AV"
+#	def1[]:"AW"
+#	def1[]:"AX"
+#	def1[]:"AY"
+#	def1[]:"CA"
+#	def1[]:"CC"
+#	def1[]:"CE"
+#	def1[]:"CF"
+#	def1[]:"CG"  # Before EU stars
+#	def1[]:"CH"
+#	def1[]:"CJ"
+#	def1[]:"CK"
+#	def1[]:"CL"
+#	def1[]:"CM"
+#	def1[]:"CN"
+#	def1[]:"CP"
+#	def1[]:"CR"
+#	def1[]:"CS"
+##	def1[]:"CT"  # Used for mopeds
+#	def1[]:"CU"
+#	def1[]:"CV"
+#	def1[]:"CW"
+#	def1[]:"CX"
+#	def1[]:"CY"
+#	def1[]:"EA"
+#	def1[]:"EC"
+#	def1[]:"EE"
+#	def1[]:"EF"
+#	def1[]:"EG"
+#	def1[]:"EH"
+#	def1[]:"EJ"
+#	def1[]:"EK"
+##	def1[]:"EL"  # Used for mopeds
+#	def1[]:"EM"
+#	def1[]:"EN"
+#	def1[]:"EP"
+#	def1[]:"ER"
+#	def1[]:"ES"
+#	def1[]:"ET"
+#	def1[]:"EU"
+#	def1[]:"EV"
+#	def1[]:"EW"
+#	def1[]:"EX"
+#	def1[]:"EY"
+#	def1[]:"FA"
+#	def1[]:"FC"
+##	def1[]:"FE"  # Used for motorcycles and tractors
+#	def1[]:"FF"
+#	def1[]:"FG"
+#	def1[]:"FH"
+##	def1[]:"FJ"  # Used for mopeds
+#	def1[]:"FK"
+#	def1[]:"FL"
+#	def1[]:"FM"
+#	def1[]:"FN"
+#	def1[]:"FP"
+#	def1[]:"FR"
+#	def1[]:"FS"
+##	def1[]:"FT"  # Used for motorcycles and tractors
+##	def1[]:"FU"  # Used for mopeds
+#	def1[]:"FV"
+#	def1[]:"FW"
+#	def1[]:"FX"
+#	def1[]:"FY"
+#	def1[]:"GA"
+#	def1[]:"GC"
+#	def1[]:"GE"
+##	def1[]:"GF"  # Used for trailers
+#	def1[]:"GG"
+#	def1[]:"GH"
+#	def1[]:"GJ"
+#	def1[]:"GK"
+#	def1[]:"GL"
+#	def1[]:"GM"
+#	def1[]:"GN"
+#	def1[]:"GP"
+##	def1[]:"GR"  # Used for mopeds
+#	def1[]:"GS"
+#	def1[]:"GT"
+#	def1[]:"GU"
+#	def1[]:"GV"
+#	def1[]:"GW"
+#	def1[]:"GX"
+##	def1[]:"GY"  # Used for trailers
+#	def1[]:"HA"
+#	def1[]:"HC"
+#	def1[]:"HE"
+#	def1[]:"HF"
+##	def1[]:"HG"  # Used for mopeds
+#	def1[]:"HH"
+#	def1[]:"HJ"
+#	def1[]:"HK"
+#	def1[]:"HL"
+#	def1[]:"HM"
+#	def1[]:"HN"
+#	def1[]:"HP"
+#	def1[]:"HR"
+#	def1[]:"HS"
+##	def1[]:"HT"  # Used for motorcycles and tractors
+##	def1[]:"HU"  # Used for mopeds
+#	def1[]:"HV"
+#	def1[]:"HW"
+##	def1[]:"HX"  # Used for trailers
+##	def1[]:"HY"  # Used for trailers
+#	def1[]:"JA"
+#	def1[]:"JC"
+#	def1[]:"JE"
+#	def1[]:"JF"
+##	def1[]:"JG"  # Used for mopeds
+#	def1[]:"JH"
+#	def1[]:"JJ"
+#	def1[]:"JK"
+#	def1[]:"JL"
+#	def1[]:"JM"
+#	def1[]:"JN"
+#	def1[]:"JP"
+#	def1[]:"JR"
+#	def1[]:"JS"
+##	def1[]:"JT"  # Used for motorcycles and tractors
+##	def1[]:"JU"  # Used for mopeds
+#	def1[]:"JV"
+#	def1[]:"JW"
+##	def1[]:"JX"  # Used for trailers
+##	def1[]:"JY"  # Used for trailers
+#	def1[]:"KA"
+#	def1[]:"KC"
+#	def1[]:"KE"
+#	def1[]:"KF"
+#	def1[]:"KG"
+#	def1[]:"KH"
+#	def1[]:"KJ"
+#	def1[]:"KK"
+#	def1[]:"KL"
+#	def1[]:"KM"
+#	def1[]:"KN"
+#	def1[]:"KP"
+#	def1[]:"KR"
+#	def1[]:"KS"
+#	def1[]:"KT"
+##	def1[]:"KU"  # Used for mopeds
+#	def1[]:"KV"
+##	def1[]:"KW"  # Used for motorcycles and tractors
+#	def1[]:"KX"
+##	def1[]:"KY"  # Used for trailers
+#	def1[]:"LA"
+#	def1[]:"LC"
+#	def1[]:"LE"
+#	def1[]:"LF"
+#	def1[]:"LG"
+#	def1[]:"LH"
+#	def1[]:"LJ"
+#	def1[]:"LK"
+#	def1[]:"LL"
+#	def1[]:"LM"
+#	def1[]:"LN"
+#	def1[]:"LP"
+#	def1[]:"LR"
+#	def1[]:"LS"
+##	def1[]:"LT"  # Used for motorcycles and tractors
+##	def1[]:"LU"  # Used for mopeds
+##	def1[]:"LV"  # Used for mopeds
+##	def1[]:"LW"  # Used for trailers
+##	def1[]:"LX"  # Used for trailers
+##	def1[]:"LY"  # Used for trailers
+#	def1[]:"MA"
+#	def1[]:"MC"
+#	def1[]:"ME"
+#	def1[]:"MF"
+#	def1[]:"MG"
+#	def1[]:"MH"
+#	def1[]:"MJ"
+#	def1[]:"MK"
+#	def1[]:"ML"
+#	def1[]:"MM"
+#	def1[]:"MN"
+#	def1[]:"MP"
+#	def1[]:"MR"
+#	def1[]:"MS"
+#	def1[]:"MT"
+##	def1[]:"MU"  # Used for mopeds
+#	def1[]:"MV"
+##	def1[]:"MW"  # Used for motorcycles and tractors
+##	def1[]:"MX"  # Used for trailers
+##	def1[]:"MY"  # Used for motorcycles and tractors
+#	def1[]:"NA"
+#	def1[]:"NC"
+#	def1[]:"NE"
+#	def1[]:"NF"
+#	def1[]:"NG"
+#	def1[]:"NH"
+#	def1[]:"NJ"
+#	def1[]:"NK"
+#	def1[]:"NL"
+#	def1[]:"NM"
+#	def1[]:"NN"
+#	def1[]:"NP"
+#	def1[]:"NR"
+#	def1[]:"NS"
+##	def1[]:"NT"  # Used for mopeds
+##	def1[]:"NU"  # Used for mopeds
+##	def1[]:"NV"  # Used for motorcycles and tractors
+##	def1[]:"NW"  # Used for motorcycles and tractors
+##	def1[]:"NX"  # Used for trailers
+##	def1[]:"NY"  # Used for trailers
+#	def1[]:"PA"
+#	def1[]:"PC"
+#	def1[]:"PE"
+#	def1[]:"PF"
+#	def1[]:"PG"
+#	def1[]:"PH"
+#	def1[]:"PJ"
+#	def1[]:"PK"
+#	def1[]:"PL"
+#	def1[]:"PM"
+#	def1[]:"PN"
+#	def1[]:"PP"
+#	def1[]:"PR"
+#	def1[]:"PS"
+#	def1[]:"PT"
+##	def1[]:"PU"  # Used for mopeds
+##	def1[]:"PV"  # Used for trailers
+#	def1[]:"PW"
+##	def1[]:"PX"  # Used for trailers
+##	def1[]:"PY"  # Used for motorcycles and tractors
+#	def1[]:"RA"
+#	def1[]:"RC"
+#	def1[]:"RE"
+#	def1[]:"RF"
+#	def1[]:"RG"
+#	def1[]:"RH"
+#	def1[]:"RJ"
+#	def1[]:"RK"
+#	def1[]:"RL"
+#	def1[]:"RM"
+#	def1[]:"RN"
+#	def1[]:"RP"
+#	def1[]:"RR"
+#	def1[]:"RS"
+#	def1[]:"RT"
+#	def1[]:"RU"
+##	def1[]:"RV"  # Used for motorcycles and tractors
+##	def1[]:"RW"  # Used for trailers
+##	def1[]:"RX"  # Used for mopeds
+##	def1[]:"RY"  # Used for motorcycles and tractors
+#	def1[]:"SA"
+#	def1[]:"SC"
+#	def1[]:"SE"
+#	def1[]:"SF"
+#	def1[]:"SG"
+#	def1[]:"SH"
+#	def1[]:"SJ"
+#	def1[]:"SK"
+#	def1[]:"SL"
+#	def1[]:"SM"
+#	def1[]:"SN"
+#	def1[]:"SP"
+#	def1[]:"SR"
+#	def1[]:"SS"
+#	def1[]:"ST"
+#	def1[]:"SU"
+##	def1[]:"SV"  # Used for motorcycles and tractors
+##	def1[]:"SW"  # Used for trailers
+##	def1[]:"SX"  # Used for mopeds
+##	def1[]:"SY"  # Used for trailers
+#	def1[]:"TA"
+#	def1[]:"TC"
+#	def1[]:"TE"
+#	def1[]:"TF"
+#	def1[]:"TG"
+#	def1[]:"TH"
+#	def1[]:"TJ"
+#	def1[]:"TK"
+#	def1[]:"TL"
+#	def1[]:"TM"
+#	def1[]:"TN"
+#	def1[]:"TP"
+#	def1[]:"TR"
+#	def1[]:"TS"
+#	def1[]:"TT"
+##	def1[]:"TU"  # Used for mopeds
+#	def1[]:"TV"
+#	def1[]:"TW"
+##	def1[]:"TX"  # Used for motorcycles and tractors
+##	def1[]:"TY"  # Used for trailers
+##	def1[]:"UA"  # Used for mopeds
+#	def1[]:"UC"
+#	def1[]:"UE"
+#	def1[]:"UF"
+#	def1[]:"UG"
+#	def1[]:"UH"
+##	def1[]:"UJ"  # Used for motorcycles and tractors
+#	def1[]:"UK"
+#	def1[]:"UL"
+#	def1[]:"UM"
+#	def1[]:"UN"
+#	def1[]:"UP"
+#	def1[]:"UR"
+#	def1[]:"US"
+#	def1[]:"UT"
+#	def1[]:"UU"
+#	def1[]:"UV"
+##	def1[]:"UW"  # Used for mopeds
+##	def1[]:"UX"  # Used for trailers
+##	def1[]:"UY"  # Used for trailers
+#	def1[]:"WA"
+#	def1[]:"WC"
+#	def1[]:"WE"
+#	def1[]:"WF"
+#	def1[]:"WG"
+#	def1[]:"WH"
+#	def1[]:"WJ"
+#	def1[]:"WK"
+#	def1[]:"WL"
+#	def1[]:"WM"
+#	def1[]:"WN"
+#	def1[]:"WP"
+#	def1[]:"WR"
+#	def1[]:"WS"
+#	def1[]:"WT"
+#	def1[]:"WU"
+##	def1[]:"WV"  # Used for motorcycles and tractors
+#	def1[]:"WW"
+##	def1[]:"WX"  # Used for trailers
+##	def1[]:"WY"  # Used for motorcycles and tractors
+#	def1[]:"VA"
+#	def1[]:"VC"
+#	def1[]:"VE"
+#	def1[]:"VF"
+#	def1[]:"VG"
+#	def1[]:"VH"
+#	def1[]:"VJ"
+#	def1[]:"VK"
+#	def1[]:"VL"
+#	def1[]:"VM"
+#	def1[]:"VN"
+#	def1[]:"VP"
+#	def1[]:"VR"
+#	def1[]:"VS"
+##	def1[]:"VT"  # Used for motorcycles and tractors
+##	def1[]:"VU"  # Used for trailers
+#	def1[]:"VV"
+##	def1[]:"VW"  # Used for trailers
+##	def1[]:"VX"  # Used for mopeds
+##	def1[]:"VY"  # Used for trailers
+##	def1[]:"YA"  # Used for mopeds
+#	def1[]:"YC"
+#	def1[]:"YE"
+#	def1[]:"YF"
+#	def1[]:"YG"
+#	def1[]:"YH"
+#	def1[]:"YJ"
+#	def1[]:"YK"
+#	def1[]:"YL"
+#	def1[]:"YM"
+#	def1[]:"YN"
+#	def1[]:"YP"
+#	def1[]:"YR"
+#	def1[]:"YS"
+#	def1[]:"YT"
+##	def1[]:"YU"  # Used for motorcycles and tractors
+#	def1[]:"YV"
+#	def1[]:"YW"
+##	def1[]:"YX"  # Used for trailers
+#	def1[]:"YY"
+#	def1[]:"XA"
+#	def1[]:"XC"
+#	def1[]:"XE"
+#	def1[]:"XF"
+#	def1[]:"XG"
+#	def1[]:"XH"
+#	def1[]:"XJ"
+#	def1[]:"XK"
+#	def1[]:"XL"
+#	def1[]:"XM"
+#	def1[]:"XN"
+#	def1[]:"XP"
+#	def1[]:"XR"
+##	def1[]:"XS"  # Used for trailers
+##	def1[]:"XT"  # Used for mopeds
+#	def1[]:"XU"
+#	def1[]:"XV"
+##	def1[]:"XW"  # Used for motorcycles and tractors
+#	def1[]:"XX"
+##	def1[]:"XY"  # Used for trailers
+
+#	def2[]:"AA"
+#	def2[]:"AC"
+#	def2[]:"AE"
+#	def2[]:"AF"
+#	def2[]:"AG"
+#	def2[]:"AH"
+#	def2[]:"AJ"
+#	def2[]:"AK"
+#	def2[]:"AL"
+#	def2[]:"AM"
+#	def2[]:"AN"
+#	def2[]:"AP"
+#	def2[]:"AR"
+#	def2[]:"AS"
+#	def2[]:"AT"
+##	def2[]:"AU"  # Used for motorcycles and tractors
+##	def2[]:"AV"  # Used for motorcycles and tractors
+##	def2[]:"AW"  # Used for mopeds
+##	def2[]:"AX"  # Used for motorcycles and tractors
+##	def2[]:"AY"  # Used for trailers
+#	def2[]:"CA"
+#	def2[]:"CC"
+#	def2[]:"CE"
+#	def2[]:"CF"
+#	def2[]:"CG"
+#	def2[]:"CH"
+#	def2[]:"CJ"
+#	def2[]:"CK"
+##	def2[]:"CL"  # Partially used for double-row plates
+#	def2[]:"CM"
+#	def2[]:"CN"
+#	def2[]:"CP"
+#	def2[]:"CR"
+#	def2[]:"CS"
+##	def2[]:"CT"  # Used for mopeds
+##	def2[]:"CU"  # Used for motorcycles and tractors
+##	def2[]:"CV"  # Used for mopeds
+##	def2[]:"CW"  # Used for trailers
+##	def2[]:"CX"  # Used for motorcycles and tractors
+##	def2[]:"CY"  # Used for trailers
+#	def2[]:"EA"
+#	def2[]:"EC"
+#	def2[]:"EE"
+#	def2[]:"EF"
+#	def2[]:"EG"
+#	def2[]:"EH"
+#	def2[]:"EJ"
+#	def2[]:"EK"
+#	def2[]:"EL"
+#	def2[]:"EM"
+#	def2[]:"EN"
+#	def2[]:"EP"
+#	def2[]:"ER"
+#	def2[]:"ES"
+##	def2[]:"ET"  # Used for trailers
+##	def2[]:"EU"  # Used for motorcycles and tractors
+##	def2[]:"EV"  # Used for trailers
+#	def2[]:"EW"
+##	def2[]:"EX"  # Used for mopeds
+##	def2[]:"EY"  # Used for trailers
+##	def2[]:"FA"  # Partially used for double-row plates
+#	def2[]:"FC"
+#	def2[]:"FE"
+#	def2[]:"FF"
+#	def2[]:"FG"
+#	def2[]:"FH"
+#	def2[]:"FJ"
+#	def2[]:"FK"
+#	def2[]:"FL"
+#	def2[]:"FM"
+#	def2[]:"FN"
+#	def2[]:"FP"
+#	def2[]:"FR"
+#	def2[]:"FS"
+#	def2[]:"FT"
+##	def2[]:"FU"  # Partially used for double-row plates
+##	def2[]:"FV"  # Used for trailers
+#	def2[]:"FW"
+##	def2[]:"FX"  # Used for trailers
+##	def2[]:"FY"  # Used for motorcycles and tractors
+#	def2[]:"GA"
+#	def2[]:"GC"
+#	def2[]:"GE"
+#	def2[]:"GF"
+#	def2[]:"GG"
+#	def2[]:"GH"
+#	def2[]:"GJ"
+#	def2[]:"GK"
+#	def2[]:"GL"
+#	def2[]:"GM"
+#	def2[]:"GN"
+##	def2[]:"GP"  # Partially used for double-row plates
+#	def2[]:"GR"
+#	def2[]:"GS"
+#	def2[]:"GT"
+##	def2[]:"GU"  # Used for mopeds
+##	def2[]:"GV"  # Used for mopeds
+##	def2[]:"GW"  # Used for trailers
+##	def2[]:"GX"  # Used for motorcycles and tractors
+##	def2[]:"GY"  # Used for motorcycles and tractors
+#	def2[]:"HA"
+#	def2[]:"HC"
+#	def2[]:"HE"
+#	def2[]:"HF"
+#	def2[]:"HG"
+#	def2[]:"HH"
+#	def2[]:"HJ"
+#	def2[]:"HK"
+#	def2[]:"HL"
+#	def2[]:"HM"
+#	def2[]:"HN"
+#	def2[]:"HP"
+#	def2[]:"HR"
+#	def2[]:"HS"
+#	def2[]:"HT"
+#	def2[]:"HU"
+##	def2[]:"HV"  # Used for mopeds
+##	def2[]:"HW"  # Used for motorcycles and tractors
+##	def2[]:"HX"  # Used for trailers
+##	def2[]:"HY"  # Used for motorcycles and tractors
+#	def2[]:"JA"
+#	def2[]:"JC"
+#	def2[]:"JE"
+#	def2[]:"JF"
+#	def2[]:"JG"
+#	def2[]:"JH"
+#	def2[]:"JJ"
+#	def2[]:"JK"
+#	def2[]:"JL"
+#	def2[]:"JM"
+#	def2[]:"JN"
+#	def2[]:"JP"
+#	def2[]:"JR"
+#	def2[]:"JS"
+#	def2[]:"JT"
+#	def2[]:"JU"
+##	def2[]:"JV"  # Used for trailers
+#	def2[]:"JW"
+##	def2[]:"JX"  # Used for motorcycles and tractors
+##	def2[]:"JY"  # Used for trailers
+##	def2[]:"KA"  # Partially used for double-row plates
+#	def2[]:"KC"
+#	def2[]:"KE"
+#	def2[]:"KF"
+#	def2[]:"KG"
+#	def2[]:"KH"
+#	def2[]:"KJ"
+#	def2[]:"KK"
+#	def2[]:"KL"
+#	def2[]:"KM"
+#	def2[]:"KN"
+#	def2[]:"KP"
+#	def2[]:"KR"
+#	def2[]:"KS"
+#	def2[]:"KT"
+#	def2[]:"KU"
+##	def2[]:"KV"  # Used for trailers
+##	def2[]:"KW"  # Used for trailers
+##	def2[]:"KX"  # Used for motorcycles and tractors
+##	def2[]:"KY"  # Used for motorcycles and tractors
+#	def2[]:"LA"
+#	def2[]:"LC"
+#	def2[]:"LE"
+##	def2[]:"LF"  # Used for motorcycles and tractors
+#	def2[]:"LG"
+#	def2[]:"LH"
+#	def2[]:"LJ"
+#	def2[]:"LK"
+#	def2[]:"LL"
+#	def2[]:"LM"
+#	def2[]:"LN"
+#	def2[]:"LP"
+#	def2[]:"LR"
+#	def2[]:"LS"
+#	def2[]:"LT"
+#	def2[]:"LU"
+##	def2[]:"LV"  # Used for trailers
+#	def2[]:"LW"
+##	def2[]:"LX"  # Used for trailers
+##	def2[]:"LY"  # Used for mopeds
+##	def2[]:"MA"  # Used for motorcycles and tractors
+##	def2[]:"MC"  # Used for trailers
+##	def2[]:"ME"  # Partially used for double-row plates
+#	def2[]:"MF"
+#	def2[]:"MG"
+#	def2[]:"MH"
+#	def2[]:"MJ"
+#	def2[]:"MK"
+#	def2[]:"ML"
+#	def2[]:"MM"
+#	def2[]:"MN"
+#	def2[]:"MP"
+#	def2[]:"MR"
+#	def2[]:"MS"
+#	def2[]:"MT"
+#	def2[]:"MU"
+##	def2[]:"MV"  # Used for mopeds
+#	def2[]:"MW"
+##	def2[]:"MX"  # Used for motorcycles and tractors
+##	def2[]:"MY"  # Used for trailers
+##	def2[]:"NA"  # Used for motorcycles and tractors
+##	def2[]:"NC"  # Used for trailers
+#	def2[]:"NE"
+#	def2[]:"NF"
+#	def2[]:"NG"
+#	def2[]:"NH"
+#	def2[]:"NJ"
+#	def2[]:"NK"
+#	def2[]:"NL"
+#	def2[]:"NM"
+#	def2[]:"NN"
+#	def2[]:"NP"
+#	def2[]:"NR"
+#	def2[]:"NS"
+#	def2[]:"NT"
+#	def2[]:"NU"
+##	def2[]:"NV"  # Used for trailers
+#	def2[]:"NW"
+##	def2[]:"NX"  # Used for motorcycles and tractors
+##	def2[]:"NY"  # Used for double-row plates
+	def2[]:"PA"
+	def2[]:"PC"
+	def2[]:"PE"
+	def2[]:"PF"
+	def2[]:"PG"
+	def2[]:"PH"
+	def2[]:"PJ"
+	def2[]:"PK"
+	def2[]:"PL"
+	def2[]:"PM"
+	def2[]:"PN"
+	def2[]:"PP"
+	def2[]:"PR"
+	def2[]:"PS"
+	def2[]:"PT"
+	def2[]:"PU"
+#	def2[]:"PV"  # Used for mopeds
+	def2[]:"PW"
+#	def2[]:"PX"  # Used for motorcycles and tractors
+#	def2[]:"PY"  # Used for trailers
+	def2[]:"RA"
+	def2[]:"RC"
+	def2[]:"RE"
+	def2[]:"RF"
+#	def2[]:"RG"  # Partially used for trailers and double-row plates
+	def2[]:"RH"
+	def2[]:"RJ"
+	def2[]:"RK"
+	def2[]:"RL"
+	def2[]:"RM"
+	def2[]:"RN"
+	def2[]:"RP"
+	def2[]:"RR"
+	def2[]:"RS"
+	def2[]:"RT"
+#	def2[]:"RU"  # Used for trailers
+#	def2[]:"RV"
+#	def2[]:"RW"  # Used for motorcycles and tractors
+#	def2[]:"RX"  # Used for trailers
+#	def2[]:"RY"  # Used for motorcycles and tractors
+	def2[]:"SA"
+	def2[]:"SC"  # "GCZ" VI latest issued (October 2019)
+#	def2[]:"SE"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .czluchow.lp.trailer
+{
+	type: trailer
+
+	# Three letter powiat codes
+#	templates[]:"GCZ5044"    # I    most before EU stars
+	templates[]:"GCZ5441"    # II
+	templates[]:"GCZ524"     # VI
+	templates[]:"GCZ524"     # VI
+	templates[]:"GCZ524"     # VI
+	templates[]:"GCZ524"     # VI
+
+#	def0[]:"C0"
+#	def0[]:"C1"
+#	def0[]:"C2"
+#	def0[]:"C3"
+#	def0[]:"C4"
+#	def0[]:"C5"
+#	def0[]:"C6"
+#	def0[]:"C7"
+#	def0[]:"C8"
+#	def0[]:"C9"
+#	def0[]:"Y0"
+#	def0[]:"Y1"
+#	def0[]:"Y2"
+#	def0[]:"Y3"
+#	def0[]:"Y4"
+#	def0[]:"Y5"  # Half before EU stars
+#	def0[]:"Y6"
+#	def0[]:"Y7"
+#	def0[]:"Y8"
+#	def0[]:"Y9"
+
+#	def1[]:"GF"  # Partially used for double-row plates
+	def1[]:"GY"
+#	def1[]:"HY"  # Partially used for double-row plates
+#	def1[]:"HX"  # Partially used for double-row plates
+	def1[]:"JY"
+#	def1[]:"JX"  # Partially used for double-row plates
+#	def1[]:"KY"  # Partially used for double-row plates
+	def1[]:"LY"
+#	def1[]:"LX"  # Partially used for double-row plates
+#	def1[]:"MX"  # Partially used for double-row plates
+	def1[]:"NX"
+#	def1[]:"NY"  # Partially used for double-row plates
+#	def1[]:"PX"  # Partially used for double-row plates
+	def1[]:"PV"
+#	def1[]:"RW"  # Partially used for double-row plates
+	def1[]:"LW"
+#	def1[]:"SY"  # Partially used for double-row plates
+	def1[]:"SW"
+#	def1[]:"TY"  # Partially used for double-row plates
+	def1[]:"UY"
+	def1[]:"UX"
+#	def1[]:"WX"  # Partially used for double-row plates
+#	def1[]:"VY"  # Partially used for double-row plates
+	def1[]:"VU"
+#	def1[]:"VW"  # Partially used for double-row plates
+	def1[]:"YX"
+	def1[]:"XY"
+	def1[]:"XS"
+
+	def2[]:"AY3"
+	def2[]:"AY4"
+	def2[]:"AY5"
+	def2[]:"AY6"
+	def2[]:"AY7"
+	def2[]:"AY8"
+	def2[]:"AY9"
+	def2[]:"CY0"
+	def2[]:"CY1"
+	def2[]:"CY2"
+	def2[]:"CY3"
+	def2[]:"CY4"
+	def2[]:"CW0"
+	def2[]:"CW1"
+	def2[]:"CW2"
+	def2[]:"CW3"
+	def2[]:"CW4"
+	def2[]:"CW5"
+	def2[]:"CW6"
+	def2[]:"CW7"
+	def2[]:"CW8"
+	def2[]:"CW9"
+	def2[]:"EY0"
+	def2[]:"EY1"
+	def2[]:"EY2"
+	def2[]:"EY3"
+	def2[]:"EY4"
+	def2[]:"EY5"
+	def2[]:"EY6"
+	def2[]:"EY7"
+	def2[]:"EY8"
+	def2[]:"EY9"
+	def2[]:"ET0"
+	def2[]:"ET1"
+	def2[]:"ET2"
+	def2[]:"ET3"
+	def2[]:"ET4"
+	def2[]:"ET5"
+	def2[]:"ET6"
+	def2[]:"ET7"
+	def2[]:"ET8"
+	def2[]:"ET9"
+	def2[]:"EV0"
+	def2[]:"EV1"
+	def2[]:"EV2"
+	def2[]:"EV3"
+	def2[]:"EV4"
+	def2[]:"EV5"
+	def2[]:"EV6"
+	def2[]:"EV7"
+	def2[]:"EV8"
+	def2[]:"EV9"
+	def2[]:"FX0"
+	def2[]:"FX1"
+	def2[]:"FX2"
+	def2[]:"FX3"
+	def2[]:"FX4"
+	def2[]:"FX5"
+	def2[]:"FX6"
+	def2[]:"FX7"
+	def2[]:"FX8"
+	def2[]:"FX9"
+	def2[]:"FV5"
+	def2[]:"FV6"
+	def2[]:"FV7"
+	def2[]:"FV8"
+	def2[]:"FV9"
+	def2[]:"GW0"
+	def2[]:"GW1"
+	def2[]:"GW2"
+	def2[]:"GW3"
+	def2[]:"GW4"
+	def2[]:"GW5"
+	def2[]:"GW6"
+	def2[]:"GW7"
+	def2[]:"GW8"
+	def2[]:"GW9"
+	def2[]:"HX0"
+	def2[]:"HX1"
+	def2[]:"HX2"
+	def2[]:"HX3"
+	def2[]:"HX4"
+	def2[]:"HX5"
+	def2[]:"HX6"
+	def2[]:"HX7"
+	def2[]:"HX8"
+	def2[]:"HX9"
+	def2[]:"JY0"
+	def2[]:"JY1"
+	def2[]:"JY2"
+	def2[]:"JY3"
+	def2[]:"JY4"
+	def2[]:"JY5"
+	def2[]:"JV0"
+	def2[]:"JV1"
+	def2[]:"JV2"
+	def2[]:"JV3"
+	def2[]:"JV4"
+	def2[]:"JV5"
+	def2[]:"JV6"
+	def2[]:"JV7"
+	def2[]:"JV8"
+	def2[]:"JV9"
+	def2[]:"KV0"
+	def2[]:"KV1"
+	def2[]:"KV2"
+	def2[]:"KV3"
+	def2[]:"KV4"
+	def2[]:"KV5"
+	def2[]:"KV6"
+	def2[]:"KV7"
+	def2[]:"KV8"
+	def2[]:"KV9"
+	def2[]:"LX0"
+	def2[]:"LX1"
+	def2[]:"LX2"
+	def2[]:"LX3"
+	def2[]:"LX4"
+	def2[]:"LX5"
+	def2[]:"LX6"
+	def2[]:"LX7"
+	def2[]:"LX8"
+	def2[]:"LX9"
+	def2[]:"LV0"
+	def2[]:"LV1"
+	def2[]:"LV2"
+	def2[]:"LV3"
+	def2[]:"LV4"
+	def2[]:"MC0"
+	def2[]:"MC1"
+	def2[]:"MC2"
+	def2[]:"MC3"
+	def2[]:"MC4"
+	def2[]:"MC5"
+	def2[]:"MC6"
+	def2[]:"MC7"
+	def2[]:"MC8"
+	def2[]:"MC9"
+	def2[]:"MY0"
+	def2[]:"MY1"
+	def2[]:"MY2"
+	def2[]:"MY3"
+	def2[]:"MY4"
+	def2[]:"NC0"
+	def2[]:"NC1"
+	def2[]:"NC2"
+	def2[]:"NC3"
+	def2[]:"NC4"
+	def2[]:"NC5"
+	def2[]:"NC6"
+	def2[]:"NC7"
+	def2[]:"NC8"
+	def2[]:"NC9"
+	def2[]:"NV0"
+	def2[]:"NV1"
+	def2[]:"NV2"
+	def2[]:"NV3"
+	def2[]:"NV4"
+	def2[]:"NV5"
+	def2[]:"NV6"
+	def2[]:"NV7"
+	def2[]:"NV8"
+	def2[]:"NV9"
+	def2[]:"PY0"
+	def2[]:"PY1"
+	def2[]:"PY2"
+	def2[]:"PY3"
+	def2[]:"PY4"
+	def2[]:"PY5"
+	def2[]:"PY6"
+	def2[]:"PY7"
+	def2[]:"PY8"
+	def2[]:"PY9"
+	def2[]:"RG5"
+	def2[]:"RG6"
+	def2[]:"RX0"
+	def2[]:"RX1"
+	def2[]:"RX2"
+	def2[]:"RX3"
+	def2[]:"RX4"
+	def2[]:"RX5"
+	def2[]:"RX6"
+	def2[]:"RX7"
+	def2[]:"RX8"  # "GCZ" VI latest issued (October 2019)
+#	def2[]:"RX9"  # Future
+#	def2[]:"RU0"  # Future
+#	def2[]:"RU1"  # Future
+#	def2[]:"RU2"  # Future
+#	def2[]:"RU3"  # Future
+#	def2[]:"RU4"  # Future
+#	def2[]:"RU5"  # Future
+#	def2[]:"RU6"  # Future
+#	def2[]:"RU7"  # Future
+#	def2[]:"RU8"  # Future
+#	def2[]:"RU9"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .czluchow.lp.police
+{
+	type: police
+
+	# N = Pomeranian (Pomorskie) Voivodeship Headquarters
+	templates[]:"HPN51222"
+#	templates[]:"HPN51222"
+#	templates[]:"HPN51222"
+#	templates[]:"HPN51222"
+#	templates[]:"HPN52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

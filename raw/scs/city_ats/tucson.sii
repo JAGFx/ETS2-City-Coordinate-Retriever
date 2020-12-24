@@ -1,0 +1,28 @@
+city_data: city.tucson
+{
+	city_name: "Tucson"
+	short_city_name: "Tucson"
+	city_name_uppercase: "TUCSON"
+	country: arizona
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0 // close zoom for minimap
+	map_x_offsets[]: -3 // far zoom for monimap
+	map_x_offsets[]: -36 // city zoom for world map
+	map_x_offsets[]: -32 // closest zoom for world map
+	map_x_offsets[]: -31 // middle zoom for world map
+	map_x_offsets[]: -30 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -60
+	map_y_offsets[]: -38
+	map_y_offsets[]: -30
+	map_y_offsets[]: -28
+  
+  vehicle_brands[]: "volvo"
+  
+}

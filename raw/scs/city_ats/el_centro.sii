@@ -1,0 +1,29 @@
+
+city_data: city.el_centro
+{
+	city_name: "El Centro"
+	short_city_name: "El Centro"
+	city_name_uppercase: "EL CENTRO"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -25
+	map_x_offsets[]: -46
+	map_x_offsets[]: -42
+	map_x_offsets[]: -41
+	map_x_offsets[]: -40
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -10
+	map_y_offsets[]: -15
+	map_y_offsets[]: -63
+	map_y_offsets[]: -40
+	map_y_offsets[]: -31
+	map_y_offsets[]: -28
+
+
+}
+

@@ -1,0 +1,52 @@
+city_data: city.akranes
+{
+	city_name: "Akranes"
+	city_name_localized: "@@akranes@@"
+	country: iceland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.6  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.6  // whole world map zoom
+
+	vehicle_brands[]:"daf"
+
+	license_plate[]: .akranes.lp.truck
+	license_plate[]: .akranes.lp.trailer
+}
+
+license_plate_data : .akranes.lp.truck
+{
+	type: truck
+
+@include "city_lp_is_truck.sui"
+}
+
+license_plate_data : .akranes.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_is_trailer.sui"
+}

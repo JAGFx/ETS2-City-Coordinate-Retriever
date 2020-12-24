@@ -1,0 +1,57 @@
+city_data: city.orleans
+{
+	city_name: "Orléans"
+	city_name_localized: "@@orleans@@"
+	country: france
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	vehicle_brands[]:"scania"
+
+	license_plate[]: .orleans.lp.car
+	license_plate[]: .orleans.lp.truck
+	license_plate[]: .orleans.lp.trailer
+}
+
+license_plate_data : .orleans.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/45.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .orleans.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/45.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .orleans.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/45.mat color=FFFFFFFF width=15 height=32></align>"
+}

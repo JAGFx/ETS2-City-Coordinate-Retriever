@@ -1,0 +1,28 @@
+city_data: city.andorra
+{
+	city_name: "Andorra la Vella"
+	short_city_name: "Andorra"
+	city_name_localized: "@@andorra_vella@@"
+	short_city_name_localized: "@@andorra@@"
+	country: andorra
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"renault"
+}

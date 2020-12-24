@@ -1,0 +1,27 @@
+city_data: city.seattle
+{
+	city_name: "Seattle"
+	city_name_localized: "@@seattle@@"
+	country: washington
+	key_city: true
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -270
+	map_x_offsets[]: -86
+	map_x_offsets[]: 5
+	map_x_offsets[]: 7
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -41
+	map_y_offsets[]: -34
+	map_y_offsets[]: -25
+	map_y_offsets[]: -11
+
+	vehicle_brands[]: "kenworth"
+}

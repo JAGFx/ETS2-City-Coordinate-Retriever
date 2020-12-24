@@ -1,0 +1,39 @@
+﻿city_data: city.jerusalem
+{
+	city_name: "Jerusalem"
+city_name_localized: "@@jerusalem@@"
+	country: israel
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"volvo"
+
+	truck_lp_template[]:"00-000-00"
+
+	truck_lp_def0[]:"0"
+	truck_lp_def0[]:"1"
+	truck_lp_def0[]:"2"
+	truck_lp_def0[]:"3"
+	truck_lp_def0[]:"4"
+	truck_lp_def0[]:"5"
+	truck_lp_def0[]:"6"
+	truck_lp_def0[]:"7"
+	truck_lp_def0[]:"8"
+	truck_lp_def0[]:"9"
+}

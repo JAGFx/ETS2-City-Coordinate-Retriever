@@ -1,0 +1,28 @@
+
+city_data: city.tonopah
+{
+	city_name: "Tonopah"
+	short_city_name: "Tonopah"
+	city_name_uppercase: "TONOPAH"
+	country: nevada
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -44
+	map_x_offsets[]: -45
+	map_x_offsets[]: -37
+	map_x_offsets[]: -38
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -116
+	map_y_offsets[]: -66
+	map_y_offsets[]: -33
+	map_y_offsets[]: -28
+
+}
+

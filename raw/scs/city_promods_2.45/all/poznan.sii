@@ -1,0 +1,976 @@
+city_data: city.poznan
+{
+	city_name: "Poznań"
+	city_name_localized: "@@poznan@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -40
+	map_x_offsets[]: -38
+	map_x_offsets[]: -33
+	map_x_offsets[]: -34
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -83
+	map_y_offsets[]: -50
+	map_y_offsets[]: -28
+	map_y_offsets[]: -29
+
+	license_plate[]: .poznan.lp.car
+	license_plate[]: .poznan.lp.truck
+	license_plate[]: .poznan.lp.trailer
+	license_plate[]: .poznan.lp.police
+}
+
+license_plate_data : .poznan.lp.car
+{
+	type: car
+
+	# Two letter powiat codes
+#	templates[]:"PO544444"   # I    before EU stars
+#	templates[]:"PO544442"   # II   most before EU stars
+	templates[]:"PO544422"   # III
+	templates[]:"PO532444"   # IV
+	templates[]:"PO53044"    # V
+	templates[]:"PO53044"    # V
+	templates[]:"PO53044"    # V
+	templates[]:"PO53044"    # V
+
+#	templates[]:"PZ544444"   # I    most before EU stars
+	templates[]:"PZ544442"   # II
+	templates[]:"PZ54441"    # III
+
+	def0[]:"AA"
+	def0[]:"AC"
+	def0[]:"AE"
+#	def0[]:"AF"  # Partially used for double-row plates
+	def0[]:"AG"
+	def0[]:"AH"
+	def0[]:"AJ"
+	def0[]:"AK"
+	def0[]:"AL"
+	def0[]:"AM"
+	def0[]:"AN"
+	def0[]:"AP"
+	def0[]:"AR"
+	def0[]:"AS"
+	def0[]:"AT"
+	def0[]:"AU"
+	def0[]:"AV"
+	def0[]:"AW"
+	def0[]:"AX"
+#	def0[]:"AY"  # Partially used for double-row plates
+	def0[]:"CA"
+	def0[]:"CC"
+	def0[]:"CE"
+	def0[]:"CF"
+	def0[]:"CG"
+	def0[]:"CH"
+	def0[]:"CJ"
+	def0[]:"CK"
+	def0[]:"CL"
+	def0[]:"CM"
+	def0[]:"CN"
+	def0[]:"CP"
+	def0[]:"CR"
+	def0[]:"CS"
+	def0[]:"CT"
+	def0[]:"CU"
+	def0[]:"CV"
+	def0[]:"CW"
+	def0[]:"CX"
+	def0[]:"CY"
+	def0[]:"EA"
+	def0[]:"EC"
+	def0[]:"EE"
+	def0[]:"EF"
+	def0[]:"EG"
+	def0[]:"EH"
+#	def0[]:"EJ"  # Partially used for double-row plates
+	def0[]:"EK"
+	def0[]:"EL"
+	def0[]:"EM"
+	def0[]:"EN"
+	def0[]:"EP"
+	def0[]:"ER"
+	def0[]:"ES"
+	def0[]:"ET"
+	def0[]:"EU"
+	def0[]:"EV"
+	def0[]:"EW"
+	def0[]:"EX"
+	def0[]:"EY"
+	def0[]:"FA"
+	def0[]:"FC"
+	def0[]:"FE"
+	def0[]:"FF"
+	def0[]:"FG"
+	def0[]:"FH"
+	def0[]:"FJ"
+	def0[]:"FK"
+#	def0[]:"FL"  # Partially used for double-row plates
+	def0[]:"FM"
+	def0[]:"FN"
+	def0[]:"FP"
+	def0[]:"FR"
+	def0[]:"FS"
+	def0[]:"FT"
+	def0[]:"FU"
+	def0[]:"FV"
+	def0[]:"FW"
+	def0[]:"FX"
+	def0[]:"FY"
+	def0[]:"GA"
+	def0[]:"GC"
+	def0[]:"GE"
+	def0[]:"GF"
+	def0[]:"GG"
+	def0[]:"GH"
+	def0[]:"GJ"
+	def0[]:"GK"
+	def0[]:"GL"
+	def0[]:"GM"
+	def0[]:"GN"
+	def0[]:"GP"
+	def0[]:"GR"
+	def0[]:"GS"
+	def0[]:"GT"
+	def0[]:"GU"
+	def0[]:"GV"
+	def0[]:"GW"
+	def0[]:"GX"
+	def0[]:"GY"
+	def0[]:"HA"
+	def0[]:"HC"
+	def0[]:"HE"
+	def0[]:"HF"
+	def0[]:"HG"
+	def0[]:"HH"
+	def0[]:"HJ"
+	def0[]:"HK"
+	def0[]:"HL"
+	def0[]:"HM"
+	def0[]:"HN"
+	def0[]:"HP"
+	def0[]:"HR"
+	def0[]:"HS"
+	def0[]:"HT"
+#	def0[]:"HU"  # Partially used for double-row plates
+	def0[]:"HV"
+#	def0[]:"HW"  # Partially used for double-row plates
+	def0[]:"HX"
+	def0[]:"HY"
+	def0[]:"JA"
+	def0[]:"JC"
+	def0[]:"JE"
+	def0[]:"JF"
+	def0[]:"JG"
+	def0[]:"JH"
+	def0[]:"JJ"
+	def0[]:"JK"
+	def0[]:"JL"
+	def0[]:"JM"
+	def0[]:"JN"
+	def0[]:"JP"
+	def0[]:"JR"
+	def0[]:"JS"
+	def0[]:"JT"
+	def0[]:"JU"
+	def0[]:"JV"
+	def0[]:"JW"
+	def0[]:"JX"
+	def0[]:"JY"
+	def0[]:"KA"
+	def0[]:"KC"
+	def0[]:"KE"
+	def0[]:"KF"
+	def0[]:"KG"
+	def0[]:"KH"
+	def0[]:"KJ"
+	def0[]:"KK"
+	def0[]:"KL"
+	def0[]:"KM"
+	def0[]:"KN"
+	def0[]:"KP"
+	def0[]:"KR"
+	def0[]:"KS"
+	def0[]:"KT"
+	def0[]:"KU"
+	def0[]:"KV"
+	def0[]:"KW"
+	def0[]:"KX"
+	def0[]:"KY"
+	def0[]:"LA"
+	def0[]:"LC"
+	def0[]:"LE"
+	def0[]:"LF"
+#	def0[]:"LG"  # Partially used for double-row plates
+	def0[]:"LH"
+	def0[]:"LJ"
+	def0[]:"LK"
+	def0[]:"LL"
+	def0[]:"LM"
+	def0[]:"LN"
+	def0[]:"LP"
+	def0[]:"LR"
+	def0[]:"LS"
+	def0[]:"LT"
+	def0[]:"LU"
+	def0[]:"LV"
+	def0[]:"LW"
+	def0[]:"LX"
+	def0[]:"LY"
+	def0[]:"MA"
+	def0[]:"MC"
+	def0[]:"ME"
+	def0[]:"MF"
+	def0[]:"MG"
+	def0[]:"MH"
+	def0[]:"MJ"
+	def0[]:"MK"
+	def0[]:"ML"
+	def0[]:"MM"
+	def0[]:"MN"
+	def0[]:"MP"  # "PO" V latest issued (October 2019)
+#	def0[]:"MR"  # Future
+
+	def1[]:"AA"
+	def1[]:"AC"
+#	def1[]:"AE"  # Partially used for trailers
+	def1[]:"AF"
+#	def1[]:"AG"  # Partially used for trailers
+	def1[]:"AH"
+	def1[]:"AJ"
+	def1[]:"AK"
+	def1[]:"AL"
+	def1[]:"AM"
+	def1[]:"AN"
+	def1[]:"AP"
+	def1[]:"AR"
+#	def1[]:"AS"  # Partially used for trailers
+#	def1[]:"AT"  # Partially used for trailers and double-row plates
+	def1[]:"AU"
+	def1[]:"AV"
+#	def1[]:"AW"  # Partially used for trailers
+	def1[]:"AX"
+#	def1[]:"AY"  # Partially used for trailers
+	def1[]:"CA"
+	def1[]:"CC"
+	def1[]:"CE"
+#	def1[]:"CF"  # Partially used for trailers
+#	def1[]:"CG"  # Partially used for trailers
+#	def1[]:"CH"  # Partially used for trailers
+	def1[]:"CJ"
+	def1[]:"CK"
+	def1[]:"CL"
+#	def1[]:"CM"  # Partially used for trailers
+#	def1[]:"CN"  # Partially used for trailers
+	def1[]:"CP"
+#	def1[]:"CR"  # Partially used for trailers
+#	def1[]:"CS"  # Partially used for trailers
+#	def1[]:"CT"  # Partially used for trailers
+	def1[]:"CU"
+#	def1[]:"CV"  # Partially used for trailers
+	def1[]:"CW"
+	def1[]:"CX"
+#	def1[]:"CY"  # Partially used for trailers
+#	def1[]:"EA"  # Partially used for trailers
+#	def1[]:"EC"  # Partially used for trailers
+#	def1[]:"EE"  # Partially used for trailers
+	def1[]:"EF"
+	def1[]:"EG"
+	def1[]:"EH"
+#	def1[]:"EJ"  # Partially used for trailers
+	def1[]:"EK"
+#	def1[]:"EL"  # Partially used for trailers
+	def1[]:"EM"
+	def1[]:"EN"
+	def1[]:"EP"
+	def1[]:"ER"
+#	def1[]:"ES"  # Partially used for trailers
+#	def1[]:"ET"  # Partially used for trailers
+#	def1[]:"EU"  # Partially used for trailers
+	def1[]:"EV"
+	def1[]:"EW"
+	def1[]:"EX"
+#	def1[]:"EY"  # Partially used for trailers and double-row plates
+	def1[]:"FA"
+#	def1[]:"FC"  # Partially used for trailers
+	def1[]:"FE"
+	def1[]:"FF"
+	def1[]:"FG"
+#	def1[]:"FH"  # Partially used for trailers
+	def1[]:"FJ"
+	def1[]:"FK"
+#	def1[]:"FL"  # Partially used for trailers
+	def1[]:"FM"
+#	def1[]:"FN"  # Partially used for trailers
+	def1[]:"FP"
+	def1[]:"FR"
+#	def1[]:"FS"  # Partially used for trailers
+	def1[]:"FT"
+	def1[]:"FU"
+	def1[]:"FV"
+#	def1[]:"FW"  # Partially used for trailers
+#	def1[]:"FX"  # Partially used for trailers
+	def1[]:"FY"
+#	def1[]:"GA"  # Partially used for double-row plates
+#	def1[]:"GC"  # Partially used for trailers
+	def1[]:"GE"
+#	def1[]:"GF"  # Partially used for trailers
+	def1[]:"GG"
+#	def1[]:"GH"  # Partially used for trailers
+#	def1[]:"GJ"  # Partially used for trailers
+#	def1[]:"GK"  # Partially used for trailers and double-row plates
+	def1[]:"GL"
+#	def1[]:"GM"  # Partially used for trailers
+	def1[]:"GN"
+	def1[]:"GP"
+#	def1[]:"GR"  # Partially used for trailers
+	def1[]:"GS"
+	def1[]:"GT"
+	def1[]:"GU"
+	def1[]:"GV"
+	def1[]:"GW"
+#	def1[]:"GX"  # Partially used for trailers
+	def1[]:"GY"
+	def1[]:"HA"
+	def1[]:"HC"
+	def1[]:"HE"
+	def1[]:"HF"
+	def1[]:"HG"
+#	def1[]:"HH"  # Partially used for trailers
+	def1[]:"HJ"
+#	def1[]:"HK"  # Partially used for trailers and double-row plates
+	def1[]:"HL"
+#	def1[]:"HM"  # Partially used for trailers
+	def1[]:"HN"
+	def1[]:"HP"
+#	def1[]:"HR"  # Partially used for trailers
+	def1[]:"HS"
+#	def1[]:"HT"  # Partially used for trailers
+	def1[]:"HU"
+#	def1[]:"HV"  # Partially used for double-row plates
+#	def1[]:"HW"  # Partially used for trailers
+#	def1[]:"HX"  # Partially used for trailers and double-row plates
+	def1[]:"HY"
+	def1[]:"JA"
+	def1[]:"JC"
+	def1[]:"JE"
+	def1[]:"JF"
+	def1[]:"JG"
+	def1[]:"JH"
+#	def1[]:"JJ"  # Partially used for double-row plates
+#	def1[]:"JK"  # Partially used for trailers
+	def1[]:"JL"
+	def1[]:"JM"
+#	def1[]:"JN"  # Partially used for trailers
+	def1[]:"JP"
+	def1[]:"JR"
+#	def1[]:"JS"  # Partially used for trailers
+#	def1[]:"JT"  # Partially used for trailers
+	def1[]:"JU"
+	def1[]:"JV"
+	def1[]:"JW"
+	def1[]:"JX"
+	def1[]:"JY"
+	def1[]:"KA"
+#	def1[]:"KC"  # Partially used for trailers
+	def1[]:"KE"
+	def1[]:"KF"
+#	def1[]:"KG"  # Partially used for trailers
+	def1[]:"KH"
+#	def1[]:"KJ"  # Partially used for trailers
+#	def1[]:"KK"  # Partially used for double-row plates
+	def1[]:"KL"
+	def1[]:"KM"
+#	def1[]:"KN"  # Partially used for trailers
+#	def1[]:"KP"  # Partially used for trailers
+	def1[]:"KR"
+#	def1[]:"KS"  # Partially used for trailers
+#	def1[]:"KT"  # Partially used for trailers
+	def1[]:"KU"
+	def1[]:"KV"
+#	def1[]:"KW"  # Partially used for trailers
+	def1[]:"KX"
+	def1[]:"KY"
+#	def1[]:"LA"  # Partially used for trailers
+#	def1[]:"LC"  # Partially used for double-row plates
+	def1[]:"LE"
+	def1[]:"LF"
+	def1[]:"LG"
+	def1[]:"LH"
+	def1[]:"LJ"
+	def1[]:"LK"
+	def1[]:"LL"
+	def1[]:"LM"
+#	def1[]:"LN"  # Partially used for trailers
+#	def1[]:"LP"  # Partially used for trailers
+	def1[]:"LR"
+	def1[]:"LS"
+	def1[]:"LT"
+	def1[]:"LU"
+#	def1[]:"LV"  # Partially used for double-row plates
+	def1[]:"LW"
+#	def1[]:"LX"  # Partially used for trailers
+	def1[]:"LY"
+	def1[]:"MA"
+#	def1[]:"MC"  # Partially used for trailers
+#	def1[]:"ME"  # Partially used for trailers
+	def1[]:"MF"
+	def1[]:"MG"
+	def1[]:"MH"
+	def1[]:"MJ"
+	def1[]:"MK"
+#	def1[]:"ML"  # Partially used for trailers
+	def1[]:"MM"
+	def1[]:"MN"
+	def1[]:"MP"
+#	def1[]:"MR"  # Partially used for trailers
+	def1[]:"MS"
+	def1[]:"MT"
+#	def1[]:"MU"  # Partially used for trailers
+	def1[]:"MV"
+	def1[]:"MW"
+	def1[]:"MX"
+	def1[]:"MY"
+	def1[]:"NA"
+	def1[]:"NC"
+	def1[]:"NE"
+	def1[]:"NF"
+	def1[]:"NG"
+#	def1[]:"NH"  # Partially used for trailers
+	def1[]:"NJ"
+	def1[]:"NK"
+	def1[]:"NL"
+	def1[]:"NM"
+	def1[]:"NN"
+	def1[]:"NP"
+	def1[]:"NR"
+	def1[]:"NS"
+	def1[]:"NT"
+	def1[]:"NU"
+	def1[]:"NV"
+	def1[]:"NW"
+	def1[]:"NX"
+#	def1[]:"NY"  # Partially used for trailers
+	def1[]:"PA"
+	def1[]:"PC"
+	def1[]:"PE"
+	def1[]:"PF"
+	def1[]:"PG"
+#	def1[]:"PH"  # Partially used for double-row plates
+	def1[]:"PJ"
+	def1[]:"PK"
+	def1[]:"PL"
+	def1[]:"PM"
+	def1[]:"PN"
+	def1[]:"PP"
+	def1[]:"PR"
+	def1[]:"PS"
+	def1[]:"PT"
+	def1[]:"PU"
+#	def1[]:"PV"  # Partially used for trailers
+	def1[]:"PW"
+	def1[]:"PX"
+	def1[]:"PY"
+#	def1[]:"RA"  # Partially used for trailers
+	def1[]:"RC"
+	def1[]:"RE"
+	def1[]:"RF"
+#	def1[]:"RG"  # Partially used for trailers
+	def1[]:"RH"
+#	def1[]:"RJ"  # Partially used for trailers
+	def1[]:"RK"
+	def1[]:"RL"
+	def1[]:"RM"
+	def1[]:"RN"
+	def1[]:"RP"
+	def1[]:"RR"
+	def1[]:"RS"
+	def1[]:"RT"
+	def1[]:"RU"
+	def1[]:"RV"
+	def1[]:"RW"
+	def1[]:"RX"
+	def1[]:"RY"
+	def1[]:"SA"
+	def1[]:"SC"
+#	def1[]:"SE"  # Partially used for trailers
+	def1[]:"SF"
+	def1[]:"SG"
+	def1[]:"SH"
+	def1[]:"SJ"
+	def1[]:"SK"
+	def1[]:"SL"
+#	def1[]:"SM"  # Partially used for trailers
+	def1[]:"SN"
+	def1[]:"SP"
+	def1[]:"SR"
+#	def1[]:"SS"  # Partially used for trailers
+	def1[]:"ST"
+	def1[]:"SU"
+#	def1[]:"SV"  # Partially used for trailers
+	def1[]:"SW"
+	def1[]:"SX"
+	def1[]:"SY"
+#	def1[]:"TA"  # Partially used for trailers
+	def1[]:"TC"
+	def1[]:"TE"
+	def1[]:"TF"
+	def1[]:"TG"
+	def1[]:"TH"
+	def1[]:"TJ"
+	def1[]:"TK"
+	def1[]:"TL"
+	def1[]:"TM"
+	def1[]:"TN"
+	def1[]:"TP"
+	def1[]:"TR"
+	def1[]:"TS"
+	def1[]:"TT"
+	def1[]:"TU"
+	def1[]:"TV"
+	def1[]:"TW"
+	def1[]:"TX"  # "PZ" III latest issued (October 2019)
+#	def1[]:"TY"  # Future
+
+	def2[]:"A"
+	def2[]:"C"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+#	def2[]:"Y"  # Used for "PO" trailers
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .poznan.lp.truck
+{
+	type: truck
+
+	# Two letter powiat codes
+#	templates[]:"PO544444"   # I    before EU stars
+#	templates[]:"PO544440"   # II   most before EU stars
+#	templates[]:"PO544400"   # III
+#	templates[]:"PO530444"   # IV
+	templates[]:"PO53144"    # V
+	templates[]:"PO53144"    # V
+	templates[]:"PO53144"    # V
+	templates[]:"PO5244"     # V
+
+#	def0[]:"A"
+#	def0[]:"C"
+#	def0[]:"E"
+#	def0[]:"F"
+#	def0[]:"G"
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+#	def0[]:"L"
+#	def0[]:"M"
+#	def0[]:"N"
+#	def0[]:"P"
+#	def0[]:"R"
+#	def0[]:"S"
+#	def0[]:"T"
+#	def0[]:"U"
+#	def0[]:"V"
+#	def0[]:"W"
+#	def0[]:"X"
+##	def0[]:"Y"  # Used for trailers
+
+#	def1[]:"AA"
+#	def1[]:"AC"
+#	def1[]:"AE"
+##	def1[]:"AF"  # Partially used for double-row plates
+#	def1[]:"AG"
+#	def1[]:"AH"
+#	def1[]:"AJ"
+#	def1[]:"AK"
+#	def1[]:"AL"
+#	def1[]:"AM"
+#	def1[]:"AN"
+#	def1[]:"AP"
+#	def1[]:"AR"
+#	def1[]:"AS"
+#	def1[]:"AT"
+#	def1[]:"AU"
+#	def1[]:"AV"
+#	def1[]:"AW"
+#	def1[]:"AX"
+##	def1[]:"AY"  # Partially used for double-row plates
+#	def1[]:"CA"
+#	def1[]:"CC"
+#	def1[]:"CE"
+#	def1[]:"CF"
+#	def1[]:"CG"
+#	def1[]:"CH"
+#	def1[]:"CJ"
+#	def1[]:"CK"
+#	def1[]:"CL"
+#	def1[]:"CM"
+#	def1[]:"CN"
+#	def1[]:"CP"
+#	def1[]:"CR"
+#	def1[]:"CS"
+#	def1[]:"CT"
+#	def1[]:"CU"
+#	def1[]:"CV"
+#	def1[]:"CW"
+#	def1[]:"CX"
+#	def1[]:"CY"
+#	def1[]:"EA"
+#	def1[]:"EC"
+#	def1[]:"EE"
+#	def1[]:"EF"
+#	def1[]:"EG"
+#	def1[]:"EH"
+##	def1[]:"EJ"  # Partially used for double-row plates
+#	def1[]:"EK"
+#	def1[]:"EL"
+#	def1[]:"EM"
+#	def1[]:"EN"
+#	def1[]:"EP"
+#	def1[]:"ER"
+#	def1[]:"ES"
+#	def1[]:"ET"
+#	def1[]:"EU"
+#	def1[]:"EV"
+#	def1[]:"EW"
+#	def1[]:"EX"
+#	def1[]:"EY"
+#	def1[]:"FA"
+#	def1[]:"FC"
+#	def1[]:"FE"
+#	def1[]:"FF"
+#	def1[]:"FG"
+#	def1[]:"FH"
+#	def1[]:"FJ"
+#	def1[]:"FK"
+##	def1[]:"FL"  # Partially used for double-row plates
+#	def1[]:"FM"
+#	def1[]:"FN"
+#	def1[]:"FP"
+#	def1[]:"FR"
+#	def1[]:"FS"
+#	def1[]:"FT"
+#	def1[]:"FU"
+#	def1[]:"FV"
+#	def1[]:"FW"
+#	def1[]:"FX"
+#	def1[]:"FY"
+#	def1[]:"GA"
+#	def1[]:"GC"
+#	def1[]:"GE"
+#	def1[]:"GF"
+#	def1[]:"GG"
+#	def1[]:"GH"
+#	def1[]:"GJ"
+#	def1[]:"GK"
+#	def1[]:"GL"
+#	def1[]:"GM"
+#	def1[]:"GN"
+#	def1[]:"GP"
+#	def1[]:"GR"
+#	def1[]:"GS"
+#	def1[]:"GT"
+#	def1[]:"GU"
+#	def1[]:"GV"
+#	def1[]:"GW"
+#	def1[]:"GX"
+#	def1[]:"GY"
+#	def1[]:"HA"
+#	def1[]:"HC"
+#	def1[]:"HE"
+#	def1[]:"HF"
+#	def1[]:"HG"
+#	def1[]:"HH"
+#	def1[]:"HJ"
+#	def1[]:"HK"
+#	def1[]:"HL"
+#	def1[]:"HM"
+#	def1[]:"HN"
+#	def1[]:"HP"
+#	def1[]:"HR"
+#	def1[]:"HS"
+#	def1[]:"HT"
+##	def1[]:"HU"  # Partially used for double-row plates
+#	def1[]:"HV"
+##	def1[]:"HW"  # Partially used for double-row plates
+#	def1[]:"HX"
+#	def1[]:"HY"
+#	def1[]:"JA"
+#	def1[]:"JC"
+#	def1[]:"JE"
+#	def1[]:"JF"
+#	def1[]:"JG"
+#	def1[]:"JH"
+#	def1[]:"JJ"
+#	def1[]:"JK"
+#	def1[]:"JL"
+#	def1[]:"JM"
+#	def1[]:"JN"
+#	def1[]:"JP"
+#	def1[]:"JR"
+#	def1[]:"JS"
+#	def1[]:"JT"
+#	def1[]:"JU"
+#	def1[]:"JV"
+#	def1[]:"JW"
+#	def1[]:"JX"
+#	def1[]:"JY"
+#	def1[]:"KA"
+#	def1[]:"KC"
+#	def1[]:"KE"
+#	def1[]:"KF"
+#	def1[]:"KG"
+#	def1[]:"KH"
+#	def1[]:"KJ"
+#	def1[]:"KK"
+#	def1[]:"KL"
+#	def1[]:"KM"
+#	def1[]:"KN"
+#	def1[]:"KP"
+#	def1[]:"KR"
+#	def1[]:"KS"
+#	def1[]:"KT"
+#	def1[]:"KU"
+#	def1[]:"KV"
+#	def1[]:"KW"
+#	def1[]:"KX"
+#	def1[]:"KY"
+#	def1[]:"LA"
+#	def1[]:"LC"
+#	def1[]:"LE"
+#	def1[]:"LF"
+##	def1[]:"LG"  # Partially used for double-row plates
+#	def1[]:"LH"
+#	def1[]:"LJ"
+#	def1[]:"LK"
+#	def1[]:"LL"
+#	def1[]:"LM"
+#	def1[]:"LN"
+#	def1[]:"LP"
+#	def1[]:"LR"
+#	def1[]:"LS"
+#	def1[]:"LT"
+#	def1[]:"LU"
+#	def1[]:"LV"
+#	def1[]:"LW"
+#	def1[]:"LX"
+#	def1[]:"LY"
+#	def1[]:"MA"
+#	def1[]:"MC"
+#	def1[]:"ME"
+#	def1[]:"MF"
+#	def1[]:"MG"
+#	def1[]:"MH"
+#	def1[]:"MJ"
+#	def1[]:"MK"
+	def1[]:"ML"
+	def1[]:"MM"
+	def1[]:"MN"
+
+	def2[]:"1MP"
+	def2[]:"2MP"
+	def2[]:"3MP"
+	def2[]:"4MP"
+	def2[]:"5MP"
+	def2[]:"6MP"  # "PO" V latest issued (October 2019)
+#	def2[]:"7MP"  # Future
+#	def2[]:"8MP"  # Future
+#	def2[]:"9MP"  # Future
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .poznan.lp.trailer
+{
+	type: trailer
+
+	# Two letter powiat codes
+#	templates[]:"PO544444"   # I    before EU stars
+#	templates[]:"PO54444Y"   # II   some before EU stars
+#	templates[]:"PO54440"    # III
+#	templates[]:"PO53Y444"   # IV
+	templates[]:"PO53144"    # V
+	templates[]:"PO53144"    # V
+	templates[]:"PO53144"    # V
+	templates[]:"PO5244"     # V
+
+#	def0[]:"YA"
+##	def0[]:"YC"  # Partially used for double-row plates
+##	def0[]:"YE"  # Partially used for double-row plates
+##	def0[]:"YF"  # Partially used for double-row plates
+#	def0[]:"YG"
+#	def0[]:"YH"
+#	def0[]:"YJ"
+#	def0[]:"YK"
+#	def0[]:"YL"
+#	def0[]:"YM"
+##	def0[]:"YN"  # Partially used for double-row plates
+#	def0[]:"YP"
+#	def0[]:"YR"
+#	def0[]:"YS"
+#	def0[]:"YT"
+#	def0[]:"YU"
+##	def0[]:"YV"  # Partially used for double-row plates
+#	def0[]:"YW"
+#	def0[]:"YX"
+#	def0[]:"YY"
+
+#	def1[]:"YA"
+#	def1[]:"YC"
+#	def1[]:"YE"
+#	def1[]:"YF"
+	def1[]:"YG"
+	def1[]:"YH"
+	def1[]:"YJ"
+
+	def2[]:"1YK"
+	def2[]:"2YK"
+	def2[]:"3YK"
+	def2[]:"4YK"
+	def2[]:"5YK"
+	def2[]:"6YK"
+	def2[]:"7YK"  # "PO" V latest issued (October 2019)
+#	def2[]:"8YK"  # Future
+#	def2[]:"9YK"  # Future
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .poznan.lp.police
+{
+	type: police
+
+	# U = Greater Poland (Wielkopolskie) Provincial Headquarters
+	templates[]:"HPU51222"
+#	templates[]:"HPU51222"
+#	templates[]:"HPU51222"
+#	templates[]:"HPU51222"
+#	templates[]:"HPU52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

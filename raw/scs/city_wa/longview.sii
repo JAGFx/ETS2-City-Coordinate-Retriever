@@ -1,0 +1,24 @@
+city_data: city.longview
+{
+	city_name: "Longview"
+	city_name_localized: "@@longview@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -68
+	map_x_offsets[]: -68
+	map_x_offsets[]: -49
+	map_x_offsets[]: -31
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -85
+	map_y_offsets[]: -49
+	map_y_offsets[]: -42
+	map_y_offsets[]: -28
+}

@@ -1,0 +1,84 @@
+{
+  "citiesList": [
+    {
+      "gameName": "cedar_city",
+      "realName": "Cedar City",
+      "country": "utah",
+      "x": "-74848.7",
+      "y": "141.516",
+      "z": "-972.027"
+    },
+    {
+      "gameName": "logan",
+      "realName": "Logan",
+      "country": "utah",
+      "x": "-65798.2",
+      "y": "126.43",
+      "z": "-21523.4"
+    },
+    {
+      "gameName": "moab",
+      "realName": "Moab",
+      "country": "utah",
+      "x": "-58842.2",
+      "y": "119",
+      "z": "-2435.75"
+    },
+    {
+      "gameName": "ogden",
+      "realName": "Ogden",
+      "country": "utah",
+      "x": "-67538.6",
+      "y": "117.91",
+      "z": "-18856.8"
+    },
+    {
+      "gameName": "price",
+      "realName": "Price",
+      "country": "utah",
+      "x": "-62580.7",
+      "y": "124.434",
+      "z": "-9222.07"
+    },
+    {
+      "gameName": "provo",
+      "realName": "Provo",
+      "country": "utah",
+      "x": "-66418.5",
+      "y": "116",
+      "z": "-13064.7"
+    },
+    {
+      "gameName": "salina",
+      "realName": "Salina",
+      "country": "utah",
+      "x": "-68567.1",
+      "y": "131",
+      "z": "-6747.52"
+    },
+    {
+      "gameName": "salt_lake",
+      "realName": "Salt Lake City",
+      "country": "utah",
+      "x": "-68092",
+      "y": "111.199",
+      "z": "-16343.5"
+    },
+    {
+      "gameName": "st_george",
+      "realName": "St. George",
+      "country": "utah",
+      "x": "-78434.4",
+      "y": "92.9219",
+      "z": "2826.92"
+    },
+    {
+      "gameName": "vernal",
+      "realName": "Vernal",
+      "country": "utah",
+      "x": "-57321.6",
+      "y": "131",
+      "z": "-12804.7"
+    }
+  ]
+}

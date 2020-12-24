@@ -1,0 +1,132 @@
+{
+  "citiesList": [
+    {
+      "gameName": "aberdeen_wa",
+      "realName": "Aberdeen",
+      "country": "washington",
+      "x": "-105848",
+      "y": "58",
+      "z": "-61123.8"
+    },
+    {
+      "gameName": "bellingham",
+      "realName": "Bellingham",
+      "country": "washington",
+      "x": "-98203",
+      "y": "71.3984",
+      "z": "-70298.9"
+    },
+    {
+      "gameName": "colville",
+      "realName": "Colville",
+      "country": "washington",
+      "x": "-81888.3",
+      "y": "78.6406",
+      "z": "-63979.9"
+    },
+    {
+      "gameName": "everett",
+      "realName": "Everett",
+      "country": "washington",
+      "x": "-98694",
+      "y": "54.3125",
+      "z": "-65602.2"
+    },
+    {
+      "gameName": "grand_coulee",
+      "realName": "Grand Coulee",
+      "country": "washington",
+      "x": "-86528.1",
+      "y": "47.5938",
+      "z": "-62675.2"
+    },
+    {
+      "gameName": "kennewick",
+      "realName": "Kennewick",
+      "country": "washington",
+      "x": "-89747.4",
+      "y": "53.4336",
+      "z": "-52595.2"
+    },
+    {
+      "gameName": "longview",
+      "realName": "Longview",
+      "country": "washington",
+      "x": "-104161",
+      "y": "62.8281",
+      "z": "-56725.8"
+    },
+    {
+      "gameName": "olympia",
+      "realName": "Olympia",
+      "country": "washington",
+      "x": "-102416",
+      "y": "66",
+      "z": "-60826.9"
+    },
+    {
+      "gameName": "omak",
+      "realName": "Omak",
+      "country": "washington",
+      "x": "-88227",
+      "y": "73.2305",
+      "z": "-64692.8"
+    },
+    {
+      "gameName": "port_angeles",
+      "realName": "Port Angeles",
+      "country": "washington",
+      "x": "-103441",
+      "y": "54",
+      "z": "-66931.1"
+    },
+    {
+      "gameName": "seattle",
+      "realName": "Seattle",
+      "country": "washington",
+      "x": "-99469.1",
+      "y": "75.8984",
+      "z": "-62870"
+    },
+    {
+      "gameName": "spokane",
+      "realName": "Spokane",
+      "country": "washington",
+      "x": "-80659.5",
+      "y": "72",
+      "z": "-59089.4"
+    },
+    {
+      "gameName": "tacoma",
+      "realName": "Tacoma",
+      "country": "washington",
+      "x": "-100595",
+      "y": "80",
+      "z": "-60834.9"
+    },
+    {
+      "gameName": "vancouver",
+      "realName": "Vancouver",
+      "country": "washington",
+      "x": "-102675",
+      "y": "58",
+      "z": "-55284.7"
+    },
+    {
+      "gameName": "wenatchee",
+      "realName": "Wenatchee",
+      "country": "washington",
+      "x": "-92417.7",
+      "y": "55.9883",
+      "z": "-60054.8"
+    },
+    {
+      "gameName": "yakima",
+      "realName": "Yakima",
+      "country": "washington",
+      "x": "-94370.8",
+      "y": "50",
+      "z": "-55556.1"
+    }
+  ]
+}

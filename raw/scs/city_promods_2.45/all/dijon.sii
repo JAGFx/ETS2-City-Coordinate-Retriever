@@ -1,0 +1,55 @@
+city_data: city.dijon
+{
+	city_name: "Dijon"
+	city_name_localized: "@@dijon@@"
+	country: france
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -50 // close zoom for minimap
+	map_x_offsets[]: -65 // far zoom for monimap
+	map_x_offsets[]: 0 // city zoom for world map
+	map_x_offsets[]: -20 // closest zoom for world map
+	map_x_offsets[]: -20 // middle zoom for world map
+	map_x_offsets[]: -5 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: -10
+	map_y_offsets[]: -40
+	map_y_offsets[]: -20
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -5
+	map_y_offsets[]: -5
+
+	license_plate[]: .dijon.lp.car
+	license_plate[]: .dijon.lp.truck
+	license_plate[]: .dijon.lp.trailer
+}
+
+license_plate_data : .dijon.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/21.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .dijon.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/21.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .dijon.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/21.mat color=FFFFFFFF width=15 height=32></align>"
+}

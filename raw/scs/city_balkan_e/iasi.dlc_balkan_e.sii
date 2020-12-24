@@ -1,0 +1,27 @@
+
+city_data : city.iasi
+{
+	city_name: "Iași"
+	city_name_localized: "@@iasi@@"
+	country: romania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -53
+	map_x_offsets[]: -30
+	map_x_offsets[]: -26
+	map_x_offsets[]: -18
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -72
+	map_y_offsets[]: -48
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+
+	vehicle_brands[]: "daf"
+}

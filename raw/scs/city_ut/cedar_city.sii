@@ -1,0 +1,24 @@
+city_data : city.cedar_city
+{
+	city_name: "Cedar City"
+	city_name_localized: "@@cedar_city@@"
+	country: utah
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -51
+	map_x_offsets[]: -50
+	map_x_offsets[]: -49
+	map_x_offsets[]: -47
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -253
+	map_y_offsets[]: -88
+	map_y_offsets[]: -42
+	map_y_offsets[]: -27
+}

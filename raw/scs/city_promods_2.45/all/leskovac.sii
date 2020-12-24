@@ -1,0 +1,358 @@
+city_data: city.leskovac
+{
+	city_name: "Лесковац"
+	city_name_localized: "@@leskovac@@"
+	country: serbia
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	license_plate[]: .leskovac.lp.car
+	license_plate[]: .leskovac.lp.truck
+	license_plate[]: .leskovac.lp.trailer
+	license_plate[]: .leskovac.lp.police
+}
+
+license_plate_data : .leskovac.lp.car
+{
+	type: car
+
+	templates[]:"01322-44"  # 2011-2016
+	templates[]:"01322-44"
+	templates[]:"01232-44"
+	templates[]:"01232-44"
+	templates[]:"01223-44"
+	templates[]:"01223-44"
+
+	templates[]:"01322-55"  # 2017-current
+	templates[]:"01232-55"
+	templates[]:"01223-55"
+
+	def0[]:"LE"  # Leskovac
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LE"
+	def0[]:"LB"  # Lebane
+	def0[]:"NI"  # Niš
+	def0[]:"VL"  # Vlasotince
+	def0[]:"VR"  # Vranje
+	def0[]:"GL"  # Gnjilane
+	def0[]:"PR"  # Priština
+	def0[]:"PK"  # Prokuplje
+
+	def1[]:"<offset hshift=1 vshift=-4><img src=/material/ui/lp/serbia/icon.mat color=FFFFFFFF><offset hshift=1 vshift=4>"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"A"
+	def4[]:"B"
+	def4[]:"C"
+	def4[]:"Ć"
+	def4[]:"Č"
+	def4[]:"D"
+	def4[]:"Đ"
+	def4[]:"E"
+	def4[]:"F"
+	def4[]:"G"
+	def4[]:"H"
+	def4[]:"I"
+	def4[]:"J"
+	def4[]:"K"
+	def4[]:"L"
+	def4[]:"M"
+	def4[]:"N"
+	def4[]:"O"
+	def4[]:"P"
+	def4[]:"R"
+	def4[]:"S"
+	def4[]:"Š"
+	def4[]:"T"
+	def4[]:"U"
+	def4[]:"V"
+	def4[]:"W"
+	def4[]:"X"
+	def4[]:"Y"
+	def4[]:"Z"
+	def4[]:"Ž"
+
+	def5[]:"A"
+	def5[]:"B"
+	def5[]:"C"
+	def5[]:"D"
+	def5[]:"E"
+	def5[]:"F"
+	def5[]:"G"
+	def5[]:"H"
+	def5[]:"I"
+	def5[]:"J"
+	def5[]:"K"
+	def5[]:"L"
+	def5[]:"M"
+	def5[]:"N"
+	def5[]:"O"
+	def5[]:"P"
+	def5[]:"R"
+	def5[]:"S"
+	def5[]:"T"
+	def5[]:"U"
+	def5[]:"V"
+	def5[]:"X"
+	def5[]:"Z"
+}
+
+license_plate_data : .leskovac.lp.truck
+{
+	type: truck
+
+	templates[]:"01322-55"  # 2017-current
+	templates[]:"01232-55"
+	templates[]:"01223-55"
+
+	def0[]:"LE"  # Leskovac
+
+	def1[]:"<offset hshift=1 vshift=-4><img src=/material/ui/lp/serbia/icon.mat color=FFFFFFFF><offset hshift=1 vshift=4>"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def5[]:"A"
+	def5[]:"B"
+	def5[]:"C"
+	def5[]:"D"
+	def5[]:"E"
+	def5[]:"F"
+	def5[]:"G"
+	def5[]:"H"
+	def5[]:"I"
+	def5[]:"J"
+	def5[]:"K"
+	def5[]:"L"
+	def5[]:"M"
+	def5[]:"N"
+	def5[]:"O"
+	def5[]:"P"
+	def5[]:"R"
+	def5[]:"S"
+	def5[]:"T"
+	def5[]:"U"
+	def5[]:"V"
+	def5[]:"X"
+	def5[]:"Z"
+}
+
+license_plate_data : .leskovac.lp.trailer
+{
+	type: trailer
+
+	templates[]:"5-32210"
+	templates[]:"5-23210"
+	templates[]:"5-22310"
+
+	def0[]:"LE"  # Leskovac
+
+	def1[]:"<offset hshift=1 vshift=-4><img src=/material/ui/lp/serbia/icon.mat color=FFFFFFFF><offset hshift=1 vshift=4>"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def5[]:"AA"
+	def5[]:"AB"
+	def5[]:"AC"
+#	def5[]:"AD"
+#	def5[]:"AE"
+#	def5[]:"AF"
+#	def5[]:"AG"
+#	def5[]:"AH"
+#	def5[]:"AI"
+#	def5[]:"AJ"
+#	def5[]:"AK"
+#	def5[]:"AL"
+#	def5[]:"AM"
+#	def5[]:"AN"
+#	def5[]:"AO"
+#	def5[]:"AP"
+#	def5[]:"AR"
+#	def5[]:"AS"
+#	def5[]:"AT"
+#	def5[]:"AU"
+#	def5[]:"AV"
+#	def5[]:"AX"
+#	def5[]:"AZ"
+}
+
+license_plate_data : .leskovac.lp.police
+{
+	type: police
+
+	background_front: "police_front"
+	background_rear: "police_rear"
+
+	templates[]:"01-433"
+	templates[]:"01-343"
+	templates[]:"01-334"
+
+	def0[]:"<color value=E5FFFFFF>П<offset hshift=1 vshift=-3><img src=/material/ui/lp/serbia/icon.mat color=FFFFFFFF><offset hshift=1 vshift=3>"
+
+	def1[]:"001"
+	def1[]:"002"
+	def1[]:"003"
+	def1[]:"004"
+	def1[]:"005"
+	def1[]:"006"
+	def1[]:"007"
+	def1[]:"008"
+	def1[]:"009"
+	def1[]:"010"
+	def1[]:"011"
+	def1[]:"012"
+	def1[]:"013"
+	def1[]:"014"
+	def1[]:"015"
+	def1[]:"016"
+	def1[]:"017"
+	def1[]:"018"
+	def1[]:"019"
+	def1[]:"020"
+	def1[]:"021"
+	def1[]:"022"
+	def1[]:"023"
+	def1[]:"024"
+	def1[]:"025"
+	def1[]:"026"
+	def1[]:"027"
+	def1[]:"028"
+	def1[]:"029"
+	def1[]:"030"
+	def1[]:"031"
+	def1[]:"032"
+	def1[]:"033"
+	def1[]:"034"
+	def1[]:"035"
+	def1[]:"036"
+	def1[]:"037"
+	def1[]:"038"
+	def1[]:"039"
+	def1[]:"040"
+	def1[]:"041"
+	def1[]:"042"
+	def1[]:"043"
+	def1[]:"044"
+	def1[]:"045"
+	def1[]:"046"
+	def1[]:"047"
+	def1[]:"048"
+	def1[]:"049"
+	def1[]:"050"
+	def1[]:"051"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+}

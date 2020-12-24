@@ -1,0 +1,26 @@
+city_data: city.burns
+{
+	city_name: "Burns"
+	short_city_name: "Burns"
+	city_name_uppercase: "BURNS"
+	country: oregon
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -27
+	map_x_offsets[]: -27
+	map_x_offsets[]: -27
+	map_x_offsets[]: -27
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -86
+	map_y_offsets[]: -36
+	map_y_offsets[]: -35
+	map_y_offsets[]: -28
+  
+}

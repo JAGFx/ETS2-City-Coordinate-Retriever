@@ -1,0 +1,28 @@
+
+city_data: city.santa_cruz
+{
+	city_name: "Santa Cruz"
+	short_city_name: "Santa Cruz"
+	city_name_uppercase: "SANTA CRUZ"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -50
+	map_x_offsets[]: -52
+	map_x_offsets[]: -52
+	map_x_offsets[]: -50
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 101
+	map_y_offsets[]: 76
+	map_y_offsets[]: 28
+	map_y_offsets[]: 6
+
+}
+

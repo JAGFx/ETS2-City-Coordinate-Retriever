@@ -1,0 +1,260 @@
+city_data: city.rostock
+{
+	city_name: "Rostock"
+	city_name_localized: "@@rostock@@"
+	country: germany
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -42
+	map_x_offsets[]: -37
+	map_x_offsets[]: -34
+	map_x_offsets[]: -31
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -34
+	map_y_offsets[]: -28
+	map_y_offsets[]: -22
+	map_y_offsets[]: 5
+
+	vehicle_brands[]:"renault"
+
+	license_plate[]: .rostock.lp.car
+	license_plate[]: .rostock.lp.truck
+	license_plate[]: .rostock.lp.trailer
+	license_plate[]: .rostock.lp.police
+}
+
+license_plate_data : .rostock.lp.car
+{
+	type: car
+
+	# Three character location code
+	templates[]:"150 344"   # Group c
+	templates[]:"150 344"
+	templates[]:"150 344"
+	templates[]:"150 344"
+	templates[]:"150 34"    # Group b - Rare
+	templates[]:"150 3"     # Group b - Very rare
+	templates[]:"152 3444"  # Group d
+	templates[]:"152 3444"
+	templates[]:"152 3444"
+	templates[]:"152 3444"
+	templates[]:"152 344"   # Group a
+	templates[]:"152 344"
+	templates[]:"152 344"
+	templates[]:"152 344"
+	templates[]:"152 34"    # Group a - Rare
+	templates[]:"152 3"     # Group a - Very rare
+
+	def1[]:"HRO<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_meckle.mat color=FFFFFFFF>"  # Hansestadt Rostock, Mecklenburg-Vorpommern
+
+@include "/def/city/lp_de_two_letter_combinations_0.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_current.sui"
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .rostock.lp.truck
+{
+	type: truck
+
+	templates[]:"150 344"
+	templates[]:"152 3444"
+	templates[]:"152 344"
+
+	def1[]:"HRO<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_meckle.mat color=FFFFFFFF>"  # Hansestadt Rostock, Mecklenburg-Vorpommern
+
+@include "/def/city/lp_de_two_letter_combinations_0.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .rostock.lp.trailer
+{
+	type: trailer
+
+	templates[]:"150 344"
+	templates[]:"152 3444"
+	templates[]:"152 344"
+
+	def1[]:"HRO<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_meckle.mat color=FFFFFFFF>"  # Hansestadt Rostock, Mecklenburg-Vorpommern
+
+@include "/def/city/lp_de_two_letter_combinations_0.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .rostock.lp.police
+{
+	type: police
+
+	templates[]:"0534444"
+
+	def0[]:"MVL<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_meckle.mat color=FFFFFFFF>"    # Mecklenburg-Vorpommern Land official vehicles
+
+	def3[]:"3"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_current.sui"
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}

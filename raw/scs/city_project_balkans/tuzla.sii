@@ -1,0 +1,68 @@
+
+city_data: city.tuzla{
+	city_name: "Tuzla"
+	short_city_name: "Tuzla"
+	city_name_uppercase: "TUZLA"
+	country: bosnia
+	
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0 // close zoom for minimap
+	map_x_offsets[]: -3 // far zoom for minimap
+	map_x_offsets[]: 0 // city zoom for world map
+	map_x_offsets[]: 0 // closest zoom for world map
+	map_x_offsets[]: -10 // middle zoom for world map
+	map_x_offsets[]: -15 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 0
+	map_y_offsets[]: -10
+	map_y_offsets[]: -20
+	map_y_offsets[]: -15
+
+	vehicle_brands[]: "renault"
+
+	truck_lp_template[]: "011-0-111"
+
+	truck_lp_def0[]:"A"
+	truck_lp_def0[]:"E"
+	truck_lp_def0[]:"O"
+	truck_lp_def0[]:"J"
+	truck_lp_def0[]:"K"
+	truck_lp_def0[]:"M"
+	truck_lp_def0[]:"T"
+	
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+	truck_lp_def1[]:"0"
+	
+	ai_lp_def0[]:"A"
+	ai_lp_def0[]:"E"
+	ai_lp_def0[]:"O"
+	ai_lp_def0[]:"J"
+	ai_lp_def0[]:"K"
+	ai_lp_def0[]:"M"
+	ai_lp_def0[]:"T"
+
+	ai_lp_def1[]:"1"
+	ai_lp_def1[]:"2"
+	ai_lp_def1[]:"3"
+	ai_lp_def1[]:"4"
+	ai_lp_def1[]:"5"
+	ai_lp_def1[]:"6"
+	ai_lp_def1[]:"7"
+	ai_lp_def1[]:"8"
+	ai_lp_def1[]:"9"
+	ai_lp_def1[]:"0"
+
+}

@@ -1,0 +1,379 @@
+
+city_data : city.cernavoda
+{
+	city_name: "Cernavodă"
+	city_name_localized: "@@cernavoda@@"
+	country: romania
+
+	## City pin and name scale factor sets size of city pin and name text on UI map.
+	## Valid values: (0;2> default value 1.0. Default pin size on UI map 24px X 24px.
+	#
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 1.0f
+	city_pin_scale_factor[]: 0.9f
+	city_pin_scale_factor[]: 0.85f
+	city_pin_scale_factor[]: 0.75f
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -117
+	map_x_offsets[]: -44
+	map_x_offsets[]: -40
+	map_x_offsets[]: -40
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -40
+	map_y_offsets[]: -31
+	map_y_offsets[]: -30
+	map_y_offsets[]: -25
+
+	license_plate[]: .cernavoda.lp.car
+	license_plate[]: .cernavoda.lp.truck
+	license_plate[]: .cernavoda.lp.trailer
+	license_plate[]: .cernavoda.lp.police
+}
+
+license_plate_data : .cernavoda.lp.car
+{
+	type: car
+
+	templates[]:"0 21 344"  # No zero in first position
+	templates[]:"0 12 344"  # No zero in second position
+
+	def0[]:"CT"  # Constanța
+	def0[]:"CT"
+	def0[]:"CT"
+	def0[]:"CT"
+	def0[]:"CL"  # Călărași
+ 	def0[]:"IL"  # Ialomița
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+#	def3[]:"I"  # Cannot be first letter (could be confused with number one)
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+#	def3[]:"O"  # Cannot be first letter (could be confused with number zero)
+	def3[]:"P"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"W"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	def4[]:"A"
+	def4[]:"B"
+	def4[]:"C"
+	def4[]:"D"
+	def4[]:"E"
+	def4[]:"F"
+	def4[]:"G"
+	def4[]:"H"
+	def4[]:"I"
+	def4[]:"J"
+	def4[]:"K"
+	def4[]:"L"
+	def4[]:"M"
+	def4[]:"N"
+	def4[]:"O"
+	def4[]:"P"
+	def4[]:"R"
+	def4[]:"S"
+	def4[]:"T"
+	def4[]:"U"
+	def4[]:"V"
+	def4[]:"W"
+	def4[]:"X"
+	def4[]:"Y"
+	def4[]:"Z"
+}
+
+license_plate_data : .cernavoda.lp.truck
+{
+	type: truck
+
+	templates[]:"0 21 344"  # No zero in first position
+	templates[]:"0 12 344"  # No zero in second position
+
+	def0[]:"CT"  # Constanța
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+#	def3[]:"I"  # Cannot be first letter (could be confused with number one)
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+#	def3[]:"O"  # Cannot be first letter (could be confused with number zero)
+	def3[]:"P"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"W"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	def4[]:"A"
+	def4[]:"B"
+	def4[]:"C"
+	def4[]:"D"
+	def4[]:"E"
+	def4[]:"F"
+	def4[]:"G"
+	def4[]:"H"
+	def4[]:"I"
+	def4[]:"J"
+	def4[]:"K"
+	def4[]:"L"
+	def4[]:"M"
+	def4[]:"N"
+	def4[]:"O"
+	def4[]:"P"
+	def4[]:"R"
+	def4[]:"S"
+	def4[]:"T"
+	def4[]:"U"
+	def4[]:"V"
+	def4[]:"W"
+	def4[]:"X"
+	def4[]:"Y"
+	def4[]:"Z"
+}
+
+license_plate_data : .cernavoda.lp.trailer
+{
+	type: trailer
+
+	templates[]:"0 21 344"  # No zero in first position
+	templates[]:"0 12 344"  # No zero in second position
+
+	def0[]:"CT"  # Constanța
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+#	def3[]:"I"  # Cannot be first letter (could be confused with number one)
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+#	def3[]:"O"  # Cannot be first letter (could be confused with number zero)
+	def3[]:"P"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"W"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	def4[]:"A"
+	def4[]:"B"
+	def4[]:"C"
+	def4[]:"D"
+	def4[]:"E"
+	def4[]:"F"
+	def4[]:"G"
+	def4[]:"H"
+	def4[]:"I"
+	def4[]:"J"
+	def4[]:"K"
+	def4[]:"L"
+	def4[]:"M"
+	def4[]:"N"
+	def4[]:"O"
+	def4[]:"P"
+	def4[]:"R"
+	def4[]:"S"
+	def4[]:"T"
+	def4[]:"U"
+	def4[]:"V"
+	def4[]:"W"
+	def4[]:"X"
+	def4[]:"Y"
+	def4[]:"Z"
+}
+
+license_plate_data : .cernavoda.lp.police
+{
+	type: police
+
+	templates[]:"0 21 344"  # No zero in first position
+	templates[]:"0 12 344"  # No zero in second position
+
+	def0[]:"CT"  # Constanța
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+#	def3[]:"I"  # Cannot be first letter (could be confused with number one)
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+#	def3[]:"O"  # Cannot be first letter (could be confused with number zero)
+	def3[]:"P"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"W"
+	def3[]:"X"
+	def3[]:"Y"
+	def3[]:"Z"
+
+	def4[]:"A"
+	def4[]:"B"
+	def4[]:"C"
+	def4[]:"D"
+	def4[]:"E"
+	def4[]:"F"
+	def4[]:"G"
+	def4[]:"H"
+	def4[]:"I"
+	def4[]:"J"
+	def4[]:"K"
+	def4[]:"L"
+	def4[]:"M"
+	def4[]:"N"
+	def4[]:"O"
+	def4[]:"P"
+	def4[]:"R"
+	def4[]:"S"
+	def4[]:"T"
+	def4[]:"U"
+	def4[]:"V"
+	def4[]:"W"
+	def4[]:"X"
+	def4[]:"Y"
+	def4[]:"Z"
+}

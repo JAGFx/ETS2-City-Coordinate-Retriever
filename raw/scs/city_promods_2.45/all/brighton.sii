@@ -1,0 +1,172 @@
+﻿city_data: city.brighton
+{
+	city_name: "Brighton"
+	city_name_localized: "@@brighton@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0 // close zoom for minimap
+	map_x_offsets[]: 0 // far zoom for monimap
+	map_x_offsets[]: 0 // city zoom for world map
+	map_x_offsets[]: 0 // closest zoom for world map
+	map_x_offsets[]: 0 // middle zoom for world map
+	map_x_offsets[]: 0 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	license_plate[]: .brighton.lp.car
+	license_plate[]: .brighton.lp.truck
+	license_plate[]: .brighton.lp.trailer
+}
+
+license_plate_data : .brighton.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Garden of England, Brighton
+	def0[]:"GP"
+	def0[]:"GR"
+	def0[]:"GS"
+	def0[]:"GT"
+	def0[]:"GU"
+	def0[]:"GV"
+	def0[]:"GW"
+	def0[]:"GX"
+	def0[]:"GY"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .brighton.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Garden of England, Brighton
+	def0[]:"GP"
+	def0[]:"GR"
+	def0[]:"GS"
+	def0[]:"GT"
+	def0[]:"GU"
+	def0[]:"GV"
+	def0[]:"GW"
+	def0[]:"GX"
+	def0[]:"GY"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .brighton.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Garden of England, Brighton
+	def0[]:"GP"
+	def0[]:"GR"
+	def0[]:"GS"
+	def0[]:"GT"
+	def0[]:"GU"
+	def0[]:"GV"
+	def0[]:"GW"
+	def0[]:"GX"
+	def0[]:"GY"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

@@ -1,0 +1,28 @@
+
+city_data: city.oakdale
+{
+	city_name: "Oakdale"
+	short_city_name: "Oakdale"
+	city_name_uppercase: "OAKDALE"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -38
+	map_x_offsets[]: -32
+	map_x_offsets[]: -23
+	map_x_offsets[]: 10
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -121
+	map_y_offsets[]: -49
+	map_y_offsets[]: -23
+	map_y_offsets[]: -10
+
+}
+

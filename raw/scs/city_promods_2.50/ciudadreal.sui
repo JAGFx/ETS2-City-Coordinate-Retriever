@@ -1,0 +1,95 @@
+city_data: city.ciudadreal
+{
+	city_name: "Ciudad Real"
+	city_name_localized: "@@ciudadreal@@"
+	country: spain
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"renault"
+
+	license_plate[]: .ciudadreal.lp.truck
+	license_plate[]: .ciudadreal.lp.trailer
+}
+
+license_plate_data : .ciudadreal.lp.truck
+{
+	type: truck
+
+	templates[]:"0000 1"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"LJB"
+	def1[]:"LJC"
+	def1[]:"LJD"
+	def1[]:"LJF"
+	def1[]:"LJG"
+	def1[]:"LJH"
+	def1[]:"LJJ"
+	def1[]:"LJK"
+	def1[]:"LJL"
+	def1[]:"LJM"
+	def1[]:"LJN"
+	def1[]:"LJP"
+	def1[]:"LJR"
+	def1[]:"LJS"
+	def1[]:"LJT"
+	def1[]:"LJV"
+	def1[]:"LJW"
+	def1[]:"LJX"
+	def1[]:"LJY"
+	def1[]:"LJZ"
+}
+
+license_plate_data : .ciudadreal.lp.trailer
+{
+	type: trailer
+
+	background_rear: "trailer"
+
+	templates[]:"0R 1111 23"
+
+	def0[]:"<align left=-15>"
+
+	def1[]:"0"
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"BDD"
+	def2[]:"BDF"
+
+	def3[]:"</align>"
+}

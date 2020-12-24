@@ -1,0 +1,57 @@
+city_data: city.toulouse
+{
+	city_name: "Toulouse"
+	city_name_localized: "@@toulouse@@"
+	country: france
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -27
+	map_x_offsets[]: -28
+	map_x_offsets[]: -25
+	map_x_offsets[]: -27
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -47
+	map_y_offsets[]: -34
+	map_y_offsets[]: -26
+	map_y_offsets[]: -27
+
+	vehicle_brands[]: "renault"	
+
+	license_plate[]: .toulouse.lp.car
+	license_plate[]: .toulouse.lp.truck
+	license_plate[]: .toulouse.lp.trailer
+}
+
+license_plate_data : .toulouse.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/31.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .toulouse.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/31.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .toulouse.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/31.mat color=FFFFFFFF width=15 height=32></align>"
+}

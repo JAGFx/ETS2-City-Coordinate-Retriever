@@ -1,0 +1,66 @@
+
+city_data: city.lubenka
+{
+	city_name: "Lubenka"
+	short_city_name: "Lubenka"
+	city_name_uppercase: "LUBENKA"
+	country: kazakhstan
+
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0   
+	city_pin_scale_factor[]: 0.6   
+	city_pin_scale_factor[]: 1.0   
+	city_pin_scale_factor[]: 1.0   
+	city_pin_scale_factor[]: 1.0   
+	city_pin_scale_factor[]: 0.6
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -70
+	map_x_offsets[]: -28
+	map_x_offsets[]: -120
+	map_x_offsets[]: -63
+	map_x_offsets[]: -41
+	map_x_offsets[]: -40
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 40
+	map_y_offsets[]: -5
+	map_y_offsets[]: -34
+	map_y_offsets[]: -30
+	map_y_offsets[]: -21
+	map_y_offsets[]: -26
+
+	truck_lp_template[]:" 000 111 2"
+
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >A</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >B</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >E</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >K</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >M</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >H</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >O</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >P</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >C</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >T</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >I</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >X</font>"
+
+	truck_lp_def0[]:"0"
+	truck_lp_def0[]:"1"
+	truck_lp_def0[]:"2"
+	truck_lp_def0[]:"3"
+	truck_lp_def0[]:"4"
+	truck_lp_def0[]:"5"
+	truck_lp_def0[]:"6"
+	truck_lp_def0[]:"7"
+	truck_lp_def0[]:"8"
+	truck_lp_def0[]:"9"
+
+
+	truck_lp_def2[]:"07"
+
+}
+ 

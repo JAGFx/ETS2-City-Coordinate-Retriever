@@ -1,0 +1,227 @@
+city_data: city.ljubljana
+{
+	city_name: "Ljubljana"
+	city_name_localized: "@@ljubljana@@"
+	country: slovenia
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"iveco"
+
+	license_plate[]: .ljubljana.lp.car
+	license_plate[]: .ljubljana.lp.truck
+	license_plate[]: .ljubljana.lp.trailer
+	license_plate[]: .ljubljana.lp.police
+}
+
+license_plate_data : .ljubljana.lp.car
+{
+	type: car
+
+	templates[]:"0222-11"  # 2008
+	templates[]:"011-222"
+	templates[]:"022-111"  # 2017
+
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_cerknica.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ribnica.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_grosuplje.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_litija.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_domzale.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_kamnik.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_vrhnika.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"KR<offset vshift=4><img src=/material/ui/lp/slovenia/kr_sko_loka.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"KR<offset vshift=4><img src=/material/ui/lp/slovenia/kr_kranj.mat color=FFFFFFFF><offset vshift=-4>"
+
+	def1[]:"A"
+#	def1[]:"B"  # Cannot be used in combination with '8'
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+#	def1[]:"G"  # Cannot be used in combination with '6'
+	def1[]:"H"
+#	def1[]:"I"  # Cannot be used in combination with '1'
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"0"  # Letter 'O' written as number zero
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+#	def1[]:"W"  # Not used since 2008
+#	def1[]:"X"  # Not used since 2008
+#	def1[]:"Y"  # Not used since 2008
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+}
+
+license_plate_data : .ljubljana.lp.truck
+{
+	type: truck
+
+	templates[]:"0222-11"  # 2008
+	templates[]:"011-222"
+	templates[]:"022-111"  # 2017
+
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+
+	def1[]:"A"
+#	def1[]:"B"  # Cannot be used in combination with '8'
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+#	def1[]:"G"  # Cannot be used in combination with '6'
+	def1[]:"H"
+#	def1[]:"I"  # Cannot be used in combination with '1'
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"0"  # Letter 'O' written as number zero
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+#	def1[]:"W"  # Not used since 2008
+#	def1[]:"X"  # Not used since 2008
+#	def1[]:"Y"  # Not used since 2008
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+}
+
+license_plate_data : .ljubljana.lp.trailer
+{
+	type: trailer
+
+	templates[]:"0222-11"
+	templates[]:"011-222"
+	templates[]:"022-111"  # 2017
+
+	def0[]:"LJ<offset vshift=4><img src=/material/ui/lp/slovenia/lj_ljubljana.mat color=FFFFFFFF><offset vshift=-4>"
+
+	def1[]:"A"
+#	def1[]:"B"  # Cannot be used in combination with '8'
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+#	def1[]:"G"  # Cannot be used in combination with '6'
+	def1[]:"H"
+#	def1[]:"I"  # Cannot be used in combination with '1'
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"0"  # Letter 'O' written as number zero
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+#	def1[]:"W"  # Not used since 2008
+#	def1[]:"X"  # Not used since 2008
+#	def1[]:"Y"  # Not used since 2008
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+}
+
+license_plate_data : .ljubljana.lp.police
+{
+	type: police
+
+	background_front: "police_front"
+	background_rear: "police_rear"
+
+	templates[]:"01-222"
+
+	def0[]:"<color value=FF983A17>P<offset vshift=4><img src=/material/ui/lp/slovenia/policija.mat color=FFFFFFFF><offset vshift=-4>"
+
+	def1[]:"06"  # Ljubljana
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+}

@@ -1,0 +1,147 @@
+
+city_data: city.valladolid
+{
+	city_name: "Valladolid"
+	city_name_localized: "@@Valladolid@@"
+	country: espana
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -30
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: 0
+	map_y_offsets[]: 65
+	map_y_offsets[]: 0
+	map_y_offsets[]: -10
+	map_y_offsets[]: -15
+	
+	vehicle_brands[]: "renault"
+
+	truck_lp_template[]:"2222 444"
+	truck_lp_template[]:"1 2222 33"
+	truck_lp_template[]:"1 2222 3"
+
+       	truck_lp_def1[]:"A"
+	truck_lp_def1[]:"AB"
+	truck_lp_def1[]:"AL"
+	truck_lp_def1[]:"AV"
+	truck_lp_def1[]:"B"
+	truck_lp_def1[]:"BA"
+	truck_lp_def1[]:"BI"
+	truck_lp_def1[]:"BU"
+	truck_lp_def1[]:"C"
+	truck_lp_def1[]:"CA"
+	truck_lp_def1[]:"CC"
+	truck_lp_def1[]:"CE"
+	truck_lp_def1[]:"CO"
+	truck_lp_def1[]:"CR"
+	truck_lp_def1[]:"CS"
+	truck_lp_def1[]:"CU"
+	truck_lp_def1[]:"GC"
+	truck_lp_def1[]:"GE"
+	truck_lp_def1[]:"GI"
+	truck_lp_def1[]:"GR"
+	truck_lp_def1[]:"GU"
+	truck_lp_def1[]:"H"
+	truck_lp_def1[]:"HU"
+	truck_lp_def1[]:"IB"
+	truck_lp_def1[]:"J"
+	truck_lp_def1[]:"L"
+	truck_lp_def1[]:"LE"
+	truck_lp_def1[]:"LO"
+	truck_lp_def1[]:"LR"
+	truck_lp_def1[]:"LU"
+	truck_lp_def1[]:"M"
+	truck_lp_def1[]:"MA"
+	truck_lp_def1[]:"ML"
+	truck_lp_def1[]:"MU"
+	truck_lp_def1[]:"NA"
+	truck_lp_def1[]:"O"
+	truck_lp_def1[]:"OR"
+	truck_lp_def1[]:"OU"
+	truck_lp_def1[]:"P"
+	truck_lp_def1[]:"PM"
+	truck_lp_def1[]:"PO"
+	truck_lp_def1[]:"S"
+	truck_lp_def1[]:"SA"
+	truck_lp_def1[]:"SE"
+	truck_lp_def1[]:"SG"
+	truck_lp_def1[]:"SO"
+	truck_lp_def1[]:"SS"
+	truck_lp_def1[]:"T"
+	truck_lp_def1[]:"TE"
+	truck_lp_def1[]:"TF"
+	truck_lp_def1[]:"TO"
+	truck_lp_def1[]:"V"
+	truck_lp_def1[]:"VA"
+	truck_lp_def1[]:"VI"
+	truck_lp_def1[]:"Z"
+	truck_lp_def1[]:"ZA"
+
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+	truck_lp_def2[]:"0"
+
+	truck_lp_def4[]:"B"
+	truck_lp_def4[]:"C"
+	truck_lp_def4[]:"D"
+	truck_lp_def4[]:"F" 
+	truck_lp_def4[]:"G"
+	truck_lp_def4[]:"H"
+	truck_lp_def4[]:"J"
+	truck_lp_def4[]:"K"
+	truck_lp_def4[]:"L"
+	truck_lp_def4[]:"M"
+	truck_lp_def4[]:"N"
+	truck_lp_def4[]:"P"
+	truck_lp_def4[]:"R"
+	truck_lp_def4[]:"T"
+	truck_lp_def4[]:"V"
+	truck_lp_def4[]:"W"
+	truck_lp_def4[]:"S"
+	truck_lp_def4[]:"X"
+	truck_lp_def4[]:"Y"
+	truck_lp_def4[]:"Z"
+
+	truck_lp_def3[]:"A"
+	truck_lp_def3[]:"B"
+	truck_lp_def3[]:"C"
+	truck_lp_def3[]:"D"
+	truck_lp_def3[]:"E"
+	truck_lp_def3[]:"F" 
+	truck_lp_def3[]:"G"
+	truck_lp_def3[]:"H"
+	truck_lp_def3[]:"I"
+	truck_lp_def3[]:"J"
+	truck_lp_def3[]:"K"
+	truck_lp_def3[]:"L"
+	truck_lp_def3[]:"M"
+	truck_lp_def3[]:"N"
+	truck_lp_def3[]:"O"
+	truck_lp_def3[]:"P"
+	truck_lp_def3[]:"R"
+	truck_lp_def3[]:"T"
+	truck_lp_def3[]:"U"
+	truck_lp_def3[]:"V"
+	truck_lp_def3[]:"W"
+	truck_lp_def3[]:"S"
+	truck_lp_def3[]:"X"
+	truck_lp_def3[]:"Y"
+	truck_lp_def3[]:"Z"
+}
+

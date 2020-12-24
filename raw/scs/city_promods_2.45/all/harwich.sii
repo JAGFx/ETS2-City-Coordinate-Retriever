@@ -1,0 +1,215 @@
+﻿city_data: city.harwich
+{
+	city_name: "Harwich"
+	city_name_localized: "@@harwich@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -40
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.6  // middle zoom for world map
+	city_pin_scale_factor[]: 0.0  // whole world map zoom
+
+	license_plate[]: .harwich.lp.car
+	license_plate[]: .harwich.lp.truck
+	license_plate[]: .harwich.lp.trailer
+}
+
+license_plate_data : .harwich.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Essex, Chelmsford
+	def0[]:"EA"
+	def0[]:"EB"
+	def0[]:"EC"
+#	def0[]:"ED"  # Reserved for select issue
+	def0[]:"EE"
+	def0[]:"EF"
+	def0[]:"EG"
+#	def0[]:"EH"  # Reserved for select issue
+	def0[]:"EJ"
+	def0[]:"EK"
+	def0[]:"EL"
+	def0[]:"EM"
+	def0[]:"EN"
+	def0[]:"EO"
+	def0[]:"EP"
+	def0[]:"ER"
+	def0[]:"ES"
+	def0[]:"ET"
+	def0[]:"EU"
+	def0[]:"EV"
+	def0[]:"EW"
+	def0[]:"EX"
+	def0[]:"EY"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .harwich.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Essex, Chelmsford
+	def0[]:"EA"
+	def0[]:"EB"
+	def0[]:"EC"
+#	def0[]:"ED"  # Reserved for select issue
+	def0[]:"EE"
+	def0[]:"EF"
+	def0[]:"EG"
+#	def0[]:"EH"  # Reserved for select issue
+	def0[]:"EJ"
+	def0[]:"EK"
+	def0[]:"EL"
+	def0[]:"EM"
+	def0[]:"EN"
+	def0[]:"EO"
+	def0[]:"EP"
+	def0[]:"ER"
+	def0[]:"ES"
+	def0[]:"ET"
+	def0[]:"EU"
+	def0[]:"EV"
+	def0[]:"EW"
+	def0[]:"EX"
+	def0[]:"EY"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .harwich.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Essex, Chelmsford
+	def0[]:"EA"
+	def0[]:"EB"
+	def0[]:"EC"
+#	def0[]:"ED"  # Reserved for select issue
+	def0[]:"EE"
+	def0[]:"EF"
+	def0[]:"EG"
+#	def0[]:"EH"  # Reserved for select issue
+	def0[]:"EJ"
+	def0[]:"EK"
+	def0[]:"EL"
+	def0[]:"EM"
+	def0[]:"EN"
+	def0[]:"EO"
+	def0[]:"EP"
+	def0[]:"ER"
+	def0[]:"ES"
+	def0[]:"ET"
+	def0[]:"EU"
+	def0[]:"EV"
+	def0[]:"EW"
+	def0[]:"EX"
+	def0[]:"EY"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

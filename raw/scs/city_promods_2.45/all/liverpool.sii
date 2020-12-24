@@ -1,0 +1,205 @@
+city_data: city.liverpool
+{
+	city_name: "Liverpool"
+	city_name_localized: "@@liverpool@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 50
+	map_x_offsets[]: -10
+	map_x_offsets[]: -4
+	map_x_offsets[]: -39
+	map_x_offsets[]: -46
+	map_x_offsets[]: -41
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 65
+	map_y_offsets[]: 0
+	map_y_offsets[]: -12
+	map_y_offsets[]: -19
+	map_y_offsets[]: -17
+	map_y_offsets[]: -29
+
+	license_plate[]: .liverpool.lp.car
+	license_plate[]: .liverpool.lp.truck
+	license_plate[]: .liverpool.lp.trailer
+}
+
+license_plate_data : .liverpool.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Manchester & Merseyside, Manchester
+	def0[]:"MA"
+	def0[]:"MB"
+	def0[]:"MC"
+	def0[]:"MD"
+	def0[]:"ME"
+	def0[]:"MF"
+	def0[]:"MG"
+	def0[]:"MH"
+	def0[]:"MJ"
+	def0[]:"MK"
+	def0[]:"ML"
+	def0[]:"MM"
+#	def0[]:"MN"  # Reserved for Isle of Man
+#	def0[]:"MO"  # Reserved for select issue
+	def0[]:"MP"
+#	def0[]:"MR"  # Reserved for select issue
+#	def0[]:"MS"  # Reserved for select issue
+	def0[]:"MT"
+	def0[]:"MU"
+	def0[]:"MV"
+	def0[]:"MW"
+	def0[]:"MX"
+#	def0[]:"MY"  # Reserved for select issue
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .liverpool.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Manchester & Merseyside, Manchester
+	def0[]:"MA"
+	def0[]:"MB"
+	def0[]:"MC"
+	def0[]:"MD"
+	def0[]:"ME"
+	def0[]:"MF"
+	def0[]:"MG"
+	def0[]:"MH"
+	def0[]:"MJ"
+	def0[]:"MK"
+	def0[]:"ML"
+	def0[]:"MM"
+#	def0[]:"MN"  # Reserved for Isle of Man
+#	def0[]:"MO"  # Reserved for select issue
+	def0[]:"MP"
+#	def0[]:"MR"  # Reserved for select issue
+#	def0[]:"MS"  # Reserved for select issue
+	def0[]:"MT"
+	def0[]:"MU"
+	def0[]:"MV"
+	def0[]:"MW"
+	def0[]:"MX"
+#	def0[]:"MY"  # Reserved for select issue
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .liverpool.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Manchester & Merseyside, Manchester
+	def0[]:"MA"
+	def0[]:"MB"
+	def0[]:"MC"
+	def0[]:"MD"
+	def0[]:"ME"
+	def0[]:"MF"
+	def0[]:"MG"
+	def0[]:"MH"
+	def0[]:"MJ"
+	def0[]:"MK"
+	def0[]:"ML"
+	def0[]:"MM"
+#	def0[]:"MN"  # Reserved for Isle of Man
+#	def0[]:"MO"  # Reserved for select issue
+	def0[]:"MP"
+#	def0[]:"MR"  # Reserved for select issue
+#	def0[]:"MS"  # Reserved for select issue
+	def0[]:"MT"
+	def0[]:"MU"
+	def0[]:"MV"
+	def0[]:"MW"
+	def0[]:"MX"
+#	def0[]:"MY"  # Reserved for select issue
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

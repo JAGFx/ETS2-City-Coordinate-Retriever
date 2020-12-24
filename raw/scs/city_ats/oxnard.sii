@@ -1,0 +1,28 @@
+
+city_data: city.oxnard
+{
+	city_name: "Oxnard"
+	short_city_name: "Oxnard"
+	city_name_uppercase: "OXNARD"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -34
+	map_x_offsets[]: -36
+	map_x_offsets[]: -34
+	map_x_offsets[]: -34
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -135
+	map_y_offsets[]: -45
+	map_y_offsets[]: -28
+	map_y_offsets[]: -28
+
+}
+

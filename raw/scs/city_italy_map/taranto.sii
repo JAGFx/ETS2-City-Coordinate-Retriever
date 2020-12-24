@@ -1,0 +1,52 @@
+
+city_data: city.taranto
+{
+	city_name: "Taranto"
+	short_city_name: "Taranto"
+	city_name_uppercase: "TARANTO"
+	country: italy
+
+	map_x_offsets[]: -50
+	map_x_offsets[]: -50
+	map_x_offsets[]: -50
+	map_x_offsets[]: -50
+	map_x_offsets[]: -50
+	map_x_offsets[]: -50
+	map_x_offsets[]: -50
+	map_x_offsets[]: -50
+
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	
+
+	truck_lp_template[]:"00 11200   "
+
+	truck_lp_def0[]:"G"
+	truck_lp_def0[]:"H"
+	truck_lp_def0[]:"J"
+
+	truck_lp_def1[]:"0"
+	truck_lp_def1[]:"1"
+	truck_lp_def1[]:"2"
+	truck_lp_def1[]:"3"
+	truck_lp_def1[]:"4"
+	truck_lp_def1[]:"5"
+	truck_lp_def1[]:"6"
+	truck_lp_def1[]:"7"
+	truck_lp_def1[]:"8"
+	truck_lp_def1[]:"9"
+	
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+}
+

@@ -1,0 +1,28 @@
+
+city_data: city.ely
+{
+	city_name: "Ely"
+	short_city_name: "Ely"
+	city_name_uppercase: "ELY"
+	country: nevada
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -16
+	map_x_offsets[]: -14
+	map_x_offsets[]: -13
+	map_x_offsets[]: -16
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -70
+	map_y_offsets[]: -43
+	map_y_offsets[]: -32
+	map_y_offsets[]: -28
+
+}
+

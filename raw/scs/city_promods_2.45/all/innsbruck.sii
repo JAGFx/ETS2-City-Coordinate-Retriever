@@ -1,0 +1,253 @@
+city_data: city.innsbruck
+{
+	city_name: "Innsbruck"
+	city_name_localized: "@@innsbruck@@"
+	country: austria
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -45
+	map_x_offsets[]: -39
+	map_x_offsets[]: -41
+	map_x_offsets[]: -43
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -26
+	map_y_offsets[]: -22
+	map_y_offsets[]: -27
+
+	license_plate[]: .innsbruck.lp.car
+	license_plate[]: .innsbruck.lp.truck
+	license_plate[]: .innsbruck.lp.trailer
+	license_plate[]: .innsbruck.lp.police
+}
+
+license_plate_data : .innsbruck.lp.car
+{
+	type: car
+
+	# Countryside districts
+#	templates[]:"02 444"    # Issued before 2000
+#	templates[]:"023 444"
+	templates[]:"023 44"
+	templates[]:"0233 44"
+	templates[]:"0233 4"
+	templates[]:"02333 4"
+	templates[]:"0233 44"   # Issued since 2000
+	templates[]:"0233 44"
+
+	# State capitals
+#	templates[]:"123 444"   # Issued before 2000
+#	templates[]:"1233 444"
+	templates[]:"1233 44"
+	templates[]:"12333 44"
+	templates[]:"12333 4"
+	templates[]:"123333 4"
+	templates[]:"12333 44"  # Issued since 2000
+	templates[]:"12333 44"
+	templates[]:"12333 44"
+	templates[]:"12333 44"
+	templates[]:"12333 44"
+	templates[]:"12333 44"
+	templates[]:"12333 44"
+	templates[]:"1233 44"
+	templates[]:"1233 44"
+	templates[]:"1233 44"
+	templates[]:"1233 44"
+	templates[]:"1233 44"
+	templates[]:"1233 44"
+	templates[]:"1233 44"
+
+	def1[]:"I<offset vshift=-4><img src=/material/ui/lp/austria/tirol.mat color=FFFFFFFF><offset vshift=4>"              # Innsbruck
+	def0[]:"BA<offset vshift=-4><img src=/material/ui/lp/austria/steiermark.mat color=FFFFFFFF><offset vshift=4>"        # Bad Aussee (Replaced with IL in 2012)
+	def0[]:"IL<offset vshift=-4><img src=/material/ui/lp/austria/tirol.mat color=FFFFFFFF><offset vshift=4>"             # Innsbruck-Land
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"A"
+	def4[]:"B"
+	def4[]:"C"
+	def4[]:"D"
+	def4[]:"E"
+	def4[]:"F"
+	def4[]:"G"
+	def4[]:"H"
+	def4[]:"I"
+	def4[]:"J"
+	def4[]:"K"
+	def4[]:"L"
+	def4[]:"M"
+	def4[]:"N"
+	def4[]:"O"
+	def4[]:"P"
+	def4[]:"R"
+	def4[]:"S"
+	def4[]:"T"
+	def4[]:"U"
+	def4[]:"V"
+	def4[]:"W"
+	def4[]:"X"
+	def4[]:"Y"
+	def4[]:"Z"
+}
+
+license_plate_data : .innsbruck.lp.truck
+{
+	type: truck
+
+	templates[]:"12333 44"
+	templates[]:"1233 44"
+
+	def1[]:"I<offset vshift=-4><img src=/material/ui/lp/austria/tirol.mat color=FFFFFFFF><offset vshift=4>"              # Innsbruck
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"A"
+	def4[]:"B"
+	def4[]:"C"
+	def4[]:"D"
+	def4[]:"E"
+	def4[]:"F"
+	def4[]:"G"
+	def4[]:"H"
+	def4[]:"I"
+	def4[]:"J"
+	def4[]:"K"
+	def4[]:"L"
+	def4[]:"M"
+	def4[]:"N"
+	def4[]:"O"
+	def4[]:"P"
+	def4[]:"R"
+	def4[]:"S"
+	def4[]:"T"
+	def4[]:"U"
+	def4[]:"V"
+	def4[]:"W"
+	def4[]:"X"
+	def4[]:"Y"
+	def4[]:"Z"
+}
+
+license_plate_data : .innsbruck.lp.trailer
+{
+	type: trailer
+
+	templates[]:"12333 44"
+	templates[]:"1233 44"
+
+	def1[]:"I<offset vshift=-4><img src=/material/ui/lp/austria/tirol.mat color=FFFFFFFF><offset vshift=4>"              # Innsbruck
+
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"A"
+	def4[]:"B"
+	def4[]:"C"
+	def4[]:"D"
+	def4[]:"E"
+	def4[]:"F"
+	def4[]:"G"
+	def4[]:"H"
+	def4[]:"I"
+	def4[]:"J"
+	def4[]:"K"
+	def4[]:"L"
+	def4[]:"M"
+	def4[]:"N"
+	def4[]:"O"
+	def4[]:"P"
+	def4[]:"R"
+	def4[]:"S"
+	def4[]:"T"
+	def4[]:"U"
+	def4[]:"V"
+	def4[]:"W"
+	def4[]:"X"
+	def4[]:"Y"
+	def4[]:"Z"
+}
+
+license_plate_data : .innsbruck.lp.police
+{
+	type: police
+
+	templates[]:"023333"
+
+	def0[]:"BP<offset vshift=-4><img src=/material/ui/lp/austria/bundes.mat color=FFFFFFFF><offset vshift=4>"
+
+	def2[]:"7"  # Tirol
+
+	def3[]:"0"
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+}

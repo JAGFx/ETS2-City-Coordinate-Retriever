@@ -1,0 +1,78 @@
+﻿city_data: city.klaipeda
+{
+	city_name: "Klaipėda"
+	city_name_localized: "@@klaipeda@@"
+	country: lithuania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -40
+	map_x_offsets[]: -43
+	map_x_offsets[]: -40
+	map_x_offsets[]: -36
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -82
+	map_y_offsets[]: -65
+	map_y_offsets[]: -30
+	map_y_offsets[]: -29
+
+	vehicle_brands[]: "iveco"
+
+	license_plate[]: .klaipeda.lp.truck
+}
+
+license_plate_data : .klaipeda.lp.truck
+{
+	type: truck
+
+	templates[]:"431120005"
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"<offset hshift=3 vshift=-3><img src=/material/ui/lp/lithuania/b.mat color=FFFFFFFF><offset hshift=4 vshift=3>"
+	def2[]:"<offset hshift=3 vshift=-3><img src=/material/ui/lp/lithuania/b_1.mat color=FFFFFFFF><offset hshift=4 vshift=3>"
+	def2[]:"<offset hshift=3 vshift=-3><img src=/material/ui/lp/lithuania/b_2.mat color=FFFFFFFF><offset hshift=4 vshift=3>"
+
+	def3[]:"J"
+
+	def4[]:"<font xscale=1.1 yscale=1.3><offset vshift=-7>"
+	def5[]:"</font>"
+}

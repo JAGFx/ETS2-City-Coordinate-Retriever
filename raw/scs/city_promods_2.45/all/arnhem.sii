@@ -1,0 +1,93 @@
+﻿city_data: city.arnhem
+{
+	city_name: "Arnhem"
+	city_name_localized: "@@arnhem@@"
+	country: netherlands
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -28
+	map_x_offsets[]: 0
+	map_x_offsets[]: -25
+	map_x_offsets[]: -25
+	map_x_offsets[]: -32
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -10
+	map_y_offsets[]: -5
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -27
+
+	license_plate[]: .arnhem.lp.truck
+	license_plate[]: .arnhem.lp.trailer
+}
+
+license_plate_data : .arnhem.lp.truck
+{
+	type: truck
+
+	templates[]:"00-2-1"   # 2012-present
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"BNT"
+	def2[]:"BNV"   # Latest issue (August 2019)
+	def2[]:"BNX"   # Future
+}
+
+license_plate_data : .arnhem.lp.trailer
+{
+	type: trailer
+
+	templates[]:"3-01-2"   # 1988-present
+
+	def0[]:"0"
+	def0[]:"1"
+	def0[]:"2"
+	def0[]:"3"
+	def0[]:"4"
+	def0[]:"5"
+	def0[]:"6"
+	def0[]:"7"
+	def0[]:"8"
+	def0[]:"9"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"BB"
+	def2[]:"BD"  # Latest issue (August 2019)
+	def2[]:"BF"  # Future
+
+	def3[]:"OS"
+}

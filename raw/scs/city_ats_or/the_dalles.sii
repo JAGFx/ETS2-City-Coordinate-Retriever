@@ -1,0 +1,26 @@
+city_data: city.the_dalles
+{
+	city_name: "The Dalles"
+	short_city_name: "The Dalles"
+	city_name_uppercase: "THE DALLES"
+	country: oregon
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -50
+	map_x_offsets[]: -52
+	map_x_offsets[]: -52
+	map_x_offsets[]: -50
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 101
+	map_y_offsets[]: 76
+	map_y_offsets[]: 6
+	map_y_offsets[]: -27
+  
+}

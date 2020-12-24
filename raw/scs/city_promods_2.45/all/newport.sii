@@ -1,0 +1,180 @@
+city_data: city.newport
+{
+	city_name: "Newport"
+	city_name_localized: "@@newport@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -15
+	map_x_offsets[]: -24
+	map_x_offsets[]: -33
+	map_x_offsets[]: -30
+	map_x_offsets[]: -32
+	map_x_offsets[]: -33
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 17
+	map_y_offsets[]: -28
+	map_y_offsets[]: -79
+	map_y_offsets[]: -27
+	map_y_offsets[]: -10
+	map_y_offsets[]: 2
+
+	vehicle_brands[]:"daf"
+
+	license_plate[]: .cardiff.lp.car
+	license_plate[]: .cardiff.lp.truck
+	license_plate[]: .cardiff.lp.trailer
+}
+
+license_plate_data : .cardiff.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Cymru (Wales), Cardiff
+	def0[]:"CA"
+	def0[]:"CB"
+	def0[]:"CC"
+	def0[]:"CD"
+	def0[]:"CE"
+	def0[]:"CF"
+	def0[]:"CG"
+	def0[]:"CH"
+	def0[]:"CJ"
+	def0[]:"CK"
+	def0[]:"CL"
+	def0[]:"CM"
+	def0[]:"CN"
+	def0[]:"CO"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .cardiff.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Cymru (Wales), Cardiff
+	def0[]:"CA"
+	def0[]:"CB"
+	def0[]:"CC"
+	def0[]:"CD"
+	def0[]:"CE"
+	def0[]:"CF"
+	def0[]:"CG"
+	def0[]:"CH"
+	def0[]:"CJ"
+	def0[]:"CK"
+	def0[]:"CL"
+	def0[]:"CM"
+	def0[]:"CN"
+	def0[]:"CO"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .cardiff.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Cymru (Wales), Cardiff
+	def0[]:"CA"
+	def0[]:"CB"
+	def0[]:"CC"
+	def0[]:"CD"
+	def0[]:"CE"
+	def0[]:"CF"
+	def0[]:"CG"
+	def0[]:"CH"
+	def0[]:"CJ"
+	def0[]:"CK"
+	def0[]:"CL"
+	def0[]:"CM"
+	def0[]:"CN"
+	def0[]:"CO"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

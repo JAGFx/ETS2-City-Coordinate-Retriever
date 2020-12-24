@@ -1,0 +1,44 @@
+{
+  "citiesList": [
+    {
+      "gameName": "kem",
+      "realName": "Kem'",
+      "country": "russia",
+      "x": "66736.8",
+      "y": "61.5156",
+      "z": "-89467.5"
+    },
+    {
+      "gameName": "medved",
+      "realName": "Medvezhyegorsk",
+      "country": "russia",
+      "x": "67995.3",
+      "y": "76.6172",
+      "z": "-77326.8"
+    },
+    {
+      "gameName": "petrozavodsk",
+      "realName": "Petrozavodsk",
+      "country": "russia",
+      "x": "66815.9",
+      "y": "86.6914",
+      "z": "-70284.8"
+    },
+    {
+      "gameName": "pole",
+      "realName": "Lodeynoye Pole",
+      "country": "russia",
+      "x": "67409.2",
+      "y": "86.4648",
+      "z": "-65013.9"
+    },
+    {
+      "gameName": "zelenoborsky",
+      "realName": "Zelenoborsky",
+      "country": "russia",
+      "x": "57673.2",
+      "y": "42.2695",
+      "z": "-93488.3"
+    }
+  ]
+}

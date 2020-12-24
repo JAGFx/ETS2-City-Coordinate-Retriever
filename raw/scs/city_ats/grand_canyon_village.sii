@@ -1,0 +1,26 @@
+city_data: city.g_canyon_vlg
+{
+	city_name: "Grand Canyon Village"
+	short_city_name: "Grand Canyon"
+	city_name_uppercase: "GRAND CANYON VILLAGE"
+	country: arizona
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0 // close zoom for minimap
+	map_x_offsets[]: -3 // far zoom for monimap
+	map_x_offsets[]: -86 // city zoom for world map
+	map_x_offsets[]: -82 // closest zoom for world map
+	map_x_offsets[]: -81 // middle zoom for world map
+	map_x_offsets[]: -80 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -60
+	map_y_offsets[]: -38
+	map_y_offsets[]: -30
+	map_y_offsets[]: -28
+  
+}

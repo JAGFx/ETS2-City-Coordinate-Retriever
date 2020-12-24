@@ -1,0 +1,72 @@
+city_data: city.paris
+{
+	city_name: "Paris"
+	city_name_localized: "@@paris@@"
+	country: france
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	vehicle_brands[]:"renault"
+
+	license_plate[]: .paris.lp.car
+	license_plate[]: .paris.lp.truck
+	license_plate[]: .paris.lp.trailer
+}
+
+license_plate_data : .paris.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/75.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/91.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/92.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/93.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/94.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/95.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .paris.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/75.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/91.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/92.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/93.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/94.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/95.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .paris.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/75.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/91.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/92.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/93.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/94.mat color=FFFFFFFF width=15 height=32></align>"
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/95.mat color=FFFFFFFF width=15 height=32></align>"
+}

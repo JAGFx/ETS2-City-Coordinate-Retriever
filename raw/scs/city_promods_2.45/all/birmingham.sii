@@ -1,0 +1,207 @@
+city_data: city.birmingham
+{
+	city_name: "Birmingham"
+	city_name_localized: "@@birmingham@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -50
+	map_x_offsets[]: -49
+	map_x_offsets[]: -46
+	map_x_offsets[]: -44
+	map_x_offsets[]: -45
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 5
+	map_y_offsets[]: -35
+	map_y_offsets[]: -62
+	map_y_offsets[]: -49
+	map_y_offsets[]: -11
+	map_y_offsets[]: -26
+
+	vehicle_brands[]:"man"
+
+	license_plate[]: .birmingham.lp.car
+	license_plate[]: .birmingham.lp.truck
+	license_plate[]: .birmingham.lp.trailer
+}
+
+license_plate_data : .birmingham.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Birmingham
+	def0[]:"BA"
+	def0[]:"BB"
+	def0[]:"BC"
+	def0[]:"BD"
+	def0[]:"BE"
+	def0[]:"BF"
+	def0[]:"BG"
+	def0[]:"BH"
+	def0[]:"BJ"
+	def0[]:"BK"
+	def0[]:"BL"
+	def0[]:"BM"
+	def0[]:"BN"
+	def0[]:"BO"
+	def0[]:"BP"
+	def0[]:"BR"
+	def0[]:"BS"
+	def0[]:"BT"
+	def0[]:"BU"
+	def0[]:"BV"
+	def0[]:"BW"
+	def0[]:"BX"
+#	def0[]:"BY"  # Reserved for select issue
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .birmingham.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Birmingham
+	def0[]:"BA"
+	def0[]:"BB"
+	def0[]:"BC"
+	def0[]:"BD"
+	def0[]:"BE"
+	def0[]:"BF"
+	def0[]:"BG"
+	def0[]:"BH"
+	def0[]:"BJ"
+	def0[]:"BK"
+	def0[]:"BL"
+	def0[]:"BM"
+	def0[]:"BN"
+	def0[]:"BO"
+	def0[]:"BP"
+	def0[]:"BR"
+	def0[]:"BS"
+	def0[]:"BT"
+	def0[]:"BU"
+	def0[]:"BV"
+	def0[]:"BW"
+	def0[]:"BX"
+#	def0[]:"BY"  # Reserved for select issue
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .birmingham.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Birmingham
+	def0[]:"BA"
+	def0[]:"BB"
+	def0[]:"BC"
+	def0[]:"BD"
+	def0[]:"BE"
+	def0[]:"BF"
+	def0[]:"BG"
+	def0[]:"BH"
+	def0[]:"BJ"
+	def0[]:"BK"
+	def0[]:"BL"
+	def0[]:"BM"
+	def0[]:"BN"
+	def0[]:"BO"
+	def0[]:"BP"
+	def0[]:"BR"
+	def0[]:"BS"
+	def0[]:"BT"
+	def0[]:"BU"
+	def0[]:"BV"
+	def0[]:"BW"
+	def0[]:"BX"
+#	def0[]:"BY"  # Reserved for select issue
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

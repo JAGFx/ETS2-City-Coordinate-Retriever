@@ -1,0 +1,24 @@
+city_data: city.wenatchee
+{
+	city_name: "Wenatchee"
+	city_name_localized: "@@wenatchee@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: 48
+	map_x_offsets[]: -17
+	map_x_offsets[]: -46
+	map_x_offsets[]: -47
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 292
+	map_y_offsets[]: 51
+	map_y_offsets[]: 8
+	map_y_offsets[]: 3
+}

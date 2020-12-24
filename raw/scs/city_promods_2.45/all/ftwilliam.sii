@@ -1,0 +1,154 @@
+﻿city_data: city.ftwilliam
+{
+	city_name: "Fort William"
+	city_name_localized: "@@ftwilliam@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 53 // close zoom for minimap
+	map_x_offsets[]: -30 // far zoom for minimap
+	map_x_offsets[]: -15 // city zoom for world map
+	map_x_offsets[]: -15 // closest zoom for world map
+	map_x_offsets[]: -30 // middle zoom for world map
+	map_x_offsets[]: -35 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -35
+	map_y_offsets[]: -55
+	map_y_offsets[]: -55
+	map_y_offsets[]: -28
+	map_y_offsets[]: -5
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	vehicle_brands[]:"daf"
+
+	license_plate[]: .ftwilliam.lp.car
+	license_plate[]: .ftwilliam.lp.truck
+	license_plate[]: .ftwilliam.lp.trailer
+}
+
+license_plate_data : .ftwilliam.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Scotland, Inverness
+	def0[]:"SX"
+	def0[]:"SY"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .ftwilliam.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Scotland, Inverness
+	def0[]:"SX"
+	def0[]:"SY"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .ftwilliam.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Scotland, Inverness
+	def0[]:"SX"
+	def0[]:"SY"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

@@ -1,0 +1,115 @@
+﻿city_data: city.igoumenitsa
+{
+	city_name: "Ηγουμενίτσα (Igoumenitsa)"
+	short_city_name: "Ηγουμενίτσα"
+	city_name_uppercase: "ΗΓΟΥΜΕΝΊΤΣΑ (IGOUMENITSA)"
+	country: greece
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	truck_lp_template[]:"01-3222"
+
+	truck_lp_def0[]:"HN"
+
+	truck_lp_def1[]:"A"
+	truck_lp_def1[]:"B"
+	truck_lp_def1[]:"E"
+	truck_lp_def1[]:"Z"
+	truck_lp_def1[]:"H"
+	truck_lp_def1[]:"I"
+	truck_lp_def1[]:"K"
+	truck_lp_def1[]:"M"
+	truck_lp_def1[]:"N"
+	truck_lp_def1[]:"O"
+	truck_lp_def1[]:"P"
+	truck_lp_def1[]:"T"
+	truck_lp_def1[]:"Y"
+	truck_lp_def1[]:"X"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+	truck_lp_def3[]:"1"
+	truck_lp_def3[]:"2"
+	truck_lp_def3[]:"3"
+	truck_lp_def3[]:"4"
+	truck_lp_def3[]:"5"
+	truck_lp_def3[]:"6"
+	truck_lp_def3[]:"7"
+	truck_lp_def3[]:"8"
+	truck_lp_def3[]:"9"
+
+	ai_lp_template[]:"01-3222"
+
+	ai_lp_def0[]:"HN"
+
+	ai_lp_def1[]:"A"
+	ai_lp_def1[]:"B"
+	ai_lp_def1[]:"E"
+	ai_lp_def1[]:"Z"
+	ai_lp_def1[]:"H"
+	ai_lp_def1[]:"I"
+	ai_lp_def1[]:"K"
+	ai_lp_def1[]:"M"
+	ai_lp_def1[]:"N"
+	ai_lp_def1[]:"O"
+	ai_lp_def1[]:"P"
+	ai_lp_def1[]:"T"
+	ai_lp_def1[]:"Y"
+	ai_lp_def1[]:"X"
+
+	ai_lp_def2[]:"0"
+	ai_lp_def2[]:"1"
+	ai_lp_def2[]:"2"
+	ai_lp_def2[]:"3"
+	ai_lp_def2[]:"4"
+	ai_lp_def2[]:"5"
+	ai_lp_def2[]:"6"
+	ai_lp_def2[]:"7"
+	ai_lp_def2[]:"8"
+	ai_lp_def2[]:"9"
+
+	ai_lp_def3[]:"1"
+	ai_lp_def3[]:"2"
+	ai_lp_def3[]:"3"
+	ai_lp_def3[]:"4"
+	ai_lp_def3[]:"5"
+	ai_lp_def3[]:"6"
+	ai_lp_def3[]:"7"
+	ai_lp_def3[]:"8"
+	ai_lp_def3[]:"9"
+}

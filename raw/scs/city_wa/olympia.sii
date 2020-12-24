@@ -1,0 +1,24 @@
+city_data: city.olympia
+{
+	city_name: "Olympia"
+	city_name_localized: "@@olympia@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -15
+	map_x_offsets[]: -18
+	map_x_offsets[]: -49
+	map_x_offsets[]: -45
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -88
+	map_y_offsets[]: -54
+	map_y_offsets[]: -42
+	map_y_offsets[]: -30
+}

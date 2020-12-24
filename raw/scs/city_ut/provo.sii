@@ -1,0 +1,26 @@
+city_data : city.provo
+{
+	city_name: "Provo"
+	city_name_localized: "@@provo@@"
+	country: utah
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -20
+	map_x_offsets[]: -12
+	map_x_offsets[]: -15
+	map_x_offsets[]: -24
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -77
+	map_y_offsets[]: 21
+	map_y_offsets[]: 4
+	map_y_offsets[]: 2
+
+	vehicle_brands[]: "intnational"
+}

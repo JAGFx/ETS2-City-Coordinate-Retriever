@@ -1,0 +1,24 @@
+city_data: city.grand_coulee
+{
+	city_name: "Grand Coulee"
+	city_name_localized: "@@grand_coulee@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: 40
+	map_x_offsets[]: -21
+	map_x_offsets[]: -53
+	map_x_offsets[]: -56
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 106
+	map_y_offsets[]: 19
+	map_y_offsets[]: 12
+	map_y_offsets[]: 7
+}

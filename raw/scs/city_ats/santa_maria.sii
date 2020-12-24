@@ -1,0 +1,28 @@
+
+city_data: city.santa_maria
+{
+	city_name: "Santa Maria"
+	short_city_name: "Santa Maria"
+	city_name_uppercase: "SANTA MARIA"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -57
+	map_x_offsets[]: -55
+	map_x_offsets[]: -60
+	map_x_offsets[]: -55
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -86
+	map_y_offsets[]: -36
+	map_y_offsets[]: -35
+	map_y_offsets[]: -28
+
+}
+

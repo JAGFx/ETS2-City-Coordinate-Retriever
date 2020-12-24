@@ -1,0 +1,59 @@
+
+city_data: city.atyrau
+{
+	city_name: "Atyrau"
+	short_city_name: "Atyrau"
+	city_name_uppercase: "ATYRAU"
+    country: kazakhstan
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -15
+	map_x_offsets[]: -24
+	map_x_offsets[]: -33
+	map_x_offsets[]: -30
+	map_x_offsets[]: -32
+	map_x_offsets[]: -33
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 17
+	map_y_offsets[]: -28
+	map_y_offsets[]: -79
+	map_y_offsets[]: -27
+	map_y_offsets[]: -10
+	map_y_offsets[]: 2
+
+
+	vehicle_brands[]: "renault"
+
+	truck_lp_template[]:" 000 111 2"
+
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >A</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >B</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >E</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >K</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >M</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >H</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >O</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >P</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >C</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >T</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >I</font>"
+	truck_lp_def1[]:"<font xscale=0.8 yscale=0.8 >X</font>"
+
+	truck_lp_def0[]:"0"
+	truck_lp_def0[]:"1"
+	truck_lp_def0[]:"2"
+	truck_lp_def0[]:"3"
+	truck_lp_def0[]:"4"
+	truck_lp_def0[]:"5"
+	truck_lp_def0[]:"6"
+	truck_lp_def0[]:"7"
+	truck_lp_def0[]:"8"
+	truck_lp_def0[]:"9"
+
+
+	truck_lp_def2[]:"06"
+
+}

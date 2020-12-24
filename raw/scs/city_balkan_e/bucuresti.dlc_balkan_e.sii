@@ -1,0 +1,28 @@
+
+city_data : city.bucuresti
+{
+	city_name: "București"
+	city_name_localized: "@@bucuresti@@"
+	country: romania
+	key_city: true
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -27
+	map_x_offsets[]: -45
+	map_x_offsets[]: -38
+	map_x_offsets[]: -40
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -256
+	map_y_offsets[]: -72
+	map_y_offsets[]: -9
+	map_y_offsets[]: 7
+
+	vehicle_brands[]: "iveco"
+}

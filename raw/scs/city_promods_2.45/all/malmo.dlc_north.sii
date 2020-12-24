@@ -1,0 +1,24 @@
+city_data: city.malmo
+{
+	city_name: "Malmö"
+	city_name_localized: "@@malmo@@"
+	country: sweden
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -72
+	map_x_offsets[]: -30
+	map_x_offsets[]: -25
+	map_x_offsets[]: -24
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -82
+	map_y_offsets[]: -35
+	map_y_offsets[]: -27
+	map_y_offsets[]: -27
+}

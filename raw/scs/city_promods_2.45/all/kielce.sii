@@ -1,0 +1,521 @@
+city_data: city.kielce
+{
+	city_name: "Kielce"
+	city_name_localized: "@@kielce@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	license_plate[]: .kielce.lp.car
+	license_plate[]: .kielce.lp.truck
+	license_plate[]: .kielce.lp.trailer
+	license_plate[]: .kielce.lp.police
+}
+
+license_plate_data : .kielce.lp.car
+{
+	type: car
+
+	# Two letter powiat codes
+#	templates[]:"TK544444"   # I    most before EU stars
+	templates[]:"TK584444"   # I*   limited range selected
+	templates[]:"TK594444"   # I*   limited range selected
+	templates[]:"TK544440"   # II
+	templates[]:"TK544440"   # II
+	templates[]:"TK544440"   # II
+	templates[]:"TK544440"   # II
+
+	# Three letter powiat codes
+#	templates[]:"TKI52444"   # I    before EU stars
+#	templates[]:"TKI54422"   # II   before EU stars
+#	templates[]:"TKI53244"   # III  most before EU stars
+	templates[]:"TKI54423"   # IV
+	templates[]:"TKI53223"   # V
+	templates[]:"TKI52244"   # VI
+	templates[]:"TKI544444"  # VII
+	templates[]:"TKI544441"  # VIII
+
+	def0[]:"A"
+	def0[]:"C"
+	def0[]:"E"
+	def0[]:"F"
+	def0[]:"G"
+	def0[]:"H"
+	def0[]:"J"
+	def0[]:"K"
+	def0[]:"L"
+	def0[]:"M"
+	def0[]:"N"
+#	def0[]:"P"  # Used for trailers
+	def0[]:"R"
+	def0[]:"S"
+	def0[]:"T"
+	def0[]:"U"
+	def0[]:"V"
+	def0[]:"W"  # "TK" II latest issued (October 2019)
+#	def0[]:"X"  # Future
+
+	def1[]:"A"
+	def1[]:"C"
+	def1[]:"E"
+	def1[]:"F"  # "TKI" VIII latest issued (October 2019)
+#	def1[]:"G"  # Future
+
+	def2[]:"A"
+	def2[]:"C"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+#	def2[]:"K"  # Partially used for "TKI" motorcycles and tractors
+	def2[]:"L"
+#	def2[]:"M"  # Used for "TKI" mopeds, tractors, and motorcycles
+	def2[]:"N"
+#	def2[]:"P"  # Used for "TKI" trailers
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+#	def2[]:"X"  # Used for "TKI" motorcycles and tractors
+	def2[]:"Y"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .kielce.lp.truck
+{
+	type: truck
+
+	# Two letter powiat codes
+#	templates[]:"TK50444"    # I    most before EU stars
+#	templates[]:"TK544441"   # II
+	templates[]:"TK5344W"    # II
+
+#	def0[]:"00"
+##	def0[]:"01"  # Partially used for trailers
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"
+#	def0[]:"06"
+#	def0[]:"07"
+#	def0[]:"08"
+#	def0[]:"09"
+#	def0[]:"10"
+#	def0[]:"11"
+#	def0[]:"12"
+#	def0[]:"13"
+#	def0[]:"14"
+#	def0[]:"15"
+#	def0[]:"16"
+#	def0[]:"17"
+#	def0[]:"18"
+##	def0[]:"19"  # Partially used for double-row plates
+#	def0[]:"20"
+#	def0[]:"21"
+##	def0[]:"22"  # Partially used for double-row plates
+#	def0[]:"23"
+#	def0[]:"24"
+#	def0[]:"25"
+#	def0[]:"26"
+##	def0[]:"27"  # Partially used for double-row plates
+#	def0[]:"28"
+#	def0[]:"29"
+#	def0[]:"30"
+#	def0[]:"31"
+#	def0[]:"32"
+#	def0[]:"33"
+#	def0[]:"34"
+#	def0[]:"35"
+#	def0[]:"36"
+#	def0[]:"37"
+#	def0[]:"38"
+#	def0[]:"39"
+#	def0[]:"40"
+#	def0[]:"41"
+#	def0[]:"42"
+#	def0[]:"43"
+#	def0[]:"44"
+#	def0[]:"45"
+#	def0[]:"46"
+#	def0[]:"47"
+#	def0[]:"48"
+#	def0[]:"49"
+#	def0[]:"50"
+#	def0[]:"51"
+#	def0[]:"52"
+#	def0[]:"53"
+#	def0[]:"54"
+#	def0[]:"55"
+#	def0[]:"56"
+#	def0[]:"57"
+#	def0[]:"58"
+#	def0[]:"59"
+#	def0[]:"60"
+#	def0[]:"61"
+#	def0[]:"62"
+##	def0[]:"63"  # Partially used for double-row plates
+#	def0[]:"64"
+#	def0[]:"65"
+#	def0[]:"66"
+#	def0[]:"67"
+#	def0[]:"68"
+#	def0[]:"69"
+#	def0[]:"70"
+#	def0[]:"71"
+#	def0[]:"72"
+#	def0[]:"73"
+#	def0[]:"74"
+#	def0[]:"75"
+#	def0[]:"76"
+#	def0[]:"77"
+#	def0[]:"78"  # Most before EU stars
+#	def0[]:"79"
+#	def0[]:"80"
+#	def0[]:"81"
+#	def0[]:"82"
+#	def0[]:"83"
+#	def0[]:"84"
+#	def0[]:"85"
+#	def0[]:"86"
+#	def0[]:"87"
+#	def0[]:"88"
+#	def0[]:"89"
+#	def0[]:"90"
+#	def0[]:"91"
+#	def0[]:"92"
+#	def0[]:"93"
+#	def0[]:"94"
+#	def0[]:"95"
+#	def0[]:"96"
+#	def0[]:"97"
+#	def0[]:"98"
+#	def0[]:"99"
+
+#	def1[]:"A"
+#	def1[]:"C"
+#	def1[]:"E"
+#	def1[]:"F"
+#	def1[]:"G"
+#	def1[]:"H"
+#	def1[]:"J"
+##	def1[]:"K"  # Partially used for double-row plates
+##	def1[]:"L"  # Partially used for double-row plates
+##	def1[]:"M"  # Partially used for double-row plates
+#	def1[]:"N"
+##	def1[]:"P"  # Used for trailers
+#	def1[]:"R"
+##	def1[]:"S"  # Partially used for double-row plates
+#	def1[]:"T"
+##	def1[]:"U"  # Partially used for double-row plates
+#	def1[]:"V"
+
+#	def3[]:"00"
+#	def3[]:"01"
+#	def3[]:"02"
+#	def3[]:"03"
+#	def3[]:"04"
+#	def3[]:"05"
+#	def3[]:"06"
+#	def3[]:"07"
+#	def3[]:"08"
+#	def3[]:"09"
+#	def3[]:"10"
+#	def3[]:"11"
+#	def3[]:"12"
+#	def3[]:"13"
+#	def3[]:"14"
+#	def3[]:"15"
+#	def3[]:"16"
+#	def3[]:"17"
+#	def3[]:"18"
+#	def3[]:"19"
+#	def3[]:"20"
+#	def3[]:"21"
+#	def3[]:"22"
+#	def3[]:"23"
+#	def3[]:"24"
+#	def3[]:"25"
+#	def3[]:"26"
+#	def3[]:"27"
+#	def3[]:"28"
+#	def3[]:"29"
+#	def3[]:"30"
+#	def3[]:"31"
+#	def3[]:"32"
+#	def3[]:"33"
+#	def3[]:"34"
+#	def3[]:"35"
+#	def3[]:"36"
+#	def3[]:"37"
+#	def3[]:"38"
+#	def3[]:"39"
+#	def3[]:"40"
+#	def3[]:"41"
+#	def3[]:"42"
+#	def3[]:"43"
+#	def3[]:"44"
+#	def3[]:"45"
+#	def3[]:"46"
+#	def3[]:"47"
+#	def3[]:"48"
+#	def3[]:"49"
+	def3[]:"50"
+	def3[]:"51"
+	def3[]:"52"
+	def3[]:"53"
+	def3[]:"54"
+	def3[]:"55"
+	def3[]:"56"
+	def3[]:"57"
+	def3[]:"58"
+	def3[]:"59"
+	def3[]:"60"
+	def3[]:"61"
+	def3[]:"62"
+	def3[]:"63"
+	def3[]:"64"
+	def3[]:"65"
+	def3[]:"66"
+	def3[]:"67"
+	def3[]:"68"
+	def3[]:"69"
+	def3[]:"70"
+	def3[]:"71"
+	def3[]:"72"
+	def3[]:"73"
+	def3[]:"74"
+	def3[]:"75"
+	def3[]:"76"
+	def3[]:"77"
+	def3[]:"78"
+	def3[]:"79"
+	def3[]:"80"
+	def3[]:"81"
+	def3[]:"82"
+	def3[]:"83"  # "TK" II latest issued (October 2019)
+#	def3[]:"84"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .kielce.lp.trailer
+{
+	type: trailer
+
+	# Two letter powiat codes
+#	templates[]:"TK5044"     # I    before EU stars
+	templates[]:"TK5344P"    # II   some before EU stars
+
+#	def0[]:"010"
+#	def0[]:"011"
+#	def0[]:"012"
+#	def0[]:"013"
+#	def0[]:"014"
+
+#	def3[]:"00"
+#	def3[]:"01"
+#	def3[]:"02"
+#	def3[]:"03"
+#	def3[]:"04"
+#	def3[]:"05"
+#	def3[]:"06"
+#	def3[]:"07"
+#	def3[]:"08"
+#	def3[]:"09"
+#	def3[]:"10"
+#	def3[]:"11"
+#	def3[]:"12"
+#	def3[]:"13"
+#	def3[]:"14"
+#	def3[]:"15"
+#	def3[]:"16"
+#	def3[]:"17"
+#	def3[]:"18"
+#	def3[]:"19"
+#	def3[]:"20"
+#	def3[]:"21"  # Half before EU stars
+#	def3[]:"22"
+#	def3[]:"23"
+#	def3[]:"24"
+#	def3[]:"25"
+#	def3[]:"26"
+#	def3[]:"27"
+#	def3[]:"28"
+#	def3[]:"29"
+#	def3[]:"30"
+#	def3[]:"31"
+#	def3[]:"32"
+#	def3[]:"33"
+#	def3[]:"34"
+#	def3[]:"35"
+#	def3[]:"36"
+#	def3[]:"37"
+#	def3[]:"38"
+#	def3[]:"39"
+#	def3[]:"40"
+#	def3[]:"41"
+#	def3[]:"42"
+#	def3[]:"43"
+#	def3[]:"44"
+#	def3[]:"45"
+#	def3[]:"46"
+#	def3[]:"47"
+#	def3[]:"48"
+#	def3[]:"49"
+#	def3[]:"50"
+#	def3[]:"51"
+#	def3[]:"52"
+#	def3[]:"53"
+#	def3[]:"54"
+	def3[]:"55"
+	def3[]:"56"
+	def3[]:"57"
+	def3[]:"58"
+	def3[]:"59"
+	def3[]:"60"
+	def3[]:"61"
+	def3[]:"62"
+	def3[]:"63"
+	def3[]:"64"
+	def3[]:"65"
+	def3[]:"66"
+	def3[]:"67"
+	def3[]:"68"
+	def3[]:"69"
+	def3[]:"70"
+	def3[]:"71"
+	def3[]:"72"
+	def3[]:"73"
+	def3[]:"74"
+	def3[]:"75"
+	def3[]:"76"
+	def3[]:"77"
+	def3[]:"78"
+	def3[]:"79"
+	def3[]:"80"
+	def3[]:"81"
+	def3[]:"82"
+	def3[]:"83"
+	def3[]:"84"
+	def3[]:"85"
+	def3[]:"86"
+	def3[]:"87"
+	def3[]:"88"  # "TK" II latest issued (October 2019)
+#	def3[]:"89"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .kielce.lp.police
+{
+	type: police
+
+	# S = Świętokrzyskie Provincial Headquarters
+	templates[]:"HPS51222"
+#	templates[]:"HPS51222"
+#	templates[]:"HPS51222"
+#	templates[]:"HPS51222"
+#	templates[]:"HPS52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

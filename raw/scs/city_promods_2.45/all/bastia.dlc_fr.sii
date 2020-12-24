@@ -1,0 +1,56 @@
+
+city_data : city.bastia
+{
+	city_name: "Bastia"
+	city_name_localized: "@@bastia@@"
+	country: france
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 15
+	map_x_offsets[]: 33
+	map_x_offsets[]: 9
+	map_x_offsets[]: 6
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -53
+	map_y_offsets[]: -27
+	map_y_offsets[]: -8
+	map_y_offsets[]: -11
+
+	license_plate[]: .bastia.lp.car
+	license_plate[]: .bastia.lp.truck
+	license_plate[]: .bastia.lp.trailer
+}
+
+license_plate_data : .bastia.lp.car
+{
+	type: car
+
+@include "city_lp_fr_car.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/2b.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .bastia.lp.truck
+{
+	type: truck
+
+@include "city_lp_fr_truck.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/2b.mat color=FFFFFFFF width=15 height=32></align>"
+}
+
+license_plate_data : .bastia.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_fr_trailer.sui"
+
+	def5[]:"</align><ret><align right=272><offset vshift=-5><img src=/material/ui/lp/france/2b.mat color=FFFFFFFF width=15 height=32></align>"
+}

@@ -1,0 +1,43 @@
+﻿city_data: city.reykjavik
+{
+	city_name: "Reykjavík"
+	city_name_localized: "@@reykjavik@@"
+	country: iceland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"scania"
+
+	license_plate[]: .reykjavik.lp.truck
+	license_plate[]: .reykjavik.lp.trailer
+}
+
+license_plate_data : .reykjavik.lp.truck
+{
+	type: truck
+
+@include "city_lp_is_truck.sui"
+}
+
+license_plate_data : .reykjavik.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_is_trailer.sui"
+}

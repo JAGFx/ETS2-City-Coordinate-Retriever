@@ -1,0 +1,27 @@
+
+city_data : city.brasov
+{
+	city_name: "Brașov"
+	city_name_localized: "@@brasov@@"
+	country: romania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -90
+	map_x_offsets[]: -38
+	map_x_offsets[]: -32
+	map_x_offsets[]: -32
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 263
+	map_y_offsets[]: 54
+	map_y_offsets[]: 10
+	map_y_offsets[]: 5
+
+	vehicle_brands[]: "volvo"
+}

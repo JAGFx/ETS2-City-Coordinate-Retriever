@@ -1,0 +1,79 @@
+
+city_data: city.kaunas
+{
+	city_name: "Kaunas"
+	short_city_name: "Kaunas"
+	city_name_uppercase: "KAUNAS"
+	country: lithuania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 4
+	map_y_offsets[]: 10
+	map_y_offsets[]: 6
+
+	vehicle_brands[]: "volvo"
+
+	truck_lp_template[]: "010 222"
+
+	truck_lp_def0[]:"A"
+	truck_lp_def0[]:"B"
+	truck_lp_def0[]:"C"
+	truck_lp_def0[]:"D"
+	truck_lp_def0[]:"E"
+	truck_lp_def0[]:"F"
+	truck_lp_def0[]:"G"
+	truck_lp_def0[]:"H"
+	truck_lp_def0[]:"I"
+	truck_lp_def0[]:"J"
+	truck_lp_def0[]:"K"
+	truck_lp_def0[]:"L"
+	truck_lp_def0[]:"M"
+	truck_lp_def0[]:"N"
+	truck_lp_def0[]:"O"
+	truck_lp_def0[]:"P"
+	truck_lp_def0[]:"R"
+	truck_lp_def0[]:"S"
+	truck_lp_def0[]:"T"
+	truck_lp_def0[]:"U"
+	truck_lp_def0[]:"V"
+	truck_lp_def0[]:"X"
+	truck_lp_def0[]:"Y"
+	truck_lp_def0[]:"Z"
+
+	truck_lp_def1[]:"A"
+	truck_lp_def1[]:"J"
+	truck_lp_def1[]:"K"
+	truck_lp_def1[]:"L"
+	truck_lp_def1[]:"M"
+	truck_lp_def1[]:"P"
+	truck_lp_def1[]:"S"
+	truck_lp_def1[]:"T"
+	truck_lp_def1[]:"U"
+	truck_lp_def1[]:"V"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+
+
+}

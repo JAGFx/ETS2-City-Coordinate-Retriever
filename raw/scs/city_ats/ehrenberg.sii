@@ -1,0 +1,25 @@
+city_data: city.ehrenberg
+{
+	city_name: "Ehrenberg"
+	short_city_name: "Ehrenberg"
+	city_name_uppercase: "EHRENBERG"
+	country: arizona
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0 // close zoom for minimap
+	map_x_offsets[]: -25 // far zoom for monimap
+	map_x_offsets[]: -46 // city zoom for world map
+	map_x_offsets[]: -42 // closest zoom for world map
+	map_x_offsets[]: -41 // middle zoom for world map
+	map_x_offsets[]: -40 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -10
+	map_y_offsets[]: -15
+	map_y_offsets[]: -60
+	map_y_offsets[]: -38
+	map_y_offsets[]: -30
+	map_y_offsets[]: -28
+}

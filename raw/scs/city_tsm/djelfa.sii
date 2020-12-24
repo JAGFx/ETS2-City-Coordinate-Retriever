@@ -1,0 +1,59 @@
+
+city_data: city.djelfa
+{
+	city_name: "Djelfa"
+	city_name_localized: "@@Djelfa@@"
+	country: algier
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -75
+	map_x_offsets[]: -20
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -35
+	map_y_offsets[]: -20
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+
+	truck_lp_template[]: "00010132"
+
+	truck_lp_def0[]:"0"
+	truck_lp_def0[]:"1"
+	truck_lp_def0[]:"2"
+	truck_lp_def0[]:"3"
+	truck_lp_def0[]:"4"
+	truck_lp_def0[]:"5"
+	truck_lp_def0[]:"6"
+	truck_lp_def0[]:"7"
+	truck_lp_def0[]:"8"
+	truck_lp_def0[]:"9"
+
+	truck_lp_def3[]:"0"
+	truck_lp_def3[]:"1"
+	truck_lp_def3[]:"2"
+	truck_lp_def3[]:"3"
+	truck_lp_def3[]:"4"
+
+	truck_lp_def2[]:"0"
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+	
+	truck_lp_def1[]:"-"
+}
+

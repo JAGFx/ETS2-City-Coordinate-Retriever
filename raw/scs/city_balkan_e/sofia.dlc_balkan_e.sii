@@ -1,0 +1,27 @@
+
+city_data : city.sofia
+{
+	city_name: "Со́фия"
+	city_name_localized: "@@sofia@@"
+	country: bulgaria
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -106
+	map_x_offsets[]: -52
+	map_x_offsets[]: -40
+	map_x_offsets[]: -33
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -188
+	map_y_offsets[]: -55
+	map_y_offsets[]: -30
+	map_y_offsets[]: -31
+
+	vehicle_brands[]: "renault"
+}

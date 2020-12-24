@@ -1,0 +1,26 @@
+city_data: city.roswell
+{
+	city_name: "Roswell"
+	short_city_name: "Roswell"
+	city_name_uppercase: "ROSWELL"
+	country: new_mexico
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -30
+	map_x_offsets[]: -30
+	map_x_offsets[]: -30
+	map_x_offsets[]: -30
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -253
+	map_y_offsets[]: -88
+	map_y_offsets[]: -42
+	map_y_offsets[]: -27
+  
+}

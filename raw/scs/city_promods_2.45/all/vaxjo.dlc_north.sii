@@ -1,0 +1,24 @@
+city_data: city.vaxjo
+{
+	city_name: "Växjö"
+	city_name_localized: "@@vaxjo@@"
+	country: sweden
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -27
+	map_x_offsets[]: -26
+	map_x_offsets[]: -26
+	map_x_offsets[]: -22
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -48
+	map_y_offsets[]: -56
+	map_y_offsets[]: -28
+	map_y_offsets[]: -27
+}

@@ -1,0 +1,25 @@
+
+city_data : city.burgas
+{
+	city_name: "Бургас"
+	city_name_localized: "@@burgas@@"
+	country: bulgaria
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 18
+	map_x_offsets[]: 43
+	map_x_offsets[]: 21
+	map_x_offsets[]: 11
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -57
+	map_y_offsets[]: -28
+	map_y_offsets[]: -9
+	map_y_offsets[]: -9
+}

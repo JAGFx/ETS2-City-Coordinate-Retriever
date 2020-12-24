@@ -1,0 +1,163 @@
+city_data: city.sheffield
+{
+	city_name: "Sheffield"
+	city_name_localized: "@@sheffield@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -15
+	map_x_offsets[]: -35
+	map_x_offsets[]: -40
+	map_x_offsets[]: -42
+	map_x_offsets[]: -42
+	map_x_offsets[]: -43
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -52
+	map_y_offsets[]: -35
+	map_y_offsets[]: 96
+	map_y_offsets[]: 19
+	map_y_offsets[]: 2
+	map_y_offsets[]: 4
+
+	license_plate[]: .sheffield.lp.car
+	license_plate[]: .sheffield.lp.truck
+	license_plate[]: .sheffield.lp.trailer
+}
+
+license_plate_data : .sheffield.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Yorkshire, Sheffield
+	def0[]:"YL"
+	def0[]:"YM"
+	def0[]:"YN"
+	def0[]:"YO"
+	def0[]:"YP"
+	def0[]:"YR"
+	def0[]:"YS"
+	def0[]:"YT"
+	def0[]:"YU"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .sheffield.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Yorkshire, Sheffield
+	def0[]:"YL"
+	def0[]:"YM"
+	def0[]:"YN"
+	def0[]:"YO"
+	def0[]:"YP"
+	def0[]:"YR"
+	def0[]:"YS"
+	def0[]:"YT"
+	def0[]:"YU"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .sheffield.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Yorkshire, Sheffield
+	def0[]:"YL"
+	def0[]:"YM"
+	def0[]:"YN"
+	def0[]:"YO"
+	def0[]:"YP"
+	def0[]:"YR"
+	def0[]:"YS"
+	def0[]:"YT"
+	def0[]:"YU"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

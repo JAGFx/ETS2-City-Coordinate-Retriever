@@ -1,0 +1,115 @@
+﻿city_data: city.charleroi
+{
+	city_name: "Charleroi"
+	city_name_localized: "@@charleroi@@"
+	country: belgium
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.8  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.6  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.5  // whole world map zoom
+
+	vehicle_brands[]:"renault"
+
+	license_plate[]: .charleroi.lp.truck
+	license_plate[]: .charleroi.lp.trailer
+}
+
+license_plate_data : .charleroi.lp.truck
+{
+	type: truck
+
+	# 2010-Present: 1-AAA-001 thru 1-WPR-3xx
+	templates[]: "1-5-322"  # No zero for first numeral
+	templates[]: "1-5-232"  # No zero for second numeral
+	templates[]: "1-5-223"  # No zero for third numeral
+
+	def1[]:"<color value=FF221A86>1<offset hshift=1 vshift=-3><img src=/material/ui/lp/belgium/cv_$SIDE$.mat><offset hshift=-10 vshift=3>"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def5[]:"WPR"  # Latest issued August 2, 2019
+	def5[]:"WPS"  # Future
+	def5[]:"WPT"
+	def5[]:"WPU"
+}
+
+license_plate_data : .charleroi.lp.trailer
+{
+	type: trailer
+
+	# 2001-Present
+	templates[]: "15-322"  # No zero for first numeral
+	templates[]: "15-232"  # No zero for second numeral
+	templates[]: "15-223"  # No zero for third numeral
+
+	# 2014-Present: Q-AAA-001 thru Q-AJP-099, RAL 3003 (Ruby Red)
+	def1[]:"<color value=FF221A86>Q<offset hshift=1 vshift=-3><img src=/material/ui/lp/belgium/cv_$SIDE$.mat><offset hshift=-10 vshift=3>-A"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def5[]:"JP"  # Q-AJP = Latest issued August 2, 2019
+	def5[]:"JQ"  # Future
+	def5[]:"JR"
+}

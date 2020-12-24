@@ -1,0 +1,245 @@
+city_data: city.skopje
+{
+	city_name: "Скопје"
+	city_name_localized: "@@skopje@@"
+	country: macedonia
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+	vehicle_brands[]:"man"
+
+	license_plate[]: .skopje.lp.car
+	license_plate[]: .skopje.lp.truck
+	license_plate[]: .skopje.lp.trailer
+	license_plate[]: .skopje.lp.police
+}
+
+license_plate_data : .skopje.lp.car
+{
+	type: car
+
+	background_front: "1993_front"
+	background_rear: "1993_rear"
+
+	# 1993-2012
+	templates[]:"40122-335"  # No zero for first numeral
+	templates[]:"40212-335"
+	templates[]:"40221-335"
+
+	def0[]:"SK<offset vshift=4><img src=/material/ui/lp/macedonia/1993_mk_sk.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"SK<offset vshift=4><img src=/material/ui/lp/macedonia/1993_mk_sk.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"SK<offset vshift=4><img src=/material/ui/lp/macedonia/1993_mk_sk.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"SK<offset vshift=4><img src=/material/ui/lp/macedonia/1993_mk_sk.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"KU<offset vshift=4><img src=/material/ui/lp/macedonia/1993_mk_ku.mat color=FFFFFFFF><offset vshift=-4>"
+	def0[]:"TE<offset vshift=4><img src=/material/ui/lp/macedonia/1993_mk_te.mat color=FFFFFFFF><offset vshift=-4>"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"I"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"O"
+	def3[]:"P"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"Z"
+
+	def4[]:"<font face=/font/license_plate/macedonia_1993.font><align left=-15>"
+	def5[]:"</align></font>"
+}
+
+license_plate_data : .skopje.lp.truck
+{
+	type: truck
+
+	background_front: "truck_front"
+	background_rear: "truck_rear"
+
+	# 2012-present
+	templates[]:"01222 33"  # No zero for first numeral
+	templates[]:"02122 33"
+	templates[]:"02212 33"
+	templates[]:"02221 33"
+
+	def0[]:"SK<offset vshift=4><img src=/material/ui/lp/macedonia/mk_sk.mat color=FFFFFFFF><offset vshift=-4>"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"I"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"O"
+	def3[]:"P"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"Z"
+}
+
+license_plate_data : .skopje.lp.trailer
+{
+	type: trailer
+
+	background_rear: "trailer"
+
+	# 2012-present
+	templates[]:"01222 33"  # No zero for first numeral
+	templates[]:"02122 33"
+	templates[]:"02212 33"
+	templates[]:"02221 33"
+
+	def0[]:"SK<offset vshift=4><img src=/material/ui/lp/macedonia/mk_sk.mat color=FFFFFFFF><offset vshift=-4>"
+
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def3[]:"A"
+	def3[]:"B"
+	def3[]:"C"
+	def3[]:"D"
+	def3[]:"E"
+	def3[]:"F"
+	def3[]:"G"
+	def3[]:"H"
+	def3[]:"I"
+	def3[]:"J"
+	def3[]:"K"
+	def3[]:"L"
+	def3[]:"M"
+	def3[]:"N"
+	def3[]:"O"
+	def3[]:"P"
+	def3[]:"R"
+	def3[]:"S"
+	def3[]:"T"
+	def3[]:"U"
+	def3[]:"V"
+	def3[]:"Z"
+}
+
+license_plate_data : .skopje.lp.police
+{
+	type: police
+
+	background_front: "police_front"
+	background_rear: "police_rear"
+
+	# 1993-2012
+	templates[]:"011121115"
+
+	def0[]:"<font face=/font/license_plate/macedonia_1993.font><align left=-15><color value=FF56200D>"
+	
+	def1[]:"1"
+	def1[]:"2"
+	def1[]:"3"
+	def1[]:"4"
+	def1[]:"5"
+	def1[]:"6"
+	def1[]:"7"
+	def1[]:"8"
+	def1[]:"9"
+	def1[]:"0"
+	
+	def2[]:"<offset hshift=4 vshift=-4><img src=/material/ui/lp/macedonia/mk_police.mat color=FFFFFFFF><offset hshift=4 vshift=4>"
+
+	def5[]:"</align></font>"
+}

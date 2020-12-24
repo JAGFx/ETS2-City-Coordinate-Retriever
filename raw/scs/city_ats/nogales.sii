@@ -1,0 +1,26 @@
+city_data: city.nogales
+{
+	city_name: "Nogales"
+	short_city_name: "Nogales"
+	city_name_uppercase: "NOGALES"
+	country: arizona
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0 // close zoom for minimap
+	map_x_offsets[]: -3 // far zoom for monimap
+	map_x_offsets[]: -36 // city zoom for world map
+	map_x_offsets[]: -32 // closest zoom for world map
+	map_x_offsets[]: -31 // middle zoom for world map
+	map_x_offsets[]: -30 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 20
+	map_y_offsets[]: 10
+	map_y_offsets[]: 0
+	map_y_offsets[]: 5
+  
+}

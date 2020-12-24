@@ -1,0 +1,27 @@
+city_data: city.bellingham
+{
+	city_name: "Bellingham"
+	city_name_localized: "@@bellingham@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -51
+	map_x_offsets[]: -58
+	map_x_offsets[]: -49
+	map_x_offsets[]: -49
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -253
+	map_y_offsets[]: -55
+	map_y_offsets[]: -42
+	map_y_offsets[]: -32
+
+	vehicle_brands[]: "peterbilt"
+
+}

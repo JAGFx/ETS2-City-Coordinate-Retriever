@@ -1,0 +1,176 @@
+﻿city_data: city.hawes
+{
+	city_name: "Hawes"
+	city_name_localized: "@@hawes@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 10 // close zoom for minimap
+	map_x_offsets[]: -30 // far zoom for monimap
+	map_x_offsets[]: -30 // city zoom for world map
+	map_x_offsets[]: -30 // closest zoom for world map
+	map_x_offsets[]: -40 // middle zoom for world map
+	map_x_offsets[]: -40 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -8
+	map_y_offsets[]: 10
+	map_y_offsets[]: 20
+	map_y_offsets[]: 20
+	map_y_offsets[]: 8
+	map_y_offsets[]: -3
+
+	### SERVICE CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.6  // close zoom for minimap
+	city_pin_scale_factor[]: 0.6  // far zoom for monimap
+	city_pin_scale_factor[]: 0.8  // city zoom for world map
+	city_pin_scale_factor[]: 0.8  // closest zoom for world map
+	city_pin_scale_factor[]: 0.6  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	license_plate[]: .hawes.lp.car
+	license_plate[]: .hawes.lp.truck
+	license_plate[]: .hawes.lp.trailer
+}
+
+license_plate_data : .hawes.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Yorkshire, Leeds
+	def0[]:"YA"
+	def0[]:"YB"
+	def0[]:"YC"
+	def0[]:"YD"
+	def0[]:"YE"
+	def0[]:"YF"
+	def0[]:"YG"
+	def0[]:"YH"
+	def0[]:"YJ"
+	def0[]:"YK"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .hawes.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Yorkshire, Leeds
+	def0[]:"YA"
+	def0[]:"YB"
+	def0[]:"YC"
+	def0[]:"YD"
+	def0[]:"YE"
+	def0[]:"YF"
+	def0[]:"YG"
+	def0[]:"YH"
+	def0[]:"YJ"
+	def0[]:"YK"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .hawes.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Yorkshire, Leeds
+	def0[]:"YA"
+	def0[]:"YB"
+	def0[]:"YC"
+	def0[]:"YD"
+	def0[]:"YE"
+	def0[]:"YF"
+	def0[]:"YG"
+	def0[]:"YH"
+	def0[]:"YJ"
+	def0[]:"YK"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

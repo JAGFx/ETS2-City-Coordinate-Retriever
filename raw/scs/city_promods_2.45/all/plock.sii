@@ -1,0 +1,495 @@
+city_data: city.plock
+{
+	city_name: "Płock"
+	city_name_localized: "@@plock@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -30
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -35
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	license_plate[]: .plock.lp.car
+	license_plate[]: .plock.lp.truck
+	license_plate[]: .plock.lp.trailer
+	license_plate[]: .plock.lp.police
+}
+
+license_plate_data : .plock.lp.car
+{
+	type: car
+
+	# Two letter powiat codes
+	templates[]:"WP544444"   # I    some before EU stars
+	templates[]:"WP5444AA"   # III  limited issue in 2012
+	templates[]:"WP544440"   # II
+	templates[]:"WP544440"   # II
+	templates[]:"WP544440"   # II
+	templates[]:"WP5344M"    # II
+
+	# Three letter powiat codes
+#	templates[]:"WPL52444"   # I    before EU stars
+	templates[]:"WPL54422"   # II   half before EU stars
+	templates[]:"WPL52244"   # VI
+	templates[]:"WPL51444"   # VII
+
+#	def0[]:"A"  # Used for "WP" double-row plates
+#	def0[]:"C"  # Used for "WP" trailers
+#	def0[]:"E"  # Used for "WP" double-row plates
+	def0[]:"F"
+	def0[]:"G"
+	def0[]:"H"
+	def0[]:"J"
+	def0[]:"K"
+	def0[]:"L"
+
+	def1[]:"00"
+	def1[]:"01"
+	def1[]:"02"
+	def1[]:"03"
+	def1[]:"04"
+	def1[]:"05"
+	def1[]:"06"
+	def1[]:"07"
+	def1[]:"08"
+	def1[]:"09"
+	def1[]:"10"
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"
+	def1[]:"14"
+	def1[]:"15"
+	def1[]:"16"
+	def1[]:"17"
+	def1[]:"18"
+	def1[]:"19"
+	def1[]:"20"
+	def1[]:"21"
+	def1[]:"22"
+	def1[]:"23"
+	def1[]:"24"
+	def1[]:"25"
+	def1[]:"26"
+	def1[]:"27"
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"
+	def1[]:"33"
+	def1[]:"34"
+	def1[]:"35"
+	def1[]:"36"
+	def1[]:"37"
+	def1[]:"38"
+	def1[]:"39"
+	def1[]:"40"
+	def1[]:"41"
+	def1[]:"42"
+	def1[]:"43"
+	def1[]:"44"
+	def1[]:"45"
+	def1[]:"46"
+	def1[]:"47"
+	def1[]:"48"
+	def1[]:"49"
+	def1[]:"50"
+	def1[]:"51"
+	def1[]:"52"
+	def1[]:"53"  # "WPL" VII latest issued (October 2019)
+#	def1[]:"54"  # Future
+
+	def2[]:"A"
+	def2[]:"C"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+#	def2[]:"W"  # Used for "WPL" trailers, motorcycles, tractors
+#	def2[]:"X"  # Used for "WPL" motorcycles, tractors, mopeds, and trailers
+#	def2[]:"Y"  # Used for "WPL" motorcycles and tractors
+
+	def3[]:"00"
+	def3[]:"01"
+	def3[]:"02"
+	def3[]:"03"
+	def3[]:"04"
+	def3[]:"05"
+	def3[]:"06"
+	def3[]:"07"
+	def3[]:"08"
+	def3[]:"09"
+	def3[]:"10"
+	def3[]:"11"
+	def3[]:"12"
+	def3[]:"13"
+	def3[]:"14"
+	def3[]:"15"
+	def3[]:"16"
+	def3[]:"17"
+	def3[]:"18"
+	def3[]:"19"
+	def3[]:"20"
+	def3[]:"21"
+	def3[]:"22"
+	def3[]:"23"
+	def3[]:"24"
+	def3[]:"25"
+	def3[]:"26"
+	def3[]:"27"
+	def3[]:"28"
+	def3[]:"29"
+	def3[]:"30"
+	def3[]:"31"
+	def3[]:"32"
+	def3[]:"33"
+	def3[]:"34"
+	def3[]:"35"
+	def3[]:"36"
+	def3[]:"37"
+	def3[]:"38"
+	def3[]:"39"
+	def3[]:"40"
+	def3[]:"41"
+	def3[]:"42"
+	def3[]:"43"
+	def3[]:"44"
+	def3[]:"45"
+	def3[]:"46"
+	def3[]:"47"
+	def3[]:"48"
+	def3[]:"49"
+	def3[]:"50"
+	def3[]:"51"
+	def3[]:"52"
+	def3[]:"53"
+	def3[]:"54"
+	def3[]:"55"
+	def3[]:"56"
+	def3[]:"57"
+	def3[]:"58"
+	def3[]:"59"
+	def3[]:"60"
+	def3[]:"61"
+	def3[]:"62"
+	def3[]:"63"
+	def3[]:"64"
+	def3[]:"65"
+	def3[]:"66"
+	def3[]:"67"  # "WP" II latest issued (October 2019)
+#	def3[]:"68"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .plock.lp.truck
+{
+	type: truck
+
+	# Two letter powiat codes
+#	templates[]:"WP544444"   # I    some before EU stars
+#	templates[]:"WP5444AA"   # III  limited issue in 2012
+#	templates[]:"WP544440"   # II
+	templates[]:"WP53441"    # II
+
+##	def0[]:"A"  # Used for double-row plates
+##	def0[]:"C"  # Used for trailers
+##	def0[]:"E"  # Used for double-row plates
+#	def0[]:"F"
+#	def0[]:"G"
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+#	def0[]:"L"
+
+	def1[]:"M"  # "WP" II latest issued (October 2019)
+#	def1[]:"N"  # Future
+
+#	def3[]:"00"
+#	def3[]:"01"
+#	def3[]:"02"
+#	def3[]:"03"
+#	def3[]:"04"
+#	def3[]:"05"
+#	def3[]:"06"
+#	def3[]:"07"
+#	def3[]:"08"
+#	def3[]:"09"
+#	def3[]:"10"
+#	def3[]:"11"
+#	def3[]:"12"
+#	def3[]:"13"
+#	def3[]:"14"
+#	def3[]:"15"
+#	def3[]:"16"
+#	def3[]:"17"
+#	def3[]:"18"
+#	def3[]:"19"
+#	def3[]:"20"
+#	def3[]:"21"
+#	def3[]:"22"
+#	def3[]:"23"
+#	def3[]:"24"
+#	def3[]:"25"
+#	def3[]:"26"
+#	def3[]:"27"
+#	def3[]:"28"
+#	def3[]:"29"
+#	def3[]:"30"
+#	def3[]:"31"
+#	def3[]:"32"
+#	def3[]:"33"
+#	def3[]:"34"
+#	def3[]:"35"
+	def3[]:"36"
+	def3[]:"37"
+	def3[]:"38"
+	def3[]:"39"
+	def3[]:"40"
+	def3[]:"41"
+	def3[]:"42"
+	def3[]:"43"
+	def3[]:"44"
+	def3[]:"45"
+	def3[]:"46"
+	def3[]:"47"
+	def3[]:"48"
+	def3[]:"49"
+	def3[]:"50"
+	def3[]:"51"
+	def3[]:"52"
+	def3[]:"53"
+	def3[]:"54"
+	def3[]:"55"
+	def3[]:"56"
+	def3[]:"57"
+	def3[]:"58"
+	def3[]:"59"
+	def3[]:"60"
+	def3[]:"61"
+	def3[]:"62"
+	def3[]:"63"
+	def3[]:"64"
+	def3[]:"65"
+	def3[]:"66"
+	def3[]:"67"  # "WP" II latest issued (October 2019)
+#	def3[]:"68"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .plock.lp.trailer
+{
+	type: trailer
+
+	# Two letter powiat codes
+	templates[]:"WP5344C"   # II   some before EU stars
+
+#	def3[]:"00"
+#	def3[]:"01"
+#	def3[]:"02"
+#	def3[]:"03"
+#	def3[]:"04"
+#	def3[]:"05"
+#	def3[]:"06"
+#	def3[]:"07"
+#	def3[]:"08"
+#	def3[]:"09"
+#	def3[]:"10"
+#	def3[]:"11"
+#	def3[]:"12"
+#	def3[]:"13"
+#	def3[]:"14"
+#	def3[]:"15"
+#	def3[]:"16"
+#	def3[]:"17"
+#	def3[]:"18"
+#	def3[]:"19"
+#	def3[]:"20"
+#	def3[]:"21"
+#	def3[]:"22"
+#	def3[]:"23"
+#	def3[]:"24"  # Likely before EU stars
+#	def3[]:"25"
+#	def3[]:"26"
+#	def3[]:"27"
+#	def3[]:"28"
+#	def3[]:"29"
+#	def3[]:"30"
+#	def3[]:"31"
+#	def3[]:"32"
+#	def3[]:"33"
+#	def3[]:"34"
+#	def3[]:"35"
+#	def3[]:"36"
+#	def3[]:"37"
+#	def3[]:"38"
+#	def3[]:"39"
+#	def3[]:"40"
+#	def3[]:"41"
+#	def3[]:"42"
+#	def3[]:"43"
+#	def3[]:"44"
+#	def3[]:"45"
+#	def3[]:"46"
+#	def3[]:"47"
+#	def3[]:"48"
+#	def3[]:"49"
+#	def3[]:"50"
+#	def3[]:"51"
+#	def3[]:"52"
+#	def3[]:"53"
+#	def3[]:"54"
+	def3[]:"55"
+	def3[]:"56"
+	def3[]:"57"
+	def3[]:"58"
+	def3[]:"59"
+	def3[]:"60"
+	def3[]:"61"
+	def3[]:"62"
+	def3[]:"63"
+	def3[]:"64"
+	def3[]:"65"
+	def3[]:"66"
+	def3[]:"67"
+	def3[]:"68"
+	def3[]:"69"
+	def3[]:"70"
+	def3[]:"71"
+	def3[]:"72"
+	def3[]:"73"
+	def3[]:"74"
+	def3[]:"75"
+	def3[]:"76"
+	def3[]:"77"
+	def3[]:"78"
+	def3[]:"79"
+	def3[]:"80"
+	def3[]:"81"
+	def3[]:"82"
+	def3[]:"83"
+	def3[]:"84"
+	def3[]:"85"  # "WP" II latest issued (October 2019)
+#	def3[]:"86"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .plock.lp.police
+{
+	type: police
+
+	# H = Masovian (Mazowieckie) Provincial Headquarters
+	templates[]:"HPH51222"
+#	templates[]:"HPH51222"
+#	templates[]:"HPH51222"
+#	templates[]:"HPH51222"
+#	templates[]:"HPH52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

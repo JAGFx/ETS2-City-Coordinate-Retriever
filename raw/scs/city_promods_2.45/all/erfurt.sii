@@ -1,0 +1,275 @@
+city_data: city.erfurt
+{
+	city_name: "Erfurt"
+	city_name_localized: "@@erfurt@@"
+	country: germany
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -32
+	map_x_offsets[]: -28
+	map_x_offsets[]: -30
+	map_x_offsets[]: -27
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -42
+	map_y_offsets[]: -35
+	map_y_offsets[]: -21
+	map_y_offsets[]: -27
+
+	license_plate[]: .erfurt.lp.car
+	license_plate[]: .erfurt.lp.truck
+	license_plate[]: .erfurt.lp.trailer
+	license_plate[]: .erfurt.lp.police
+}
+
+license_plate_data : .erfurt.lp.car
+{
+	type: car
+
+	# One or two character location code
+#	templates[]:"051 3444"  # Group e
+#	templates[]:"051 3444"
+#	templates[]:"051 3444"
+#	templates[]:"051 3444"
+	templates[]:"051 344"   # Group c
+	templates[]:"051 344"
+	templates[]:"051 344"
+	templates[]:"051 344"
+	templates[]:"051 34"    # Group b - Rare
+	templates[]:"051 3"     # Group b - Very rare
+#	templates[]:"052 3444"  # Group d
+#	templates[]:"052 3444"
+#	templates[]:"052 3444"
+#	templates[]:"052 3444"
+	templates[]:"052 344"   # Group a
+	templates[]:"052 344"
+	templates[]:"052 344"
+	templates[]:"052 344"
+	templates[]:"052 34"    # Group a - Rare
+	templates[]:"052 3"     # Group a - Very rare
+
+	def0[]:"EF<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_thurin.mat color=FFFFFFFF>"   # Erfurt, Thüringen
+
+@include "/def/city/lp_de_two_letter_combinations_1.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_current.sui"
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .erfurt.lp.truck
+{
+	type: truck
+
+#	templates[]:"051 3444"
+	templates[]:"051 344"
+#	templates[]:"052 3444"
+#	templates[]:"052 344"
+
+	def0[]:"EF<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_thurin.mat color=FFFFFFFF>"   # Erfurt, Thüringen
+
+@include "/def/city/lp_de_two_letter_combinations_1.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .erfurt.lp.trailer
+{
+	type: trailer
+
+#	templates[]:"051 3444"
+	templates[]:"051 344"
+#	templates[]:"052 3444"
+#	templates[]:"052 344"
+
+	def0[]:"EF<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_thurin.mat color=FFFFFFFF>"   # Erfurt, Thüringen
+
+@include "/def/city/lp_de_two_letter_combinations_1.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"I"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"Q"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}
+
+license_plate_data : .erfurt.lp.police
+{
+	type: police
+
+	templates[]:"05TP 2444"  # (2007-2010)
+	templates[]:"05LP 3444"  # (started 2011)
+
+	def0[]:"EF<offset hshift=-1 vshift=12><img src=/material/ui/lp/germany/b_thurin.mat color=FFFFFFFF>"     # Thüringen Land official vehicles
+
+	def2[]:"1"   # Erfurt
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+@include "/def/city/lp_de_hauptuntersuchung_current.sui"
+@include "/def/city/lp_de_hauptuntersuchung_next.sui"
+}

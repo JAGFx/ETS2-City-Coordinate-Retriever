@@ -1,0 +1,28 @@
+﻿
+city_data: city.europabr
+{
+	city_name: "Raststation Europabrücke"
+	short_city_name: "Raststation Europabrücke"
+	city_name_uppercase: "RASTSTATION EUROPABRÜCKE"
+	country: austria
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+
+}
+

@@ -1,0 +1,28 @@
+
+city_data: city.fresno
+{
+	city_name: "Fresno"
+	short_city_name: "Fresno"
+	city_name_uppercase: "FRESNO"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -32
+	map_x_offsets[]: -33
+	map_x_offsets[]: -30
+	map_x_offsets[]: -32
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -49
+	map_y_offsets[]: -31
+	map_y_offsets[]: -26
+	map_y_offsets[]: -27
+
+}
+

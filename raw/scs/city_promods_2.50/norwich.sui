@@ -1,0 +1,162 @@
+city_data: city.norwich
+{
+	city_name: "Norwich"
+	city_name_localized: "@@norwich@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -105
+	map_x_offsets[]: -50
+	map_x_offsets[]: -43
+	map_x_offsets[]: -37
+	map_x_offsets[]: -42
+	map_x_offsets[]: -42
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -5
+	map_y_offsets[]: -35
+	map_y_offsets[]: -151
+	map_y_offsets[]: -46
+	map_y_offsets[]: -24
+	map_y_offsets[]: -27
+
+	vehicle_brands[]:"volvo"
+
+	license_plate[]: .norwich.lp.car
+	license_plate[]: .norwich.lp.truck
+	license_plate[]: .norwich.lp.trailer
+}
+
+license_plate_data : .norwich.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Anglia, Norwich
+#	def0[]:"AH"  # Reserved for select issue
+#	def0[]:"AL"  # Reserved for select issue
+	def0[]:"AO"
+	def0[]:"AP"
+	def0[]:"AR"
+	def0[]:"AS"
+	def0[]:"AT"
+	def0[]:"AU"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .norwich.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Anglia, Norwich
+#	def0[]:"AH"  # Reserved for select issue
+#	def0[]:"AL"  # Reserved for select issue
+	def0[]:"AO"
+	def0[]:"AP"
+	def0[]:"AR"
+	def0[]:"AS"
+	def0[]:"AT"
+	def0[]:"AU"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .norwich.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Anglia, Norwich
+#	def0[]:"AH"  # Reserved for select issue
+#	def0[]:"AL"  # Reserved for select issue
+	def0[]:"AO"
+	def0[]:"AP"
+	def0[]:"AR"
+	def0[]:"AS"
+	def0[]:"AT"
+	def0[]:"AU"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

@@ -1,0 +1,172 @@
+city_data: city.grimsby
+{
+	city_name: "Grimsby"
+	city_name_localized: "@@grimsby@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -135 // close zoom for minimap
+	map_x_offsets[]: -30 // far zoom for minimap
+	map_x_offsets[]: 0 // city zoom for world map
+	map_x_offsets[]: -15 // closest zoom for world map
+	map_x_offsets[]: -20 // middle zoom for world map
+	map_x_offsets[]: -30 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -45
+	map_y_offsets[]: 12
+	map_y_offsets[]: -10
+	map_y_offsets[]: -10
+	map_y_offsets[]: 5
+	map_y_offsets[]: -10
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]:"iveco"
+
+	license_plate[]: .grimsby.lp.car
+	license_plate[]: .grimsby.lp.truck
+	license_plate[]: .grimsby.lp.trailer
+}
+
+license_plate_data : .grimsby.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Forest & Fens, Lincoln
+	def0[]:"FR"
+	def0[]:"FS"
+	def0[]:"FT"
+#	def0[]:"FU"  # Banned and not issued
+	def0[]:"FV"
+	def0[]:"FW"
+	def0[]:"FX"
+	def0[]:"FY"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .grimsby.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Forest & Fens, Lincoln
+	def0[]:"FR"
+	def0[]:"FS"
+	def0[]:"FT"
+#	def0[]:"FU"  # Banned and not issued
+	def0[]:"FV"
+	def0[]:"FW"
+	def0[]:"FX"
+	def0[]:"FY"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .grimsby.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Forest & Fens, Lincoln
+	def0[]:"FR"
+	def0[]:"FS"
+	def0[]:"FT"
+#	def0[]:"FU"  # Banned and not issued
+	def0[]:"FV"
+	def0[]:"FW"
+	def0[]:"FX"
+	def0[]:"FY"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

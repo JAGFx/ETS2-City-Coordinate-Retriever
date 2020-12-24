@@ -1,0 +1,24 @@
+city_data: city.everett
+{
+	city_name: "Everett"
+	city_name_localized: "@@everett@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -128
+	map_x_offsets[]: -58
+	map_x_offsets[]: 17
+	map_x_offsets[]: 10
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: -169
+	map_y_offsets[]: -69
+	map_y_offsets[]: -11
+	map_y_offsets[]: -12
+}

@@ -1,0 +1,24 @@
+city_data: city.port_angeles
+{
+	city_name: "Port Angeles"
+	city_name_localized: "@@port_angeles@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: 227
+	map_x_offsets[]: -50
+	map_x_offsets[]: -61
+	map_x_offsets[]: -126
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 33
+	map_y_offsets[]: -88
+	map_y_offsets[]: -40
+	map_y_offsets[]: -12
+}

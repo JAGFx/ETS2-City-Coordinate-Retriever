@@ -1,0 +1,178 @@
+city_data: city.southampton
+{
+	city_name: "Southampton"
+	city_name_localized: "@@southampton@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -60
+	map_x_offsets[]: -50
+	map_x_offsets[]: -55
+	map_x_offsets[]: -55
+	map_x_offsets[]: -54
+	map_x_offsets[]: -56
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -70
+	map_y_offsets[]: -40
+	map_y_offsets[]: 51
+	map_y_offsets[]: 14
+	map_y_offsets[]: 5
+	map_y_offsets[]: 1
+
+	license_plate[]: .southampton.lp.car
+	license_plate[]: .southampton.lp.truck
+	license_plate[]: .southampton.lp.trailer
+}
+
+license_plate_data : .southampton.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Hampshire & Dorset, Portsmouth
+	def0[]:"HK"
+	def0[]:"HL"
+	def0[]:"HM"
+	def0[]:"HN"
+#	def0[]:"HO"  # Reserved for select issue
+	def0[]:"HP"
+	def0[]:"HR"
+	def0[]:"HS"
+	def0[]:"HT"
+	def0[]:"HU"
+	def0[]:"HV"
+#	def0[]:"HW"  # Reserved for Isle of Wight
+	def0[]:"HX"
+	def0[]:"HY"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .southampton.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Hampshire & Dorset, Portsmouth
+	def0[]:"HK"
+	def0[]:"HL"
+	def0[]:"HM"
+	def0[]:"HN"
+#	def0[]:"HO"  # Reserved for select issue
+	def0[]:"HP"
+	def0[]:"HR"
+	def0[]:"HS"
+	def0[]:"HT"
+	def0[]:"HU"
+	def0[]:"HV"
+#	def0[]:"HW"  # Reserved for Isle of Wight
+	def0[]:"HX"
+	def0[]:"HY"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .southampton.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Hampshire & Dorset, Portsmouth
+	def0[]:"HK"
+	def0[]:"HL"
+	def0[]:"HM"
+	def0[]:"HN"
+#	def0[]:"HO"  # Reserved for select issue
+	def0[]:"HP"
+	def0[]:"HR"
+	def0[]:"HS"
+	def0[]:"HT"
+	def0[]:"HU"
+	def0[]:"HV"
+#	def0[]:"HW"  # Reserved for Isle of Wight
+	def0[]:"HX"
+	def0[]:"HY"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

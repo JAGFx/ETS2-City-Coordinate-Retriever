@@ -1,0 +1,30 @@
+
+city_data: city.san_francisc
+{
+	city_name: "San Francisco"
+	short_city_name: "San Francisco"
+	city_name_uppercase: "SAN FRANCISCO"
+	country: california
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -110
+	map_x_offsets[]: -139
+	map_x_offsets[]: -137
+	map_x_offsets[]: -137
+	map_x_offsets[]: -137
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -20
+	map_y_offsets[]: -130
+	map_y_offsets[]: -47
+	map_y_offsets[]: -17
+	map_y_offsets[]: -10
+
+
+	vehicle_brands[]: "volvo"
+}
+

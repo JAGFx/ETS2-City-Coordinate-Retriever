@@ -1,0 +1,530 @@
+city_data: city.zamosc
+{
+	city_name: "Zamość"
+	city_name_localized: "@@zamosc@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	### MEDIUM CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 1.0  // middle zoom for world map
+	city_pin_scale_factor[]: 0.8  // whole world map zoom
+
+	vehicle_brands[]:"daf"
+
+	license_plate[]: .zamosc.lp.car
+	license_plate[]: .zamosc.lp.truck
+	license_plate[]: .zamosc.lp.trailer
+	license_plate[]: .zamosc.lp.police
+}
+
+license_plate_data : .zamosc.lp.car
+{
+	type: car
+
+	# Two letter powiat codes
+	templates[]:"LZ50444"    # I    some before EU stars
+	templates[]:"LZ50444"    # I    some before EU stars
+	templates[]:"LZ50444"    # I    some before EU stars
+	templates[]:"LZ50444"    # I    some before EU stars
+
+	# Three letter powiat codes
+#	templates[]:"LZA52444"   # I    before EU stars
+	templates[]:"LZA5244"    # III  most before EU stars
+	templates[]:"LZA5443"    # IV   some before EU stars
+	templates[]:"LZA51444"   # VII
+
+#	def0[]:"00"
+#	def0[]:"01"
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"
+#	def0[]:"06"
+#	def0[]:"07"
+#	def0[]:"08"
+#	def0[]:"09"
+#	def0[]:"10"
+#	def0[]:"11"
+#	def0[]:"12"
+#	def0[]:"13"
+#	def0[]:"14"
+#	def0[]:"15"
+#	def0[]:"16"
+#	def0[]:"17"
+#	def0[]:"18"
+#	def0[]:"19"
+#	def0[]:"20"  # Before EU stars
+	def0[]:"21"  # Some before EU stars
+	def0[]:"22"
+	def0[]:"23"
+	def0[]:"24"
+	def0[]:"25"
+	def0[]:"26"
+	def0[]:"27"
+	def0[]:"28"
+	def0[]:"29"
+	def0[]:"30"
+	def0[]:"31"
+	def0[]:"32"
+	def0[]:"33"
+	def0[]:"34"
+	def0[]:"35"
+	def0[]:"36"
+	def0[]:"37"
+	def0[]:"38"
+	def0[]:"39"
+	def0[]:"40"
+	def0[]:"41"
+	def0[]:"42"
+	def0[]:"43"
+	def0[]:"44"
+	def0[]:"45"
+	def0[]:"46"
+	def0[]:"47"
+	def0[]:"48"
+	def0[]:"49"
+	def0[]:"50"
+	def0[]:"51"
+	def0[]:"52"
+	def0[]:"53"
+	def0[]:"54"
+	def0[]:"55"
+	def0[]:"56"
+	def0[]:"57"
+	def0[]:"58"
+	def0[]:"59"
+	def0[]:"60"
+	def0[]:"61"
+	def0[]:"62"
+	def0[]:"63"
+	def0[]:"64"
+	def0[]:"65"
+	def0[]:"66"
+	def0[]:"67"
+	def0[]:"68"
+	def0[]:"69"
+	def0[]:"70"
+	def0[]:"71"
+	def0[]:"72"
+	def0[]:"73"
+	def0[]:"74"
+	def0[]:"75"
+	def0[]:"76"  # "LZ" I latest issued (November 2019)
+#	def0[]:"77"  # Future
+#	def0[]:"78"  # Future
+#	def0[]:"79"  # Future
+#	def0[]:"80"  # Future
+#	def0[]:"81"  # Future
+#	def0[]:"82"  # Future
+#	def0[]:"83"  # Future
+#	def0[]:"84"  # Future
+#	def0[]:"85"  # Future
+#	def0[]:"86"  # Future
+#	def0[]:"87"  # Future
+#	def0[]:"88"  # Future
+#	def0[]:"89"  # Future
+
+	def1[]:"00"
+	def1[]:"01"
+	def1[]:"02"
+	def1[]:"03"
+	def1[]:"04"
+	def1[]:"05"
+	def1[]:"06"
+	def1[]:"07"
+	def1[]:"08"
+	def1[]:"09"
+	def1[]:"10"
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"
+	def1[]:"14"
+	def1[]:"15"
+	def1[]:"16"
+	def1[]:"17"
+	def1[]:"18"
+	def1[]:"19"
+	def1[]:"20"
+	def1[]:"21"
+	def1[]:"22"
+	def1[]:"23"
+	def1[]:"24"
+	def1[]:"25"
+	def1[]:"26"
+	def1[]:"27"
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"
+	def1[]:"33"
+	def1[]:"34"
+	def1[]:"35"
+	def1[]:"36"
+	def1[]:"37"
+	def1[]:"38"
+	def1[]:"39"
+	def1[]:"40"
+	def1[]:"41"
+	def1[]:"42"
+	def1[]:"43"
+	def1[]:"44"
+	def1[]:"45"
+	def1[]:"46"
+	def1[]:"47"
+	def1[]:"48"
+	def1[]:"49"
+	def1[]:"50"
+	def1[]:"51"
+	def1[]:"52"
+	def1[]:"53"
+	def1[]:"54"
+	def1[]:"55"
+	def1[]:"56"
+	def1[]:"57"
+	def1[]:"58"
+	def1[]:"59"
+	def1[]:"60"
+	def1[]:"61"
+	def1[]:"62"
+	def1[]:"63"
+	def1[]:"64"
+	def1[]:"65"
+	def1[]:"66"
+	def1[]:"67"
+	def1[]:"68"
+	def1[]:"69"
+	def1[]:"70"
+	def1[]:"71"
+	def1[]:"72"
+	def1[]:"73"
+	def1[]:"74"
+	def1[]:"75"
+	def1[]:"76"
+	def1[]:"77"
+	def1[]:"78"
+	def1[]:"79"
+	def1[]:"80"
+	def1[]:"81"
+	def1[]:"82"  # "LZA" VII latest issued (October 2019)
+#	def1[]:"83"  # Future
+
+#	def2[]:"1S"
+#	def2[]:"2S"
+#	def2[]:"3S"
+#	def2[]:"4S"
+#	def2[]:"5S"
+#	def2[]:"6S"
+#	def2[]:"7S"  # "LZA" most before EU stars
+	def2[]:"8S"
+	def2[]:"9S"
+	def2[]:"1R"
+	def2[]:"2R"
+	def2[]:"3R"
+	def2[]:"4R"
+	def2[]:"5R"
+	def2[]:"6R"
+#	def2[]:"7R"  # Not issued
+#	def2[]:"8R"  # Not issued
+#	def2[]:"9R"  # Not issued
+
+#	def3[]:"A1"
+#	def3[]:"A2"  # "LZA" most before EU stars
+	def3[]:"A3"
+	def3[]:"A4"
+	def3[]:"A5"
+	def3[]:"A6"
+	def3[]:"A7"
+	def3[]:"A8"
+	def3[]:"A9"
+	def3[]:"C1"
+	def3[]:"C2"
+	def3[]:"C3"
+	def3[]:"C4"
+	def3[]:"C5"
+	def3[]:"C6"
+	def3[]:"C7"
+	def3[]:"C8"
+	def3[]:"C9"
+	def3[]:"E1"
+	def3[]:"E2"
+	def3[]:"E3"
+	def3[]:"E4"
+	def3[]:"E5"
+	def3[]:"E6"
+	def3[]:"E7"
+#	def3[]:"E8"  # Used for "LZA" double-row plates
+#	def3[]:"E9"  # Used for "LZA" double-row plates
+#	def3[]:"F1"  # Used for "LZA" double-row plates
+#	def3[]:"F2"  # Used for "LZA" double-row plates
+#	def3[]:"F3"  # Used for "LZA" double-row plates
+#	def3[]:"F4"  # Used for "LZA" double-row plates
+#	def3[]:"F5"  # Used for "LZA" double-row plates
+#	def3[]:"F6"  # Used for "LZA" double-row plates
+#	def3[]:"F7"  # Used for "LZA" double-row plates
+#	def3[]:"F8"  # Reserved for "LZA" double-row plates
+#	def3[]:"F9"  # Reserved for "LZA" double-row plates
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .zamosc.lp.truck
+{
+	type: truck
+
+	# Two letter powiat codes
+	templates[]:"LZ50444"   # I    some before EU stars
+	templates[]:"LZ50444"   # I    some before EU stars
+	templates[]:"LZ50444"   # I    some before EU stars
+	templates[]:"LZ5144"    # I
+
+#	def0[]:"00"
+#	def0[]:"01"
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"
+#	def0[]:"06"
+#	def0[]:"07"
+#	def0[]:"08"
+#	def0[]:"09"
+#	def0[]:"10"
+#	def0[]:"11"
+#	def0[]:"12"
+#	def0[]:"13"
+#	def0[]:"14"
+#	def0[]:"15"
+#	def0[]:"16"
+#	def0[]:"17"
+#	def0[]:"18"
+#	def0[]:"19"
+#	def0[]:"20"  # Before EU stars
+#	def0[]:"21"  # Some before EU stars
+#	def0[]:"22"
+#	def0[]:"23"
+#	def0[]:"24"
+#	def0[]:"25"
+#	def0[]:"26"
+#	def0[]:"27"
+#	def0[]:"28"
+#	def0[]:"29"
+#	def0[]:"30"
+#	def0[]:"31"
+#	def0[]:"32"
+#	def0[]:"33"
+#	def0[]:"34"
+#	def0[]:"35"
+#	def0[]:"36"
+#	def0[]:"37"
+#	def0[]:"38"
+#	def0[]:"39"
+#	def0[]:"40"
+#	def0[]:"41"
+#	def0[]:"42"
+#	def0[]:"43"
+#	def0[]:"44"
+#	def0[]:"45"
+#	def0[]:"46"
+#	def0[]:"47"
+#	def0[]:"48"
+#	def0[]:"49"
+#	def0[]:"50"
+#	def0[]:"51"
+#	def0[]:"52"
+#	def0[]:"53"
+#	def0[]:"54"
+#	def0[]:"55"
+#	def0[]:"56"
+#	def0[]:"57"
+#	def0[]:"58"
+#	def0[]:"59"
+#	def0[]:"60"
+#	def0[]:"61"
+#	def0[]:"62"
+#	def0[]:"63"
+#	def0[]:"64"
+#	def0[]:"65"
+#	def0[]:"66"
+#	def0[]:"67"
+#	def0[]:"68"
+#	def0[]:"69"
+#	def0[]:"70"
+#	def0[]:"71"
+#	def0[]:"72"
+	def0[]:"73"
+	def0[]:"74"
+	def0[]:"75"
+
+	def1[]:"760"
+	def1[]:"761"  # "LZ" I latest issued (November 2019)
+#	def1[]:"762"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .zamosc.lp.trailer
+{
+	type: trailer
+
+	# Two letter powiat codes
+	templates[]:"LZ5044"    # I    some before EU stars
+
+#	def0[]:"980"
+#	def0[]:"981"
+#	def0[]:"982"
+#	def0[]:"983"
+#	def0[]:"984"
+##	def0[]:"985"  # Used for double-row plates
+#	def0[]:"986"
+#	def0[]:"987"
+##	def0[]:"988"  # Partially used for double-row plates
+##	def0[]:"989"  # Partially used for double-row plates
+##	def0[]:"970"  # Used for double-row plates
+##	def0[]:"971"  # Used for double-row plates
+##	def0[]:"972"  # Used for double-row plates
+##	def0[]:"973"  # Used for double-row plates
+##	def0[]:"974"  # Used for double-row plates
+#	def0[]:"975"
+#	def0[]:"976"  # Before EU stars
+	def0[]:"977"
+	def0[]:"978"
+	def0[]:"979"
+	def0[]:"960"
+	def0[]:"961"
+	def0[]:"962"
+	def0[]:"963"
+	def0[]:"964"
+	def0[]:"965"
+	def0[]:"966"
+#	def0[]:"967"  # Used for double-row plates
+	def0[]:"968"
+	def0[]:"969"
+	def0[]:"950"
+	def0[]:"951"
+	def0[]:"952"
+	def0[]:"953"
+	def0[]:"954"
+	def0[]:"955"
+	def0[]:"956"
+	def0[]:"957"
+	def0[]:"958"
+	def0[]:"959"
+	def0[]:"940"
+	def0[]:"941"
+	def0[]:"942"
+	def0[]:"943"
+	def0[]:"944"
+	def0[]:"945"  # Partially used for double-row plates
+	def0[]:"946"
+	def0[]:"947"  # "LZ" I latest issued (November 2019)
+#	def0[]:"948"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .zamosc.lp.police
+{
+	type: police
+
+	# D = Lublin (Lubelskie) Voivodeship Headquarters
+	templates[]:"HPD51222"
+#	templates[]:"HPD51222"
+#	templates[]:"HPD51222"
+#	templates[]:"HPD51222"
+#	templates[]:"HPD52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

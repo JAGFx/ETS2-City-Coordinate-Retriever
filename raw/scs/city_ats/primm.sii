@@ -1,0 +1,28 @@
+
+city_data: city.primm
+{
+	city_name: "Primm"
+	short_city_name: "Primm"
+	city_name_uppercase: "PRIMM"
+	country: nevada
+
+	map_x_offsets[]: -200
+	map_x_offsets[]: -80
+	map_x_offsets[]: -60
+	map_x_offsets[]: -3
+	map_x_offsets[]: -28
+	map_x_offsets[]: -33
+	map_x_offsets[]: -28
+	map_x_offsets[]: -30
+
+	map_y_offsets[]: 220
+	map_y_offsets[]: 80
+	map_y_offsets[]: 95
+	map_y_offsets[]: 7
+	map_y_offsets[]: 158
+	map_y_offsets[]: 14
+	map_y_offsets[]: -13
+	map_y_offsets[]: -26
+
+}
+

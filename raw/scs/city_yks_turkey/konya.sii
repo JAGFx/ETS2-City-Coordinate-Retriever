@@ -1,0 +1,80 @@
+
+city_data: city.konya
+{
+	city_name: "Konya"
+	short_city_name: "Konya"
+	city_name_uppercase: "KONYA"
+	country: turkey
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 0
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	vehicle_brands[]: "scania"
+
+	truck_lp_template[]:"1 33 442"
+
+	truck_lp_def0[]:"<offset hshift=4 vshift=-5><img src=/material/ui/lp/germany/b.mat color=FFFFFFFF><offset hshift=4 vshift=5>"
+
+	truck_lp_def1[]:"42"
+
+	truck_lp_def2[]:"1"
+	truck_lp_def2[]:"2"
+	truck_lp_def2[]:"3"
+	truck_lp_def2[]:"4"
+	truck_lp_def2[]:"5"
+	truck_lp_def2[]:"6"
+	truck_lp_def2[]:"7"
+	truck_lp_def2[]:"8"
+	truck_lp_def2[]:"9"
+	
+	truck_lp_def3[]:"A"
+	truck_lp_def3[]:"B"
+	truck_lp_def3[]:"C"
+	truck_lp_def3[]:"D"
+	truck_lp_def3[]:"E"
+	truck_lp_def3[]:"F"
+	truck_lp_def3[]:"G"
+	truck_lp_def3[]:"H"
+	truck_lp_def3[]:"I"
+	truck_lp_def3[]:"J"
+	truck_lp_def3[]:"K"
+	truck_lp_def3[]:"L"
+	truck_lp_def3[]:"M"
+	truck_lp_def3[]:"N"
+	truck_lp_def3[]:"O"
+	truck_lp_def3[]:"P"
+	truck_lp_def3[]:"R"
+	truck_lp_def3[]:"T"
+	truck_lp_def3[]:"U"
+	truck_lp_def3[]:"V"
+	truck_lp_def3[]:"S"
+	truck_lp_def3[]:"Z"
+	truck_lp_def3[]:"Y"
+
+	truck_lp_def4[]:"0"
+	truck_lp_def4[]:"1"
+	truck_lp_def4[]:"2"
+	truck_lp_def4[]:"3"
+	truck_lp_def4[]:"4"
+	truck_lp_def4[]:"5"
+	truck_lp_def4[]:"6"
+	truck_lp_def4[]:"7"
+	truck_lp_def4[]:"8"
+	truck_lp_def4[]:"9"
+}
+

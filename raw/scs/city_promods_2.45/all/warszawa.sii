@@ -1,0 +1,765 @@
+city_data: city.warszawa
+{
+	city_name: "Warszawa"
+	city_name_localized: "@@warszawa@@"
+	country: poland
+	key_city: true
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -43
+	map_x_offsets[]: -45
+	map_x_offsets[]: -45
+	map_x_offsets[]: -44
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -53
+	map_y_offsets[]: -39
+	map_y_offsets[]: -27
+	map_y_offsets[]: -26
+
+	vehicle_brands[]:"mercedes"
+
+	license_plate[]: .warszawa.lp.car
+	license_plate[]: .warszawa.lp.truck
+	license_plate[]: .warszawa.lp.trailer
+	license_plate[]: .warszawa.lp.police
+}
+
+license_plate_data : .warszawa.lp.car
+{
+	type: car
+
+	# Białołęka
+	templates[]:"WA544444"   # I    some before EU stars
+	templates[]:"WA54444A"   # II
+	templates[]:"WA54444C"   # II
+	templates[]:"WA54444E"   # II
+
+	# Bemowo
+#	templates[]:"WB544444"   # I    most before EU stars
+	templates[]:"WB584444"   # I*   limited range selected
+	templates[]:"WB594444"   # I*   limited range selected
+	templates[]:"WB54444A"   # II
+	templates[]:"WB54444C"   # II
+	templates[]:"WB54444E"   # II
+	templates[]:"WB54444F"   # II
+	templates[]:"WB54444G"   # II
+	templates[]:"WB54444H"   # II
+	templates[]:"WB54444J"   # II
+	templates[]:"WB54444K"   # II
+	templates[]:"WB54444L"   # II
+	templates[]:"WB54444M"   # II
+	templates[]:"WB54444N"   # II
+	templates[]:"WB54444P"   # II
+	templates[]:"WB54444R"   # II
+	templates[]:"WB54444S"   # II
+	templates[]:"WB54444T"   # II
+	templates[]:"WB54444U"   # II
+
+	# Bielany
+#	templates[]:"WD544444"   # I    most before EU stars
+	templates[]:"WD584444"   # I*   limited range selected
+	templates[]:"WD594444"   # I*   limited range selected
+	templates[]:"WD54444A"   # II
+	templates[]:"WD54444C"   # II
+	templates[]:"WD54444E"   # II
+	templates[]:"WD54444G"   # II
+	templates[]:"WD54444F"   # II
+	templates[]:"WD54444K"   # II
+	templates[]:"WD54444L"   # II
+	templates[]:"WD54444J"   # II
+	templates[]:"WD54444H"   # II
+	templates[]:"WD54444M"   # II
+	templates[]:"WD54444N"   # II
+
+	# Mokotów
+#	templates[]:"WE544444"   # I    before EU stars
+	templates[]:"WE544442"   # II   some before EU stars
+	templates[]:"WE5444C2"   # III
+	templates[]:"WE5444E2"   # III
+	templates[]:"WE5444F2"   # III
+	templates[]:"WE5444G2"   # III
+	templates[]:"WE5444H2"   # III
+	templates[]:"WE5444J2"   # III
+	templates[]:"WE5444K2"   # III
+	templates[]:"WE5444L2"   # III
+	templates[]:"WE5444M2"   # III
+	templates[]:"WE5444N2"   # III
+	templates[]:"WE5444P2"   # III
+	templates[]:"WE5444R2"   # III
+	templates[]:"WE5444S2"   # III
+	templates[]:"WE5444T2"   # III
+	templates[]:"WE5444U2"   # III
+	templates[]:"WE5444V2"   # III
+	templates[]:"WE5444W2"   # III
+	templates[]:"WE5444X2"   # III
+
+	# Praga Południe
+#	templates[]:"WF544444"   # I    most before EU stars
+	templates[]:"WF584444"   # I*   limited range selected
+	templates[]:"WF594444"   # I*   limited range selected
+	templates[]:"WF54444A"   # II
+	templates[]:"WF54444C"   # II
+	templates[]:"WF54444E"   # II
+	templates[]:"WF54444F"   # II
+	templates[]:"WF54444G"   # II
+	templates[]:"WF54444H"   # II
+	templates[]:"WF54444J"   # II
+	templates[]:"WF54444K"   # II
+	templates[]:"WF54444L"   # II
+	templates[]:"WF54444M"   # II
+	templates[]:"WF54444N"   # II
+	templates[]:"WF54444P"   # II
+	templates[]:"WF54444R"   # II
+	templates[]:"WF54444S"   # II
+	templates[]:"WF54444T"   # II
+
+	# Praga Północ
+	templates[]:"WH50444"    # I    some before EU stars
+
+	# Śródmieście
+#	templates[]:"WI544444"   # I    before EU stars
+	templates[]:"WI544442"   # II   some before EU stars
+	templates[]:"WI5444E2"   # III
+	templates[]:"WI5444F2"   # III
+	templates[]:"WI5444G2"   # III
+	templates[]:"WI5444H2"   # III
+	templates[]:"WI5444J2"   # III
+
+	# Targówek
+#	templates[]:"WJ544444"   # I    half before EU stars
+	templates[]:"WJ584444"   # I*   limited range selected
+	templates[]:"WJ594444"   # I*   limited range selected
+	templates[]:"WJ54444A"   # II
+	templates[]:"WJ54444C"   # II
+	templates[]:"WJ54444E"   # II
+	templates[]:"WJ54444F"   # II
+	templates[]:"WJ54444G"   # II
+	templates[]:"WJ54444H"   # II
+
+	# Ursus
+	templates[]:"WK51444"    # I    some before EU stars
+
+	# Ursynów
+#	templates[]:"WN544444"   # I    most before EU stars
+	templates[]:"WN584444"   # I*   limited range selected
+	templates[]:"WN594444"   # I*   limited range selected
+	templates[]:"WN54444A"   # II
+	templates[]:"WN54444C"   # II
+	templates[]:"WN54444E"   # II
+	templates[]:"WN54444F"   # II
+	templates[]:"WN54444G"   # II
+	templates[]:"WN54444H"   # II
+	templates[]:"WN54444J"   # II
+	templates[]:"WN54444K"   # II
+	templates[]:"WN54444L"   # II
+	templates[]:"WN54444M"   # II
+
+	# Wawer
+	templates[]:"WT544444"   # I    some before EU stars
+	templates[]:"WT54444A"   # II
+
+	# Ochota
+	templates[]:"WU544444"   # I    some before EU stars
+	templates[]:"WU54444A"   # II
+	templates[]:"WU54444C"   # II
+	templates[]:"WU54444E"   # II
+	templates[]:"WU54444F"   # II
+	templates[]:"WU54444G"   # II
+	templates[]:"WU54444H"   # II
+	templates[]:"WU54444J"   # II
+
+	# Włochy
+#	templates[]:"WW54444K"   # II   before EU stars
+#	templates[]:"WW54444L"   # II   before EU stars
+#	templates[]:"WW54444M"   # II   before EU stars
+#	templates[]:"WW54444N"   # II   before EU stars
+	templates[]:"WW54444V"   # II   some before EU stars
+	templates[]:"WW54444R"   # II
+	templates[]:"WW54444S"   # II
+	templates[]:"WW54444U"   # II
+	templates[]:"WW54444P"   # II
+	templates[]:"WW54444T"   # II
+	templates[]:"WW5444W2"   # III
+	templates[]:"WW5444X2"   # III
+	templates[]:"WW5444Y2"   # III
+#	templates[]:"WW5444S2"   # III  Future
+
+	# Wilanów
+#	templates[]:"WW54444F"   # II   before EU stars
+	templates[]:"WW54444G"   # II   some before EU stars
+	templates[]:"WW54444H"   # II
+	templates[]:"WW54444J"   # II
+	templates[]:"WW54444W"   # II
+
+	# Rembertów
+#	templates[]:"WW54444A"   # II   most before EU stars
+	templates[]:"WW54444C"   # II
+	templates[]:"WW54444E"   # II
+	templates[]:"WW54444X"   # II
+	templates[]:"WW54444Y"   # II
+
+	# Żoliborz
+	templates[]:"WX544444"   # I    some before EU stars
+	templates[]:"WX54444A"   # II
+	templates[]:"WX54444C"   # II
+
+	# Wesoła
+#	templates[]:"WX5444Y2"   # III  most before EU stars
+	templates[]:"WX5444XA"   # III
+	templates[]:"WX5444XC"   # III
+	templates[]:"WX5444XE"   # III
+	templates[]:"WX5444XF"   # III
+	templates[]:"WX5444XG"   # III
+	templates[]:"WX5444XH"   # III
+#	templates[]:"WX5444XJ"   # III  future
+
+	# Wola
+#	templates[]:"WY544444"   # I    most before EU stars
+	templates[]:"WY584444"   # I*   limited range selected
+	templates[]:"WY594444"   # I*   limited range selected
+	templates[]:"WY54444A"   # II
+	templates[]:"WY54444C"   # II
+	templates[]:"WY54444E"   # II
+	templates[]:"WY54444F"   # II
+	templates[]:"WY54444G"   # II
+	templates[]:"WY54444H"   # II
+	templates[]:"WY54444J"   # II
+	templates[]:"WY54444K"   # II
+	templates[]:"WY54444L"   # II
+	templates[]:"WY54444M"   # II
+
+#	def0[]:"00"
+#	def0[]:"01"
+#	def0[]:"02"
+#	def0[]:"03"
+#	def0[]:"04"
+#	def0[]:"05"
+#	def0[]:"06"
+#	def0[]:"07"
+#	def0[]:"08"
+#	def0[]:"09"
+#	def0[]:"10"
+#	def0[]:"11"
+#	def0[]:"12"
+#	def0[]:"13"
+#	def0[]:"14"
+#	def0[]:"15"
+#	def0[]:"16"
+#	def0[]:"17"
+#	def0[]:"18"
+#	def0[]:"19"
+#	def0[]:"20"
+#	def0[]:"21"
+#	def0[]:"22"  # Before EU stars
+	def0[]:"23"  # Some before EU stars
+	def0[]:"24"
+	def0[]:"25"
+	def0[]:"26"
+	def0[]:"27"
+	def0[]:"28"
+	def0[]:"29"
+	def0[]:"30"
+	def0[]:"31"
+	def0[]:"32"
+	def0[]:"33"
+	def0[]:"34"
+	def0[]:"35"
+	def0[]:"36"
+	def0[]:"37"
+	def0[]:"38"
+	def0[]:"39"
+	def0[]:"40"
+	def0[]:"41"
+	def0[]:"42"
+	def0[]:"43"
+	def0[]:"44"
+	def0[]:"45"
+	def0[]:"46"
+	def0[]:"47"
+	def0[]:"48"
+	def0[]:"49"
+	def0[]:"50"
+	def0[]:"51"
+	def0[]:"52"
+	def0[]:"53"
+	def0[]:"54"
+	def0[]:"55"
+	def0[]:"56"
+	def0[]:"57"
+	def0[]:"58"
+	def0[]:"59"
+	def0[]:"60"
+	def0[]:"61"
+	def0[]:"62"
+	def0[]:"63"
+	def0[]:"64"
+	def0[]:"65"
+	def0[]:"66"
+	def0[]:"67"
+	def0[]:"68"
+	def0[]:"69"
+	def0[]:"70"
+	def0[]:"71"
+	def0[]:"72"
+	def0[]:"73"
+	def0[]:"74"
+	def0[]:"75"
+	def0[]:"76"
+	def0[]:"77"
+	def0[]:"78"
+	def0[]:"79"
+	def0[]:"80"
+	def0[]:"81"
+	def0[]:"82"
+	def0[]:"83"
+	def0[]:"84"
+	def0[]:"85"
+	def0[]:"86"  # "WH" I latest issued (November 2019)
+#	def0[]:"87"  # Future
+
+#	def1[]:"00"
+#	def1[]:"01"
+#	def1[]:"02"
+#	def1[]:"03"
+#	def1[]:"04"
+#	def1[]:"05"
+#	def1[]:"06"
+#	def1[]:"07"
+#	def1[]:"08"
+#	def1[]:"09"
+#	def1[]:"10"
+#	def1[]:"11"
+#	def1[]:"12"
+#	def1[]:"13"
+#	def1[]:"14"
+#	def1[]:"15"
+#	def1[]:"16"  # Before EU stars
+	def1[]:"17"  # Some before EU stars
+	def1[]:"18"
+	def1[]:"19"
+	def1[]:"20"
+	def1[]:"21"
+	def1[]:"22"
+	def1[]:"23"
+	def1[]:"24"
+	def1[]:"25"
+	def1[]:"26"
+	def1[]:"27"
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"
+	def1[]:"33"
+	def1[]:"34"
+	def1[]:"35"
+	def1[]:"36"
+	def1[]:"37"
+	def1[]:"38"
+	def1[]:"39"
+	def1[]:"40"
+	def1[]:"41"
+	def1[]:"42"
+	def1[]:"43"
+	def1[]:"44"
+	def1[]:"45"
+	def1[]:"46"
+	def1[]:"47"
+	def1[]:"48"
+	def1[]:"49"
+	def1[]:"50"
+	def1[]:"51"
+	def1[]:"52"
+	def1[]:"53"
+	def1[]:"54"
+	def1[]:"55"
+	def1[]:"56"
+	def1[]:"57"
+	def1[]:"58"
+	def1[]:"59"
+	def1[]:"60"
+	def1[]:"61"
+	def1[]:"62"
+	def1[]:"63"
+	def1[]:"64"
+	def1[]:"65"
+	def1[]:"66"
+	def1[]:"67"
+	def1[]:"68"
+	def1[]:"69"
+	def1[]:"70"
+	def1[]:"71"  # "WK" I latest issued (November 2019)
+#	def1[]:"72"
+
+	def2[]:"A"
+	def2[]:"C"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+
+#	def3[]:"1"
+#	def3[]:"2"
+#	def3[]:"3"
+#	def3[]:"4"
+#	def3[]:"5"
+#	def3[]:"6"
+#	def3[]:"7"
+#	def3[]:"8"
+#	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .warszawa.lp.truck
+{
+	type: truck
+
+	# Wola
+#	templates[]:"WY50444"    # I    most before EU stars
+#	templates[]:"WY544441"   # II
+	templates[]:"WY5244M"    # II
+
+#	def0[]:"00"
+##	def0[]:"01"  # Partially used for double-row plates
+#	def0[]:"02"
+#	def0[]:"03"
+##	def0[]:"04"  # Partially used for double-row plates
+#	def0[]:"05"
+#	def0[]:"06"
+#	def0[]:"07"
+#	def0[]:"08"
+#	def0[]:"09"
+#	def0[]:"10"
+#	def0[]:"11"
+#	def0[]:"12"
+#	def0[]:"13"
+#	def0[]:"14"
+#	def0[]:"15"
+#	def0[]:"16"
+#	def0[]:"17"
+#	def0[]:"18"
+#	def0[]:"19"
+#	def0[]:"20"
+##	def0[]:"21"  # Partially used for double-row plates
+#	def0[]:"22"
+#	def0[]:"23"
+#	def0[]:"24"
+#	def0[]:"25"
+#	def0[]:"26"
+#	def0[]:"27"
+#	def0[]:"28"
+#	def0[]:"29"
+#	def0[]:"30"
+#	def0[]:"31"
+#	def0[]:"32"
+#	def0[]:"33"
+#	def0[]:"34"
+#	def0[]:"35"
+##	def0[]:"36"  # Partially used for double-row plates
+#	def0[]:"37"
+#	def0[]:"38"
+#	def0[]:"39"
+#	def0[]:"40"
+##	def0[]:"41"  # Partially used for double-row plates
+#	def0[]:"42"
+#	def0[]:"43"
+#	def0[]:"44"
+#	def0[]:"45"
+#	def0[]:"46"
+#	def0[]:"47"
+#	def0[]:"48"
+#	def0[]:"49"
+##	def0[]:"50"  # Partially used for double-row plates
+#	def0[]:"51"
+#	def0[]:"52"
+#	def0[]:"53"
+##	def0[]:"54"  # Partially used for double-row plates
+#	def0[]:"55"
+#	def0[]:"56"
+#	def0[]:"57"
+#	def0[]:"58"
+#	def0[]:"59"
+#	def0[]:"60"
+#	def0[]:"61"
+#	def0[]:"62"
+##	def0[]:"63"  # Partially used for double-row plates
+#	def0[]:"64"
+#	def0[]:"65"
+#	def0[]:"66"
+#	def0[]:"67"
+#	def0[]:"68"
+#	def0[]:"69"
+#	def0[]:"70"
+#	def0[]:"71"  # Most before EU stars
+#	def0[]:"72"
+#	def0[]:"73"
+#	def0[]:"74"
+#	def0[]:"75"
+#	def0[]:"76"
+#	def0[]:"77"
+#	def0[]:"78"
+#	def0[]:"79"
+#	def0[]:"80"
+#	def0[]:"81"
+#	def0[]:"82"
+#	def0[]:"83"
+#	def0[]:"84"
+#	def0[]:"85"
+#	def0[]:"86"
+#	def0[]:"87"
+#	def0[]:"88"
+#	def0[]:"89"
+#	def0[]:"90"
+#	def0[]:"91"
+#	def0[]:"92"
+#	def0[]:"93"
+#	def0[]:"94"
+#	def0[]:"95"
+#	def0[]:"96"
+#	def0[]:"97"
+#	def0[]:"98"
+#	def0[]:"99"
+
+#	def1[]:"A"
+#	def1[]:"C"
+#	def1[]:"E"
+#	def1[]:"F"
+#	def1[]:"G"
+#	def1[]:"H"
+#	def1[]:"J"
+#	def1[]:"K"
+#	def1[]:"L"
+
+#	def2[]:"00"
+#	def2[]:"01"
+#	def2[]:"02"
+#	def2[]:"03"
+#	def2[]:"04"
+#	def2[]:"05"
+#	def2[]:"06"
+#	def2[]:"07"
+#	def2[]:"08"
+#	def2[]:"09"
+#	def2[]:"10"
+#	def2[]:"11"
+#	def2[]:"12"
+#	def2[]:"13"
+#	def2[]:"14"
+#	def2[]:"15"
+#	def2[]:"16"
+#	def2[]:"17"
+#	def2[]:"18"
+#	def2[]:"19"
+#	def2[]:"20"
+#	def2[]:"21"
+#	def2[]:"22"
+#	def2[]:"23"
+#	def2[]:"24"
+#	def2[]:"25"
+#	def2[]:"26"
+#	def2[]:"27"
+#	def2[]:"28"
+#	def2[]:"29"
+	def2[]:"30"
+	def2[]:"31"
+	def2[]:"32"
+	def2[]:"33"
+	def2[]:"34"
+	def2[]:"35"
+	def2[]:"36"
+	def2[]:"37"
+	def2[]:"38"
+	def2[]:"39"
+	def2[]:"40"
+	def2[]:"41"
+	def2[]:"42"
+	def2[]:"43"
+	def2[]:"44"
+	def2[]:"45"
+	def2[]:"46"
+	def2[]:"47"
+	def2[]:"48"
+	def2[]:"49"
+	def2[]:"50"
+	def2[]:"51"
+	def2[]:"52"
+	def2[]:"53"
+	def2[]:"54"
+	def2[]:"55"
+	def2[]:"56"
+	def2[]:"57"
+	def2[]:"58"
+	def2[]:"59"
+	def2[]:"60"
+	def2[]:"61"  # "WY" II latest issued (November 2019)
+#	def2[]:"62"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .warszawa.lp.trailer
+{
+	type: trailer
+
+	# Wola
+	templates[]:"WY54440"    # III  some before EU stars
+	templates[]:"WY54440"    # III  some before EU stars
+	templates[]:"WY54440"    # III  some before EU stars
+	templates[]:"WY514AL"    # III
+
+#	def0[]:"AE"
+#	def0[]:"AC"
+#	def0[]:"AF"  Most before EU stars
+#	def0[]:"AG"
+	def0[]:"AH"
+	def0[]:"AJ"
+	def0[]:"AK"
+
+	def1[]:"00"
+	def1[]:"01"
+	def1[]:"02"
+	def1[]:"03"
+	def1[]:"04"
+	def1[]:"05"
+	def1[]:"06"
+	def1[]:"07"
+	def1[]:"08"
+	def1[]:"09"
+	def1[]:"10"
+	def1[]:"11"
+	def1[]:"12"
+	def1[]:"13"
+	def1[]:"14"
+	def1[]:"15"
+	def1[]:"16"
+	def1[]:"17"
+	def1[]:"18"
+	def1[]:"19"
+	def1[]:"20"
+	def1[]:"21"
+	def1[]:"22"
+	def1[]:"23"
+	def1[]:"24"
+	def1[]:"25"
+	def1[]:"26"
+	def1[]:"27"
+	def1[]:"28"
+	def1[]:"29"
+	def1[]:"30"
+	def1[]:"31"
+	def1[]:"32"
+	def1[]:"33"
+	def1[]:"34"
+	def1[]:"35"  # "WY" III latest issued (November 2019)
+#	def1[]:"36"  # Future
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .warszawa.lp.police
+{
+	type: police
+
+	templates[]:"HP051222"
+#	templates[]:"HP051222"
+#	templates[]:"HP051222"
+#	templates[]:"HP051222"
+#	templates[]:"HP052211"
+
+	def0[]:"H"  # Masovian (Mazowieckie) Provincial Headquarters
+	def0[]:"Z"  # Metropolitan Police Headquarters
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

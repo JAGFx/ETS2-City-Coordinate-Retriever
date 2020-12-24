@@ -1,0 +1,25 @@
+
+city_data : city.ruse
+{
+	city_name: "Русе"
+	city_name_localized: "@@ruse@@"
+	country: bulgaria
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: -62
+	map_x_offsets[]: -29
+	map_x_offsets[]: -20
+	map_x_offsets[]: -14
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: 24
+	map_y_offsets[]: 14
+	map_y_offsets[]: 9
+	map_y_offsets[]: 8
+}

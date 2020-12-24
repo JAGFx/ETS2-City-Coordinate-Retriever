@@ -1,0 +1,462 @@
+city_data: city.bobolice
+{
+	city_name: "Bobolice"
+	city_name_localized: "@@bobolice@@"
+	country: poland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -20
+	map_x_offsets[]: -15
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -30
+	map_y_offsets[]: -30
+	map_y_offsets[]: -18
+	map_y_offsets[]: -15
+
+	license_plate[]: .bobolice.lp.car
+	license_plate[]: .bobolice.lp.truck
+	license_plate[]: .bobolice.lp.trailer
+	license_plate[]: .bobolice.lp.police
+}
+
+license_plate_data : .bobolice.lp.car
+{
+	type: car
+
+	# Three letter powiat codes
+#	templates[]:"ZKO52444"   # I    before EU stars
+	templates[]:"ZKO54400"   # II   some before EU stars
+	templates[]:"ZKO53144"   # III
+	templates[]:"ZKO54413"   # IV
+	templates[]:"ZKO5323"    # V
+
+#	def0[]:"A"
+##	def0[]:"C"  # Used for motorcycles and tractors
+#	def0[]:"E"
+#	def0[]:"F"  # Before EU stars
+	def0[]:"G"
+	def0[]:"H"
+	def0[]:"J"
+	def0[]:"K"
+	def0[]:"L"
+	def0[]:"M"
+#	def0[]:"N"  # Used for mopeds
+	def0[]:"P"
+	def0[]:"R"
+	def0[]:"S"
+	def0[]:"T"
+#	def0[]:"U"  # Used for trailers
+	def0[]:"V"
+	def0[]:"W"
+	def0[]:"X"
+	def0[]:"Y"
+
+#	def1[]:"A"  # Used for trailers
+	def1[]:"C"
+	def1[]:"E"
+#	def1[]:"F"  # Used for trailers
+	def1[]:"G"
+	def1[]:"H"
+#	def1[]:"J"  # Used for trailers
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+#	def1[]:"U"  # Used for trailers
+	def1[]:"V"
+	def1[]:"W"
+#	def1[]:"X"  # Used for motorcycles and tractors
+#	def1[]:"Y"  # Used for mopeds
+
+	def2[]:"AA"
+	def2[]:"AC"
+	def2[]:"AE"
+	def2[]:"AF"
+	def2[]:"AG"
+	def2[]:"AH"
+	def2[]:"AJ"
+	def2[]:"AK"
+	def2[]:"AL"
+	def2[]:"AM"
+	def2[]:"AN"
+	def2[]:"AP"
+	def2[]:"AR"
+	def2[]:"AS"
+	def2[]:"AT"
+	def2[]:"AU"
+	def2[]:"AV"
+	def2[]:"AW"
+	def2[]:"AX"
+	def2[]:"AY"
+	def2[]:"CA"
+	def2[]:"CC"
+	def2[]:"CE"
+	def2[]:"CF"
+	def2[]:"CG"
+	def2[]:"CH"
+	def2[]:"CJ"
+	def2[]:"CK"
+	def2[]:"CL"
+	def2[]:"CM"
+	def2[]:"CN"
+	def2[]:"CP"
+	def2[]:"CR"
+	def2[]:"CS"
+	def2[]:"CT"
+	def2[]:"CU"
+	def2[]:"CV"
+	def2[]:"CW"
+	def2[]:"CX"
+	def2[]:"CY"
+	def2[]:"EA"
+	def2[]:"EC"
+	def2[]:"EE"
+	def2[]:"EF"
+	def2[]:"EG"
+	def2[]:"EH"
+	def2[]:"EJ"
+	def2[]:"EK"
+	def2[]:"EL"
+	def2[]:"EM"
+	def2[]:"EN"
+	def2[]:"EP"
+	def2[]:"ER"
+	def2[]:"ES"
+	def2[]:"ET"
+	def2[]:"EU"
+	def2[]:"EV"
+	def2[]:"EW"
+	def2[]:"EX"
+	def2[]:"EY"
+	def2[]:"FA"
+	def2[]:"FC"
+	def2[]:"FE"
+	def2[]:"FF"
+	def2[]:"FG"
+	def2[]:"FH"
+	def2[]:"FJ"
+	def2[]:"FK"
+	def2[]:"FL"
+	def2[]:"FM"
+	def2[]:"FN"
+	def2[]:"FP"
+	def2[]:"FR"
+	def2[]:"FS"
+	def2[]:"FT"
+	def2[]:"FU"
+	def2[]:"FV"
+	def2[]:"FW"
+	def2[]:"FX"
+	def2[]:"FY"
+	def2[]:"GA"  # "ZKO" V latest issued (October 2019)
+#	def2[]:"GC"  # Future
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .bobolice.lp.truck
+{
+	type: truck
+
+	# Three letter powiat codes
+#	templates[]:"ZKO52444"   # I    before EU stars
+#	templates[]:"ZKO54400"   # II   some before EU stars
+#	templates[]:"ZKO53144"   # III
+#	templates[]:"ZKO54413"   # IV
+	templates[]:"ZKO5323"    # V
+
+#	def0[]:"A"
+##	def0[]:"C"  # Used for motorcycles and tractors
+#	def0[]:"E"
+#	def0[]:"F"  # Before EU stars
+#	def0[]:"G"
+#	def0[]:"H"
+#	def0[]:"J"
+#	def0[]:"K"
+#	def0[]:"L"
+#	def0[]:"M"
+##	def0[]:"N"  # Used for mopeds
+#	def0[]:"P"
+#	def0[]:"R"
+#	def0[]:"S"
+#	def0[]:"T"
+##	def0[]:"U"  # Used for trailers
+#	def0[]:"V"
+#	def0[]:"W"
+#	def0[]:"X"
+#	def0[]:"Y"
+
+##	def1[]:"A"  # Used for trailers
+#	def1[]:"C"
+#	def1[]:"E"
+##	def1[]:"F"  # Used for trailers
+#	def1[]:"G"
+#	def1[]:"H"
+##	def1[]:"J"  # Used for trailers
+#	def1[]:"K"
+#	def1[]:"L"
+#	def1[]:"M"
+#	def1[]:"N"
+#	def1[]:"P"
+#	def1[]:"R"
+#	def1[]:"S"
+#	def1[]:"T"
+##	def1[]:"U"  # Used for trailers
+#	def1[]:"V"
+#	def1[]:"W"
+##	def1[]:"X"  # Used for motorcycles and tractors
+##	def1[]:"Y"  # Used for mopeds
+
+#	def2[]:"AA"
+#	def2[]:"AC"
+#	def2[]:"AE"
+#	def2[]:"AF"
+#	def2[]:"AG"
+#	def2[]:"AH"
+#	def2[]:"AJ"
+#	def2[]:"AK"
+#	def2[]:"AL"
+#	def2[]:"AM"
+#	def2[]:"AN"
+#	def2[]:"AP"
+#	def2[]:"AR"
+#	def2[]:"AS"
+#	def2[]:"AT"
+#	def2[]:"AU"
+#	def2[]:"AV"
+#	def2[]:"AW"
+#	def2[]:"AX"
+#	def2[]:"AY"
+#	def2[]:"CA"
+#	def2[]:"CC"
+#	def2[]:"CE"
+#	def2[]:"CF"
+#	def2[]:"CG"
+#	def2[]:"CH"
+#	def2[]:"CJ"
+#	def2[]:"CK"
+#	def2[]:"CL"
+#	def2[]:"CM"
+#	def2[]:"CN"
+#	def2[]:"CP"
+#	def2[]:"CR"
+#	def2[]:"CS"
+#	def2[]:"CT"
+#	def2[]:"CU"
+#	def2[]:"CV"
+#	def2[]:"CW"
+#	def2[]:"CX"
+#	def2[]:"CY"
+	def2[]:"EA"
+	def2[]:"EC"
+	def2[]:"EE"
+	def2[]:"EF"
+	def2[]:"EG"
+	def2[]:"EH"
+	def2[]:"EJ"
+	def2[]:"EK"
+	def2[]:"EL"
+	def2[]:"EM"
+	def2[]:"EN"
+	def2[]:"EP"
+	def2[]:"ER"
+	def2[]:"ES"
+	def2[]:"ET"
+	def2[]:"EU"
+	def2[]:"EV"
+	def2[]:"EW"
+	def2[]:"EX"
+	def2[]:"EY"
+	def2[]:"FA"
+	def2[]:"FC"
+	def2[]:"FE"
+	def2[]:"FF"
+	def2[]:"FG"
+	def2[]:"FH"
+	def2[]:"FJ"
+	def2[]:"FK"
+	def2[]:"FL"
+	def2[]:"FM"
+	def2[]:"FN"
+	def2[]:"FP"
+	def2[]:"FR"
+	def2[]:"FS"
+	def2[]:"FT"
+	def2[]:"FU"
+	def2[]:"FV"
+	def2[]:"FW"
+	def2[]:"FX"
+	def2[]:"FY"
+	def2[]:"GA"  # "ZKO" V latest issued (October 2019)
+#	def2[]:"GC"  # Future
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+#	def4[]:"0"
+#	def4[]:"1"
+#	def4[]:"2"
+#	def4[]:"3"
+#	def4[]:"4"
+#	def4[]:"5"
+#	def4[]:"6"
+#	def4[]:"7"
+#	def4[]:"8"
+#	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .bobolice.lp.trailer
+{
+	type: trailer
+
+	# Three letter powiat codes
+#	templates[]:"ZKO5P444"   # I    before EU stars
+#	templates[]:"ZKO5U444"   # I    most before EU stars
+#	templates[]:"ZKO5440"    # II
+	templates[]:"ZKO53144"   # III
+	templates[]:"ZKO54423"   # IV
+
+#	def0[]:"UA"
+#	def0[]:"UC"
+#	def0[]:"UE"
+##	def0[]:"UF"  # Used for double-row plates
+#	def0[]:"UG"
+#	def0[]:"UH"
+#	def0[]:"UJ"
+##	def0[]:"UK"  # Used for double-row plates
+#	def0[]:"UL"
+#	def0[]:"UM"
+#	def0[]:"UN"
+#	def0[]:"UP"
+#	def0[]:"UR"
+#	def0[]:"US"
+#	def0[]:"UT"
+#	def0[]:"UU"
+##	def0[]:"UV"  # Used for double-row plates
+#	def0[]:"UW"
+#	def0[]:"UX"
+#	def0[]:"UY"
+
+	def1[]:"A"
+	def1[]:"J"
+
+	def2[]:"F"
+	def2[]:"U"
+
+	def3[]:"1"
+	def3[]:"2"
+	def3[]:"3"
+	def3[]:"4"
+	def3[]:"5"
+	def3[]:"6"
+	def3[]:"7"
+	def3[]:"8"
+	def3[]:"9"
+
+	def4[]:"0"
+	def4[]:"1"
+	def4[]:"2"
+	def4[]:"3"
+	def4[]:"4"
+	def4[]:"5"
+	def4[]:"6"
+	def4[]:"7"
+	def4[]:"8"
+	def4[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}
+
+license_plate_data : .bobolice.lp.police
+{
+	type: police
+
+	# W = West Pomeranian (Zachodniopomorskie) Voivodeship Headquarters
+	templates[]:"HPW51222"
+#	templates[]:"HPW51222"
+#	templates[]:"HPW51222"
+#	templates[]:"HPW51222"
+#	templates[]:"HPW52211"
+
+	def1[]:"A"
+	def1[]:"B"
+	def1[]:"C"
+	def1[]:"D"
+	def1[]:"E"
+	def1[]:"F"
+	def1[]:"G"
+	def1[]:"H"
+	def1[]:"I"
+	def1[]:"J"
+	def1[]:"K"
+	def1[]:"L"
+	def1[]:"M"
+	def1[]:"N"
+	def1[]:"O"
+	def1[]:"P"
+	def1[]:"R"
+	def1[]:"S"
+	def1[]:"T"
+	def1[]:"U"
+	def1[]:"V"
+	def1[]:"W"
+	def1[]:"X"
+	def1[]:"Y"
+	def1[]:"Z"
+
+	def2[]:"0"
+	def2[]:"1"
+	def2[]:"2"
+	def2[]:"3"
+	def2[]:"4"
+	def2[]:"5"
+	def2[]:"6"
+	def2[]:"7"
+	def2[]:"8"
+	def2[]:"9"
+
+	def5[]:"<offset hshift=-4 vshift=3><img src=/material/ui/lp/poland/ls_$SIDE$.mat color=FFFFFFFF><offset hshift=-4 vshift=-3>"
+}

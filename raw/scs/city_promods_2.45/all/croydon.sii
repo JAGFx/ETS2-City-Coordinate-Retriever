@@ -1,0 +1,191 @@
+city_data: city.croydon
+{
+	city_name: "Croydon"
+	city_name_localized: "@@croydon@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 4 // close zoom for minimap
+	map_x_offsets[]: -4 // far zoom for minimap
+	map_x_offsets[]: -4 // city zoom for world map
+	map_x_offsets[]: -4 // closest zoom for world map
+	map_x_offsets[]: -4 // middle zoom for world map
+	map_x_offsets[]: -4 // whole world map zoom
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -1
+	map_y_offsets[]: 3
+	map_y_offsets[]: 6
+	map_y_offsets[]: 6
+	map_y_offsets[]: 1
+	map_y_offsets[]: 1
+
+	### SUBURB CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 1.0  // close zoom for minimap
+	city_pin_scale_factor[]: 0.8  // far zoom for monimap
+	city_pin_scale_factor[]: 1.0  // city zoom for world map
+	city_pin_scale_factor[]: 1.0  // closest zoom for world map
+	city_pin_scale_factor[]: 0.8  // middle zoom for world map
+	city_pin_scale_factor[]: 0.4  // whole world map zoom
+
+	license_plate[]: .croydon.lp.car
+	license_plate[]: .croydon.lp.truck
+	license_plate[]: .croydon.lp.trailer
+}
+
+license_plate_data : .croydon.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# London, Wimbledon
+	def0[]:"LA"
+	def0[]:"LB"
+	def0[]:"LC"
+	def0[]:"LD"
+	def0[]:"LE"
+	def0[]:"LF"
+	def0[]:"LG"
+	def0[]:"LH"
+	def0[]:"LJ"
+	# London, Sidcup
+	def0[]:"LU"
+	def0[]:"LV"
+	def0[]:"LW"
+	def0[]:"LX"
+	def0[]:"LY"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .croydon.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# London, Wimbledon
+	def0[]:"LA"
+	def0[]:"LB"
+	def0[]:"LC"
+	def0[]:"LD"
+	def0[]:"LE"
+	def0[]:"LF"
+	def0[]:"LG"
+	def0[]:"LH"
+	def0[]:"LJ"
+	# London, Sidcup
+	def0[]:"LU"
+	def0[]:"LV"
+	def0[]:"LW"
+	def0[]:"LX"
+	def0[]:"LY"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .croydon.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# London, Wimbledon
+	def0[]:"LA"
+	def0[]:"LB"
+	def0[]:"LC"
+	def0[]:"LD"
+	def0[]:"LE"
+	def0[]:"LF"
+	def0[]:"LG"
+	def0[]:"LH"
+	def0[]:"LJ"
+	# London, Sidcup
+	def0[]:"LU"
+	def0[]:"LV"
+	def0[]:"LW"
+	def0[]:"LX"
+	def0[]:"LY"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

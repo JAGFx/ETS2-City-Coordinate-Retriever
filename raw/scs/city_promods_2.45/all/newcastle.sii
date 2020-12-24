@@ -1,0 +1,182 @@
+city_data: city.newcastle
+{
+	city_name: "Newcastle-upon-Tyne"
+	short_city_name: "Newcastle"
+	city_name_localized: "@@newcastle_upon_tyne@@"
+	short_city_name_localized: "@@newcastle@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -85
+	map_x_offsets[]: -55
+	map_x_offsets[]: -46
+	map_x_offsets[]: -51
+	map_x_offsets[]: -39
+	map_x_offsets[]: -39
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -30
+	map_y_offsets[]: -28
+	map_y_offsets[]: -50
+	map_y_offsets[]: -28
+	map_y_offsets[]: -6
+	map_y_offsets[]: -25
+
+	vehicle_brands[]:"mercedes"
+
+	license_plate[]: .newcastle.lp.car
+	license_plate[]: .newcastle.lp.truck
+	license_plate[]: .newcastle.lp.trailer
+}
+
+license_plate_data : .newcastle.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# North, Newcastle
+	def0[]:"NA"
+	def0[]:"NB"
+	def0[]:"NC"
+	def0[]:"ND"
+	def0[]:"NE"
+	def0[]:"NF"
+	def0[]:"NG"
+	def0[]:"NH"
+	def0[]:"NJ"
+	def0[]:"NK"
+	def0[]:"NL"
+	def0[]:"NM"
+	def0[]:"NN"
+	def0[]:"NO"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .newcastle.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# North, Newcastle
+	def0[]:"NA"
+	def0[]:"NB"
+	def0[]:"NC"
+	def0[]:"ND"
+	def0[]:"NE"
+	def0[]:"NF"
+	def0[]:"NG"
+	def0[]:"NH"
+	def0[]:"NJ"
+	def0[]:"NK"
+	def0[]:"NL"
+	def0[]:"NM"
+	def0[]:"NN"
+	def0[]:"NO"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .newcastle.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# North, Newcastle
+	def0[]:"NA"
+	def0[]:"NB"
+	def0[]:"NC"
+	def0[]:"ND"
+	def0[]:"NE"
+	def0[]:"NF"
+	def0[]:"NG"
+	def0[]:"NH"
+	def0[]:"NJ"
+	def0[]:"NK"
+	def0[]:"NL"
+	def0[]:"NM"
+	def0[]:"NN"
+	def0[]:"NO"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

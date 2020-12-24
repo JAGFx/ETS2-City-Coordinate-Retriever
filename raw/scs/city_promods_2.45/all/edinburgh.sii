@@ -1,0 +1,153 @@
+city_data: city.edinburgh
+{
+	city_name: "Edinburgh"
+	city_name_localized: "@@edinburgh@@"
+	country: uk
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -50
+	map_x_offsets[]: -40
+	map_x_offsets[]: -48
+	map_x_offsets[]: -42
+	map_x_offsets[]: -38
+	map_x_offsets[]: -42
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: -15
+	map_y_offsets[]: -11
+	map_y_offsets[]: -14
+	map_y_offsets[]: 1
+	map_y_offsets[]: 4
+
+	vehicle_brands[]:"man"
+
+	license_plate[]: .edinburgh.lp.car
+	license_plate[]: .edinburgh.lp.truck
+	license_plate[]: .edinburgh.lp.trailer
+}
+
+license_plate_data : .edinburgh.lp.car
+{
+	type: car
+
+	templates[]:"01 222"
+
+	# Scotland, Edinburgh
+	def0[]:"SK"
+	def0[]:"SL"
+	def0[]:"SM"
+	def0[]:"SN"
+	def0[]:"SO"
+
+@include "city_lp_uk_car.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .edinburgh.lp.truck
+{
+	type: truck
+
+	templates[]:"01 222"
+
+	# Scotland, Edinburgh
+	def0[]:"SK"
+	def0[]:"SL"
+	def0[]:"SM"
+	def0[]:"SN"
+	def0[]:"SO"
+
+@include "city_lp_uk_truck.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}
+
+license_plate_data : .edinburgh.lp.trailer
+{
+	type: trailer
+
+	templates[]:"01 222"
+
+	# Scotland, Edinburgh
+	def0[]:"SK"
+	def0[]:"SL"
+	def0[]:"SM"
+	def0[]:"SN"
+	def0[]:"SO"
+
+@include "city_lp_uk_trailer.sui"
+
+	def2[]:"A"
+	def2[]:"B"
+	def2[]:"C"
+	def2[]:"D"
+	def2[]:"E"
+	def2[]:"F"
+	def2[]:"G"
+	def2[]:"H"
+	def2[]:"J"
+	def2[]:"K"
+	def2[]:"L"
+	def2[]:"M"
+	def2[]:"N"
+	def2[]:"O"
+	def2[]:"P"
+	def2[]:"R"
+	def2[]:"S"
+	def2[]:"T"
+	def2[]:"U"
+	def2[]:"V"
+	def2[]:"W"
+	def2[]:"X"
+	def2[]:"Y"
+	def2[]:"Z"
+}

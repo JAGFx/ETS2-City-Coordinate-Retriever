@@ -1,0 +1,27 @@
+
+city_data : city.constanta
+{
+	city_name: "Constanța"
+	city_name_localized: "@@constanta@@"
+	country: romania
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -10
+	map_x_offsets[]: 50
+	map_x_offsets[]: 17
+	map_x_offsets[]: 7
+	map_x_offsets[]: 13
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 25
+	map_y_offsets[]: -28
+	map_y_offsets[]: -40
+	map_y_offsets[]: -10
+	map_y_offsets[]: -2
+	map_y_offsets[]: -11
+
+	vehicle_brands[]: "iveco"
+}

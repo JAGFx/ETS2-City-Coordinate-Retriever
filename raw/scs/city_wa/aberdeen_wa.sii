@@ -1,0 +1,24 @@
+city_data: city.aberdeen_wa
+{
+	city_name: "Aberdeen"
+	city_name_localized: "@@aberdeen@@"
+	country: washington
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -3
+	map_x_offsets[]: -195
+	map_x_offsets[]: -98
+	map_x_offsets[]: -98
+	map_x_offsets[]: -98
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 35
+	map_y_offsets[]: -8
+	map_y_offsets[]: 17
+	map_y_offsets[]: 0
+	map_y_offsets[]: -12
+	map_y_offsets[]: -12
+}

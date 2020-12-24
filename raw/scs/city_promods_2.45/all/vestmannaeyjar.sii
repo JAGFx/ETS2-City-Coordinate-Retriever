@@ -1,0 +1,53 @@
+﻿city_data: city.vestmann
+{
+	city_name: "Vestmannaeyjar"
+	city_name_localized: "@@vestmannaeyjar@@"
+	country: iceland
+
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: 0
+	map_x_offsets[]: -60
+	map_x_offsets[]: 0 //WM
+	map_x_offsets[]: -70 //WM
+	map_x_offsets[]: -50 //WM
+	map_x_offsets[]: -70 //WM max out
+
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 0
+	map_y_offsets[]: 10
+	map_y_offsets[]: 0
+	map_y_offsets[]: 50
+	map_y_offsets[]: 10
+	map_y_offsets[]: 4
+
+	### SMALL CITY ###
+	city_pin_scale_factor[]: 1.0
+	city_pin_scale_factor[]: 1.0  
+	city_pin_scale_factor[]: 0.8  // close zoom for minimap
+	city_pin_scale_factor[]: 0.7  // far zoom for monimap
+	city_pin_scale_factor[]: 0.7  // city zoom for world map
+	city_pin_scale_factor[]: 0.7  // closest zoom for world map
+	city_pin_scale_factor[]: 0.7  // middle zoom for world map
+	city_pin_scale_factor[]: 0.7  // whole world map zoom
+
+	vehicle_brands[]:"scania"
+
+	license_plate[]: .vestmann.lp.truck
+	license_plate[]: .vestmann.lp.trailer
+}
+
+license_plate_data : .vestmann.lp.truck
+{
+	type: truck
+
+@include "city_lp_is_truck.sui"
+}
+
+license_plate_data : .vestmann.lp.trailer
+{
+	type: trailer
+
+@include "city_lp_is_trailer.sui"
+}
