@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Drawing;
 using System.IO;
 using System.Runtime.InteropServices;
-using System.Windows.Forms;
-using ETS2_Log_to_Coordinates.Classes;
+using jsonGenerator.Classes;
+using System.Configuration;
 using Newtonsoft.Json;
+using Formatting = System.Xml.Formatting;
 
-namespace ETS2_Log_to_Coordinates {
-    internal static class Program {
+namespace jsonGenerator {
+    
+    class Program {
         [ DllImport( "kernel32.dll", ExactSpelling = true ) ]
         public static extern IntPtr GetConsoleWindow();
 
@@ -306,7 +306,7 @@ namespace ETS2_Log_to_Coordinates {
 
         private static void GenerateJson( ref Dictionary< string, IJsonable > dictionary, string output ) {
             // string outputFile     = ConfigurationManager.AppSettings[ "OutputFile" ];
-            string json  = JsonConvert.SerializeObject( dictionary, Formatting.Indented );
+            string json  = JsonConvert.SerializeObject( dictionary, (Newtonsoft.Json.Formatting) Formatting.Indented );
             var    write = new StreamWriter( output );
 
             write.Write( json );
