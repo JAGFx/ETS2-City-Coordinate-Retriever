@@ -33,6 +33,11 @@ namespace jsonGenerator {
             GenerateJson( ref citiesDictionary,    outputCities );
         }
 
+        /// <summary>
+        ///     Generate cities datas
+        /// </summary>
+        /// <param name="companies"></param>
+        /// <returns></returns>
         private static Dictionary< string, IJsonable > BuildCities( ref Dictionary< string, IJsonable > companies ) {
             string cityDirectory = ConfigurationManager.AppSettings[ "CityDirectory" ];
             string inputFile     = ConfigurationManager.AppSettings[ "InputFile" ];
@@ -83,41 +88,7 @@ namespace jsonGenerator {
 
                             UpdateCompaniesOfCity( ref companies, ref city );
                         }
-
-                        // if ( cityName.Length    > 0
-                        // && cityName.Length > 0
-                        // && !cityDictionary.ContainsKey( cityName ) ) {
-
-
-                        // previousX = city.z = lineContentArray[ 2 ];
-                        // previousY = city.z = lineContentArray[ 3 ];
-                        // previousZ = city.z = lineContentArray[ 4 ];
-
-                        // cities.citiesList.Add ( city );
-
-                        // var listViewItem = new ListViewItem ( city.gameName );
-
-                        // if ( lineContentArray[ 2 ]    == previousX
-                        // && lineContentArray[ 3 ] == previousY
-                        // && lineContentArray[ 4 ] == previousZ ) {
-                        // listViewItem.ForeColor = Color.Red;
-                        // } else {
-                        // listViewItem.Checked = true;
-                        // }
-
-                        // listViewItem.SubItems.Add ( city.realName );
-                        // listViewItem.SubItems.Add ( city.country );
-                        // listViewItem.SubItems.Add ( city.x );
-                        // listViewItem.SubItems.Add ( city.y );
-                        // listViewItem.SubItems.Add ( city.z );
-                        // conflictSolver.listCities.Items.Add ( listViewItem );
                     }
-
-
-                    //Add them to the dictionaries
-                    // cityConversionTable.Add ( cityName, cityRealName );
-                    // cityCountryTable.Add ( cityName, country );
-                    // Console.WriteLine( cityName + " - " + cityRealName );
                 } catch ( Exception ex ) {
                     Console.Write( ex.ToString() );
                 }
@@ -130,12 +101,6 @@ namespace jsonGenerator {
             string[ ] outputArray = output.Split( new string[ ] { Environment.NewLine }, StringSplitOptions.None );
             
             read.Close();
-
-            //Set previous location for double (non-existent) locations check
-            // var previousX      = "";
-            // var previousY      = "";
-            // var previousZ      = "";
-            // var conflictSolver = new ConflictSolver();
 
             foreach ( string line in outputArray ) {
                 try {
@@ -157,28 +122,6 @@ namespace jsonGenerator {
                         city.x = cityPosX;
                         city.y = cityPosY;
                         city.z = cityPosZ;
-
-                        // var listViewItem = new ListViewItem( city.gameName );
-
-                        // if ( cityPosX    == previousX
-                        // && cityPosY == previousY
-                        // && cityPosZ == previousZ ) {
-                        // listViewItem.ForeColor = Color.Red;
-                        // } else {
-                        // listViewItem.Checked = true;
-                        // }
-
-                        // listViewItem.SubItems.Add( city.realName );
-                        // listViewItem.SubItems.Add( city.country );
-                        // listViewItem.SubItems.Add( city.x );
-                        // listViewItem.SubItems.Add( city.y );
-                        // listViewItem.SubItems.Add( city.z );
-
-                        // conflictSolver.listCities.Items.Add( listViewItem );
-
-                        // previousX = cityPosX;
-                        // previousY = cityPosY;
-                        // previousZ = cityPosZ;
                     }
                 } catch ( Exception ex ) {
                     Console.WriteLine( ex.ToString() );
@@ -191,34 +134,12 @@ namespace jsonGenerator {
                                + cityDictionary.Count );
 
             return cityDictionary;
-
-            // citiesExport.citiesList = cities.citiesList;
-            //
-            // string jsonCitiesList = JsonConvert.SerializeObject ( citiesExport, Formatting.Indented );
-            // if ( conflictSolver.ShowDialog() == DialogResult.OK ) {
-            //     foreach ( City city in cities.citiesList.ToList()
-            //                                  .Where ( city => conflictSolver.uncheckedCities
-            //                                                                 .Contains ( city.gameName ) )
-            //     ) {
-            //         Console.WriteLine ( city.gameName );
-            //         citiesExport.citiesList.Remove ( city );
-            //     }
-            //
-            //     Console.Write ( jsonCitiesList );
-            //
-            //     var write = new StreamWriter ( outputFile );
-            //     write.Write ( jsonCitiesList );
-            //     write.Close();
-            //     Console.WriteLine();
-            //     Console.WriteLine();
-            //     Console.WriteLine ( "-- Done, have fun :-)" );
-            //     Console.ReadLine();
-            // } else {
-            //     Console.WriteLine ( "Aborted" );
-            //     Console.ReadLine();
-            // }
         }
 
+        /// <summary>
+        ///     Generate companies datas 
+        /// </summary>
+        /// <returns></returns>
         private static Dictionary< string, IJsonable > BuildCompanies() {
             string companyDirectory = ConfigurationManager.AppSettings[ "CompanyDirectory" ];
 
@@ -244,33 +165,16 @@ namespace jsonGenerator {
                         // Console.WriteLine( line.Trim() );
 
                         string? currentCompanyGameName = MatchAndGetValue( PATTERN_COMPANY_NAME, line.Trim() );
-                        // if ( line.Trim().StartsWith( "company_permanent: company.permanent." )
-                        // || line.Trim().StartsWith( "company_permanent:company.permanent." )
-                        // || line.Trim().StartsWith( "company_permanent : company.permanent." ) ) {
-                        if ( !string.IsNullOrEmpty( currentCompanyGameName ) ) {
-                            // companyGameName = line.Replace( "company_permanent: company.permanent.", "" )
-                            // .Replace( "company_permanent:company.permanent.",   "" )
-                            // .Replace( "company_permanent : company.permanent.", "" );
-
-                            // if ( companyGameName.Contains( "{" ) )
-                            // companyGameName = companyGameName.Remove( companyGameName.IndexOf( "{" ) );
-
-                            // companyGameName = companyGameName.Trim();
-                            // companyGameName.Replace( " ", "" );
+                        
+                        if ( !string.IsNullOrEmpty( currentCompanyGameName ) ) 
                             companyGameName = currentCompanyGameName;
-                        } else {
+                        
+                        else {
                             //Check real city name
                             string? currentCompanyRealName = MatchAndGetValue( PATTERN_COMPANY_REAL_NAME, line.Trim() );
+                            
                             if ( !string.IsNullOrEmpty( currentCompanyRealName ) ) 
                                 companyRealName = currentCompanyRealName;
-                            
-                            // if ( line.TrimStart().StartsWith( "name:" ) ) {
-                            // int nameIndex = line.IndexOf( "\"" );
-                            // companyRealName = line.Substring( nameIndex + 1,
-                            // line.IndexOf( "\"", nameIndex + 1 )
-                            // - nameIndex
-                            // - 1 );
-                            // }
                         }
 
                         // Console.WriteLine( currentCompanyGameName );
@@ -284,7 +188,6 @@ namespace jsonGenerator {
                             };
 
                             companiesDictionary.Add( companyGameName, company );
-                            // Console.WriteLine( companyGameName + " - " + companyRealName );
                         }
                     }
                 } catch ( Exception ex ) {
@@ -300,6 +203,11 @@ namespace jsonGenerator {
             return companiesDictionary;
         }
 
+        /// <summary>
+        ///     Update ce cities object with each comapny
+        /// </summary>
+        /// <param name="companies"></param>
+        /// <param name="city"></param>
         private static void UpdateCompaniesOfCity( ref Dictionary< string, IJsonable > companies, ref City city ) {
             string    companiesInput       = ConfigurationManager.AppSettings[ "CompanyDirectory" ];
             string[ ] companiesDirectories = Directory.GetDirectories( companiesInput );
@@ -314,10 +222,12 @@ namespace jsonGenerator {
 
                 string companyCityPath = companyCities + "\\" + city.gameName + ".sii";
 
+                // ... if a list of cities exist ...
                 if ( Directory.Exists( companyCities )
                      && File.Exists( companyCityPath )
                      && companies.ContainsKey( company ) ) {
-                    // ... if a list of cities exist
+                    
+                    // ... add it in the city companies list
                     city.addCompany( (Company) companies[ company ] );
                 }
             }
@@ -325,6 +235,11 @@ namespace jsonGenerator {
 
         // ---
 
+        /// <summary>
+        ///     Convert an object to json and store in a file
+        /// </summary>
+        /// <param name="dictionary"></param>
+        /// <param name="output"></param>
         private static void GenerateJson( ref Dictionary< string, IJsonable > dictionary, string output ) {
             // string outputFile     = ConfigurationManager.AppSettings[ "OutputFile" ];
             string json  = JsonConvert.SerializeObject( dictionary, (Formatting) System.Xml.Formatting.Indented );
@@ -334,6 +249,12 @@ namespace jsonGenerator {
             write.Close();
         }
 
+        /// <summary>
+        ///     Get a value with RegEx pattern from a string
+        /// </summary>
+        /// <param name="pattern"></param>
+        /// <param name="input"></param>
+        /// <returns></returns>
         private static string? MatchAndGetValue( string pattern, string input ) {
             var r = new Regex( pattern, RegexOptions.IgnoreCase );
 
