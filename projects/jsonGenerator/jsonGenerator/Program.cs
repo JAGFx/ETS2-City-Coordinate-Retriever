@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.IO;
+using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using jsonGenerator.Classes;
-using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
 namespace jsonGenerator {
@@ -15,7 +14,8 @@ namespace jsonGenerator {
         private const string PATTERN_CITY_COUNTRY      = "\\s*\\t*country\\s*:\\s*([-\\w\\s]+)";
         private const string PATTERN_COMPANY_NAME      = @"company_permanent\s*:\s*company\.permanent\.(\w+)";
         private const string PATTERN_COMPANY_REAL_NAME = "\\s*\\t*name\\s*:\\s*\\\"([-\\w\\s]+)\\\"";
-        private const string APP_SETTING_FILE          = "appsettings.json";
+        private const string FILE_TARGET_SUI = "*.sui";
+        private const string FILE_TARGET_TXT = "*.txt";
 
         [ DllImport( "kernel32.dll", ExactSpelling = true ) ]
         public static extern IntPtr GetConsoleWindow();
@@ -24,19 +24,17 @@ namespace jsonGenerator {
         [ return: MarshalAs( UnmanagedType.Bool ) ]
         public static extern bool SetForegroundWindow( IntPtr hWnd );
 
-        public static IConfigurationRoot? Configuration;
+        private static readonly AppConfig Config = new AppConfig();
 
         private static void Main( string[ ] args ) {
-            SetupConfiguration();
+            string outputCompanies = Config.Out.GetCompanies();
+            string outputCities    = Config.Out.GetCities();
 
-            string outputCities    = ConfigurationManager.AppSettings[ "OutputCities" ];
-            string outputCompanies = ConfigurationManager.AppSettings[ "OutputCompanies" ];
+            Dictionary< string, IJsonable > companiesDictionary = BuildCompanies();
+            Dictionary< string, IJsonable > citiesDictionary    = BuildCities( ref companiesDictionary );
 
-            // Dictionary< string, IJsonable > companiesDictionary = BuildCompanies();
-            // Dictionary< string, IJsonable > citiesDictionary    = BuildCities( ref companiesDictionary );
-
-            // GenerateJson( ref companiesDictionary, outputCompanies );
-            // GenerateJson( ref citiesDictionary,    outputCities );
+            GenerateJson( ref companiesDictionary, outputCompanies );
+            GenerateJson( ref citiesDictionary,    outputCities );
         }
 
         /// <summary>
@@ -45,17 +43,16 @@ namespace jsonGenerator {
         /// <param name="companies"></param>
         /// <returns></returns>
         private static Dictionary< string, IJsonable > BuildCities( ref Dictionary< string, IJsonable > companies ) {
-            string cityDirectory = ConfigurationManager.AppSettings[ "CityDirectory" ];
-            string inputFile     = ConfigurationManager.AppSettings[ "InputFile" ];
+            List< string >? cityDirs     = Config.Raw.GetCitiesDirs();
+            List< string >? reportsDirs  = Config.Raw.GetReportsDirs();
+            List< string >? citiesFiles  = GetRecursiveFileList( cityDirs,    FILE_TARGET_SUI );
+            List< string >? reportsFiles = GetRecursiveFileList( reportsDirs, FILE_TARGET_TXT );
 
             var cityDictionary = new Dictionary< string, IJsonable >();
 
             // ---- Parse SCS files
-            string[ ] citiesFiles    = Directory.GetFiles( cityDirectory );
-            int       numberOfCities = citiesFiles.Length;
-
-            for ( var i = 0; i < numberOfCities; i++ ) {
-                var readCity = new StreamReader( citiesFiles[ i ] );
+            foreach ( string citiesFile in citiesFiles ) {
+                var readCity = new StreamReader( citiesFile );
                 try {
                     string? cityName = null;
                     string  line;
@@ -63,7 +60,8 @@ namespace jsonGenerator {
                     while ( ( line = readCity.ReadLine() ) != null ) {
                         string? currentCityName = MatchAndGetValue( PATTERN_CITY_NAME, line.Trim() );
 
-                        if ( !string.IsNullOrEmpty( currentCityName ) ) {
+                        if ( !string.IsNullOrEmpty( currentCityName )
+                             && !cityDictionary.ContainsKey( currentCityName ) ) {
                             var city = new City {
                                 gameName = currentCityName,
                                 realName = "",
@@ -102,40 +100,46 @@ namespace jsonGenerator {
 
 
             // ---- Parse report file
-            var       read        = new StreamReader( inputFile );
-            string    output      = read.ReadToEnd();
-            string[ ] outputArray = output.Split( new string[ ] { Environment.NewLine }, StringSplitOptions.None );
 
-            read.Close();
+            foreach ( string reportsFile in reportsFiles ) {
+                var       read        = new StreamReader( reportsFile );
+                string    output      = read.ReadToEnd();
+                string[ ] outputArray = output.Split( new string[ ] { Environment.NewLine }, StringSplitOptions.None );
 
-            foreach ( string line in outputArray ) {
-                try {
-                    string    lineContent      = line.Replace( " ", "" );
-                    string[ ] lineContentArray = lineContent.Split( new char[ ] { ';' } );
+                read.Close();
 
-                    if ( lineContent.Length == 0 ) continue;
+                foreach ( string line in outputArray ) {
+                    try {
+                        string    lineContent      = line.Replace( " ", "" );
+                        string[ ] lineContentArray = lineContent.Split( ";" );
 
-                    string cityName = lineContentArray[ 0 ];
-                    string cityPosX = lineContentArray[ 2 ];
-                    string cityPosY = lineContentArray[ 3 ];
-                    string cityPosZ = lineContentArray[ 4 ];
+                        if ( string.IsNullOrWhiteSpace( lineContent ) || lineContentArray.Length < 4 ) {
+                            Console.WriteLine( $"Line ignored: {lineContent} | File: {reportsFile}" );
+                            continue;
+                        }
 
-                    var city = (City?) ( cityDictionary.ContainsKey( cityName )
-                                             ? cityDictionary[ cityName ]
-                                             : null );
+                        string cityName = lineContentArray[ 0 ];
+                        string cityPosX = lineContentArray[ 2 ];
+                        string cityPosY = lineContentArray[ 3 ];
+                        string cityPosZ = lineContentArray[ 4 ];
 
-                    if ( city != null ) {
-                        city.x = cityPosX;
-                        city.y = cityPosY;
-                        city.z = cityPosZ;
+                        var city = (City?) ( cityDictionary.ContainsKey( cityName )
+                                                 ? cityDictionary[ cityName ]
+                                                 : null );
+
+                        if ( city != null ) {
+                            city.x = cityPosX;
+                            city.y = cityPosY;
+                            city.z = cityPosZ;
+                        }
+                    } catch ( Exception ex ) {
+                        Console.WriteLine( ex.ToString() );
                     }
-                } catch ( Exception ex ) {
-                    Console.WriteLine( ex.ToString() );
                 }
             }
 
             Console.WriteLine( "[Cities] Read: "
-                               + numberOfCities
+                               + citiesFiles.Count()
                                + " | In list: "
                                + cityDictionary.Count );
 
@@ -147,29 +151,18 @@ namespace jsonGenerator {
         /// </summary>
         /// <returns></returns>
         private static Dictionary< string, IJsonable > BuildCompanies() {
-            string companyDirectory = ConfigurationManager.AppSettings[ "CompanyDirectory" ];
+            List< string >? companyDirs         = Config.Raw.GetCompaniesDirs();
+            List< string >  files               = GetRecursiveFileList( companyDirs, FILE_TARGET_SUI );
+            var             companiesDictionary = new Dictionary< string, IJsonable >();
 
-            //Set two dictionaries, so we can later retrieve the real city name and country
-            var companiesDictionary = new Dictionary< string, IJsonable >();
-
-            // var conflictSolver = new ConflictSolver();
-
-            //Find all files
-            string[ ] files             = Directory.GetFiles( companyDirectory );
-            int       numberOfCompanies = files.Length;
-
-            // var companies = new Companies();
-
-            for ( var i = 0; i < numberOfCompanies; i++ ) {
-                var readCompany = new StreamReader( files[ i ] );
+            foreach ( string file in files ) {
+                var readCompany = new StreamReader( file );
                 try {
                     var companyGameName = "";
                     var companyRealName = "";
 
                     string line;
                     while ( ( line = readCompany.ReadLine() ) != null ) {
-                        // Console.WriteLine( line.Trim() );
-
                         string? currentCompanyGameName = MatchAndGetValue( PATTERN_COMPANY_NAME, line.Trim() );
 
                         if ( !string.IsNullOrEmpty( currentCompanyGameName ) )
@@ -202,7 +195,7 @@ namespace jsonGenerator {
             }
 
             Console.WriteLine( "[Companies] Read: "
-                               + numberOfCompanies
+                               + files.Count()
                                + " | In list: "
                                + companiesDictionary.Count );
 
@@ -215,25 +208,13 @@ namespace jsonGenerator {
         /// <param name="companies"></param>
         /// <param name="city"></param>
         private static void UpdateCompaniesOfCity( ref Dictionary< string, IJsonable > companies, ref City city ) {
-            string    companiesInput       = ConfigurationManager.AppSettings[ "CompanyDirectory" ];
-            string[ ] companiesDirectories = Directory.GetDirectories( companiesInput );
+            Dictionary< string, string > companyCities = Config.Raw.GetCompanyCitiesFiles( ref city );
 
-            foreach ( string companyPath in companiesDirectories ) {
-                // In each dir of company...
-                string companyInput  = ConfigurationManager.AppSettings[ "CompanyDirectory" ];
-                string companyCities = ConfigurationManager.AppSettings[ "CompanyCitiesDirectory" ];
-
-                string company = companyPath.Replace( companyInput + "\\", "" );
-                companyCities = companyCities.Replace( "__company_name__", company );
-
-                string companyCityPath = companyCities + "\\" + city.gameName + ".sii";
-
-                // ... if a list of cities exist ...
-                if ( Directory.Exists( companyCities )
-                     && File.Exists( companyCityPath )
-                     && companies.ContainsKey( company ) ) {
+            foreach ( KeyValuePair< string, string > companyCity in companyCities ) {
+                // In each dir of company if a list of cities exist ...
+                if ( companies.ContainsKey( companyCity.Key ) ) {
                     // ... add it in the city companies list
-                    city.addCompany( (Company) companies[ company ] );
+                    city.addCompany( (Company) companies[ companyCity.Key ] );
                 }
             }
         }
@@ -271,15 +252,30 @@ namespace jsonGenerator {
         }
 
         /// <summary>
-        ///     Load the settings file
+        ///     Retrieve all files matched with the given target
         /// </summary>
-        private static void SetupConfiguration() {
-            // Set up configuration sources.
-            IConfigurationBuilder? builder = new ConfigurationBuilder()
-                                             .SetBasePath( Path.Combine( AppContext.BaseDirectory ) )
-                                             .AddJsonFile( APP_SETTING_FILE, optional: true );
+        /// <param name="inDirs"></param>
+        /// <param name="targetedFile"></param>
+        /// <returns></returns>
+        private static List< string > GetRecursiveFileList( List< string > inDirs, string targetedFile ) {
+            List< string > files = new List< string >();
 
-            Configuration = builder.Build();
+            foreach ( string dir in inDirs ) {
+                Console.WriteLine( $"File: {dir} | Target: {targetedFile}" );
+
+                if ( File.Exists( dir ) )
+                    files.Add( dir );
+
+                if ( Directory.Exists( dir ) ) {
+                    DirectoryInfo folder      = new DirectoryInfo( dir );
+                    FileInfo[ ]   folderFiles = folder.GetFiles( targetedFile, SearchOption.AllDirectories );
+
+                    foreach ( FileInfo file in folderFiles )
+                        files.Add( file.FullName );
+                }
+            }
+
+            return files;
         }
     }
 }
