@@ -5,6 +5,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using jsonGenerator.Classes;
+using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 
 namespace jsonGenerator {
@@ -14,6 +15,7 @@ namespace jsonGenerator {
         private const string PATTERN_CITY_COUNTRY      = "\\s*\\t*country\\s*:\\s*([-\\w\\s]+)";
         private const string PATTERN_COMPANY_NAME      = @"company_permanent\s*:\s*company\.permanent\.(\w+)";
         private const string PATTERN_COMPANY_REAL_NAME = "\\s*\\t*name\\s*:\\s*\\\"([-\\w\\s]+)\\\"";
+        private const string APP_SETTING_FILE          = "appsettings.json";
 
         [ DllImport( "kernel32.dll", ExactSpelling = true ) ]
         public static extern IntPtr GetConsoleWindow();
@@ -22,15 +24,19 @@ namespace jsonGenerator {
         [ return: MarshalAs( UnmanagedType.Bool ) ]
         public static extern bool SetForegroundWindow( IntPtr hWnd );
 
+        public static IConfigurationRoot? Configuration;
+
         private static void Main( string[ ] args ) {
+            SetupConfiguration();
+
             string outputCities    = ConfigurationManager.AppSettings[ "OutputCities" ];
             string outputCompanies = ConfigurationManager.AppSettings[ "OutputCompanies" ];
 
-            Dictionary< string, IJsonable > companiesDictionary = BuildCompanies();
-            Dictionary< string, IJsonable > citiesDictionary    = BuildCities( ref companiesDictionary );
+            // Dictionary< string, IJsonable > companiesDictionary = BuildCompanies();
+            // Dictionary< string, IJsonable > citiesDictionary    = BuildCities( ref companiesDictionary );
 
-            GenerateJson( ref companiesDictionary, outputCompanies );
-            GenerateJson( ref citiesDictionary,    outputCities );
+            // GenerateJson( ref companiesDictionary, outputCompanies );
+            // GenerateJson( ref citiesDictionary,    outputCities );
         }
 
         /// <summary>
@@ -99,7 +105,7 @@ namespace jsonGenerator {
             var       read        = new StreamReader( inputFile );
             string    output      = read.ReadToEnd();
             string[ ] outputArray = output.Split( new string[ ] { Environment.NewLine }, StringSplitOptions.None );
-            
+
             read.Close();
 
             foreach ( string line in outputArray ) {
@@ -165,15 +171,15 @@ namespace jsonGenerator {
                         // Console.WriteLine( line.Trim() );
 
                         string? currentCompanyGameName = MatchAndGetValue( PATTERN_COMPANY_NAME, line.Trim() );
-                        
-                        if ( !string.IsNullOrEmpty( currentCompanyGameName ) ) 
+
+                        if ( !string.IsNullOrEmpty( currentCompanyGameName ) )
                             companyGameName = currentCompanyGameName;
-                        
+
                         else {
                             //Check real city name
                             string? currentCompanyRealName = MatchAndGetValue( PATTERN_COMPANY_REAL_NAME, line.Trim() );
-                            
-                            if ( !string.IsNullOrEmpty( currentCompanyRealName ) ) 
+
+                            if ( !string.IsNullOrEmpty( currentCompanyRealName ) )
                                 companyRealName = currentCompanyRealName;
                         }
 
@@ -226,7 +232,6 @@ namespace jsonGenerator {
                 if ( Directory.Exists( companyCities )
                      && File.Exists( companyCityPath )
                      && companies.ContainsKey( company ) ) {
-                    
                     // ... add it in the city companies list
                     city.addCompany( (Company) companies[ company ] );
                 }
@@ -263,6 +268,18 @@ namespace jsonGenerator {
             Match m = r.Match( input );
 
             return m.Groups[ 1 ].Value;
+        }
+
+        /// <summary>
+        ///     Load the settings file
+        /// </summary>
+        private static void SetupConfiguration() {
+            // Set up configuration sources.
+            IConfigurationBuilder? builder = new ConfigurationBuilder()
+                                             .SetBasePath( Path.Combine( AppContext.BaseDirectory ) )
+                                             .AddJsonFile( APP_SETTING_FILE, optional: true );
+
+            Configuration = builder.Build();
         }
     }
 }
