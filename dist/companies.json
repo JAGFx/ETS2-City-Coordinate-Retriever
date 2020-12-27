@@ -1,139 +1,95 @@
 {
-  "aci": {
-    "gameName": "aci",
-    "realName": "ACI SRL"
-  },
-  "batisse_hs": {
-    "gameName": "batisse_hs",
-    "realName": "Bâtisse"
-  },
-  "bcp": {
-    "gameName": "bcp",
-    "realName": "BCP"
-  },
-  "bhv": {
-    "gameName": "bhv",
-    "realName": "BHV"
-  },
-  "cargotras": {
-    "gameName": "cargotras",
-    "realName": "Cargotras"
-  },
-  "cemelt_fla": {
-    "gameName": "cemelt_fla",
-    "realName": "Cemeltex"
-  },
-  "cemelt_fl_ru": {
-    "gameName": "cemelt_fl_ru",
-    "realName": "Цемелтекс"
-  },
-  "cesare_smar": {
-    "gameName": "cesare_smar",
-    "realName": "Cesare Supermercato"
-  },
-  "cnp": {
-    "gameName": "cnp",
-    "realName": "CNP"
-  },
-  "cont_port": {
-    "gameName": "cont_port",
-    "realName": "Container port"
-  },
-  "domdepo": {
-    "gameName": "domdepo",
-    "realName": "DomDepo"
-  },
-  "domdepo_ru": {
-    "gameName": "domdepo_ru",
-    "realName": "ДомДепо"
-  },
-  "eolo_lines": {
-    "gameName": "eolo_lines",
-    "realName": "Eolo Lines"
-  },
-  "euroacres": {
-    "gameName": "euroacres",
-    "realName": "EuroAcres"
-  },
-  "eurogoodies": {
-    "gameName": "eurogoodies",
-    "realName": "EuroGoodies"
-  },
-  "fcp": {
-    "gameName": "fcp",
-    "realName": "FCP"
-  },
-  "fle": {
-    "gameName": "fle",
-    "realName": "FLE"
-  },
-  "gnt": {
-    "gameName": "gnt",
-    "realName": "GNT"
-  },
-  "ika_bohag": {
-    "gameName": "ika_bohag",
-    "realName": "Ika Bohag"
-  },
-  "itcc": {
-    "gameName": "itcc",
-    "realName": "ITCC"
-  },
-  "kaarfor": {
-    "gameName": "kaarfor",
-    "realName": "Kaarfor"
-  },
-  "libellula": {
-    "gameName": "libellula",
-    "realName": "Libellula"
-  },
-  "lisette_log": {
-    "gameName": "lisette_log",
-    "realName": "Lisette Logistics"
-  },
-  "lkwlog": {
-    "gameName": "lkwlog",
-    "realName": "LkwLog GmbH"
-  },
-  "marina_fr": {
-    "gameName": "marina_fr",
-    "realName": "Marina"
-  },
-  "marina_it": {
-    "gameName": "marina_it",
-    "realName": "Marina"
-  },
-  "nbfc": {
-    "gameName": "nbfc",
-    "realName": "NBFC"
-  },
-  "ns_chem": {
-    "gameName": "ns_chem",
-    "realName": "NS Chemicals"
+  "spinelli": {
+    "gameName": "spinelli",
+    "realName": "Spinelli"
   },
   "ns_oil": {
     "gameName": "ns_oil",
     "realName": "NS Oil"
   },
-  "nucleon": {
-    "gameName": "nucleon",
-    "realName": "Nucléon"
+  "bhv": {
+    "gameName": "bhv",
+    "realName": "BHV"
+  },
+  "subse": {
+    "gameName": "subse",
+    "realName": "Subse"
+  },
+  "nbfc": {
+    "gameName": "nbfc",
+    "realName": "NBFC"
+  },
+  "tesore_gust": {
+    "gameName": "tesore_gust",
+    "realName": "Tesoro Gustoso"
+  },
+  "sellplan": {
+    "gameName": "sellplan",
+    "realName": "SellPlan"
+  },
+  "trameri": {
+    "gameName": "trameri",
+    "realName": "Trameri"
+  },
+  "domdepo": {
+    "gameName": "domdepo",
+    "realName": "DomDepo"
+  },
+  "marina_fr": {
+    "gameName": "marina_fr",
+    "realName": "Marina"
+  },
+  "volvo_dlr": {
+    "gameName": "volvo_dlr",
+    "realName": "Volvo dealer"
+  },
+  "batisse_hs": {
+    "gameName": "batisse_hs",
+    "realName": "Bâtisse"
+  },
+  "lisette_log": {
+    "gameName": "lisette_log",
+    "realName": "Lisette Logistics"
+  },
+  "cargotras": {
+    "gameName": "cargotras",
+    "realName": "Cargotras"
+  },
+  "libellula": {
+    "gameName": "libellula",
+    "realName": "Libellula"
+  },
+  "gnt": {
+    "gameName": "gnt",
+    "realName": "GNT"
+  },
+  "bcp": {
+    "gameName": "bcp",
+    "realName": "BCP"
+  },
+  "itcc": {
+    "gameName": "itcc",
+    "realName": "ITCC"
   },
   "polarislines": {
     "gameName": "polarislines",
     "realName": "Polarislines"
   },
-  "posped": {
-    "gameName": "posped",
-    "realName": "Posped"
+  "vitas_pwr": {
+    "gameName": "vitas_pwr",
+    "realName": "Vitas Power"
   },
   "quarry": {
     "gameName": "quarry",
     "realName": "Steinbruch"
   },
-  "radus": {
-    "gameName": "radus",
-    "realName": "Radus"
+  "scania_dlr": {
+    "gameName": "scania_dlr",
+    "realName": "Scania dealer"
+  },
+  "eurogoodies": {
+    "gameName": "eurogoodies",
+    "realName": "EuroGoodies"
   },
   "radus_ru": {
     "gameName": "radus_ru",
@@ -143,72 +99,116 @@
     "gameName": "renar",
     "realName": "Renar Logistik"
   },
-  "renat": {
-    "gameName": "renat",
-    "realName": "Renat"
-  },
-  "sanbuilders": {
-    "gameName": "sanbuilders",
-    "realName": "Sanbuilders"
-  },
-  "scania_dlr": {
-    "gameName": "scania_dlr",
-    "realName": "Scania dealer"
-  },
-  "sellplan": {
-    "gameName": "sellplan",
-    "realName": "SellPlan"
-  },
-  "skoda": {
-    "gameName": "skoda",
-    "realName": "Scout"
-  },
-  "spinelli": {
-    "gameName": "spinelli",
-    "realName": "Spinelli"
+  "marina_it": {
+    "gameName": "marina_it",
+    "realName": "Marina"
   },
   "stokes": {
     "gameName": "stokes",
     "realName": "Stokes"
   },
-  "subse": {
-    "gameName": "subse",
-    "realName": "Subse"
+  "cnp": {
+    "gameName": "cnp",
+    "realName": "CNP"
   },
-  "tesore_gust": {
-    "gameName": "tesore_gust",
-    "realName": "Tesoro Gustoso"
+  "eolo_lines": {
+    "gameName": "eolo_lines",
+    "realName": "Eolo Lines"
   },
-  "tradeaux": {
-    "gameName": "tradeaux",
-    "realName": "Tradeaux"
+  "fcp": {
+    "gameName": "fcp",
+    "realName": "FCP"
   },
-  "trameri": {
-    "gameName": "trameri",
-    "realName": "Trameri"
+  "kaarfor": {
+    "gameName": "kaarfor",
+    "realName": "Kaarfor"
+  },
+  "cont_port": {
+    "gameName": "cont_port",
+    "realName": "Container port"
+  },
+  "domdepo_ru": {
+    "gameName": "domdepo_ru",
+    "realName": "ДомДепо"
+  },
+  "wgcc": {
+    "gameName": "wgcc",
+    "realName": "WGCC"
+  },
+  "euroacres": {
+    "gameName": "euroacres",
+    "realName": "EuroAcres"
+  },
+  "fle": {
+    "gameName": "fle",
+    "realName": "FLE"
+  },
+  "cemelt_fl_ru": {
+    "gameName": "cemelt_fl_ru",
+    "realName": "Цемелтекс"
+  },
+  "skoda": {
+    "gameName": "skoda",
+    "realName": "Scout"
+  },
+  "posped": {
+    "gameName": "posped",
+    "realName": "Posped"
+  },
+  "renat": {
+    "gameName": "renat",
+    "realName": "Renat"
+  },
+  "radus": {
+    "gameName": "radus",
+    "realName": "Radus"
   },
   "transinet": {
     "gameName": "transinet",
     "realName": "TransiNet"
   },
+  "tradeaux": {
+    "gameName": "tradeaux",
+    "realName": "Tradeaux"
+  },
   "tree_et": {
     "gameName": "tree_et",
     "realName": "Tree-ET"
   },
-  "vitas_pwr": {
-    "gameName": "vitas_pwr",
-    "realName": "Vitas Power"
+  "nucleon": {
+    "gameName": "nucleon",
+    "realName": "Nucléon"
+  },
+  "ika_bohag": {
+    "gameName": "ika_bohag",
+    "realName": "Ika Bohag"
+  },
+  "cemelt_fla": {
+    "gameName": "cemelt_fla",
+    "realName": "Cemeltex"
+  },
+  "lkwlog": {
+    "gameName": "lkwlog",
+    "realName": "LkwLog GmbH"
+  },
+  "aci": {
+    "gameName": "aci",
+    "realName": "ACI SRL"
+  },
+  "sanbuilders": {
+    "gameName": "sanbuilders",
+    "realName": "Sanbuilders"
+  },
+  "cesare_smar": {
+    "gameName": "cesare_smar",
+    "realName": "Cesare Supermercato"
   },
   "voitureux": {
     "gameName": "voitureux",
     "realName": "Voitureux"
   },
-  "volvo_dlr": {
-    "gameName": "volvo_dlr",
-    "realName": "Volvo dealer"
-  },
-  "wgcc": {
-    "gameName": "wgcc",
-    "realName": "WGCC"
+  "ns_chem": {
+    "gameName": "ns_chem",
+    "realName": "NS Chemicals"
   }
 }
