@@ -1,19 +1,59 @@
-## ETS2 Log to Coordinates ##
+# ETS2 Log to Coordinates ##
 
-**What is it?**
-ETS2 Log to Coordinates (ETS2LTC) is a small project to both capture the location of ETS2's (and ATS's) cities and convert the information to easily readable JSON. Please bear in mind that this is not meant for a novice user, as it extensively uses hacks to work.
+## Note
 
-**How it works:**
+This is a fork of [this project](https://github.com/Koenvh1/ETS2-City-Coordinate-Retriever): **Koenvh1/ETS2-City-Coordinate-Retriever**
 
- 1. Extract the cities from ETS2. These can be found in def\city. For convenience, both ETS2's and ProMods/Rusmap's cities have been included. If you wish to use another map, extract them manually.
- 2. Open `ets2-city-coordinate-retriever.exe.config` and edit the settings. The city directory should point to the folder with all the city files ({cityname}.sii), debugMode shows the current city instead of a loading bar and the SleepMultiplier adjusts the time the script takes. More on this later.
- 3. Open Euro Truck Simulator 2, make sure you have access to the console (tilde) and bug form (F11) and drive. Leave it open (with the console **closed**), and then run `ets2-city-coordinate-retriever.exe`
- 4. Press enter, return to the game and sit back. You will see the game hopping to all the cities you provided. If it malfunctions (due to the game not loading quick enough), please adjust the SleepMultiplier to a higher value.
+## About
 
-Once that part is done, we move on to the next.
+This project allow you to do:
 
- 1. Open Documents\Euro Truck Simulator 2\bugs.txt, look for the topmost city. Copy all city bug lines to a seperate text file (please do not leave any unattended newlines, as they will not be removed :-) )
- 2. Open `ETS2 Log to Coordinates.exe.config`, edit it with the same city directory, the InputFile being the file you just created in step one and the outputfile to a file that will contain all JSON output.
- 3. Run ETS2 Log to Coordinates.exe, it should automatically spout out some output (mainly cityname - realName and the JSON file content), and the JSON file should appear.
+- Retrieve the in game coordinate
+- Retrieve the companies placed in each cities
+- Generate JSON file with this information
 
-And there you have your JSON formatted city list with coordinates.
+### Supported game and / or maps mods
+
+TODO
+
+## Requirements
+
+TODO
+
+## Installation
+
+TODO
+
+## How to use
+
+To generate the JSON files, you need to follow this step:
+
+- Get or extract the cities files for ETS ou ATS (See **Raw data** section)
+- Run the `coradinateRetriever` exe (See **Projects** section)
+- Run the `jsonGenerator` exe (See **Raw data** section)
+- Use the JSON files (See **Dist files** section)
+
+Please read the section corresponding of each step.
+
+### Raw data
+
+There are place in `raw/` directory
+
+TODO
+
+### Projects
+
+There are place in `projects/` directory
+
+TODO
+
+### Dist files
+
+There are place in `dist/` directory
+
+
+## Licence
+
+Under the [MIT License](LICENSE)
+
+© JAGFx - hey@emmanuel-smith.me
