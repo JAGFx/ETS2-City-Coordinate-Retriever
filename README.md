@@ -1,5 +1,7 @@
 # ETS2 Log to Coordinates ##
 
+## This project was deprecated, please use [this project](https://github.com/JAGFx/ts-map) instead
+
 ## Note
 
 This is a fork of [this project](https://github.com/Koenvh1/ETS2-City-Coordinate-Retriever): **Koenvh1/ETS2-City-Coordinate-Retriever**
